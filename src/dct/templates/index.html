@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ site_name }}</h1>
+<p class="lede">{{ site_description }}</p>
+
+<section class="stats">
+  <span class="stat"><strong>{{ stats.total }}</strong> tracked</span>
+  <span class="stat"><strong>{{ stats.publishable }}</strong> verified</span>
+  <span class="stat"><strong>{{ stats.unpublishable }}</strong> unverified</span>
+</section>
+
+{% if published %}
+<table class="company-table">
+  <thead>
+    <tr><th>Company</th><th>Status</th><th>As of</th><th>Sources</th></tr>
+  </thead>
+  <tbody>
+    {% for r in published %}
+    <tr>
+      <td><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></td>
+      <td><span class="badge badge-{{ r.status.value }}">{{ r.status.value }}</span></td>
+      <td>{{ r.as_of or "—" }}</td>
+      <td>{{ r.citations | length }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="empty">No verified company statuses yet. Run the researcher with an LLM
+API key configured to populate this site.</p>
+{% endif %}
+
+{% if unpublished %}
+<details class="unverified">
+  <summary>{{ unpublished | length }} companies could not be verified (hidden from the index)</summary>
+  <ul>
+    {% for r in unpublished %}
+    <li>{{ r.company.name }} — <em>{{ r.status.value }}</em>
+      {% if r.flags %}<span class="why">({{ r.flags | join("; ") }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}
+{% endblock %}

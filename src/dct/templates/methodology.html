@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Methodology | {{ site_name }}{% endblock %}
+{% block content %}
+<article class="article">
+  <p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>
+  <h1>How these statuses are determined</h1>
+
+  <p>
+    Each company's status is researched by an internet-capable language model
+    that is instructed to find and cite real, linkable sources for its claim. The
+    raw answer is then run through an automated verification step before anything
+    is published.
+  </p>
+
+  <h2>Verification rules</h2>
+  <ul>
+    <li>A status of <em>active, acquired, defunct,</em> etc. is only published
+      when it is backed by at least one well-formed source URL. Claims with no
+      usable source are withheld and shown as unverified.</li>
+    <li>Source URLs that are malformed or fabricated are discarded before
+      grading — a "trust me" citation counts for nothing.</li>
+    <li>Terminal claims (a company being defunct, bankrupt, or acquired) are held
+      to a higher bar, because wrongly declaring a living company dead is the most
+      damaging error this kind of tracker can make.</li>
+    <li>Acquisition / merger / rename claims must name the successor entity.</li>
+    <li>The model's self-reported confidence is an input, never the sole basis:
+      high confidence with no usable source still fails verification.</li>
+  </ul>
+
+  <h2>Caching</h2>
+  <p>
+    Results are cached locally with a time-to-live (corporate status changes over
+    months, not seconds), so repeat builds are cheap and deterministic and the
+    underlying research API is not hit needlessly.
+  </p>
+
+  <h2>Limitations</h2>
+  <p>
+    Automated research can still be wrong or out of date. Every published claim
+    links its sources so you can check them yourself. Treat this site as a
+    starting point, not a system of record.
+  </p>
+</article>
+{% endblock %}

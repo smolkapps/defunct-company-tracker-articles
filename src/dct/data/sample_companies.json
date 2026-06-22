@@ -1,0 +1,13 @@
+{
+  "companies": [
+    { "name": "Pets.com", "founded": 1998, "notes": "dot-com era online pet supply retailer" },
+    { "name": "Blockbuster", "aliases": ["Blockbuster Video", "Blockbuster LLC"] },
+    { "name": "Instagram", "domain": "instagram.com" },
+    { "name": "Sun Microsystems", "aliases": ["Sun"], "founded": 1982 },
+    { "name": "Lehman Brothers" },
+    { "name": "WhatsApp", "domain": "whatsapp.com" },
+    { "name": "Theranos", "founded": 2003 },
+    { "name": "Facebook", "aliases": ["Meta", "Meta Platforms"], "domain": "meta.com" },
+    { "name": "Acme Imaginary Holdings", "notes": "a company that does not exist, to exercise the UNKNOWN path" }
+  ]
+}

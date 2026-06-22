@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}{{ report.company.name }} — status &amp; history | {{ site_name }}{% endblock %}
+{% block description %}Is {{ report.company.name }} still in business? {{ report.summary|striptags }}{% endblock %}
+{% block head_extra %}
+<script type="application/ld+json">
+{{ jsonld | safe }}
+</script>
+{% endblock %}
+{% block content %}
+<article class="article">
+  <p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>
+  <h1>{{ report.company.name }}</h1>
+  <p class="status-line">
+    Status:
+    <span class="badge badge-{{ report.status.value }}">{{ report.status.value }}</span>
+    {% if report.as_of %}<span class="as-of">as of {{ report.as_of }}</span>{% endif %}
+    {% if report.successor %}<span class="successor">&rarr; {{ report.successor }}</span>{% endif %}
+  </p>
+
+  {% if report.company.aliases %}
+  <p class="aliases">Also known as: {{ report.company.aliases | join(", ") }}</p>
+  {% endif %}
+
+  <section class="summary">
+    <p>{{ report.summary }}</p>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    {% if report.citations %}
+    <ol>
+      {% for c in report.citations %}
+      <li>
+        <a href="{{ c.url }}" rel="nofollow noopener" target="_blank">{{ c.title or c.url }}</a>
+        <span class="src-domain">({{ c.domain }})</span>
+        {% if c.published %}<span class="src-date">{{ c.published }}</span>{% endif %}
+        {% if c.snippet %}<blockquote>{{ c.snippet }}</blockquote>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="no-sources">No sources were available for this entry.</p>
+    {% endif %}
+  </section>
+
+  <aside class="meta">
+    <dl>
+      <dt>Confidence</dt><dd>{{ "%.0f"|format(report.confidence * 100) }}%</dd>
+      <dt>Verification score</dt><dd>{{ "%.2f"|format(report.verification_score) }}</dd>
+      <dt>Researched</dt><dd>{{ report.retrieved_at }}</dd>
+    </dl>
+  </aside>
+</article>
+{% endblock %}

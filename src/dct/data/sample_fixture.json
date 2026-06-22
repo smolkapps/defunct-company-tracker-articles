@@ -1,0 +1,170 @@
+{
+  "pets.com": {
+    "status": "defunct",
+    "summary": "Pets.com was a dot-com era online pet-supply retailer that launched in 1998, went public in February 2000, and liquidated just nine months later in November 2000 after failing to reach profitability.",
+    "as_of": "2000",
+    "successor": null,
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Pets.com — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pets.com",
+        "snippet": "Pets.com ceased operations in November 2000.",
+        "published": "2024"
+      },
+      {
+        "title": "Pets.com to shut down operations",
+        "url": "https://money.cnn.com/2000/11/07/companies/pets/",
+        "snippet": "Pets.com said Tuesday it will shut down, becoming one of the most spectacular dot-com flops.",
+        "published": "2000-11-07"
+      }
+    ]
+  },
+  "blockbuster": {
+    "status": "bankrupt",
+    "summary": "Blockbuster, the video-rental chain, filed for Chapter 11 bankruptcy in September 2010; the corporate chain was wound down and only a single independently operated franchise store (in Bend, Oregon) remains.",
+    "as_of": "2010",
+    "successor": null,
+    "confidence": 0.9,
+    "citations": [
+      {
+        "title": "Blockbuster — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Blockbuster_(retailer)",
+        "snippet": "Blockbuster LLC filed for Chapter 11 bankruptcy protection in September 2010.",
+        "published": "2024"
+      },
+      {
+        "title": "Blockbuster files for bankruptcy",
+        "url": "https://www.reuters.com/article/us-blockbuster-bankruptcy-idUSTRE68M0X120100923",
+        "snippet": "Movie-rental company Blockbuster Inc filed for bankruptcy protection.",
+        "published": "2010-09-23"
+      }
+    ]
+  },
+  "instagram": {
+    "status": "acquired",
+    "summary": "Instagram is a photo and video sharing service that was acquired by Facebook (now Meta Platforms) in 2012 for approximately US$1 billion. It continues to operate as a Meta product.",
+    "as_of": "2012",
+    "successor": "Meta Platforms (formerly Facebook)",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "Instagram — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Instagram",
+        "snippet": "Facebook acquired Instagram in April 2012 for about US$1 billion.",
+        "published": "2024"
+      },
+      {
+        "title": "Facebook to acquire Instagram",
+        "url": "https://www.nytimes.com/2012/04/10/technology/facebook-buys-instagram-for-1-billion.html",
+        "snippet": "Facebook said it would acquire the photo-sharing service Instagram.",
+        "published": "2012-04-09"
+      }
+    ]
+  },
+  "sun microsystems": {
+    "status": "acquired",
+    "summary": "Sun Microsystems, the maker of Java, Solaris, and SPARC hardware, was acquired by Oracle Corporation in 2010. The Sun brand was retired and its products were folded into Oracle.",
+    "as_of": "2010",
+    "successor": "Oracle Corporation",
+    "confidence": 0.96,
+    "citations": [
+      {
+        "title": "Sun Microsystems — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sun_Microsystems",
+        "snippet": "Oracle Corporation acquired Sun Microsystems in January 2010.",
+        "published": "2024"
+      },
+      {
+        "title": "Oracle completes acquisition of Sun",
+        "url": "https://www.reuters.com/article/us-oracle-sun-idUSTRE60Q3DT20100127",
+        "snippet": "Oracle Corp completed its acquisition of Sun Microsystems.",
+        "published": "2010-01-27"
+      }
+    ]
+  },
+  "lehman brothers": {
+    "status": "bankrupt",
+    "summary": "Lehman Brothers, the global investment bank, filed for Chapter 11 bankruptcy in September 2008 — the largest bankruptcy filing in U.S. history — a defining event of the 2008 financial crisis.",
+    "as_of": "2008",
+    "successor": null,
+    "confidence": 0.98,
+    "citations": [
+      {
+        "title": "Lehman Brothers — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lehman_Brothers",
+        "snippet": "Lehman Brothers filed for Chapter 11 bankruptcy protection on September 15, 2008.",
+        "published": "2024"
+      },
+      {
+        "title": "Lehman files for bankruptcy",
+        "url": "https://www.wsj.com/articles/SB122142278543033525",
+        "snippet": "Lehman Brothers Holdings filed for bankruptcy protection.",
+        "published": "2008-09-15"
+      }
+    ]
+  },
+  "whatsapp": {
+    "status": "acquired",
+    "summary": "WhatsApp is a messaging application that was acquired by Facebook (now Meta Platforms) in 2014 for roughly US$19 billion. It remains an active Meta product.",
+    "as_of": "2014",
+    "successor": "Meta Platforms (formerly Facebook)",
+    "confidence": 0.96,
+    "citations": [
+      {
+        "title": "WhatsApp — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WhatsApp",
+        "snippet": "Facebook acquired WhatsApp in February 2014 for approximately US$19 billion.",
+        "published": "2024"
+      },
+      {
+        "title": "Facebook to buy WhatsApp for $19 billion",
+        "url": "https://www.reuters.com/article/us-whatsapp-facebook-idUSBREA1I26B20140219",
+        "snippet": "Facebook agreed to buy WhatsApp for $19 billion.",
+        "published": "2014-02-19"
+      }
+    ]
+  },
+  "theranos": {
+    "status": "defunct",
+    "summary": "Theranos was a blood-testing startup whose technology claims were exposed as fraudulent; it ceased operations and was dissolved in 2018, and founder Elizabeth Holmes was later convicted of fraud.",
+    "as_of": "2018",
+    "successor": null,
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Theranos — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Theranos",
+        "snippet": "Theranos ceased operations and was dissolved in 2018.",
+        "published": "2024"
+      },
+      {
+        "title": "Theranos to dissolve",
+        "url": "https://www.wsj.com/articles/theranos-to-dissolve-1536115130",
+        "snippet": "Theranos told investors it would dissolve.",
+        "published": "2018-09-05"
+      }
+    ]
+  },
+  "facebook": {
+    "status": "renamed",
+    "summary": "The company formerly known as Facebook, Inc. renamed its parent corporation to Meta Platforms, Inc. in October 2021. The Facebook social network itself continues to operate as a Meta product.",
+    "as_of": "2021",
+    "successor": "Meta Platforms, Inc.",
+    "confidence": 0.9,
+    "citations": [
+      {
+        "title": "Meta Platforms — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+        "snippet": "Facebook, Inc. changed its name to Meta Platforms, Inc. in October 2021.",
+        "published": "2024"
+      },
+      {
+        "title": "Facebook changes company name to Meta",
+        "url": "https://www.reuters.com/technology/facebook-changes-company-name-meta-2021-10-28/",
+        "snippet": "Facebook said it had changed its company name to Meta.",
+        "published": "2021-10-28"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "defunct-company-tracker"
+version = "0.1.0"
+description = "Generate a source-cited, fact-verified static site tracking whether companies are active, acquired, or defunct."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "smolkai" }]
+requires-python = ">=3.10"
+keywords = ["llm", "companies", "static-site", "fact-checking", "research"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP :: Site Management",
+]
+dependencies = [
+  "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.34"]
+test = [
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+]
+
+[project.scripts]
+dct = "dct.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/smolkapps/defunct-company-tracker-articles"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+dct = [
+  "py.typed",
+  "templates/*.html",
+  "static/*.css",
+  "data/*.json",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

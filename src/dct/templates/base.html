@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}{{ site_name }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}" />
+    {% block head_extra %}{% endblock %}
+    <link rel="stylesheet" href="{{ rel_root }}assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ rel_root }}index.html">{{ site_name }}</a>
+      <nav>
+        <a href="{{ rel_root }}index.html">Companies</a>
+        <a href="{{ rel_root }}methodology.html">Methodology</a>
+      </nav>
+    </header>
+    <main class="container">{% block content %}{% endblock %}</main>
+    <footer class="site-footer">
+      <p>
+        Generated {{ generated_at }} &middot; {{ n_companies }} companies tracked.
+        Statuses are machine-researched and only published when supported by
+        cited sources. See the
+        <a href="{{ rel_root }}methodology.html">methodology</a>.
+      </p>
+    </footer>
+  </body>
+</html>
