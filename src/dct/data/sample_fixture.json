@@ -166,5 +166,110 @@
         "published": "2021-10-28"
       }
     ]
+  },
+  "ftx": {
+    "status": "bankrupt",
+    "summary": "FTX Trading Ltd. and roughly 101 affiliated companies filed voluntary petitions for Chapter 11 reorganization in the U.S. Bankruptcy Court for the District of Delaware in November 2022. The original FTX exchange no longer operates as the business it was, while the bankruptcy estate continues its court-supervised recovery and distributions.",
+    "as_of": "2022-11-17",
+    "successor": null,
+    "confidence": 0.99,
+    "citations": [
+      {
+        "title": "FTX Group Notice Regarding Federal Court Filings and Communications",
+        "url": "https://www.prnewswire.com/news-releases/ftx-group-notice-regarding-federal-court-filings-and-communications-301681892.html",
+        "snippet": "FTX Trading Ltd. and approximately 101 additional affiliated companies filed voluntary petitions for reorganization under Chapter 11.",
+        "published": "2022-11-17"
+      },
+      {
+        "title": "FTX bankruptcy case information",
+        "url": "https://restructuring.ra.kroll.com/FTX/",
+        "snippet": "Kroll maintains the official case website for the FTX Chapter 11 proceedings and court filings.",
+        "published": "2022"
+      }
+    ]
+  },
+  "quibi": {
+    "status": "defunct",
+    "summary": "Quibi was a mobile short-form video service launched in April 2020. In October 2020, after less than seven months, Quibi announced that it would close the business and sell its assets.",
+    "as_of": "2020-10-21",
+    "successor": null,
+    "confidence": 0.98,
+    "citations": [
+      {
+        "title": "Quibi is shutting down after subscriber struggles",
+        "url": "https://www.latimes.com/entertainment-arts/business/story/2020-10-21/quibi-shutting-down-after-subscriber-struggles",
+        "snippet": "Quibi said it will close down the business and begin the process of selling off assets.",
+        "published": "2020-10-21"
+      },
+      {
+        "title": "Quibi says it's shutting down",
+        "url": "https://www.axios.com/2020/10/21/quibi-shutting-down-streaming",
+        "snippet": "Quibi announced that it intended to wind down its business operations and sell its assets.",
+        "published": "2020-10-21"
+      }
+    ]
+  },
+  "silicon valley bank": {
+    "status": "acquired",
+    "summary": "Silicon Valley Bank was closed by California regulators and the FDIC on March 10, 2023. The FDIC transferred deposits and assets to a bridge bank, and First-Citizens Bank & Trust Company assumed the bridge bank's deposits and loans on March 26, 2023; Silicon Valley Bank no longer operates as a standalone bank.",
+    "as_of": "2023-03-26",
+    "successor": "First-Citizens Bank & Trust Company",
+    "confidence": 0.99,
+    "citations": [
+      {
+        "title": "Failed Bank Information for Silicon Valley Bank",
+        "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html",
+        "snippet": "Silicon Valley Bank was closed on March 10, 2023; the FDIC transferred deposits and substantially all assets to Silicon Valley Bridge Bank.",
+        "published": "2023-03-10"
+      },
+      {
+        "title": "First-Citizens to Assume All Deposits and Loans of Silicon Valley Bridge Bank",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23023.html",
+        "snippet": "The FDIC entered into a purchase and assumption agreement for all deposits and loans of Silicon Valley Bridge Bank by First-Citizens Bank & Trust Company.",
+        "published": "2023-03-26"
+      }
+    ]
+  },
+  "compaq": {
+    "status": "acquired",
+    "summary": "Compaq Computer Corporation was merged into Hewlett-Packard in a transaction completed on May 3, 2002. Compaq therefore no longer exists as a standalone company, although its products and operations became part of HP.",
+    "as_of": "2002-05-03",
+    "successor": "Hewlett-Packard Company (HP)",
+    "confidence": 0.99,
+    "citations": [
+      {
+        "title": "HP reports fourth-quarter 2002 results",
+        "url": "https://www.hp.com/hpinfo/investor/financials/quarters/2002/q4.html",
+        "snippet": "HP completed its merger transaction involving Compaq Computer Corp. on May 3, 2002.",
+        "published": "2002-11-26"
+      },
+      {
+        "title": "HP history: 2000s",
+        "url": "https://www.hp.com/hpinfo/abouthp/histnfacts/timeline/hist_00s.html",
+        "snippet": "On May 3, 2002, HP completed its merger transaction with Compaq Computer Corp.",
+        "published": "2000s"
+      }
+    ]
+  },
+  "wework": {
+    "status": "active",
+    "summary": "WeWork filed for Chapter 11 in 2023 but announced on June 11, 2024 that it had emerged from Chapter 11 and completed its restructuring. It remains an operating flexible-space provider, though as a restructured private company rather than the pre-bankruptcy public company.",
+    "as_of": "2026",
+    "successor": null,
+    "confidence": 0.88,
+    "citations": [
+      {
+        "title": "WeWork announces emergence from Chapter 11 and new leadership appointments",
+        "url": "https://www.sec.gov/Archives/edgar/data/1813756/000119312524159419/d803133dex993.htm",
+        "snippet": "WeWork announced that it had successfully emerged from Chapter 11 and completed its global operational and financial restructuring.",
+        "published": "2024-06-11"
+      },
+      {
+        "title": "WeWork",
+        "url": "https://www.wework.com/",
+        "snippet": "WeWork's current site continues to offer flexible workspace and office services.",
+        "published": "2026-09-07"
+      }
+    ]
   }
 }

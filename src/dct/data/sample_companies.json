@@ -8,6 +8,11 @@
     { "name": "WhatsApp", "domain": "whatsapp.com" },
     { "name": "Theranos", "founded": 2003 },
     { "name": "Facebook", "aliases": ["Meta", "Meta Platforms"], "domain": "meta.com" },
+    { "name": "FTX", "aliases": ["FTX Trading Ltd.", "FTX.com"], "founded": 2019 },
+    { "name": "Quibi", "aliases": ["Quibi, Inc."], "founded": 2018 },
+    { "name": "Silicon Valley Bank", "aliases": ["SVB", "Silicon Valley Bank, N.A."], "domain": "svb.com", "founded": 1983 },
+    { "name": "Compaq", "aliases": ["Compaq Computer Corporation"], "founded": 1982 },
+    { "name": "WeWork", "aliases": ["The We Company"], "domain": "wework.com", "founded": 2010 },
     { "name": "Acme Imaginary Holdings", "notes": "a company that does not exist, to exercise the UNKNOWN path" }
   ]
 }
