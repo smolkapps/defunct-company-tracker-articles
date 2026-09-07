@@ -122,6 +122,13 @@ class SiteGenerator:
         unpublished = result.unpublishable
         n_companies = len(result.reports)
         root_url = f"{self.site_url}/" if self.site_url else ""
+        published_by_slug = {r.company.slug: r for r in published}
+        episode_primary = published_by_slug.get("fish-fixe")
+        episode_second_tier = [
+            published_by_slug[slug]
+            for slug in ("hello-prenup", "deux", "hidrent")
+            if slug in published_by_slug
+        ]
 
         # --- article pages (verified only) -------------------------------- #
         article_tpl = self.env.get_template("article.html")
@@ -153,6 +160,8 @@ class SiteGenerator:
                 stats=result.summary(),
                 rel_root="",
                 canonical_url=root_url,
+                episode_primary=episode_primary,
+                episode_second_tier=episode_second_tier,
                 n_companies=n_companies,
             )
         )

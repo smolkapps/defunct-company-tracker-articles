@@ -28,6 +28,11 @@ class TestDemoCommand:
         assert os.path.exists(
             os.path.join(out_dir, "companies", "lehman-brothers.html")
         )
+        for slug in ("fish-fixe", "hello-prenup", "deux", "hidrent"):
+            assert os.path.exists(os.path.join(out_dir, "companies", f"{slug}.html"))
+        index = open(os.path.join(out_dir, "index.html"), encoding="utf-8").read()
+        assert "https://www.youtube.com/watch?v=AoZdeYKGuR4" in index
+        assert "Same episode" in index
 
 class TestBuildAndResearch:
     def test_build_with_fixture(self, monkeypatch, tmp_path, capsys):

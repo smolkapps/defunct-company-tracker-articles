@@ -3,6 +3,29 @@
 <h1>{{ site_name }}</h1>
 <p class="lede">{{ site_description }}</p>
 
+<section class="origin-note">
+  <h2>Where the idea came from</h2>
+  <p>
+    This tracker grew out of the question behind
+    <a href="https://www.youtube.com/watch?v=AoZdeYKGuR4" target="_blank" rel="noopener noreferrer">this Shark Tank video</a>:
+    what happened to businesses after they appeared on the show?
+  </p>
+  {% if episode_primary %}
+  <p>
+    <strong>Primary subject:</strong>
+    <a href="{{ rel_root }}companies/{{ episode_primary.company.slug }}.html">{{ episode_primary.company.name }}</a>.
+  </p>
+  {% endif %}
+  {% if episode_second_tier %}
+  <h3>Same episode — second-tier entries</h3>
+  <ul>
+    {% for r in episode_second_tier %}
+    <li><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>
+
 <section class="stats">
   <span class="stat"><strong>{{ stats.total }}</strong> tracked</span>
   <span class="stat"><strong>{{ stats.publishable }}</strong> verified</span>

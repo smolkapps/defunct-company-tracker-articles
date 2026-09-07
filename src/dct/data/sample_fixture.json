@@ -271,5 +271,89 @@
         "published": "2026-09-07"
       }
     ]
+  },
+  "fish fixe": {
+    "status": "active",
+    "summary": "Fish Fixe is a premium seafood delivery brand founded by Melissa Harrington and Emily Castro. Its official store and FAQ remain online in 2026, although the store currently says ordering is unavailable, so product availability should be rechecked.",
+    "as_of": "2026-09-07",
+    "successor": null,
+    "confidence": 0.86,
+    "citations": [
+      {
+        "title": "Fish Fixe — official store",
+        "url": "https://shop.fishfixe.com/",
+        "snippet": "The official store describes Fish Fixe's seafood-box service and currently displays an ordering-unavailable notice.",
+        "published": "2026"
+      },
+      {
+        "title": "The Businesses and Products from Season 13, Episode 6",
+        "url": "https://abc.com/news/6e645711-5e62-4b5a-8e5e-dcc6c5c7ac48/category/2887649",
+        "snippet": "ABC lists Fish Fixe as one of the businesses featured in Shark Tank Season 13, Episode 6.",
+        "published": "2021"
+      }
+    ]
+  },
+  "hello prenup": {
+    "status": "active",
+    "summary": "Hello Prenup is an operating online prenuptial-agreement platform that offers state-specific prenup preparation, notarization, and optional attorney support through its current website.",
+    "as_of": "2026-09-07",
+    "successor": null,
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "Hello Prenup — official website",
+        "url": "https://helloprenup.com/",
+        "snippet": "Hello Prenup's current site offers an online prenup platform, state-specific documents, notarization, and attorney services.",
+        "published": "2026"
+      },
+      {
+        "title": "The Businesses and Products from Season 13, Episode 6",
+        "url": "https://abc.com/news/6e645711-5e62-4b5a-8e5e-dcc6c5c7ac48/category/2887649",
+        "snippet": "ABC lists Hello Prenup as one of the businesses featured in Shark Tank Season 13, Episode 6.",
+        "published": "2021"
+      }
+    ]
+  },
+  "deux": {
+    "status": "active",
+    "summary": "DEUX is an operating snack brand selling vegan, gluten-free cookie dough, dessert spreads, and doughnuts through its current online store and retail channels.",
+    "as_of": "2026-09-07",
+    "successor": null,
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "DEUX — official website",
+        "url": "https://www.eatdeux.com/",
+        "snippet": "DEUX's current site presents its cookie doughs, dessert spreads, doughnuts, and online shop.",
+        "published": "2026"
+      },
+      {
+        "title": "The Businesses and Products from Season 13, Episode 6",
+        "url": "https://abc.com/news/6e645711-5e62-4b5a-8e5e-dcc6c5c7ac48/category/2887649",
+        "snippet": "ABC lists Deux as one of the businesses featured in Shark Tank Season 13, Episode 6.",
+        "published": "2021"
+      }
+    ]
+  },
+  "hidrent": {
+    "status": "renamed",
+    "summary": "Hidrent continues under the name Helpful Heroes, an operating service that connects customers with firefighters and EMTs for home projects. The current Helpful Heroes site explicitly says that Hidrent is now Helpful Heroes.",
+    "as_of": "2026",
+    "successor": "Helpful Heroes",
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Helpful Heroes — official website",
+        "url": "https://helpfulheroes.com/",
+        "snippet": "The current site says, \"Hidrent is now Helpful Heroes,\" and describes its active firefighter and EMT home-project service.",
+        "published": "2026"
+      },
+      {
+        "title": "The Businesses and Products from Season 13, Episode 6",
+        "url": "https://abc.com/news/6e645711-5e62-4b5a-8e5e-dcc6c5c7ac48/category/2887649",
+        "snippet": "ABC lists Hidrent as one of the businesses featured in Shark Tank Season 13, Episode 6.",
+        "published": "2021"
+      }
+    ]
   }
 }

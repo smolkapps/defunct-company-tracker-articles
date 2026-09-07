@@ -83,6 +83,7 @@ class TestSiteBuild:
             os.path.join(out, "companies", "pets-com.html"), encoding="utf-8"
         ).read()
         robots = open(os.path.join(out, "robots.txt"), encoding="utf-8").read()
+        assert "https://www.youtube.com/watch?v=AoZdeYKGuR4" in index
         assert '<link rel="canonical" href="https://example.com/" />' in index
         assert '<meta property="og:url" content="https://example.com/" />' in index
         assert (

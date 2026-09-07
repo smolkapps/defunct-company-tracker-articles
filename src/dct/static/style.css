@@ -27,6 +27,13 @@ a:hover { text-decoration: underline; }
 .site-header nav a { margin-left: 1rem; color: var(--muted); }
 .container { max-width: 820px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
 .lede { color: var(--muted); font-size: 1.1rem; }
+.origin-note {
+  margin: 1.5rem 0 2rem; padding: 1rem 1.15rem;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+}
+.origin-note h2, .origin-note h3 { margin-top: 0; }
+.origin-note h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+.origin-note p:last-child, .origin-note ul:last-child { margin-bottom: 0; }
 .stats { display: flex; gap: 1rem; margin: 1rem 0 2rem; flex-wrap: wrap; }
 .stat {
   background: var(--card); border: 1px solid var(--line); border-radius: 8px;

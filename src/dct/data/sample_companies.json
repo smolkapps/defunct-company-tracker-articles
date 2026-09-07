@@ -12,6 +12,10 @@
     { "name": "Quibi", "aliases": ["Quibi, Inc."], "founded": 2018 },
     { "name": "Silicon Valley Bank", "aliases": ["SVB", "Silicon Valley Bank, N.A."], "domain": "svb.com", "founded": 1983 },
     { "name": "Compaq", "aliases": ["Compaq Computer Corporation"], "founded": 1982 },
-    { "name": "WeWork", "aliases": ["The We Company"], "domain": "wework.com", "founded": 2010 }
+    { "name": "WeWork", "aliases": ["The We Company"], "domain": "wework.com", "founded": 2010 },
+    { "name": "Fish Fixe", "domain": "fishfixe.com", "founded": 2017, "notes": "primary business in the source video" },
+    { "name": "Hello Prenup", "aliases": ["HelloPrenup"], "domain": "helloprenup.com" },
+    { "name": "DEUX", "aliases": ["Deux", "DEUX Foods"], "domain": "eatdeux.com" },
+    { "name": "Hidrent", "aliases": ["Helpful Heroes"], "domain": "hidrent.com", "founded": 2017 }
   ]
 }
