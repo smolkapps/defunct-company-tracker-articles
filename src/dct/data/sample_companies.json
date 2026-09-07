@@ -12,7 +12,6 @@
     { "name": "Quibi", "aliases": ["Quibi, Inc."], "founded": 2018 },
     { "name": "Silicon Valley Bank", "aliases": ["SVB", "Silicon Valley Bank, N.A."], "domain": "svb.com", "founded": 1983 },
     { "name": "Compaq", "aliases": ["Compaq Computer Corporation"], "founded": 1982 },
-    { "name": "WeWork", "aliases": ["The We Company"], "domain": "wework.com", "founded": 2010 },
-    { "name": "Acme Imaginary Holdings", "notes": "a company that does not exist, to exercise the UNKNOWN path" }
+    { "name": "WeWork", "aliases": ["The We Company"], "domain": "wework.com", "founded": 2010 }
   ]
 }

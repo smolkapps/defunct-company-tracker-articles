@@ -28,11 +28,6 @@ class TestDemoCommand:
         assert os.path.exists(
             os.path.join(out_dir, "companies", "lehman-brothers.html")
         )
-        # the deliberately-imaginary company must NOT get an article
-        assert not os.path.exists(
-            os.path.join(out_dir, "companies", "acme-imaginary-holdings.html")
-        )
-
 
 class TestBuildAndResearch:
     def test_build_with_fixture(self, monkeypatch, tmp_path, capsys):

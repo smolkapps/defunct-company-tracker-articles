@@ -43,8 +43,9 @@ open site/index.html
 ```
 
 The demo uses a bundled fixture of well-known companies (Pets.com, Blockbuster,
-Lehman Brothers, Instagram, Sun Microsystems, …) plus one deliberately
-imaginary company to exercise the "unknown / withheld" path.
+Lehman Brothers, Instagram, Sun Microsystems, …). Unknown or unverifiable
+companies are withheld from publication; that behavior is covered by the test
+fixture rather than by a fake production entry.
 
 ## Real research
 
