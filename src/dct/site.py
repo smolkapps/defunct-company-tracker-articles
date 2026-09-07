@@ -121,15 +121,22 @@ class SiteGenerator:
         published = result.publishable
         unpublished = result.unpublishable
         n_companies = len(result.reports)
+        root_url = f"{self.site_url}/" if self.site_url else ""
 
         # --- article pages (verified only) -------------------------------- #
         article_tpl = self.env.get_template("article.html")
         written_pages: list[str] = []
         for r in published:
+            article_url = (
+                f"{self.site_url}/companies/{r.company.slug}.html"
+                if self.site_url
+                else ""
+            )
             html = article_tpl.render(
                 **self._ctx(
                     report=r,
                     rel_root="../",
+                    canonical_url=article_url,
                     n_companies=n_companies,
                     jsonld=_jsonld_for(r, self.site_url),
                 )
@@ -145,6 +152,7 @@ class SiteGenerator:
                 unpublished=unpublished,
                 stats=result.summary(),
                 rel_root="",
+                canonical_url=root_url,
                 n_companies=n_companies,
             )
         )
@@ -152,12 +160,15 @@ class SiteGenerator:
 
         # --- methodology --------------------------------------------------- #
         method_html = self.env.get_template("methodology.html").render(
-            **self._ctx(rel_root="", n_companies=n_companies)
+            **self._ctx(
+                rel_root="", canonical_url=root_url, n_companies=n_companies
+            )
         )
         _write(os.path.join(out_dir, "methodology.html"), method_html)
 
         # --- sitemap ------------------------------------------------------- #
         self._write_sitemap(out_dir, ["index.html", "methodology.html", *written_pages])
+        self._write_robots(out_dir)
 
         return {
             "pages": len(written_pages) + 2,
@@ -174,6 +185,12 @@ class SiteGenerator:
             lines.append(f"  <url><loc>{loc}</loc></url>")
         lines.append("</urlset>")
         _write(os.path.join(out_dir, "sitemap.xml"), "\n".join(lines) + "\n")
+
+    def _write_robots(self, out_dir: str) -> None:
+        lines = ["User-agent: *", "Allow: /"]
+        if self.site_url:
+            lines.append(f"Sitemap: {self.site_url}/sitemap.xml")
+        _write(os.path.join(out_dir, "robots.txt"), "\n".join(lines) + "\n")
 
 
 def _write(path: str, content: str) -> None:

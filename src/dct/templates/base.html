@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% block title %}{{ site_name }}{% endblock %}</title>
     <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}" />
+    {% if canonical_url %}
+    <link rel="canonical" href="{{ canonical_url }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+    {% endif %}
     {% block head_extra %}{% endblock %}
     <link rel="stylesheet" href="{{ rel_root }}assets/style.css" />
   </head>

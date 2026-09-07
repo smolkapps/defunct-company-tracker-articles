@@ -75,6 +75,22 @@ class TestSiteBuild:
         assert "https://example.com/index.html" in sm
         assert "https://example.com/companies/pets-com.html" in sm
 
+    def test_canonical_and_robots_use_configured_site_url(self, tmp_path):
+        out = str(tmp_path / "site")
+        SiteGenerator(site_url="https://example.com").build(_result(), out)
+        index = open(os.path.join(out, "index.html"), encoding="utf-8").read()
+        article = open(
+            os.path.join(out, "companies", "pets-com.html"), encoding="utf-8"
+        ).read()
+        robots = open(os.path.join(out, "robots.txt"), encoding="utf-8").read()
+        assert '<link rel="canonical" href="https://example.com/" />' in index
+        assert '<meta property="og:url" content="https://example.com/" />' in index
+        assert (
+            '<link rel="canonical" href="https://example.com/companies/pets-com.html" />'
+            in article
+        )
+        assert "Sitemap: https://example.com/sitemap.xml" in robots
+
     def test_html_escaping_of_company_name(self, tmp_path):
         # a company name with HTML must not break out of the page
         evil = StatusReport(
