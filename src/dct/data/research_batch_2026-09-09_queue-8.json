@@ -24,7 +24,7 @@
         "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
         "episode_guide_url": "https://www.tvmaze.com/episodes/1372862/shark-tank-9x19-bouquet-bar-zuvaa-the-wingman-the-pop",
         "kind": "episode",
-        "pitch": "Bouquet Bar: Is It Still in Business?",
+        "pitch": "Custom gift boxes and floral gifts.",
         "ask": "$150,000 for 10% equity.",
         "offer": "After the other Sharks declined, Mark Cuban offered $150,000 for 20% equity on a non-negotiable basis.",
         "deal_closed": null
@@ -274,7 +274,7 @@
         "video_url": "https://abc.com/news/6e856bc9-8313-4429-9d5c-3b31f8bd220a/category/2887649",
         "episode_guide_url": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-17-shark-tank-episodes/episode-11/",
         "kind": "episode",
-        "pitch": "BoxBlayde: Is It Still in Business?",
+        "pitch": "A powered tool for cutting cardboard boxes.",
         "ask": "$200,000 for 5% equity.",
         "offer": "Kevin O’Leary, with Chip and Joanna Gaines joining, offered $200,000 for 20%. Daniel Lubetzky offered $200,000 for 15% and later withdrew. Reporting also describes a later O’Leary royalty/equity counter; Wright did not accept any offer.",
         "deal_closed": false
@@ -511,7 +511,7 @@
         "video_url": "https://www.youtube.com/watch?v=wc6xMa65f5A",
         "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
         "kind": "pitch",
-        "pitch": "BoxLock: Is It Still in Business?",
+        "pitch": "A smart padlock designed to secure home parcel deliveries.",
         "ask": "$1,000,000 for 5% equity.",
         "offer": "Lori Greiner proposed a $1,000,000 loan at 8% interest plus 2.5% equity, with a sales royalty until she received $1.5 million back. Brad Ruffkess countered with a larger loan/royalty structure. Lori tried to involve guest Shark Jamie Siminoff; he declined, and Lori withdrew.",
         "deal_closed": false
@@ -765,11 +765,11 @@
         "season": 12,
         "episode": 8,
         "episode_date": "2020-12-11",
-        "video_title": "Brake Free Technologies pitch — Sony Pictures Television",
+        "video_title": "Brake Free Technologies pitch — ABC",
         "video_url": "https://www.youtube.com/watch?v=phQsa0q0KLI",
         "episode_guide_url": "https://abc.com/news/c30db56b-ebcc-4dfc-8425-35abd57a455a/category/2887649",
         "kind": "pitch",
-        "pitch": "Brake Free Technologies: Is It Still in Business?",
+        "pitch": "A helmet-mounted brake light for motorcycle riders.",
         "ask": "$200,000 for 10% equity.",
         "offer": "Robert Herjavec made an offer and the founders asked whether Mark Cuban would join; Cuban and Herjavec ultimately offered $200,000 for 20% jointly.",
         "deal_closed": true
