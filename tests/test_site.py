@@ -133,3 +133,17 @@ class TestJsonLd:
         assert node["@type"] == "Organization"
         assert node["dissolutionDate"] == "2000"
         assert node["name"] == "Pets.com"
+
+    def test_renamed_company_is_not_marked_dissolved(self):
+        r = StatusReport(
+            company=Company(name="Hidrent"),
+            status=Status.RENAMED,
+            summary="Now Helpful Heroes",
+            citations=[Citation(title="Official", url="https://helpfulheroes.com/")],
+            as_of="2026",
+            successor="Helpful Heroes",
+        )
+        import json as _json
+
+        node = _json.loads(_jsonld_for(r, "https://example.com"))
+        assert "dissolutionDate" not in node

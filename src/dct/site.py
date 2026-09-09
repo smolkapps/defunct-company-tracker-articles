@@ -26,7 +26,7 @@ from typing import Iterable
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from .models import StatusReport
+from .models import Status, StatusReport
 from .pipeline import PipelineResult
 
 _PKG_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -44,7 +44,7 @@ def _jsonld_for(report: StatusReport, site_url: str) -> str:
         "name": report.company.name,
         "description": report.summary,
         "dissolutionDate": report.as_of
-        if report.status.is_terminal and report.as_of
+        if report.status in {Status.DEFUNCT, Status.BANKRUPT} and report.as_of
         else None,
         "url": report.company.domain,
         "alternateName": list(report.company.aliases) or None,
