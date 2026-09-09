@@ -1387,5 +1387,85 @@
         "published": "2026-04-22"
       }
     ]
+  },
+  "bouquet bar": {
+    "status": "unknown",
+    "summary": "Bouquet Bar is credibly reported to have stopped operating in December 2019, but the tracker withholds a definitive closure status because no primary shutdown or current entity record was captured.",
+    "as_of": "2026-09-09",
+    "confidence": 0.72,
+    "citations": [
+      {
+        "title": "Bouquet Bar — Dallas Business Journal portfolio entry",
+        "url": "https://www.bizjournals.com/dallas/gallery/439936",
+        "snippet": "Contemporaneous reporting lists Mark Cuban's $150,000 investment for 20%.",
+        "published": "2018-08-14"
+      },
+      {
+        "title": "Bouquet Bar — specialist follow-up",
+        "url": "https://www.sharktankblog.com/business/bouquet-bar/",
+        "snippet": "Reports a December 2019 shutdown; no primary shutdown filing was captured.",
+        "published": null
+      }
+    ]
+  },
+  "boxblayde": {
+    "status": "active",
+    "summary": "BoxBlayde is operating, and founder Rob Wright says he rejected the Sharks' offers, leaving no deal to close.",
+    "as_of": "2026-09-09",
+    "confidence": 0.96,
+    "citations": [
+      {
+        "title": "BoxBlayde current official site",
+        "url": "https://www.boxblayde.com/",
+        "snippet": "Current products and commercial operation.",
+        "published": null
+      },
+      {
+        "title": "BoxBlayde founder account",
+        "url": "https://www.boxblayde.com/en-greatwhitenorth/blogs/news/validation-over-valuation-our-wild-ride-on-shark-tank",
+        "snippet": "The company says it received multiple offers and said no.",
+        "published": "2026-02-05"
+      }
+    ]
+  },
+  "boxlock": {
+    "status": "active",
+    "summary": "BoxLock is operating after pivoting from consumer parcel security to an industrial access-control platform; it received no Shark investment.",
+    "as_of": "2026-09-09",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "BoxLock current official site",
+        "url": "https://boxlock.io/",
+        "snippet": "Markets current industrial access-control and digital lockout/tagout products.",
+        "published": null
+      },
+      {
+        "title": "Georgia Secretary of State business index",
+        "url": "https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20686445",
+        "snippet": "Identifies BOXLOCK, INC. under Georgia control number 20047354.",
+        "published": null
+      }
+    ]
+  },
+  "brake free technologies": {
+    "status": "active",
+    "summary": "Brake Free Technologies is operating; its accepted $200,000 Mark Cuban and Robert Herjavec investment for 20% is strongly corroborated as completed, though executed documents were not found.",
+    "as_of": "2026-09-09",
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Brake Free Technologies current official site",
+        "url": "https://www.brakefreetech.com/",
+        "snippet": "Current ecommerce operation and helmet brake-light product.",
+        "published": null
+      },
+      {
+        "title": "Brake Free Technologies official pitch video",
+        "url": "https://www.youtube.com/watch?v=phQsa0q0KLI",
+        "snippet": "Official pitch evidence for the Cuban and Herjavec negotiation.",
+        "published": null
+      }
+    ]
   }
 }

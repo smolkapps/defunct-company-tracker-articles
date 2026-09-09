@@ -46,6 +46,13 @@ QUEUE_SEVEN_DATA = (
     / "data"
     / "research_batch_2026-09-09_queue-7.json"
 )
+QUEUE_EIGHT_DATA = (
+    Path(__file__).parents[1]
+    / "src"
+    / "dct"
+    / "data"
+    / "research_batch_2026-09-09_queue-8.json"
+)
 
 
 def test_research_batch_keeps_claims_source_complete_and_uncertainty_explicit():
@@ -320,6 +327,46 @@ def test_seventh_batch_preserves_deals_sales_and_episode_provenance_conflicts():
     bounce = by_name["Bounce Boot Camp"]
     assert bounce["status"] == "operating"
     assert bounce["registry_records"][0]["status"].startswith("original LLC standing")
+
+
+def test_eighth_batch_withholds_unproved_closure_and_records_verified_pivots():
+    records = json.loads(QUEUE_EIGHT_DATA.read_text(encoding="utf-8"))
+    assert {record["company"]["name"] for record in records} == {
+        "Bouquet Bar",
+        "BoxBlayde",
+        "BoxLock",
+        "Brake Free Technologies",
+    }
+
+    for record in records:
+        source_ids = {source["id"] for source in record["sources"]}
+        referenced = {
+            source_id
+            for claim in record["claims"]
+            for source_id in claim["source_ids"]
+        }
+        referenced.update(
+            source_id
+            for event in record.get("timeline", [])
+            for source_id in event["source_ids"]
+        )
+        referenced.update(
+            registry["source_id"]
+            for registry in record.get("registry_records", [])
+        )
+        assert referenced <= source_ids
+
+    by_name = {record["company"]["name"]: record for record in records}
+    bouquet = by_name["Bouquet Bar"]
+    assert bouquet["status"] == "unresolved"
+    assert bouquet["episode_appearances"][0]["deal_closed"] is None
+    assert "withholds a definitive closure" in bouquet["claims"][0]["text"]
+
+    assert by_name["BoxBlayde"]["status"] == "operating"
+    assert by_name["BoxBlayde"]["episode_appearances"][0]["deal_closed"] is False
+    assert by_name["BoxLock"]["episode_appearances"][0]["deal_closed"] is False
+    assert any("industrial access-control" in claim["text"] for claim in by_name["BoxLock"]["claims"])
+    assert by_name["Brake Free Technologies"]["episode_appearances"][0]["deal_closed"] is True
 
 
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():

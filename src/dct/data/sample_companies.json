@@ -52,6 +52,10 @@
     { "name": "Bot-It", "aliases": ["Bot It", "Bot-it Inc."], "domain": "botit.com" },
     { "name": "Bottle Breacher", "aliases": ["Bottle Breacher, LLC"], "domain": "bottlebreacher.com" },
     { "name": "BottleKeeper", "aliases": ["Bottlekeeper", "CamCal Enterprises, LLC d/b/a BottleKeeper", "BottleKeeper, LLC"] },
-    { "name": "Bounce Boot Camp", "aliases": ["Bounce Boot Camp LLC", "Bounce Boot Camp NY"], "domain": "bouncebootcampny.com" }
+    { "name": "Bounce Boot Camp", "aliases": ["Bounce Boot Camp LLC", "Bounce Boot Camp NY"], "domain": "bouncebootcampny.com" },
+    { "name": "Bouquet Bar", "aliases": ["Bouquet Bar, LLC", "Bouquet Bar Inc."], "notes": "research retained, but public closure status is withheld pending primary shutdown or current entity evidence" },
+    { "name": "BoxBlayde", "aliases": ["Box Blayde", "214 Central Industries, Inc."], "domain": "boxblayde.com" },
+    { "name": "BoxLock", "aliases": ["BoxLock, Inc."], "domain": "boxlock.io" },
+    { "name": "Brake Free Technologies", "aliases": ["Brake Free", "Brake Free Technologies, Inc."], "domain": "brakefreetech.com" }
   ]
 }

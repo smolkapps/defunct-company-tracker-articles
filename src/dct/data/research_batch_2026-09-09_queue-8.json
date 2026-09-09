@@ -1,0 +1,1022 @@
+[
+  {
+    "company": {
+      "name": "Bouquet Bar",
+      "aliases": [
+        "Bouquet Bar, LLC",
+        "Bouquet Bar Inc."
+      ],
+      "legal_entities": [
+        "Bouquet Bar, LLC",
+        "Bouquet Bar Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 9,
+        "episode": 19,
+        "episode_date": "2018-01-21",
+        "video_title": "Bouquet Bar — ABC official appearance index",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/1372862/shark-tank-9x19-bouquet-bar-zuvaa-the-wingman-the-pop",
+        "kind": "episode",
+        "pitch": "Bouquet Bar: Is It Still in Business?",
+        "ask": "$150,000 for 10% equity.",
+        "offer": "After the other Sharks declined, Mark Cuban offered $150,000 for 20% equity on a non-negotiable basis.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-01",
+        "event": "Bouquet Bar launched as a luxury/custom gift-box business in Irvine, according to later company profiles.",
+        "source_ids": [
+          "BQBR5"
+        ]
+      },
+      {
+        "date": "2018-01-21",
+        "event": "Bouquet Bar aired in Shark Tank Season 9, Episode 19; the founders accepted Mark Cuban’s $150,000 for 20% offer.",
+        "source_ids": [
+          "BQBR1",
+          "BQBR2",
+          "BQBR3"
+        ]
+      },
+      {
+        "date": "2018-08-14",
+        "event": "Dallas Business Journal listed Bouquet Bar inside Mark Cuban’s Shark Tank portfolio and stated Cuban invested $150,000 for 20%.",
+        "source_ids": [
+          "BQBR4"
+        ]
+      },
+      {
+        "date": "2019-03-26",
+        "event": "USPTO TTAB records show Bouquet Bar Inc. obtained extensions of time to oppose Sugarfina trademark applications, confirming continued corporate/IP activity in 2019.",
+        "source_ids": [
+          "BQBR6"
+        ]
+      },
+      {
+        "date": "2019-05-24",
+        "event": "Bouquet Bar Inc., a Delaware corporation, registered as a foreign corporation in California under state ID 04281635, according to California-SOS-derived corporate records.",
+        "source_ids": [
+          "BQBR7"
+        ]
+      },
+      {
+        "date": "2019-12",
+        "event": "Later follow-up reporting places the consumer brand’s shutdown in December 2019.",
+        "source_ids": [
+          "BQBR8",
+          "BQBR9"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "No current operating Bouquet Bar storefront or verified successor operator was located in this bounded research pass.",
+        "source_ids": [
+          "BQBR5",
+          "BQBR8"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware corporation / California foreign registration",
+        "entity_name": "Bouquet Bar Inc.",
+        "entity_number": "California state ID 04281635; Delaware file number unresolved",
+        "status": "stale 2022-derived record reported active; current standing unresolved",
+        "events": [
+          "California foreign registration filed 2019-05-24"
+        ],
+        "limitation": "Direct California BizFile entity detail and current Delaware standing were not retrieved. Federal trademark records establish historical Bouquet Bar LLC/Inc. names but not their succession.",
+        "source_id": "BQBR7",
+        "accessed": "2026-09-09"
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOUQUET_BAR-STATUS",
+        "text": "Bouquet Bar is credibly reported to have stopped operating as a consumer gifting brand in December 2019, but the tracker withholds a definitive closure classification because no primary shutdown or current entity record was captured.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BQBR8",
+          "BQBR9",
+          "BQBR10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOUQUET_BAR-DEV-1",
+        "text": "The deal-closing record is materially conflicted: contemporary 2018 portfolio reporting and venture data say Cuban invested, whereas newer Shark Tank recap pages say the deal never materialized. Contemporary evidence is weighted more heavily, but executed closing documents remain unavailable.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BQBR4",
+          "BQBR10",
+          "BQBR9"
+        ]
+      },
+      {
+        "id": "BOUQUET_BAR-DEV-2",
+        "text": "The existence of a California foreign corporation listed active in a stale 2022-derived record does not contradict a 2019 brand shutdown; legal-entity standing and consumer-brand operation are separate dimensions.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BQBR7",
+          "BQBR8"
+        ]
+      },
+      {
+        "id": "BOUQUET_BAR-DEV-3",
+        "text": "Current public summaries compress or contradict the historical investment narrative. No archived same-page Bouquet Bar capture was retrieved, so no claim is made that a specific page was edited or sanitized.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BQBR4",
+          "BQBR9",
+          "BQBR11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BQBR1",
+        "title": "Bouquet Bar — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Bouquet Bar appeared on Shark Tank."
+      },
+      {
+        "id": "BQBR2",
+        "title": "Bouquet Bar — episode database",
+        "url": "https://www.tvmaze.com/episodes/1372862/shark-tank-9x19-bouquet-bar-zuvaa-the-wingman-the-pop",
+        "source_type": "episode database",
+        "published": "2018-01-21",
+        "accessed": "2026-09-09",
+        "notes": "Season 9 Episode 19 and air date."
+      },
+      {
+        "id": "BQBR3",
+        "title": "Bouquet Bar — reputable contemporaneous reporting",
+        "url": "https://www.inc.com/emily-canal/best-moments-shark-tank-2018.html",
+        "source_type": "reputable contemporaneous reporting",
+        "published": "2018-12-12",
+        "accessed": "2026-09-09",
+        "notes": "Season 9 Episode 19 and pitch context."
+      },
+      {
+        "id": "BQBR4",
+        "title": "Bouquet Bar — Dallas Business Journal",
+        "url": "https://www.bizjournals.com/dallas/gallery/439936",
+        "source_type": "Dallas Business Journal",
+        "published": "2018-08-14",
+        "accessed": "2026-09-09",
+        "notes": "Contemporaneous Cuban portfolio entry: $150,000 for 20%."
+      },
+      {
+        "id": "BQBR5",
+        "title": "Bouquet Bar — business database",
+        "url": "https://www.crunchbase.com/organization/bouquet-bar",
+        "source_type": "business database",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Founding/location and closed operating status."
+      },
+      {
+        "id": "BQBR6",
+        "title": "Bouquet Bar — USPTO TTABVUE",
+        "url": "https://ttabvue.uspto.gov/ttabvue/v?eno=5&mode=frame&pno=87586901&pty=EXT",
+        "source_type": "USPTO TTABVUE",
+        "published": "2019-03-26 to 2019-08-25",
+        "accessed": "2026-09-09",
+        "notes": "Bouquet Bar Inc. IP opposition-extension activity."
+      },
+      {
+        "id": "BQBR7",
+        "title": "Bouquet Bar — California SOS-derived corporate record",
+        "url": "https://www.corporationwiki.com/p/34p5ua/bouquet-bar-inc",
+        "source_type": "California SOS-derived corporate record",
+        "published": "data refreshed 2022-04-04",
+        "accessed": "2026-09-09",
+        "notes": "Foreign CA registration, Delaware origin, state ID 04281635; stale active status."
+      },
+      {
+        "id": "BQBR8",
+        "title": "Bouquet Bar — specialist follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bouquet-bar/",
+        "source_type": "specialist follow-up reporting",
+        "published": "current rendering",
+        "accessed": "2026-09-09",
+        "notes": "Pitch details and reported December 2019 shutdown."
+      },
+      {
+        "id": "BQBR9",
+        "title": "Bouquet Bar — retrospective reporting",
+        "url": "https://sharktankrecap.com/bouquet-bar-update-shark-tank-season-9/",
+        "source_type": "retrospective reporting",
+        "published": "current rendering",
+        "accessed": "2026-09-09",
+        "notes": "Claims deal did not close and brand shut in December 2019; conflict source."
+      },
+      {
+        "id": "BQBR10",
+        "title": "Bouquet Bar — venture database",
+        "url": "https://www.cbinsights.com/company/bouquet-bar/financials",
+        "source_type": "venture database",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Records January 2018 $150,000 angel round from Mark Cuban."
+      },
+      {
+        "id": "BQBR11",
+        "title": "Bouquet Bar — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=bouquetbar.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Archive request blocked by environment safe-URL restriction; no historical absence inference."
+      }
+    ],
+    "uncertainties": [
+      "Executed Mark Cuban investment documents and final cap table.",
+      "Current Delaware and California standing of Bouquet Bar Inc.",
+      "Legal succession/relationship between Bouquet Bar, LLC and Bouquet Bar Inc.",
+      "Exact shutdown date and any asset/IP sale after the consumer brand ceased operating.",
+      "Wayback snapshots of bouquetbar.com sufficient to compare pre- and post-Shark Tank wording."
+    ]
+  },
+  {
+    "company": {
+      "name": "BoxBlayde",
+      "aliases": [
+        "Box Blayde",
+        "214 Central Industries, Inc."
+      ],
+      "legal_entities": [
+        "214 Central Industries, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 17,
+        "episode": 11,
+        "episode_date": "2026-01-28",
+        "video_title": "BoxBlayde — ABC official episode roster",
+        "video_url": "https://abc.com/news/6e856bc9-8313-4429-9d5c-3b31f8bd220a/category/2887649",
+        "episode_guide_url": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-17-shark-tank-episodes/episode-11/",
+        "kind": "episode",
+        "pitch": "BoxBlayde: Is It Still in Business?",
+        "ask": "$200,000 for 5% equity.",
+        "offer": "Kevin O’Leary, with Chip and Joanna Gaines joining, offered $200,000 for 20%. Daniel Lubetzky offered $200,000 for 15% and later withdrew. Reporting also describes a later O’Leary royalty/equity counter; Wright did not accept any offer.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2020-08-05",
+        "event": "The powered box-cutter invention traces to a 2020 priority date; 214 Central Industries later became the patent applicant/assignee.",
+        "source_ids": [
+          "BBLD5"
+        ]
+      },
+      {
+        "date": "2023-08-08",
+        "event": "214 Central Industries, Inc. filed the BOXBLAYDE federal trademark application; the mark later registered as No. 7462663 on July 30, 2024.",
+        "source_ids": [
+          "BBLD4"
+        ]
+      },
+      {
+        "date": "2024-04",
+        "event": "BoxBlayde commercially launched after its Kickstarter campaign; the founder later reported roughly $500,000 of 2024 sales.",
+        "source_ids": [
+          "BBLD2"
+        ]
+      },
+      {
+        "date": "2024-07-30",
+        "event": "A California registry archive source lists 214 CENTRAL INDUSTRIES INC. as registered with company number 6325611.",
+        "source_ids": [
+          "BBLD6"
+        ]
+      },
+      {
+        "date": "2026-01-28",
+        "event": "BoxBlayde appeared in Shark Tank Season 17, Episode 11. Wright asked $200,000 for 5% and ultimately rejected the Sharks’ offers.",
+        "source_ids": [
+          "BBLD1",
+          "BBLD2",
+          "BBLD3"
+        ]
+      },
+      {
+        "date": "2026-02-05",
+        "event": "BoxBlayde published a first-person post stating it had received multiple Shark offers but deliberately walked away without a deal.",
+        "source_ids": [
+          "BBLD3"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "BoxBlayde’s current site, legal policies and marketplace seller records show ongoing sales under 214 Central Industries, Inc.",
+        "source_ids": [
+          "BBLD7",
+          "BBLD8",
+          "BBLD9"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California",
+        "entity_name": "214 Central Industries, Inc.",
+        "entity_number": "6325611",
+        "status": "current standing unresolved; current legal policies and federal IP records identify the operator",
+        "events": [
+          "California registry archive lists company number 6325611"
+        ],
+        "limitation": "Direct California BizFile entity detail was not captured. Current company policies and marketplace records consistently identify 214 Central Industries, Inc. as operator.",
+        "source_id": "BBLD6",
+        "accessed": "2026-09-09"
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOXBLAYDE-STATUS",
+        "text": "BoxBlayde is operating as of 2026-09-09; founder Rob Wright rejected the Sharks’ offers, so there was no Shark deal to close.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BBLD7",
+          "BBLD8",
+          "BBLD9"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOXBLAYDE-DEV-1",
+        "text": "The company’s own dated February 2026 account is direct evidence that no Shark deal was accepted; this is stronger than later generic summaries that merely label the pitch 'no deal.'",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BBLD3"
+        ]
+      },
+      {
+        "id": "BOXBLAYDE-DEV-2",
+        "text": "The first U.S. powered-box-cutter patent application is currently shown as abandoned, while the BOXBLAYDE trademark registered in 2024. Patent abandonment does not imply the business or product ceased operating.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BBLD4",
+          "BBLD5"
+        ]
+      },
+      {
+        "id": "BOXBLAYDE-DEV-3",
+        "text": "Current company materials emphasize B2B/retail scale and a commercial product rather than the Kickstarter-stage narrative. No historical same-page archive was obtained, so no claim is made that the company edited or sanitized prior copy.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BBLD3",
+          "BBLD7",
+          "BBLD10"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BBLD1",
+        "title": "BoxBlayde — ABC official episode roster",
+        "url": "https://abc.com/news/6e856bc9-8313-4429-9d5c-3b31f8bd220a/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2026-01-28",
+        "accessed": "2026-09-09",
+        "notes": "Season 17 Episode 11 provenance and BoxBlayde appearance."
+      },
+      {
+        "id": "BBLD2",
+        "title": "BoxBlayde — episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-17-shark-tank-episodes/episode-11/",
+        "source_type": "episode/follow-up reporting",
+        "published": "2026-01-30",
+        "accessed": "2026-09-09",
+        "notes": "Ask, sales, offers and no-deal result."
+      },
+      {
+        "id": "BBLD3",
+        "title": "BoxBlayde — official company first-person post",
+        "url": "https://www.boxblayde.com/en-greatwhitenorth/blogs/news/validation-over-valuation-our-wild-ride-on-shark-tank",
+        "source_type": "official company first-person post",
+        "published": "2026-02-05",
+        "accessed": "2026-09-09",
+        "notes": "Direct statement that BoxBlayde received multiple offers and said no."
+      },
+      {
+        "id": "BBLD4",
+        "title": "BoxBlayde — USPTO-derived trademark history",
+        "url": "https://furm.com/trademarks/boxblayde-98122441",
+        "source_type": "USPTO-derived trademark history",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "BOXBLAYDE registration 7462663; owner 214 Central Industries, Inc."
+      },
+      {
+        "id": "BBLD5",
+        "title": "BoxBlayde — Google Patents / USPTO-derived record",
+        "url": "https://patents.google.com/patent/US20220040871A1/en",
+        "source_type": "Google Patents / USPTO-derived record",
+        "published": "2022-02-10",
+        "accessed": "2026-09-09",
+        "notes": "Handheld powered box cutter application, assignee and abandoned status."
+      },
+      {
+        "id": "BBLD6",
+        "title": "BoxBlayde — California registry archive mirror",
+        "url": "https://b2bhint.com/de/archive/us-ca/2024/7/30",
+        "source_type": "California registry archive mirror",
+        "published": "2024-07-30",
+        "accessed": "2026-09-09",
+        "notes": "214 CENTRAL INDUSTRIES INC., company number 6325611."
+      },
+      {
+        "id": "BBLD7",
+        "title": "BoxBlayde — official legal policy",
+        "url": "https://www.boxblayde.com/pages/privacy-policy",
+        "source_type": "official legal policy",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Operator 214 Central Industries, Inc. and Agoura Hills address."
+      },
+      {
+        "id": "BBLD8",
+        "title": "BoxBlayde — current marketplace seller record",
+        "url": "https://shop.tiktok.com/us/pdp/boxblayde-open-box-unit-free-shipping-budget-friendly/1731971860659278741",
+        "source_type": "current marketplace seller record",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Seller 214 Central Industries Inc.; active BoxBlayde product sales."
+      },
+      {
+        "id": "BBLD9",
+        "title": "BoxBlayde — official ecommerce site",
+        "url": "https://www.boxblayde.com/",
+        "source_type": "official ecommerce site",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Current commercial operation and product availability."
+      },
+      {
+        "id": "BBLD10",
+        "title": "BoxBlayde — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=boxblayde.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Archive request blocked by environment safe-URL restriction."
+      }
+    ],
+    "uncertainties": [
+      "Direct current California good-standing record and complete filing history for 214 Central Industries, Inc.",
+      "Exact final sequence and economics of every on-air Shark counteroffer beyond the well-corroborated $200,000/20% and $200,000/15% offers.",
+      "Any additional patent continuations or issued utility patents beyond the abandoned application located.",
+      "Wayback comparison of BoxBlayde pages before and after the January 2026 broadcast."
+    ]
+  },
+  {
+    "company": {
+      "name": "BoxLock",
+      "aliases": [
+        "BoxLock, Inc."
+      ],
+      "legal_entities": [
+        "BoxLock, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 10,
+        "episode": 1,
+        "episode_date": "2018-10-07",
+        "video_title": "BoxLock pitch — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=wc6xMa65f5A",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "BoxLock: Is It Still in Business?",
+        "ask": "$1,000,000 for 5% equity.",
+        "offer": "Lori Greiner proposed a $1,000,000 loan at 8% interest plus 2.5% equity, with a sales royalty until she received $1.5 million back. Brad Ruffkess countered with a larger loan/royalty structure. Lori tried to involve guest Shark Jamie Siminoff; he declined, and Lori withdrew.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2018-10-07",
+        "event": "BoxLock appeared in the Season 10 premiere. Ruffkess asked $1 million for 5%; Lori ultimately withdrew her financing/equity proposal and BoxLock left without a deal.",
+        "source_ids": [
+          "BXL12",
+          "BXL1",
+          "BXL2",
+          "BXL3"
+        ]
+      },
+      {
+        "date": "2020-04-01",
+        "event": "BoxLock, Inc. was incorporated/started as a corporation according to BBB; Georgia’s official business-index output assigns control number 20047354 to BOXLOCK, INC.",
+        "source_ids": [
+          "BXL4",
+          "BXL5"
+        ]
+      },
+      {
+        "date": "2020-05-11",
+        "event": "Federal trademark records identify BoxLock, Inc. as a Delaware corporation with an Atlanta address.",
+        "source_ids": [
+          "BXL6"
+        ]
+      },
+      {
+        "date": "2023-12-18",
+        "event": "Later financing databases report a Series A round, evidence that BoxLock continued beyond its consumer-Shark-Tank phase.",
+        "source_ids": [
+          "BXL7"
+        ]
+      },
+      {
+        "date": "2025-01-07",
+        "event": "CB Insights records another venture funding event involving Ideaship.",
+        "source_ids": [
+          "BXL7"
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "event": "BoxLock issued current subscription-license terms naming BoxLock Inc. as licensor of its technology.",
+        "source_ids": [
+          "BXL8"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "BoxLock’s current site markets smart padlocks, digital lockout/tagout and industrial access-control software rather than the original porch-delivery consumer use case.",
+        "source_ids": [
+          "BXL9",
+          "BXL10"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Georgia registration / Delaware home jurisdiction",
+        "entity_name": "BoxLock, Inc.",
+        "entity_number": "Georgia control number 20047354; Delaware file number unresolved",
+        "status": "official Georgia index confirms the entity/control number; current standing not fully captured",
+        "events": [
+          "Georgia business index identifies BOXLOCK, INC. as control number 20047354"
+        ],
+        "limitation": "The complete Georgia entity-detail page and Delaware standing certificate were not captured.",
+        "source_id": "BXL4",
+        "accessed": "2026-09-09"
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOXLOCK-STATUS",
+        "text": "BoxLock is operating and has pivoted from consumer parcel security to industrial access control; it received no Shark Tank investment.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BXL8",
+          "BXL9",
+          "BXL10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOXLOCK-DEV-1",
+        "text": "BoxLock’s business model materially changed from the 2018 porch-package security proposition to a B2B industrial access-control and digital lockout/tagout platform. This is a verified strategic pivot, not a rename or acquisition.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BXL2",
+          "BXL9",
+          "BXL10"
+        ]
+      },
+      {
+        "id": "BOXLOCK-DEV-2",
+        "text": "No Shark investment occurred; Lori Greiner’s proposal was withdrawn on air after Jamie Siminoff declined to join.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BXL2",
+          "BXL3"
+        ]
+      },
+      {
+        "id": "BOXLOCK-DEV-3",
+        "text": "Current pages do not preserve the old porch-delivery pitch as the main positioning. Without a captured archived version of those same pages, this demonstrates business-model evolution but not a provable edit to any particular page.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BXL9",
+          "BXL11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BXL1",
+        "title": "BoxLock — contemporaneous reporting",
+        "url": "https://www.forbes.com/sites/carolynlipka/2018/10/10/shark-tank-recap-season-10-premieres-with-a-new-shark-and-low-ratings/",
+        "source_type": "contemporaneous reporting",
+        "published": "2018-10-10",
+        "accessed": "2026-09-09",
+        "notes": "Season 10 premiere pitch context and $1 million/5% ask."
+      },
+      {
+        "id": "BXL2",
+        "title": "BoxLock — reputable retrospective reporting",
+        "url": "https://www.slashgear.com/1403827/what-happened-boxlock-smart-lock-shark-tank-season-10/",
+        "source_type": "reputable retrospective reporting",
+        "published": "2023-09",
+        "accessed": "2026-09-09",
+        "notes": "Lori offer/counter and no-deal outcome."
+      },
+      {
+        "id": "BXL3",
+        "title": "BoxLock — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/boxlock/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": "2018-current",
+        "accessed": "2026-09-09",
+        "notes": "Season 10 Episode 1, pitch terms and no-deal result."
+      },
+      {
+        "id": "BXL4",
+        "title": "BoxLock — Georgia Secretary of State official business index",
+        "url": "https://ecorp.sos.ga.gov/BusinessSearch/DownloadFile?filingNo=20686445",
+        "source_type": "Georgia Secretary of State official business index",
+        "published": "current index",
+        "accessed": "2026-09-09",
+        "notes": "BOXLOCK, INC. control number 20047354."
+      },
+      {
+        "id": "BXL5",
+        "title": "BoxLock — BBB business profile",
+        "url": "https://www.bbb.org/us/ga/atlanta/profile/supply-chain-management/boxlock-inc-0443-91828948",
+        "source_type": "BBB business profile",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Corporation; business incorporated/started 2020-04-01; Brad Ruffkess CEO."
+      },
+      {
+        "id": "BXL6",
+        "title": "BoxLock — USPTO-derived trademark application",
+        "url": "https://uspto.report/TM/88909595",
+        "source_type": "USPTO-derived trademark application",
+        "published": "2020",
+        "accessed": "2026-09-09",
+        "notes": "BoxLock, Inc. identified as Delaware corporation with Atlanta address."
+      },
+      {
+        "id": "BXL7",
+        "title": "BoxLock — venture database",
+        "url": "https://www.cbinsights.com/company/boxlock/financials",
+        "source_type": "venture database",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Reported later financing rounds including 2023 Series A and 2025 funding."
+      },
+      {
+        "id": "BXL8",
+        "title": "BoxLock — official company legal terms",
+        "url": "https://boxlock.io/subscription-license-terms",
+        "source_type": "official company legal terms",
+        "published": "2026-03-04",
+        "accessed": "2026-09-09",
+        "notes": "Current BoxLock Inc. licensor identity."
+      },
+      {
+        "id": "BXL9",
+        "title": "BoxLock — official company site",
+        "url": "https://boxlock.io/",
+        "source_type": "official company site",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Current industrial access-control and digital lockout/tagout platform."
+      },
+      {
+        "id": "BXL10",
+        "title": "BoxLock — official company page",
+        "url": "https://boxlock.io/about",
+        "source_type": "official company page",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Current mission/platform positioning."
+      },
+      {
+        "id": "BXL11",
+        "title": "BoxLock — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=boxlock.io/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Archive request blocked by environment safe-URL restriction."
+      },
+      {
+        "id": "BXL12",
+        "title": "BoxLock pitch — Sony Pictures Television",
+        "url": "https://www.youtube.com/watch?v=wc6xMa65f5A",
+        "source_type": "Sony Pictures Television official video",
+        "published": "2024-10-12",
+        "accessed": "2026-09-09",
+        "notes": "Verified Sony Pictures Television upload of the BoxLock pitch and negotiation."
+      }
+    ],
+    "uncertainties": [
+      "Direct Delaware corporation file number and current standing.",
+      "Full Georgia entity filing history beyond control number 20047354.",
+      "Exact amounts/investors for later financing rounds from primary financing documents.",
+      "Archived BoxLock pages sufficient to date the exact transition from consumer parcel security to industrial access control."
+    ]
+  },
+  {
+    "company": {
+      "name": "Brake Free Technologies",
+      "aliases": [
+        "Brake Free",
+        "Brake Free Technologies, Inc."
+      ],
+      "legal_entities": [
+        "Brake Free Technologies, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 8,
+        "episode_date": "2020-12-11",
+        "video_title": "Brake Free Technologies pitch — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=phQsa0q0KLI",
+        "episode_guide_url": "https://abc.com/news/c30db56b-ebcc-4dfc-8425-35abd57a455a/category/2887649",
+        "kind": "pitch",
+        "pitch": "Brake Free Technologies: Is It Still in Business?",
+        "ask": "$200,000 for 10% equity.",
+        "offer": "Robert Herjavec made an offer and the founders asked whether Mark Cuban would join; Cuban and Herjavec ultimately offered $200,000 for 20% jointly.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2014-04",
+        "event": "Brake Free began prototype development, according to the company’s current history.",
+        "source_ids": [
+          "BFT5"
+        ]
+      },
+      {
+        "date": "2017-03-27",
+        "event": "Federal trademark records give March 27, 2017 as first use/first use in commerce for BRAKE FREE.",
+        "source_ids": [
+          "BFT6"
+        ]
+      },
+      {
+        "date": "2017-04",
+        "event": "Brake Free launched its Indiegogo campaign; the company says 2,138 backers supported it.",
+        "source_ids": [
+          "BFT5"
+        ]
+      },
+      {
+        "date": "2020-12-11",
+        "event": "Brake Free Technologies aired in Season 12, Episode 8; Li and Arkhangelskiy accepted Cuban and Herjavec’s $200,000 for 20% joint offer.",
+        "source_ids": [
+          "BFT1",
+          "BFT2",
+          "BFT3"
+        ]
+      },
+      {
+        "date": "2021-05-18",
+        "event": "The BRAKE FREE federal trademark registered to Brake Free Technologies, Inc. as registration 6352135.",
+        "source_ids": [
+          "BFT6"
+        ]
+      },
+      {
+        "date": "2025-03-28",
+        "event": "The company published a dated post framing its path as 'From Shark Tank to Reality' and describing continued operation after the show.",
+        "source_ids": [
+          "BFT7"
+        ]
+      },
+      {
+        "date": "2025-09-19",
+        "event": "Brake Free published a current founder interview promotion describing its history from the 2017 campaign through Season 12, Episode 8 and dealer expansion.",
+        "source_ids": [
+          "BFT8"
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "event": "Current privacy/cookie terms identify Brake Free Technologies, Inc. at a Broomfield, Colorado address.",
+        "source_ids": [
+          "BFT9"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Brake Free’s official site remains active with products and dealer-partnership recruitment.",
+        "source_ids": [
+          "BFT4",
+          "BFT10"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "state of incorporation unresolved; current operator in Colorado",
+        "entity_name": "Brake Free Technologies, Inc.",
+        "entity_number": null,
+        "status": "state standing unresolved; current legal terms and registered federal trademark identify the operator",
+        "events": [
+          "Federal BRAKE FREE trademark registration identifies Brake Free Technologies, Inc."
+        ],
+        "limitation": "No authoritative state entity-detail record with an entity number was captured. Current legal terms identify the same corporation at a Broomfield, Colorado address.",
+        "source_id": "BFT6",
+        "accessed": "2026-09-09"
+      }
+    ],
+    "claims": [
+      {
+        "id": "BRAKE_FREE_TECHNOLOGIES-STATUS",
+        "text": "Brake Free Technologies is operating; the accepted $200,000 Mark Cuban/Robert Herjavec investment for 20% is strongly corroborated as completed, though executed closing documents were not found.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BFT9",
+          "BFT10",
+          "BFT11"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BRAKE_FREE_TECHNOLOGIES-DEV-1",
+        "text": "The accepted on-air Cuban/Herjavec deal is verified by ABC video/episode evidence; post-show closing is strongly corroborated by later reporting that calls the Sharks investors, but executed deal documents were not found.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BFT2",
+          "BFT3",
+          "BFT11"
+        ]
+      },
+      {
+        "id": "BRAKE_FREE_TECHNOLOGIES-DEV-2",
+        "text": "The business remains active independently of the Shark deal question: current terms identify the corporation, the federal trademark remains registered, and the company is actively selling/recruiting dealers.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BFT4",
+          "BFT6",
+          "BFT9",
+          "BFT10"
+        ]
+      },
+      {
+        "id": "BRAKE_FREE_TECHNOLOGIES-DEV-3",
+        "text": "Current company history focuses on the product journey and Shark Tank experience without restating the precise equity economics. Without a historical same-page archive, that omission is not evidence of editing or sanitization.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BFT5",
+          "BFT7",
+          "BFT8",
+          "BFT12"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BFT1",
+        "title": "Brake Free Technologies — ABC official episode roster",
+        "url": "https://abc.com/news/c30db56b-ebcc-4dfc-8425-35abd57a455a/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2020-12-11",
+        "accessed": "2026-09-09",
+        "notes": "Season 12 Episode 8 provenance and Brake Free appearance."
+      },
+      {
+        "id": "BFT2",
+        "title": "Brake Free Technologies — ABC verified YouTube",
+        "url": "https://www.youtube.com/watch?v=phQsa0q0KLI",
+        "source_type": "ABC verified YouTube",
+        "published": "2020-12-11",
+        "accessed": "2026-09-09",
+        "notes": "Official pitch video provenance and Robert/Mark negotiation."
+      },
+      {
+        "id": "BFT3",
+        "title": "Brake Free Technologies — contemporaneous episode recap",
+        "url": "https://sharktankrecap.com/shark-tank-season-12-episode-8-recap-products-deals/",
+        "source_type": "contemporaneous episode recap",
+        "published": "2020-12-12",
+        "accessed": "2026-09-09",
+        "notes": "Ask and accepted $200,000 for 20% Cuban/Herjavec result."
+      },
+      {
+        "id": "BFT4",
+        "title": "Brake Free Technologies — official ecommerce site",
+        "url": "https://www.brakefreetech.com/",
+        "source_type": "official ecommerce site",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Current product operation."
+      },
+      {
+        "id": "BFT5",
+        "title": "Brake Free Technologies — official company history",
+        "url": "https://www.brakefreetech.com/pages/about-us",
+        "source_type": "official company history",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Prototype and Indiegogo history."
+      },
+      {
+        "id": "BFT6",
+        "title": "Brake Free Technologies — USPTO-derived trademark record",
+        "url": "https://trademarks.justia.com/900/13/brake-90013259.html",
+        "source_type": "USPTO-derived trademark record",
+        "published": "2021-current",
+        "accessed": "2026-09-09",
+        "notes": "BRAKE FREE registration 6352135; owner Brake Free Technologies, Inc.; first-use dates."
+      },
+      {
+        "id": "BFT7",
+        "title": "Brake Free Technologies — official company dated post",
+        "url": "https://www.brakefreetech.com/blogs/tech-insights-and-moto-tips/brake-free-on-the-ride-on-motorcycle-podcast",
+        "source_type": "official company dated post",
+        "published": "2025-03-28",
+        "accessed": "2026-09-09",
+        "notes": "Post-show ongoing business narrative."
+      },
+      {
+        "id": "BFT8",
+        "title": "Brake Free Technologies — official company dated post",
+        "url": "https://www.brakefreetech.com/blogs/tech-insights-and-moto-tips/brake-free-on-motorcycle-and-powersports-news",
+        "source_type": "official company dated post",
+        "published": "2025-09-19",
+        "accessed": "2026-09-09",
+        "notes": "Founder interview promotion; Season 12 Episode 8 and dealer outreach."
+      },
+      {
+        "id": "BFT9",
+        "title": "Brake Free Technologies — current legal/privacy policy",
+        "url": "https://www.iubenda.com/privacy-policy/59500702/cookie-policy?an=no&newmarkup=yes&s_ck=false",
+        "source_type": "current legal/privacy policy",
+        "published": "2026-05-01",
+        "accessed": "2026-09-09",
+        "notes": "Owner Brake Free Technologies, Inc.; Broomfield Colorado address."
+      },
+      {
+        "id": "BFT10",
+        "title": "Brake Free Technologies — official company page",
+        "url": "https://www.brakefreetech.com/pages/partner-with-brake-free",
+        "source_type": "official company page",
+        "published": "current",
+        "accessed": "2026-09-09",
+        "notes": "Active dealer-partnership recruitment."
+      },
+      {
+        "id": "BFT11",
+        "title": "Brake Free Technologies — later company reporting",
+        "url": "https://yespress.io/brake-free-technologies",
+        "source_type": "later company reporting",
+        "published": "2026-08-20",
+        "accessed": "2026-09-09",
+        "notes": "Calls Cuban and Herjavec investors; secondary closing corroboration."
+      },
+      {
+        "id": "BFT12",
+        "title": "Brake Free Technologies — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=brakefreetech.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Archive request blocked by environment safe-URL restriction."
+      }
+    ],
+    "uncertainties": [
+      "Executed Cuban/Herjavec investment documents, cap table and final closing date.",
+      "Authoritative state of incorporation, entity number and current state good standing.",
+      "Whether any founder ownership changes or later outside financing materially changed control.",
+      "Archived same-page company captures that would allow precise historical copy comparison."
+    ]
+  }
+]
