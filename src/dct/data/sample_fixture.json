@@ -1467,5 +1467,94 @@
         "published": null
       }
     ]
+  },
+  "brand yourself": {
+    "status": "acquired",
+    "summary": "BrandYourself remains operating as a consumer reputation/privacy brand under HelloPrivacy LLC and is now part of Array; the exact acquisition date and legal succession from Brandyourself.com, Inc. remain unresolved.",
+    "as_of": "2026-09-09",
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "Brand Yourself — Array official corporate biography",
+        "url": "https://blog.array.com/author/carlos-iniguez",
+        "snippet": "States BrandYourself was acquired by Array.",
+        "published": null
+      },
+      {
+        "title": "Brand Yourself — Array official legal policy",
+        "url": "https://array.com/legal/privacy-policy",
+        "snippet": "HelloPrivacy LLC identified among Array affiliates.",
+        "published": null
+      }
+    ],
+    "successor": "Array"
+  },
+  "brass roots": {
+    "status": "active",
+    "summary": "Brass Roots is operating under A&C Snacks LLC; Aaron Gailmor received no Shark Tank offer and therefore had no Shark deal to close.",
+    "as_of": "2026-09-09",
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "Brass Roots — official ecommerce site",
+        "url": "https://brassrootsfood.com/",
+        "snippet": "Current products and active commerce.",
+        "published": null
+      },
+      {
+        "title": "Brass Roots — official store locator",
+        "url": "https://brassrootsfood.com/pages/store-locator",
+        "snippet": "Current retail availability.",
+        "published": null
+      }
+    ]
+  },
+  "bravo": {
+    "status": "unknown",
+    "summary": "Bravo announced a rebrand to FAMIGO in 2021. Current service availability and the Cuban/Greiner investment closing remain unresolved; indexed legal terms alone do not establish an operating service.",
+    "as_of": "2026-09-09",
+    "confidence": 0.65,
+    "citations": [
+      {
+        "title": "Bravo — company press release via PRWeb",
+        "url": "https://www.prweb.com/releases/bravo_pay_rebrands_as_famigo_a_fintech_platform_for_creators_and_fans/prweb18166047.htm",
+        "snippet": "Official public rebrand from BRAVO Pay to FAMIGO.",
+        "published": "2021-09-02"
+      },
+      {
+        "title": "Bravo — current FAMIGO legal terms",
+        "url": "https://famigo.com/terms",
+        "snippet": "BRAVO, Inc. Delaware operator; FAMIGO/BRAVO naming and transaction terms.",
+        "published": null
+      },
+      {
+        "title": "Bravo — current company homepage access attempt",
+        "url": "https://famigo.com/",
+        "snippet": "Homepage returned 502 in research environment; not treated as closure proof.",
+        "published": "2026-09-09"
+      }
+    ],
+    "successor": "FAMIGO (documented brand rename)"
+  },
+  "brazi bites": {
+    "status": "acquired",
+    "summary": "Brazi Bites is operating after San Francisco Equity Partners acquired a majority stake in 2018; Lori Greiner’s on-air Shark Tank deal fell through after filming.",
+    "as_of": "2026-09-09",
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "Brazi Bites — contemporaneous trade reporting",
+        "url": "https://www.nosh.com/news/2018/brazi-bites-sells-majority-ownership-will-build-latin-american-platform",
+        "snippet": "SFEP majority acquisition; founders/team remain.",
+        "published": "2018-07-31"
+      },
+      {
+        "title": "Brazi Bites — San Francisco Equity Partners official portfolio",
+        "url": "https://www.sfequitypartners.com/",
+        "snippet": "Brazi Bites listed as current investment; current management/ownership context.",
+        "published": null
+      }
+    ],
+    "successor": "San Francisco Equity Partners (majority stake)"
   }
 }

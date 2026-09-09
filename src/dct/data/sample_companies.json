@@ -56,6 +56,10 @@
     { "name": "Bouquet Bar", "aliases": ["Bouquet Bar, LLC", "Bouquet Bar Inc."], "notes": "research retained, but public closure status is withheld pending primary shutdown or current entity evidence" },
     { "name": "BoxBlayde", "aliases": ["Box Blayde", "214 Central Industries, Inc."], "domain": "boxblayde.com" },
     { "name": "BoxLock", "aliases": ["BoxLock, Inc."], "domain": "boxlock.io" },
-    { "name": "Brake Free Technologies", "aliases": ["Brake Free", "Brake Free Technologies, Inc."], "domain": "brakefreetech.com" }
+    { "name": "Brake Free Technologies", "aliases": ["Brake Free", "Brake Free Technologies, Inc."], "domain": "brakefreetech.com" },
+    {"name": "Brand Yourself", "aliases": ["BrandYourself", "BrandYourself.com", "Brandyourself.com, Inc.", "HelloPrivacy LLC d/b/a BrandYourself"]},
+    {"name": "Brass Roots", "aliases": ["A&C Snacks LLC d/b/a Brass Roots", "Brass Roots Food"]},
+    {"name": "Bravo", "aliases": ["BRAVO", "BRAVO Pay", "FAMIGO", "BRAVO, Inc."]},
+    {"name": "Brazi Bites", "aliases": ["Brazi Bites, LLC"]}
   ]
 }

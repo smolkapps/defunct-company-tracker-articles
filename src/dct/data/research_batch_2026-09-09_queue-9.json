@@ -1,0 +1,1061 @@
+[
+  {
+    "company": {
+      "name": "Brand Yourself",
+      "aliases": [
+        "BrandYourself",
+        "BrandYourself.com",
+        "Brandyourself.com, Inc.",
+        "HelloPrivacy LLC d/b/a BrandYourself"
+      ],
+      "legal_entities": [
+        "HelloPrivacy LLC d/b/a BrandYourself"
+      ],
+      "successor_or_acquirer": "Array"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 6,
+        "episode": 23,
+        "episode_date": "2015-03-20",
+        "video_title": "Brand Yourself — ABC official appearance reference",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/94525/shark-tank-6x23-episode-23",
+        "kind": "episode",
+        "pitch": "Online reputation management and privacy services.",
+        "ask": "$2,000,000 for 13.5% equity.",
+        "offer": "Robert Herjavec offered $2,000,000 for 25% equity; the other Sharks did not make an offer. Patrick Ambron declined Robert Herjavec’s $2,000,000 for 25% offer and left without a deal.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2008-03-12",
+        "event": "A New York Department of State-derived corporate record reports Brandyourself.com, Inc. was formed in Delaware on this date.",
+        "source_ids": [
+          "BY5"
+        ]
+      },
+      {
+        "date": "2014-06-03",
+        "event": "Brandyourself.com, Inc. registered as a foreign corporation in New York under document 4586562, according to a New York Department of State-derived corporate record.",
+        "source_ids": [
+          "BY5"
+        ]
+      },
+      {
+        "date": "2015-03-20",
+        "event": "BrandYourself aired in Shark Tank Season 6, Episode 23; Ambron asked for $2 million for 13.5% and rejected Robert Herjavec’s $2 million for 25% offer.",
+        "source_ids": [
+          "BY1",
+          "BY2",
+          "BY3",
+          "BY4"
+        ]
+      },
+      {
+        "date": "2022-10-24",
+        "event": "A Business Wire release launched 'HelloPrivacy by Array,' demonstrating Array control/affiliation of HelloPrivacy by this date.",
+        "source_ids": [
+          "BY8"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "BrandYourself’s current site remained active with a current team and services; Array’s corporate materials describe BrandYourself as acquired by Array and HelloPrivacy LLC as an Array affiliate.",
+        "source_ids": [
+          "BY11",
+          "BY12",
+          "BY13"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Current HelloPrivacy jurisdiction unresolved in this batch; historical Brandyourself.com, Inc. was Delaware with a New York foreign registration",
+        "entity_name": "HelloPrivacy LLC d/b/a BrandYourself",
+        "entity_number": "Historical New York document 4586562; current HelloPrivacy LLC state entity number unresolved",
+        "status": "Current HelloPrivacy state standing unresolved; historical NY-derived record reports Brandyourself.com, Inc. active with a past-due statement as of late 2025",
+        "source_id": "BY5",
+        "accessed": "2026-09-09",
+        "limitation": "Current BrandYourself legal policies directly identify HelloPrivacy LLC d/b/a BrandYourself. The instrument transferring/merging/converting the older Brandyourself.com, Inc. business into HelloPrivacy LLC was not retrieved, so those legal entities are not treated as interchangeable without qualification."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BRAND-YOURSELF-STATUS",
+        "text": "BrandYourself remains operating as a consumer reputation/privacy brand under HelloPrivacy LLC and is now part of Array; the exact acquisition date and legal succession from Brandyourself.com, Inc. remain unresolved.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BY12",
+          "BY13"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BRAND-YOURSELF-DEV-1",
+        "text": "Array’s own corporate biography material describes BrandYourself as acquired by Array, while current Array legal materials identify HelloPrivacy LLC as an affiliate. This supports acquisition/control, but the exact transaction date, consideration, and asset-versus-equity structure were not found.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BY12",
+          "BY13"
+        ]
+      },
+      {
+        "id": "BRAND-YOURSELF-DEV-2",
+        "text": "BrandYourself remains a live customer-facing brand even though HelloPrivacy’s separate product name became Privacy Protect; brand operation and product naming are therefore kept separate from corporate ownership.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BY9",
+          "BY11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BY1",
+        "title": "Brand Yourself — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Brand Yourself appeared on Shark Tank."
+      },
+      {
+        "id": "BY2",
+        "title": "Brand Yourself — episode database",
+        "url": "https://www.tvmaze.com/episodes/94525/shark-tank-6x23-episode-23",
+        "source_type": "episode database",
+        "published": "2015-03-20",
+        "accessed": "2026-09-09",
+        "notes": "Broadcast Season 6 Episode 23 and air date."
+      },
+      {
+        "id": "BY3",
+        "title": "Brand Yourself — episode database",
+        "url": "https://thetvdb.com/series/shark-tank/episodes/5124014",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 6 Episode 23, air date and production code 628."
+      },
+      {
+        "id": "BY4",
+        "title": "Brand Yourself — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/brand-yourself/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, Robert Herjavec offer and rejection."
+      },
+      {
+        "id": "BY5",
+        "title": "Brand Yourself — New York DOS-derived corporate record",
+        "url": "https://www.bizapedia.com/ny/brandyourselfcom-inc.html",
+        "source_type": "New York DOS-derived corporate record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Historical Brandyourself.com, Inc. Delaware formation, NY document 4586562 and reported status."
+      },
+      {
+        "id": "BY6",
+        "title": "Brand Yourself — official BrandYourself privacy policy",
+        "url": "https://brandyourself.com/privacy-policy",
+        "source_type": "official BrandYourself privacy policy",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "HelloPrivacy LLC d/b/a BrandYourself as operator."
+      },
+      {
+        "id": "BY7",
+        "title": "Brand Yourself — official BrandYourself terms",
+        "url": "https://brandyourself.com/terms-of-service",
+        "source_type": "official BrandYourself terms",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "HelloPrivacy LLC d/b/a BrandYourself as contracting entity."
+      },
+      {
+        "id": "BY8",
+        "title": "Brand Yourself — company press release via Business Wire",
+        "url": "https://www.businesswire.com/news/home/20221024005432/en/Array-Launches-HelloPrivacy-to-Empower-Consumers-to-Protect-Their-Data-and-Identity-Online",
+        "source_type": "company press release via Business Wire",
+        "published": "2022-10-24",
+        "accessed": "2026-09-09",
+        "notes": "Launch of HelloPrivacy by Array."
+      },
+      {
+        "id": "BY9",
+        "title": "Brand Yourself — Array official legal terms",
+        "url": "https://array.com/legal/privacy-protect-addendum",
+        "source_type": "Array official legal terms",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "HelloPrivacy product renamed Privacy Protect."
+      },
+      {
+        "id": "BY10",
+        "title": "Brand Yourself — current HelloPrivacy page",
+        "url": "https://helloprivacy.com/",
+        "source_type": "current HelloPrivacy page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "HelloPrivacy is now Privacy Protect, an Array product."
+      },
+      {
+        "id": "BY11",
+        "title": "Brand Yourself — official BrandYourself team page",
+        "url": "https://brandyourself.com/team",
+        "source_type": "official BrandYourself team page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current BrandYourself operation and Patrick Ambron leadership."
+      },
+      {
+        "id": "BY12",
+        "title": "Brand Yourself — Array official corporate biography",
+        "url": "https://blog.array.com/author/carlos-iniguez",
+        "source_type": "Array official corporate biography",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "States BrandYourself was acquired by Array."
+      },
+      {
+        "id": "BY13",
+        "title": "Brand Yourself — Array official legal policy",
+        "url": "https://array.com/legal/privacy-policy",
+        "source_type": "Array official legal policy",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "HelloPrivacy LLC identified among Array affiliates."
+      },
+      {
+        "id": "BY14",
+        "title": "Brand Yourself — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=brandyourself.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "No retrievable snapshot result obtained in this research environment; no historical-absence inference."
+      }
+    ],
+    "uncertainties": [
+      "Exact Array acquisition date, consideration and transaction structure for BrandYourself/HelloPrivacy.",
+      "The legal instrument connecting Brandyourself.com, Inc. to HelloPrivacy LLC.",
+      "Current state entity number and standing for HelloPrivacy LLC.",
+      "Direct current Delaware standing/file number for historical Brandyourself.com, Inc.",
+      "Wayback snapshots sufficient to compare BrandYourself’s historical ownership/product language page-by-page.",
+      "Dated current legal policies do not establish when their present operator wording first appeared; historical snapshots are needed to date the legal transition."
+    ]
+  },
+  {
+    "company": {
+      "name": "Brass Roots",
+      "aliases": [
+        "A&C Snacks LLC d/b/a Brass Roots",
+        "Brass Roots Food"
+      ],
+      "legal_entities": [
+        "A&C Snacks LLC d/b/a Brass Roots"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 12,
+        "episode_date": "2023-01-20",
+        "video_title": "Brass Roots — ABC official appearance reference",
+        "video_url": "https://abc.com/news/4dc5fd32-22c7-48dd-adf6-15a28052c8ce/category/2887649",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/2454948/shark-tank-14x12-episode-12",
+        "kind": "episode",
+        "pitch": "Snack foods made from sacha inchi seeds.",
+        "ask": "$400,000 for 7% equity.",
+        "offer": "No Shark made an offer. The Sharks raised concerns about margins, scaling, prior-investor carryover, Gailmor’s approximately one-third ownership, and the amount of consumer education required. Aaron Gailmor left without a deal after all five Sharks declined.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2013-05-22",
+        "event": "A Delaware registry-derived corporate source reports A&C Snacks LLC was formed on this date under state file number 5338888.",
+        "source_ids": [
+          "BRR5"
+        ]
+      },
+      {
+        "date": "2021-03-16",
+        "event": "Greater New Orleans, Inc. reported that Brass Roots closed a $1 million investment commitment from John B. Sanfilippo & Son, Inc. to support expansion.",
+        "source_ids": [
+          "BRR6"
+        ]
+      },
+      {
+        "date": "2023-01-20",
+        "event": "Brass Roots appeared in Shark Tank Season 14, Episode 12. Gailmor asked $400,000 for 7%; all Sharks declined.",
+        "source_ids": [
+          "BRR1",
+          "BRR2",
+          "BRR3"
+        ]
+      },
+      {
+        "date": "2024",
+        "event": "The FDA list for fourth-quarter 2024 identifies A&C SNACKS LLC DBA BRASS ROOTS in Louisiana.",
+        "source_ids": [
+          "BRR8"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Brass Roots’ official site continued to sell products and maintain a store locator, supporting active commercial operation.",
+        "source_ids": [
+          "BRR9",
+          "BRR10"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware LLC operating from Louisiana",
+        "entity_name": "A&C Snacks LLC d/b/a Brass Roots",
+        "entity_number": "Delaware file number 5338888 reported by a registry-derived source; direct Delaware entity record not captured",
+        "status": "Current Delaware standing unresolved; federal FDA and SEC records verify A&C Snacks LLC d/b/a Brass Roots was active in regulated/financing contexts in 2024",
+        "source_id": "BRR5",
+        "accessed": "2026-09-09",
+        "limitation": "Direct Delaware standing output was not captured. Federal records independently identify the legal operator as A&C Snacks LLC d/b/a Brass Roots. The on-air statement that prior investors from Gailmor’s earlier business were rolled into Brass Roots does not, by itself, prove whether the same legal entity operated both ventures."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BRASS-ROOTS-STATUS",
+        "text": "Brass Roots is operating under A&C Snacks LLC; Aaron Gailmor received no Shark Tank offer and therefore had no Shark deal to close.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BRR9",
+          "BRR10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BRASS-ROOTS-DEV-1",
+        "text": "The Shark Tank transcript records that prior investors from Gailmor’s earlier business were rolled into Brass Roots and that Gailmor owned roughly one-third of the company. The exact legal mechanism—same entity, conversion, contribution or new capitalization—remains unresolved.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRR3"
+        ]
+      },
+      {
+        "id": "BRASS-ROOTS-DEV-2",
+        "text": "An SEC-filed fund schedule establishes a SAFE investment in A&C Snacks LLC d/b/a Brass Roots. The schedule’s small carrying/fair-value figure is an accounting disclosure and is not interpreted here as proof of business failure.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRR7"
+        ]
+      },
+      {
+        "id": "BRASS-ROOTS-DEV-3",
+        "text": "Current product pages emphasize the Brass Roots brand and do not reproduce the full prior-investor/equity-capitalization discussion from the broadcast. Without a same-page historical archive, this is treated as different narrative scope rather than proof of editing or sanitization.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRR3",
+          "BRR9"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BRR1",
+        "title": "Brass Roots — ABC official episode roster",
+        "url": "https://abc.com/news/4dc5fd32-22c7-48dd-adf6-15a28052c8ce/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2023-01-20",
+        "accessed": "2026-09-09",
+        "notes": "Season 14 Episode 12 and Brass Roots appearance."
+      },
+      {
+        "id": "BRR2",
+        "title": "Brass Roots — episode database",
+        "url": "https://www.tvmaze.com/episodes/2454948/shark-tank-14x12-episode-12",
+        "source_type": "episode database",
+        "published": "2023-01-20",
+        "accessed": "2026-09-09",
+        "notes": "Broadcast episode number and air date."
+      },
+      {
+        "id": "BRR3",
+        "title": "Brass Roots — episode transcript mirror",
+        "url": "https://www.sharktanktranscript.com/brass-roots-transcript",
+        "source_type": "episode transcript mirror",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, no-offer outcome, investor rollover and ownership discussion."
+      },
+      {
+        "id": "BRR4",
+        "title": "Brass Roots — USPTO-derived trademark record",
+        "url": "https://trademarks.justia.com/889/76/brass-88976309.html",
+        "source_type": "USPTO-derived trademark record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BRASS ROOTS registered mark owned by A&C Snacks LLC."
+      },
+      {
+        "id": "BRR5",
+        "title": "Brass Roots — Delaware registry-derived corporate record",
+        "url": "https://www.bizapedia.com/de/ac-snacks-llc.html",
+        "source_type": "Delaware registry-derived corporate record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "A&C Snacks LLC formation date and reported Delaware file number 5338888."
+      },
+      {
+        "id": "BRR6",
+        "title": "Brass Roots — regional economic-development organization",
+        "url": "https://gnoinc.org/news/brass-roots-closes-1-million-investment-commitment/",
+        "source_type": "regional economic-development organization",
+        "published": "2021-03-16",
+        "accessed": "2026-09-09",
+        "notes": "Reported $1 million investment commitment from John B. Sanfilippo & Son, Inc."
+      },
+      {
+        "id": "BRR7",
+        "title": "Brass Roots — SEC filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/1862935/000110465926009567/tm265160d1_ncsr.htm",
+        "source_type": "SEC filing",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "A&C Snacks LLC d/b/a Brass Roots SAFE investment in fund schedule."
+      },
+      {
+        "id": "BRR8",
+        "title": "Brass Roots — FDA official FSVP participant list",
+        "url": "https://www.fda.gov/media/184749/download",
+        "source_type": "FDA official FSVP participant list",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "A&C SNACKS LLC DBA BRASS ROOTS legal operating identity."
+      },
+      {
+        "id": "BRR9",
+        "title": "Brass Roots — official ecommerce site",
+        "url": "https://brassrootsfood.com/",
+        "source_type": "official ecommerce site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current products and active commerce."
+      },
+      {
+        "id": "BRR10",
+        "title": "Brass Roots — official store locator",
+        "url": "https://brassrootsfood.com/pages/store-locator",
+        "source_type": "official store locator",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current retail availability."
+      },
+      {
+        "id": "BRR11",
+        "title": "Brass Roots — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=brassrootsfood.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "No retrievable same-page archive result obtained in this environment."
+      }
+    ],
+    "uncertainties": [
+      "Direct current Delaware standing and filing history for A&C Snacks LLC.",
+      "The legal relationship between Gailmor’s prior snack business and Brass Roots/A&C Snacks LLC.",
+      "Current cap table and ownership percentages after the 2021 investment commitment, Shark Tank appearance and later SAFE financing.",
+      "Any additional material federal/state litigation, bankruptcy or secured-credit filings.",
+      "Wayback captures of Brass Roots pages sufficient for exact historical-copy comparison.",
+      "Confirm the SEC schedule reporting date separately from its investment acquisition date before assigning a timeline date."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bravo",
+      "aliases": [
+        "BRAVO",
+        "BRAVO Pay",
+        "FAMIGO",
+        "BRAVO, Inc."
+      ],
+      "legal_entities": [
+        "BRAVO, Inc."
+      ],
+      "successor_or_acquirer": "FAMIGO (documented brand rename)"
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 9,
+        "episode": 9,
+        "episode_date": "2017-11-05",
+        "video_title": "Bravo — ABC official appearance reference",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/1331745/shark-tank-9x09-episode-9",
+        "kind": "episode",
+        "pitch": "A mobile tipping and payments service.",
+        "ask": "$150,000 for 5% equity.",
+        "offer": "Lori Greiner and Mark Cuban jointly offered $150,000 for 15%. Maria Luna countered at $150,000 for 10% plus advisory equity; the accepted structure was reported as $150,000 for 10% plus 2% advisory equity for each of Cuban and Greiner, for 14% total. Maria Luna and Dr. Hector Rodriguez accepted the joint Mark Cuban/Lori Greiner offer structure.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-11-05",
+        "event": "Bravo appeared in Shark Tank Season 9, Episode 9. The founders asked $150,000 for 5% and accepted a Cuban/Greiner structure reported as $150,000 for 10% plus 2% advisory equity to each Shark.",
+        "source_ids": [
+          "BRV1",
+          "BRV2",
+          "BRV3",
+          "BRV4"
+        ]
+      },
+      {
+        "date": "2018",
+        "event": "Post-show founder/company-affiliated promotional material continued to say Bravo secured/got a deal with Mark Cuban and Lori Greiner, but did not provide executed closing evidence.",
+        "source_ids": [
+          "BRV5",
+          "BRV6"
+        ]
+      },
+      {
+        "date": "2021-08-02",
+        "event": "Federal trademark-derived records list first use in commerce of FAMIGO on this date by BRAVO INC.",
+        "source_ids": [
+          "BRV7"
+        ]
+      },
+      {
+        "date": "2021-09-02",
+        "event": "A company press release announced that BRAVO Pay had become FAMIGO, describing a new company name and brand.",
+        "source_ids": [
+          "BRV8"
+        ]
+      },
+      {
+        "date": "2022-01-26",
+        "event": "BRAVO INC. filed the FAMIGO federal trademark application; the mark later registered as No. 7208629.",
+        "source_ids": [
+          "BRV7"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware corporation",
+        "entity_name": "BRAVO, Inc.",
+        "entity_number": "Delaware file number unresolved",
+        "status": "Current Delaware standing unresolved; current FAMIGO terms identify BRAVO, Inc. as the operator and federal trademark records identify the same Delaware corporation",
+        "source_id": "BRV7",
+        "accessed": "2026-09-09",
+        "limitation": "No direct Delaware entity file/standing record was captured. The 2021 public rebrand changed the customer-facing name from BRAVO Pay/Bravo to FAMIGO, while current terms continue to identify BRAVO, Inc. as the legal operator; therefore the project treats this as a brand rename, not a new successor corporation."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BRAVO-STATUS",
+        "text": "Bravo announced a rebrand to FAMIGO in 2021. Current service availability and the Cuban/Greiner investment closing remain unresolved; indexed legal terms alone do not establish an operating service.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BRV8",
+          "BRV9",
+          "BRV10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BRAVO-DEV-1",
+        "text": "The Shark deal closing is genuinely conflicted. Contemporaneous founder/company-affiliated accounts describe securing or getting the deal, while later specialist follow-up sources state the investment never materialized. Without executed documents or direct investor confirmation, the project leaves closing unresolved.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRV5",
+          "BRV6",
+          "BRV11",
+          "BRV12"
+        ]
+      },
+      {
+        "id": "BRAVO-DEV-2",
+        "text": "The 2021 FAMIGO rebrand did not necessarily create a new legal entity: current terms still identify BRAVO, Inc. as the operator, and the FAMIGO trademark is owned by BRAVO INC.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRV7",
+          "BRV8",
+          "BRV9"
+        ]
+      },
+      {
+        "id": "BRAVO-DEV-3",
+        "text": "Some Shark Tank follow-up pages label the appearance with production-style/legacy episode numbering rather than the broadcast Season 9, Episode 9 numbering. Broadcast episode/date evidence is preserved separately to avoid converting metadata differences into a false multiple-appearance claim.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRV2",
+          "BRV11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BRV1",
+        "title": "Bravo — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Bravo appeared on Shark Tank."
+      },
+      {
+        "id": "BRV2",
+        "title": "Bravo — episode database",
+        "url": "https://www.tvmaze.com/episodes/1331745/shark-tank-9x09-episode-9",
+        "source_type": "episode database",
+        "published": "2017-11-05",
+        "accessed": "2026-09-09",
+        "notes": "Broadcast Season 9 Episode 9 and air date."
+      },
+      {
+        "id": "BRV3",
+        "title": "Bravo — episode database",
+        "url": "https://www.sharktankcompanies.com/seasons/9/episodes/9",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 9 Episode 9 and Bravo pitch listing."
+      },
+      {
+        "id": "BRV4",
+        "title": "Bravo — contemporaneous episode reporting",
+        "url": "https://www.business2community.com/entertainment/shark-tank-bravo-accepts-150000-offer-mark-cuban-lori-greiner-01951313",
+        "source_type": "contemporaneous episode reporting",
+        "published": "2017-11-05",
+        "accessed": "2026-09-09",
+        "notes": "Ask, counteroffers and accepted Cuban/Greiner structure."
+      },
+      {
+        "id": "BRV5",
+        "title": "Bravo — Arizona State University contemporaneous profile",
+        "url": "https://news.asu.edu/20171107-entrepreneurship-asu-alumni-bravo-shark-tank",
+        "source_type": "Arizona State University contemporaneous profile",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Founder description of accepted Cuban/Greiner opportunity and expected resources."
+      },
+      {
+        "id": "BRV6",
+        "title": "Bravo — company press release via PRWeb",
+        "url": "https://www.prweb.com/releases/bravo_tip_or_pay_announces_initial_coin_offering_after_shark_tank_deal_with_mark_cuban_and_lori_greiner/prweb15568536.htm",
+        "source_type": "company press release via PRWeb",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Company-affiliated statement describing Shark Tank deal with Cuban and Greiner."
+      },
+      {
+        "id": "BRV7",
+        "title": "Bravo — USPTO-derived trademark record",
+        "url": "https://www.trademarkia.com/famigo-97238927",
+        "source_type": "USPTO-derived trademark record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "FAMIGO registration 7208629; owner BRAVO INC., Delaware; first-use date."
+      },
+      {
+        "id": "BRV8",
+        "title": "Bravo — company press release via PRWeb",
+        "url": "https://www.prweb.com/releases/bravo_pay_rebrands_as_famigo_a_fintech_platform_for_creators_and_fans/prweb18166047.htm",
+        "source_type": "company press release via PRWeb",
+        "published": "2021-09-02",
+        "accessed": "2026-09-09",
+        "notes": "Official public rebrand from BRAVO Pay to FAMIGO."
+      },
+      {
+        "id": "BRV9",
+        "title": "Bravo — current FAMIGO legal terms",
+        "url": "https://famigo.com/terms",
+        "source_type": "current FAMIGO legal terms",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BRAVO, Inc. Delaware operator; FAMIGO/BRAVO naming and transaction terms."
+      },
+      {
+        "id": "BRV10",
+        "title": "Bravo — current company homepage access attempt",
+        "url": "https://famigo.com/",
+        "source_type": "current company homepage access attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Homepage returned 502 in research environment; not treated as closure proof."
+      },
+      {
+        "id": "BRV11",
+        "title": "Bravo — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bravo/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Pitch terms and later claim that deal did not close; also legacy episode labeling."
+      },
+      {
+        "id": "BRV12",
+        "title": "Bravo — retrospective follow-up reporting",
+        "url": "https://sharktankrecap.com/bravo-update-shark-tank-season-9/",
+        "source_type": "retrospective follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Later claim that Cuban/Greiner deal did not close."
+      },
+      {
+        "id": "BRV13",
+        "title": "Bravo — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=trybravo.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "No retrievable snapshot obtained in this environment."
+      },
+      {
+        "id": "BRV14",
+        "title": "Bravo — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=famigo.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "No retrievable snapshot obtained in this environment."
+      }
+    ],
+    "uncertainties": [
+      "Executed Mark Cuban/Lori Greiner investment or termination documents.",
+      "Direct investor confirmation that the Bravo investment closed or failed.",
+      "Current Delaware entity number and good standing for BRAVO, Inc.",
+      "Whether any material ownership/control transaction accompanied the 2021 FAMIGO rebrand.",
+      "Historical Wayback captures for the old Bravo/BRAVO Pay and current FAMIGO domains sufficient for page-by-page comparison.",
+      "Independent homepage retrieval timed out and terms retrieval reported an expired TLS certificate. These failures neither prove closure nor verify current service availability."
+    ]
+  },
+  {
+    "company": {
+      "name": "Brazi Bites",
+      "aliases": [
+        "Brazi Bites, LLC"
+      ],
+      "legal_entities": [
+        "Brazi Bites, LLC"
+      ],
+      "successor_or_acquirer": "San Francisco Equity Partners (majority stake)"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 7,
+        "episode": 9,
+        "episode_date": "2015-11-20",
+        "video_title": "Brazi Bites — ABC official appearance reference",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/544319/shark-tank-7x09-episode-9",
+        "kind": "episode",
+        "pitch": "Frozen Brazilian cheese bread.",
+        "ask": "$200,000 for 10% equity.",
+        "offer": "Daymond John offered $200,000 for 25% and later 20%; Kevin O’Leary moved from 20% to 15% and then 12.5%; Lori Greiner offered $200,000 for 25%, and after negotiation settled at $200,000 for 16.5%. Junea Rocha and Cameron MacMullin accepted Lori Greiner’s $200,000 for 16.5% offer.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2010-06-01",
+        "event": "An Oregon Secretary of State-derived company record reports Brazi Bites, LLC was formed in Oregon on this date under registry number 69123991.",
+        "source_ids": [
+          "BZB5"
+        ]
+      },
+      {
+        "date": "2011-11-21",
+        "event": "USPTO Official Gazette material identifies BRAZI BITES LLC of Portland, Oregon as the trademark applicant.",
+        "source_ids": [
+          "BZB6"
+        ]
+      },
+      {
+        "date": "2015-11-20",
+        "event": "Brazi Bites aired in broadcast Season 7, Episode 9 (production code 711). The founders accepted Lori Greiner’s $200,000 for 16.5% offer.",
+        "source_ids": [
+          "BZB1",
+          "BZB2",
+          "BZB3"
+        ]
+      },
+      {
+        "date": "2017",
+        "event": "In an Inc. founder interview, Junea Rocha said the Lori Greiner deal accepted on air fell through.",
+        "source_ids": [
+          "BZB4"
+        ]
+      },
+      {
+        "date": "2018-07",
+        "event": "San Francisco Equity Partners acquired a majority stake in Brazi Bites; contemporaneous trade reporting said the founders and team remained involved.",
+        "source_ids": [
+          "BZB7",
+          "BZB8"
+        ]
+      },
+      {
+        "date": "2019",
+        "event": "Food Dive again quoted Rocha saying the Shark Tank deal fell through, independently reinforcing the post-show deal outcome.",
+        "source_ids": [
+          "BZB9"
+        ]
+      },
+      {
+        "date": "2024",
+        "event": "A Canadian government importer listing identified BRAZI BITES, LLC in Portland, Oregon, supporting continuing legal/commercial activity.",
+        "source_ids": [
+          "BZB10"
+        ]
+      },
+      {
+        "date": "2024-12",
+        "event": "Junea Rocha publicly announced that she and Cameron MacMullin were leaving their day-to-day executive roles after 14 years; Rocha said she would remain a board member.",
+        "source_ids": [
+          "BZB11"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Brazi Bites remained commercially active through its official products/store locator, and San Francisco Equity Partners still listed Brazi Bites as a current investment.",
+        "source_ids": [
+          "BZB12",
+          "BZB13",
+          "BZB14"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Oregon LLC",
+        "entity_name": "Brazi Bites, LLC",
+        "entity_number": "Oregon registry number 69123991 reported by an Oregon SOS-derived source",
+        "status": "Reported active as of 2026-07-15 by an Oregon SOS-derived registry source; current direct Oregon registry detail not captured in this environment",
+        "source_id": "BZB5",
+        "accessed": "2026-09-09",
+        "limitation": "Primary federal/Canadian IP and trade records repeatedly identify Brazi Bites, LLC as the legal entity. Direct Oregon entity-detail output was not captured, so the registry number/current status rely on a registry-derived source pending primary confirmation."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BRAZI-BITES-STATUS",
+        "text": "Brazi Bites is operating after San Francisco Equity Partners acquired a majority stake in 2018; Lori Greiner’s on-air Shark Tank deal fell through after filming.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BZB7",
+          "BZB14"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BRAZI-BITES-DEV-1",
+        "text": "The Lori Greiner deal did not close; this is supported by direct founder statements in Inc. and Food Dive, not merely by later recap speculation.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BZB4",
+          "BZB9"
+        ]
+      },
+      {
+        "id": "BRAZI-BITES-DEV-2",
+        "text": "San Francisco Equity Partners’ 2018 majority investment is independently supported by contemporaneous trade reporting and SFEP’s current portfolio, which still labels Brazi Bites a current investment.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BZB7",
+          "BZB8",
+          "BZB14"
+        ]
+      },
+      {
+        "id": "BRAZI-BITES-DEV-3",
+        "text": "Current company-story pages emphasize the founders, products and growth but do not reproduce the failed Lori closing or the complete private-equity ownership timeline. Dated interviews and SFEP records preserve those events; without same-page archives, no claim is made that current copy was edited to remove them.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BZB4",
+          "BZB14",
+          "BZB15"
+        ]
+      },
+      {
+        "id": "BRAZI-BITES-DEV-4",
+        "text": "The founders’ 2024 departure from daily executive roles is not treated as a business closure or ownership exit because Rocha said she remained on the board and current SFEP/company sources show continued operation.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BZB11",
+          "BZB12",
+          "BZB14"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BZB1",
+        "title": "Brazi Bites — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Brazi Bites appeared on Shark Tank."
+      },
+      {
+        "id": "BZB2",
+        "title": "Brazi Bites — episode database",
+        "url": "https://www.tvmaze.com/episodes/544319/shark-tank-7x09-episode-9",
+        "source_type": "episode database",
+        "published": "2015-11-20",
+        "accessed": "2026-09-09",
+        "notes": "Broadcast Season 7 Episode 9 and air date."
+      },
+      {
+        "id": "BZB3",
+        "title": "Brazi Bites — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/brazi-bites/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Production code 711, ask, offers and accepted Lori terms."
+      },
+      {
+        "id": "BZB4",
+        "title": "Brazi Bites — reputable founder interview",
+        "url": "https://www.inc.com/leigh-buchanan/brazi-bites-shark-tank.html",
+        "source_type": "reputable founder interview",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Junea Rocha says on-air Lori deal fell through."
+      },
+      {
+        "id": "BZB5",
+        "title": "Brazi Bites — Oregon SOS-derived registry record",
+        "url": "https://b2bhint.com/en/company/us-or/brazi-bites-llc--691239-91",
+        "source_type": "Oregon SOS-derived registry record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Oregon LLC number 69123991, formation date and reported active status."
+      },
+      {
+        "id": "BZB6",
+        "title": "Brazi Bites — USPTO Official Gazette",
+        "url": "https://www.uspto.gov/web/trademarks/tmog/20121009_OG.pdf",
+        "source_type": "USPTO Official Gazette",
+        "published": "2012-10-09",
+        "accessed": "2026-09-09",
+        "notes": "BRAZI BITES LLC Portland Oregon trademark applicant."
+      },
+      {
+        "id": "BZB7",
+        "title": "Brazi Bites — contemporaneous trade reporting",
+        "url": "https://www.nosh.com/news/2018/brazi-bites-sells-majority-ownership-will-build-latin-american-platform",
+        "source_type": "contemporaneous trade reporting",
+        "published": "2018-07-31",
+        "accessed": "2026-09-09",
+        "notes": "SFEP majority acquisition; founders/team remain."
+      },
+      {
+        "id": "BZB8",
+        "title": "Brazi Bites — contemporaneous trade reporting",
+        "url": "https://www.bakingbusiness.com/articles/46622-san-francisco-equity-partners-acquires-brazi-bites",
+        "source_type": "contemporaneous trade reporting",
+        "published": "2018-08-01",
+        "accessed": "2026-09-09",
+        "notes": "Majority-stake acquisition corroboration."
+      },
+      {
+        "id": "BZB9",
+        "title": "Brazi Bites — reputable founder interview",
+        "url": "https://www.fooddive.com/news/brazi-bites-shark-tank-frozen-foods-growth/558820/",
+        "source_type": "reputable founder interview",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Rocha says Shark Tank deal fell through."
+      },
+      {
+        "id": "BZB10",
+        "title": "Brazi Bites — Canadian government trade record",
+        "url": "https://inspection.canada.ca/en/importing-food-plants-animals/food-imports/list-licensed-food-importers",
+        "source_type": "Canadian government trade record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BRAZI BITES, LLC Portland Oregon commercial identity."
+      },
+      {
+        "id": "BZB11",
+        "title": "Brazi Bites — founder first-person post",
+        "url": "https://www.linkedin.com/posts/junearocha_brazi-bites-founder-transition-activity-7274847275934306304",
+        "source_type": "founder first-person post",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Founders leaving daily roles; Rocha remains board member."
+      },
+      {
+        "id": "BZB12",
+        "title": "Brazi Bites — official ecommerce site",
+        "url": "https://brazibites.com/",
+        "source_type": "official ecommerce site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current product operation."
+      },
+      {
+        "id": "BZB13",
+        "title": "Brazi Bites — official store locator",
+        "url": "https://brazibites.com/pages/where-to-buy",
+        "source_type": "official store locator",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current retail availability."
+      },
+      {
+        "id": "BZB14",
+        "title": "Brazi Bites — San Francisco Equity Partners official portfolio",
+        "url": "https://www.sfequitypartners.com/",
+        "source_type": "San Francisco Equity Partners official portfolio",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Brazi Bites listed as current investment; current management/ownership context."
+      },
+      {
+        "id": "BZB15",
+        "title": "Brazi Bites — official company history",
+        "url": "https://brazibites.com/pages/our-story",
+        "source_type": "official company history",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current founder/brand narrative."
+      },
+      {
+        "id": "BZB16",
+        "title": "Brazi Bites — Wayback CDX archive attempt",
+        "url": "https://web.archive.org/cdx/search/cdx?url=brazibites.com/*&output=json&filter=statuscode:200",
+        "source_type": "Wayback CDX archive attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "No retrievable same-page archive result obtained in this environment."
+      }
+    ],
+    "uncertainties": [
+      "Exact purchase price, percentage and transaction documents for San Francisco Equity Partners’ 2018 majority acquisition.",
+      "Current direct Oregon Secretary of State standing and filing history for Brazi Bites, LLC.",
+      "Any later ownership dilution, recapitalization or additional controlling investor after the 2018 SFEP transaction.",
+      "Executed Lori Greiner diligence/termination documents.",
+      "Historical Wayback captures sufficient for exact current-versus-historical company-page comparison."
+    ]
+  }
+]
