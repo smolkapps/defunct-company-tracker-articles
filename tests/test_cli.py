@@ -36,6 +36,10 @@ class TestDemoCommand:
             "actionglow",
             "afresheet",
             "1920-convertible-jackets",
+            "american-ghost-walks",
+            "anytongs",
+            "au-baby",
+            "bam-buckwheat-milk",
         ):
             assert os.path.exists(os.path.join(out_dir, "companies", f"{slug}.html"))
         index = open(os.path.join(out_dir, "index.html"), encoding="utf-8").read()

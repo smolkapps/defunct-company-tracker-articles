@@ -1,0 +1,262 @@
+[
+  {
+    "company": {
+      "name": "American Ghost Walks",
+      "aliases": ["Madison Ghost Walks", "American Hauntings", "Huberty LLC"],
+      "legal_entities": ["Huberty, LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 5,
+        "episode_date": null,
+        "video_title": "Shark Tank US | Can Ghosts (And American Ghost Walks) Make The Sharks Rich?",
+        "video_url": "https://www.youtube.com/watch?v=7OK-5kbWJ9I",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "A multi-location ghost-tour and haunted-history business",
+        "ask": null,
+        "offer": null,
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {"date": "2010-01-01", "event": "The company says Mike Huberty founded Madison Ghost Walks in 2010; the exact founding day is not specified.", "source_ids": ["S-AGW-CURRENT-ABOUT"]},
+      {"date": "2021-01-21", "event": "Wisconsin records show Huberty, LLC organized with the former name American Hauntings, LLC.", "source_ids": ["S-AGW-WI-REG"]},
+      {"date": "2023-10-25", "event": "The company's dated Shark Tank announcement described 25 locations across seven states and Puerto Rico and identified Mike Huberty as owner.", "source_ids": ["S-AGW-2023-ARTICLE"]},
+      {"date": "2026-01-15", "event": "Wisconsin records show Huberty, LLC restored to good standing after a January 2026 delinquency event; the record also shows a prior 2024 delinquency/restoration cycle.", "source_ids": ["S-AGW-WI-REG"]},
+      {"date": "2026-09-09", "event": "The current site offers bookable tours across 10+ destinations and identifies the business in site copy as Huberty LLC DBA American Ghost Walks.", "source_ids": ["S-AGW-CURRENT-HOME", "S-AGW-CURRENT-LEGAL"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Wisconsin",
+        "entity_name": "HUBERTY, LLC",
+        "entity_number": "A095847",
+        "status": "Restored to Good Standing",
+        "events": ["Former name American Hauntings, LLC", "Delinquent 2024-01-01", "Restored 2024-02-25", "Delinquent 2026-01-01", "Restored 2026-01-15"],
+        "source_id": "S-AGW-WI-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The state record establishes entity status and name history, but it does not by itself prove that every tour marketed under the American Ghost Walks brand is contracted by this entity."
+      }
+    ],
+    "claims": [
+      {"id": "AGW-001", "text": "American Ghost Walks is operating as a current tour business, not merely a historical Shark Tank brand.", "evidence_level": "verified_fact", "source_ids": ["S-AGW-CURRENT-HOME", "S-AGW-CURRENT-ABOUT"]},
+      {"id": "AGW-002", "text": "The Wisconsin legal entity behind the current site is Huberty, LLC, formerly American Hauntings, LLC, and the state currently lists it as restored to good standing.", "evidence_level": "verified_fact", "source_ids": ["S-AGW-WI-REG", "S-AGW-CURRENT-LEGAL"]},
+      {"id": "AGW-003", "text": "The company's footprint claims changed between its 2023 Shark Tank announcement and its current site; the tracker preserves both dates rather than treating the numbers as timeless facts.", "evidence_level": "verified_fact", "source_ids": ["S-AGW-2023-ARTICLE", "S-AGW-CURRENT-HOME"]},
+      {"id": "AGW-004", "text": "Whether a Shark Tank deal was finalized after filming is unresolved in this record.", "evidence_level": "unresolved", "source_ids": ["S-AGW-VIDEO"]}
+    ],
+    "sources": [
+      {"id": "S-AGW-CURRENT-HOME", "title": "American Ghost Walks — current homepage", "url": "https://americanghostwalks.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current tours, destinations, booking and guest-count claims."},
+      {"id": "S-AGW-CURRENT-ABOUT", "title": "About American Ghost Walks", "url": "https://www.americanghostwalks.com/about-us", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current founder and expansion history."},
+      {"id": "S-AGW-CURRENT-LEGAL", "title": "American Ghost Walks — current legal footer example", "url": "https://americanghostwalks.com/lahaina", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current page footer identifies Huberty LLC DBA American Ghost Walks."},
+      {"id": "S-AGW-WI-REG", "title": "Wisconsin corporate record — Huberty, LLC (A095847)", "url": "https://apps.dfi.wi.gov/apps/corpar/entityDetails.aspx?id=A095847", "source_type": "state registry", "published": null, "accessed": "2026-09-09", "notes": "Official Wisconsin record with current status, former name and chronology."},
+      {"id": "S-AGW-2023-ARTICLE", "title": "American Ghost Walks Appears on ABC's Shark Tank", "url": "https://www.americanghostwalks.com/articles/american-ghost-walks-shark-tank", "source_type": "dated official company article", "published": "2023-10-25", "accessed": "2026-09-09", "notes": "Contemporaneous company account used to detect changes in footprint claims."},
+      {"id": "S-AGW-VIDEO", "title": "American Ghost Walks Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=7OK-5kbWJ9I", "source_type": "official video", "published": null, "accessed": "2026-09-09", "notes": "SPTV corpus provenance for S15E5."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so this batch uses dated official company material and registry chronology rather than claiming a complete archived-page diff.",
+      "Post-show deal closing was not independently established from a primary closing document."
+    ]
+  },
+  {
+    "company": {
+      "name": "AnyTongs",
+      "aliases": ["Anytongs", "Anytongs, LLC"],
+      "legal_entities": ["Anytongs LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 13,
+        "episode_date": null,
+        "video_title": "Shark Tank US | Entrepreneur Designs AnyTongs To Make Cooking Easier",
+        "video_url": "https://www.youtube.com/watch?v=sfAR8XzHonk",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "A device that turns ordinary eating utensils into tongs",
+        "ask": "$150,000 for 20%",
+        "offer": "$150,000 for 49% from Daymond John, as reported by secondary coverage",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {"date": "2020-10-19", "event": "The trademark application reproduced in the research record claims first use in commerce for Anytongs by this date.", "source_ids": ["S-ANY-TM"]},
+      {"date": "2023-09-09", "event": "Sony Pictures Television published the official Season 14, Episode 13 AnyTongs clip.", "source_ids": ["S-ANY-VIDEO"]},
+      {"date": "2024-09-26", "event": "A federal patent application lists Tsogyel Samphel as inventor and Anytongs LLC as current and original assignee.", "source_ids": ["S-ANY-PATENT"]},
+      {"date": "2026-09-09", "event": "The official storefront, contact page and returns infrastructure remain live; the six-pack product page is currently marked sold out.", "source_ids": ["S-ANY-CURRENT-PRODUCT", "S-ANY-CURRENT-CONTACT", "S-ANY-CURRENT-RETURNS"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware",
+        "entity_name": "Anytongs LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-ANY-DE-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The Delaware search portal was identified, but an exact entity record was not retrieved in this pass; the federal patent and trademark records are not substitutes for a state certificate of status."
+      }
+    ],
+    "claims": [
+      {"id": "ANY-001", "text": "AnyTongs remains an operating product brand with a live storefront and support/returns channels, although at least one current product listing is sold out.", "evidence_level": "strong_corroboration", "source_ids": ["S-ANY-CURRENT-PRODUCT", "S-ANY-CURRENT-CONTACT", "S-ANY-CURRENT-RETURNS"]},
+      {"id": "ANY-002", "text": "Anytongs LLC is the assignee named in a federal patent application for modular grasping tongs.", "evidence_level": "verified_fact", "source_ids": ["S-ANY-PATENT"]},
+      {"id": "ANY-003", "text": "The televised Daymond John deal is unresolved: Shark Tank Blog reported no evidence it closed, while Food Republic later reported that it did.", "evidence_level": "credible_report", "source_ids": ["S-ANY-BLOG", "S-ANY-FOOD-REPUBLIC"]},
+      {"id": "ANY-004", "text": "A live storefront must not be treated as proof that the Shark Tank investment closed.", "evidence_level": "verified_fact", "source_ids": ["S-ANY-CURRENT-PRODUCT", "S-ANY-BLOG", "S-ANY-FOOD-REPUBLIC"]}
+    ],
+    "sources": [
+      {"id": "S-ANY-CURRENT-PRODUCT", "title": "AnyTongs — current six-pack product page", "url": "https://anytongs.com/products/anytongs-six-pack-6-pack", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current product description, reviews, sold-out state and fulfillment language."},
+      {"id": "S-ANY-CURRENT-CONTACT", "title": "AnyTongs — contact page", "url": "https://anytongs.com/pages/contact", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current support and wholesale contact channels."},
+      {"id": "S-ANY-CURRENT-RETURNS", "title": "AnyTongs — returns page", "url": "https://anytongs.com/pages/returns", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current returns process and support address."},
+      {"id": "S-ANY-PATENT", "title": "Modular grasping tongs — US20240316730A1", "url": "https://patents.google.com/patent/US20240316730A1/en", "source_type": "federal patent record", "published": "2024-09-26", "accessed": "2026-09-09", "notes": "Federal record lists Anytongs LLC as assignee; Google warns legal-status labels are not legal conclusions."},
+      {"id": "S-ANY-TM", "title": "Anytongs trademark application — serial 97122837", "url": "https://uspto.report/TM/97122837/APP20211116104330", "source_type": "federal trademark filing mirror", "published": "2021-11-12", "accessed": "2026-09-09", "notes": "Reproduces applicant Anytongs, LLC, Delaware organization and claimed first-use dates; direct TSDR verification remains desirable."},
+      {"id": "S-ANY-VIDEO", "title": "AnyTongs Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=sfAR8XzHonk", "source_type": "official video", "published": "2023-09-09", "accessed": "2026-09-09", "notes": "SPTV provenance for S14E13."},
+      {"id": "S-ANY-DE-REG", "title": "Delaware entity search portal", "url": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx/NameSearch.aspx", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Portal identified; exact record retrieval was blocked by the portal's interactive challenge in this pass."},
+      {"id": "S-ANY-BLOG", "title": "AnyTongs Shark Tank update — Shark Tank Blog", "url": "https://www.sharktankblog.com/business/anytongs/", "source_type": "secondary follow-up", "published": "2024-04", "accessed": "2026-09-09", "notes": "Reports no evidence that the Daymond John deal closed as of its update."},
+      {"id": "S-ANY-FOOD-REPUBLIC", "title": "AnyTongs — Food Republic follow-up", "url": "https://www.foodrepublic.com/1991462/anytongs-shark-tank-now/", "source_type": "secondary follow-up", "published": "2025", "accessed": "2026-09-09", "notes": "Later report says the deal closed; retained as conflicting coverage, not primary proof."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The Delaware entity's current standing and the post-show investment closing remain unresolved.",
+      "The current six-pack being sold out does not establish that the company is closed."
+    ]
+  },
+  {
+    "company": {
+      "name": "AU Baby",
+      "aliases": ["Au Baby", "AU Baby Blankets"],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 13,
+        "episode_date": null,
+        "video_title": "Shark Tank US | Au Baby's Entrepreneur Wins Her Battle With Mr. Wonderful",
+        "video_url": "https://www.youtube.com/watch?v=cRGqq3V2brM",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Plant-dyed merino and cashmere baby blankets",
+        "ask": "$80,000 for 25%",
+        "offer": "Kevin O'Leary on-air offer, reported as $80,000 for 30% or 35% in different follow-ups",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {"date": "2019-01-01", "event": "The founder's dated account says she launched AU Baby in 2019; the exact founding day is not specified.", "source_ids": ["S-AUB-2024-FOUNDER"]},
+      {"date": "2021-01-31", "event": "The company announced a move to an exclusively online direct-to-consumer sales model after its first full year.", "source_ids": ["S-AUB-2021-DTC"]},
+      {"date": "2024-05-20", "event": "The founder published a behind-the-scenes account of the Season 15 Shark Tank process while describing the business as a direct-to-consumer e-commerce company.", "source_ids": ["S-AUB-2024-FOUNDER"]},
+      {"date": "2026-05-05", "event": "The founder's post says AU Baby is still in business, doubled lifetime sales in one post-airing month, expanded its products and moved to a fulfillment center.", "source_ids": ["S-AUB-2026-UPDATE"]},
+      {"date": "2026-09-09", "event": "The current storefront offers baby and adult categories, checkout and customer-care channels.", "source_ids": ["S-AUB-CURRENT"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Oregon / Delaware unknown",
+        "entity_name": null,
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-AUB-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The public brand and founder are identified, but an exact operating legal entity and state filing were not retrieved in this pass."
+      }
+    ],
+    "claims": [
+      {"id": "AUB-001", "text": "AU Baby is operating as a current online product business.", "evidence_level": "strong_corroboration", "source_ids": ["S-AUB-CURRENT", "S-AUB-2026-UPDATE"]},
+      {"id": "AUB-002", "text": "The brand's founder describes a continuous post-Tank operating history, including product expansion, a fulfillment center and additional staff; these are company-reported claims and are separated from independent registry findings.", "evidence_level": "credible_report", "source_ids": ["S-AUB-2026-UPDATE"]},
+      {"id": "AUB-003", "text": "The reported Kevin O'Leary agreement is not verified as a completed investment: the founder says she left with a deal, while independent follow-up says the investment was not confirmed finalized.", "evidence_level": "credible_report", "source_ids": ["S-AUB-2026-UPDATE", "S-AUB-INDEPENDENT"]},
+      {"id": "AUB-004", "text": "The brand has a dated pre-Tank history going back to a 2019 launch and a 2021 direct-to-consumer transition.", "evidence_level": "verified_fact", "source_ids": ["S-AUB-2021-DTC", "S-AUB-2024-FOUNDER"]}
+    ],
+    "sources": [
+      {"id": "S-AUB-CURRENT", "title": "AU Baby — current Our Story page", "url": "https://www.aubabyshop.com/pages/our-story", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current product navigation, checkout, customer care, founder and copyright."},
+      {"id": "S-AUB-2026-UPDATE", "title": "Life After Shark Tank: The AU Baby Update", "url": "https://www.aubabyshop.com/blogs/new-journal/au-baby-shark-tank-update", "source_type": "dated official company article", "published": "2026-05-05", "accessed": "2026-09-09", "notes": "Founder-authored current update; company-reported claims are labeled as such."},
+      {"id": "S-AUB-2024-FOUNDER", "title": "My Journey to Shark Tank — AU Baby", "url": "https://www.aubabyshop.com/blogs/new-journal/au-baby-founder-shark-tank-journey", "source_type": "dated official company article", "published": "2024-05-20", "accessed": "2026-09-09", "notes": "Founder account says AU Baby was built as a DTC business since 2019."},
+      {"id": "S-AUB-2021-DTC", "title": "AU Baby Goes Direct-To-Consumer", "url": "https://www.aubabyshop.com/blogs/journal/au-baby-goes-direct-to-consumer", "source_type": "dated official company article", "published": "2021-01-31", "accessed": "2026-09-09", "notes": "Older company account of the sales-model change."},
+      {"id": "S-AUB-VIDEO", "title": "AU Baby Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=cRGqq3V2brM", "source_type": "official video", "published": null, "accessed": "2026-09-09", "notes": "SPTV provenance for S15E13."},
+      {"id": "S-AUB-INDEPENDENT", "title": "AU Baby update — Shark Tank Recap", "url": "https://sharktankrecap.com/au-baby-blankets-update-shark-tank-season-15/", "source_type": "secondary follow-up", "published": "2025-07-27", "accessed": "2026-09-09", "notes": "Reports that the on-air deal had not been confirmed finalized."},
+      {"id": "S-AUB-REG", "title": "Oregon business registry search portal", "url": "https://sos.oregon.gov/business/Pages/find.aspx", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Portal identified; exact legal entity record was not retrieved in this pass."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The exact operating legal entity and registry standing remain unresolved.",
+      "Post-show deal closing remains unresolved and should not be described as a completed Kevin O'Leary investment."
+    ]
+  },
+  {
+    "company": {
+      "name": "BAM Buckwheat Milk",
+      "aliases": ["BAM", "Because Agriculture Matters", "Trusted Foods LLC", "BAM the Brand Inc"],
+      "legal_entities": ["Trusted Foods LLC", "BAM the Brand Inc"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 16,
+        "episode": 14,
+        "episode_date": null,
+        "video_title": "Shark Tank US | Kevin O'Leary's Bad Reaction To BAM Buckwheat Milk",
+        "video_url": "https://www.youtube.com/watch?v=lcs-zR4q-HM",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Plant-based milk made from buckwheat",
+        "ask": "$250,000 for 10%",
+        "offer": null,
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {"date": "2021-12-09", "event": "The federal BAM trademark application identifies Trusted Foods LLC, a Delaware LLC, as applicant for plant-based milk and related goods.", "source_ids": ["S-BAM-TM"]},
+      {"date": "2023-01-01", "event": "A dated official BAM article says retail sales temporarily paused while the company addressed manufacturing and formulation problems and prepared a relaunch; the exact publication date is not exposed in the fetched page.", "source_ids": ["S-BAM-PAUSE"]},
+      {"date": "2024-04-01", "event": "The official press release says BAM debuted in select Southern California Whole Foods stores and names Trusted Foods LLC as maker.", "source_ids": ["S-BAM-WHOLE-FOODS"]},
+      {"date": "2025-03-21", "event": "BAM appeared in the Season 16, Episode 14 Shark Tank corpus as a no-deal pitch.", "source_ids": ["S-BAM-VIDEO"]},
+      {"date": "2026-09-09", "event": "The current official site continues to present BAM and its buckwheat-milk mission, while a current official article footer identifies BAM the Brand Inc.", "source_ids": ["S-BAM-CURRENT", "S-BAM-PAUSE"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware",
+        "entity_name": "Trusted Foods LLC",
+        "entity_number": null,
+        "status": "not directly verified",
+        "events": ["Federal trademark application identifies the applicant as a Delaware LLC"],
+        "source_id": "S-BAM-TM",
+        "accessed": "2026-09-09",
+        "limitation": "The Delaware entity-search portal was not completed in this pass, and the BAM the Brand Inc name in the current official article footer has not yet been reconciled to Trusted Foods LLC through a state filing."
+      }
+    ],
+    "claims": [
+      {"id": "BAM-001", "text": "BAM remains an operating brand with a current official site and a documented retail/relaunch history.", "evidence_level": "strong_corroboration", "source_ids": ["S-BAM-CURRENT", "S-BAM-PAUSE", "S-BAM-WHOLE-FOODS"]},
+      {"id": "BAM-002", "text": "Trusted Foods LLC is identified in a federal trademark filing and the 2024 official press release as the maker of BAM.", "evidence_level": "verified_fact", "source_ids": ["S-BAM-TM", "S-BAM-WHOLE-FOODS"]},
+      {"id": "BAM-003", "text": "BAM's public legal-name trail contains an unresolved conflict: the 2024 maker statement says Trusted Foods LLC, while the official pause/relaunch page footer says BAM the Brand Inc.", "evidence_level": "verified_fact", "source_ids": ["S-BAM-WHOLE-FOODS", "S-BAM-PAUSE"]},
+      {"id": "BAM-004", "text": "The company temporarily paused retail sales for manufacturing and formulation work before describing a relaunch; that pause is not evidence of dissolution.", "evidence_level": "verified_fact", "source_ids": ["S-BAM-PAUSE"]},
+      {"id": "BAM-005", "text": "The Season 16 pitch is recorded as no deal in the research ledger; no post-show investment closing is claimed.", "evidence_level": "strong_corroboration", "source_ids": ["S-BAM-VIDEO"]}
+    ],
+    "sources": [
+      {"id": "S-BAM-CURRENT", "title": "BAM — current homepage", "url": "https://bamisbetter.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current brand, product and agriculture mission."},
+      {"id": "S-BAM-FAQ", "title": "BAM FAQ", "url": "https://bamisbetter.com/faq/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current product and 2023 launch details."},
+      {"id": "S-BAM-PAUSE", "title": "What We Learned (and Improved) While BAM Was Off Shelves", "url": "https://bamisbetter.com/article/?id=99ae18af-24b2-44f0-bc59-25c346578d74", "source_type": "dated official company article", "published": null, "accessed": "2026-09-09", "notes": "The fetched page exposes the pause/relaunch narrative but not a reliable publication date; it also exposes the BAM the Brand Inc footer."},
+      {"id": "S-BAM-WHOLE-FOODS", "title": "BAM Buckwheat Milk Makes Debut at Whole Foods Market", "url": "https://bamisbetter.com/article/?id=43a3f068-89a3-404a-a1ca-3a72a825d509", "source_type": "dated official company press release", "published": "2024-04-01", "accessed": "2026-09-09", "notes": "Names Trusted Foods LLC as maker and describes Whole Foods distribution."},
+      {"id": "S-BAM-SHARK-TANK", "title": "BAM Shark Tank page", "url": "https://bamisbetter.com/shark-tank/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Official pitch and mission page."},
+      {"id": "S-BAM-VIDEO", "title": "BAM Buckwheat Milk Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=lcs-zR4q-HM", "source_type": "official video", "published": null, "accessed": "2026-09-09", "notes": "SPTV provenance for S16E14."},
+      {"id": "S-BAM-TM", "title": "BAM trademark application — Trusted Foods LLC", "url": "https://uspto.report/TM/97163867/APP20211213082309/", "source_type": "federal trademark filing mirror", "published": "2021-12-09", "accessed": "2026-09-09", "notes": "Reproduces the USPTO applicant identity and Delaware organization; direct state standing still pending."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The relationship between Trusted Foods LLC and BAM the Brand Inc remains unresolved and is a priority for the next registry pass.",
+      "The current retail distribution footprint and any post-show deal are not established by the current homepage alone."
+    ]
+  }
+]

@@ -20,6 +20,10 @@
     { "name": "ActionGlow", "aliases": ["Action Glow", "45th Parallel Lighting, LLC"], "domain": "actionglow.com" },
     { "name": "AfreSheet", "aliases": ["AFreSHeet", "PeelAways", "Peel Away Labs"], "domain": "peelaways.com" },
     { "name": "1920 Convertible Jackets", "aliases": ["1920", "NineteenTwenty"], "domain": "heynineteentwenty.com" },
+    { "name": "American Ghost Walks", "aliases": ["Madison Ghost Walks", "American Hauntings", "Huberty LLC"], "domain": "americanghostwalks.com" },
+    { "name": "AnyTongs", "aliases": ["Anytongs", "Anytongs, LLC"], "domain": "anytongs.com" },
+    { "name": "AU Baby", "aliases": ["Au Baby", "AU Baby Blankets"], "domain": "aubabyshop.com", "founded": 2019 },
+    { "name": "BAM Buckwheat Milk", "aliases": ["BAM", "Because Agriculture Matters", "Trusted Foods LLC", "BAM the Brand Inc"], "domain": "bamisbetter.com", "founded": 2023 },
     { "name": "ALL33", "aliases": ["all33", "Simtec LLC", "ALL33 LLC"], "domain": "all33.com", "notes": "current-status and registry research intentionally unresolved pending primary-record reconciliation" }
   ]
 }

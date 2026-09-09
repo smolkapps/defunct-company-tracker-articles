@@ -3,6 +3,13 @@ from pathlib import Path
 
 
 DATA = Path(__file__).parents[1] / "src" / "dct" / "data" / "research_batch_2026-09-09.json"
+QUEUE_DATA = (
+    Path(__file__).parents[1]
+    / "src"
+    / "dct"
+    / "data"
+    / "research_batch_2026-09-09_queue-2.json"
+)
 
 
 def test_research_batch_keeps_claims_source_complete_and_uncertainty_explicit():
@@ -36,3 +43,34 @@ def test_research_batch_keeps_claims_source_complete_and_uncertainty_explicit():
     # being promoted to active or defunct by a current profile alone.
     assert by_name["ALL33"]["status"] == "unresolved"
     assert by_name["ALL33"]["uncertainties"]
+
+
+def test_followup_batch_preserves_registry_conflicts_and_deal_uncertainties():
+    records = json.loads(QUEUE_DATA.read_text(encoding="utf-8"))
+    assert {record["company"]["name"] for record in records} == {
+        "American Ghost Walks",
+        "AnyTongs",
+        "AU Baby",
+        "BAM Buckwheat Milk",
+    }
+
+    for record in records:
+        source_ids = {source["id"] for source in record["sources"]}
+        referenced = {
+            source_id
+            for claim in record["claims"]
+            for source_id in claim["source_ids"]
+        }
+        referenced.update(
+            source_id
+            for event in record["timeline"]
+            for source_id in event["source_ids"]
+        )
+        assert referenced <= source_ids
+
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["American Ghost Walks"]["registry_records"][0]["entity_number"] == "A095847"
+    assert by_name["AnyTongs"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["AU Baby"]["episode_appearances"][0]["deal_closed"] is None
+    assert "BAM the Brand Inc" in by_name["BAM Buckwheat Milk"]["company"]["legal_entities"]
+    assert by_name["BAM Buckwheat Milk"]["uncertainties"]
