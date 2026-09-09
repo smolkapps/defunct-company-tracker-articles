@@ -1,0 +1,1980 @@
+[
+  {
+    "company": {
+      "name": "LARQ",
+      "aliases": [],
+      "legal_entities": [
+        "LARQ Inc."
+      ],
+      "successor_or_acquirer": "BRITA SE"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 21,
+        "episode_date": "2021-04-16",
+        "video_title": "LARQ Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=SjZ63w38HOs",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Agreement reported by dated Forbes interview; conflicting later secondary terms are quarantined.",
+        "ask": "Reported: $500,000 for 1% (one percent).",
+        "offer": "Reported final on-air agreement: $1,000,000 for 4% (four percent), Lori Greiner and Kevin O’Leary; complete broadcast verification pending.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2021-04-16",
+        "event": "ABC identifies LARQ among the episode’s four pitches.",
+        "source_ids": [
+          "B02-ABC-S12E21"
+        ]
+      },
+      {
+        "date": "2021-11-15",
+        "event": "A dated founder interview reports the ask and on-air agreement; the page was later updated.",
+        "source_ids": [
+          "B02-LARQ-FORBES"
+        ]
+      },
+      {
+        "date": "2024-02-08",
+        "event": "BRITA SE Germany announces its acquisition, retaining the LARQ brand and independent legal entity.",
+        "source_ids": [
+          "B02-LARQ-ACQ"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "A current catalog is observable; no test order or fulfillment audit was performed.",
+        "source_ids": [
+          "B02-LARQ-NOW",
+          "B02-LARQ-TERMS"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California headquarters reported; incorporation jurisdiction not established",
+        "entity_name": "LARQ Inc.",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-CA-REG",
+        "accessed": "2026-09-09",
+        "limitation": "Acquirer identifies LARQ Inc.; California returned HTTP 403, Delaware supplied no matched result."
+      }
+    ],
+    "claims": [
+      {
+        "id": "LARQ-STATUS",
+        "text": "LARQ remains an operating hydration brand after BRITA SE acquired LARQ Inc. in February 2024. BRITA said LARQ would remain an independent legal entity and retain its brand.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-LARQ-ACQ",
+          "B02-LARQ-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "LARQ-DEV-1",
+        "text": "The reported failure to close is a later specialist report, not a retrieved signed investment record.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "B02-LARQ-BLOG"
+        ],
+        "published": null
+      },
+      {
+        "id": "LARQ-DEV-2",
+        "text": "Another article by that publisher describes materially different pitch terms; this conflict is retained rather than reconciled by assumption.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-LARQ-BLOG",
+          "B02-LARQ-BLOG2"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-ABC-S12E21",
+        "title": "ABC businesses and products, season 12 episode 21",
+        "url": "https://abc.com/news/1eaf8389-a02b-428c-b34a-b776724a4630/category/2887649",
+        "source_type": "official broadcaster episode roster",
+        "published": "2021-04-16",
+        "accessed": "2026-09-09",
+        "notes": "Named pitch roster; company marketing claims are not independently verified. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-ACQ",
+        "title": "BRITA SE acquires LARQ Inc.",
+        "url": "https://www.prnewswire.com/news-releases/brita-se-germany-acquires-innovative-hydration-company-larq-inc-302056727.html",
+        "source_type": "acquirer-issued press release",
+        "published": "2024-02-08",
+        "accessed": "2026-09-09",
+        "notes": "BRITA SE Germany acquisition; LARQ brand and independent legal entity retained; California headquarters. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-NOW",
+        "title": "LARQ current catalog",
+        "url": "https://www.livelarq.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current product catalog, not proof of order fulfillment. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-TERMS",
+        "title": "LARQ terms and conditions",
+        "url": "https://www.livelarq.com/terms-and-conditions",
+        "source_type": "company legal page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "LARQ described as a BRITA SE company; update date. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-FORBES",
+        "title": "LARQ founder interview and pitch report",
+        "url": "https://www.forbes.com/sites/tanyaklich/2021/11/15/larq-pitcher-water-bottle-shark-tank/",
+        "source_type": "dated business reporting",
+        "published": "2021-11-15",
+        "accessed": "2026-09-09",
+        "notes": "Ask and reported on-air agreement; wording does not establish executed closing. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-BLOG",
+        "title": "LARQ Shark Tank update",
+        "url": "https://www.sharktankblog.com/business/larq/",
+        "source_type": "retrospective specialist reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Reported failure to close; not executed investment evidence. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-LARQ-BLOG2",
+        "title": "Shark Tank biggest valuation story",
+        "url": "https://www.sharktankblog.com/shark-tank-biggest-valuation-story/",
+        "source_type": "retrospective specialist reporting",
+        "published": "2026-04-13",
+        "accessed": "2026-09-09",
+        "notes": "Conflicting pitch terms relative to the same publisher’s LARQ page. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-CA-REG",
+        "title": "California business search",
+        "url": "https://bizfileonline.sos.ca.gov/search/business",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Access trail, not an entity match. HTTP 403; registry query could not be submitted historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-DE-REG",
+        "title": "Delaware entity name search",
+        "url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Portal accessible; no completed exact-name result; name search is not standing certification. HTML form retrieved; interactive submission unavailable/error text; no matched entity historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Signed Shark investment documents and complete broadcast/transcript review.",
+      "Current state entity number, incorporation jurisdiction, standing and ownership register.",
+      "Archived versions of the Forbes article, company history and video description; no proof of a particular retrospective edit."
+    ]
+  },
+  {
+    "company": {
+      "name": "Cycloramic / Car360",
+      "aliases": [
+        "Cycloramic",
+        "Car360",
+        "Egos Ventures"
+      ],
+      "legal_entities": [
+        "Car360, Inc."
+      ],
+      "successor_or_acquirer": "Carvana Group, LLC"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 5,
+        "episode": null,
+        "episode_date": null,
+        "video_title": "Cycloramic / Car360 Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=iV8UkuD4gig",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Not verified in this batch. An on-air agreement is not proof of closing.",
+        "ask": "Not verified from a complete primary pitch record in this batch.",
+        "offer": "Not verified from a complete primary pitch record in this batch.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2018-04-12",
+        "event": "Carvana Group LLC acquires all Car360 stock.",
+        "source_ids": [
+          "B02-CAR360-8K"
+        ]
+      },
+      {
+        "date": "2018-04-17",
+        "event": "Acquirer announcement identifies Cycloramic as an earlier iteration of Car360.",
+        "source_ids": [
+          "B02-CAR360-PRESS"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware, identified in SEC filing",
+        "entity_name": "Car360 Inc. (acquired entity)",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-DE-REG",
+        "accessed": "2026-09-09",
+        "limitation": "SEC transaction report identifies Car360 as Delaware corporation; no state file number or current standing retrieved."
+      }
+    ],
+    "claims": [
+      {
+        "id": "CYCLORAMIC-CAR360-STATUS",
+        "text": "Cycloramic became Car360, and Carvana Group acquired all outstanding Car360 stock in April 2018. Carvana disclosed the completed transaction in an SEC filing.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-CAR360-8K",
+          "B02-CAR360-PRESS"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "CYCLORAMIC-CAR360-DEV-1",
+        "text": "The transaction-era calculation combines approximately $6.7 million cash with units valued around $15.2 million under the agreement’s measurement; the later note reports $16.7 million net of acquired cash. These are different measurement/definition presentations, not interchangeable prices.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-CAR360-8K",
+          "B02-CAR360-NOTE"
+        ],
+        "published": null
+      },
+      {
+        "id": "CYCLORAMIC-CAR360-DEV-2",
+        "text": "The acquirer release references Shark Tank in 2013, while inherited video metadata labels season five, episode sixteen; filming versus broadcast timing is not resolved here.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-CAR360-PRESS"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-CAR360-8K",
+        "title": "Carvana report of Car360 acquisition",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082018000013/a8-kcar360.htm",
+        "source_type": "SEC filed transaction report",
+        "published": "2018-04-17",
+        "accessed": "2026-09-09",
+        "notes": "Acquired all Car360 stock on April 12; Delaware identity and consideration measurement. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-CAR360-PRESS",
+        "title": "Carvana acquires Car360",
+        "url": "https://investors.carvana.com/news-releases/2018/04-17-2018-110022377",
+        "source_type": "acquirer press release",
+        "published": "2018-04-17",
+        "accessed": "2026-09-09",
+        "notes": "Cycloramic as early iteration; Car360 acquisition and Cuban backing. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-CAR360-NOTE",
+        "title": "Carvana business combinations note",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082019000193/R12.htm",
+        "source_type": "SEC financial statement note",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Later accounting measurement of Car360 consideration; period is 2019 second quarter. content or indexed primary text retrieved Exact filing date not captured; publication precision is year, not an invented day. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-DE-REG",
+        "title": "Delaware entity name search",
+        "url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Portal accessible; no completed exact-name result; name search is not standing certification. HTML form retrieved; interactive submission unavailable/error text; no matched entity historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Standalone app availability and support in the current period.",
+      "Delaware file number, current subsidiary standing and any post-acquisition merger.",
+      "Exact original broadcast date and agreement-to-funding distinction for the Shark deal.",
+      "Imprecise timeline dates from the source bundle were not converted into exact dates."
+    ]
+  },
+  {
+    "company": {
+      "name": "Breathometer",
+      "aliases": [
+        "Breathometer, Inc."
+      ],
+      "legal_entities": [
+        "Breathometer, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2016-10-06",
+        "event": "FTC complaint alleges that BAC measurement functions were disabled in the app.",
+        "source_ids": [
+          "B02-BREATH-COMPLAINT"
+        ]
+      },
+      {
+        "date": "2017-01-23",
+        "event": "FTC announces charges and a settlement involving refunds and accuracy-related restrictions.",
+        "source_ids": [
+          "B02-BREATH-PRESS"
+        ]
+      },
+      {
+        "date": "2017-01-23",
+        "event": "Complaint and stipulated document filed in Northern District of California case 3:17-cv-00314-LB.",
+        "source_ids": [
+          "B02-BREATH-COMPLAINT",
+          "B02-BREATH-ORDER"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware, as pleaded in federal complaint",
+        "entity_name": "Breathometer Inc.",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-DE-REG",
+        "accessed": "2026-09-09",
+        "limitation": "Federal complaint identifies a Delaware corporation; no current registry match/standing."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BREATHOMETER-STATUS",
+        "text": "Federal records establish the FTC enforcement action and refunds, but the reviewed sources do not establish Breathometer's current legal standing or a sufficiently sourced closure date.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-BREATH-CASE",
+          "B02-BREATH-PRESS"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BREATHOMETER-DEV-1",
+        "text": "Accuracy and marketing accusations are agency allegations; the stipulation does not admit or deny them except jurisdictional facts.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-BREATH-ORDER"
+        ],
+        "published": null
+      },
+      {
+        "id": "BREATHOMETER-DEV-2",
+        "text": "The retrieved stipulated document is docket attachment 4-1. Its filing date should not be silently converted into a judge’s order-entry date.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-BREATH-ORDER"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-BREATH-CASE",
+        "title": "FTC Breathometer case docket",
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/162-3057-breathometer-inc",
+        "source_type": "federal agency case record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "FTC matter and linked complaint/stipulation. content or indexed primary text retrieved Instrument/case event date: 2017-01-23. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BREATH-PRESS",
+        "title": "Breathometer marketers settle FTC charges",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2017/01/breathometer-marketers-settle-ftc-charges-misrepresenting-ability-accurately-measure-users-blood",
+        "source_type": "federal agency press release",
+        "published": "2017-01-23",
+        "accessed": "2026-09-09",
+        "notes": "Allegations and announced refund/accuracy restrictions. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BREATH-COMPLAINT",
+        "title": "FTC complaint against Breathometer",
+        "url": "https://www.ftc.gov/system/files/documents/cases/170123breathometer_complaint.pdf",
+        "source_type": "federal court complaint",
+        "published": "2017-01-23",
+        "accessed": "2026-09-09",
+        "notes": "Delaware corporation; allegations concerning products and disabled BAC app functions; Northern California case. content or indexed primary text retrieved Complaint allegations are not findings of liability. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BREATH-ORDER",
+        "title": "Breathometer filed stipulated order",
+        "url": "https://www.ftc.gov/system/files/documents/cases/170123breathometer_dkt._4-1_-_stipulated_order.pdf",
+        "source_type": "court-filed stipulation",
+        "published": "2017-01-23",
+        "accessed": "2026-09-09",
+        "notes": "No admission/denial except jurisdiction; settlement obligations. content or indexed primary text retrieved Document 4-1 filing date is not independently verified as the date of judicial entry. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-DE-REG",
+        "title": "Delaware entity name search",
+        "url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Portal accessible; no completed exact-name result; name search is not standing certification. HTML form retrieved; interactive submission unavailable/error text; no matched entity historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Current company operations, later products, exact legal standing and any successor.",
+      "Judicial entry and subsequent compliance docket; no bankruptcy conclusion is drawn.",
+      "Complete pitch and executed investment terms.",
+      "The current domain retrieval was tool-blocked; this is not evidence of a dead website.",
+      "Public publication is withheld until the current legal status is independently resolved."
+    ]
+  },
+  {
+    "company": {
+      "name": "GrooveBook",
+      "aliases": [
+        "Groovebook"
+      ],
+      "legal_entities": [
+        "GrooveBook brand"
+      ],
+      "successor_or_acquirer": "Shutterfly, Inc."
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2014-11-17",
+        "event": "Shutterfly announces the acquisition, corroborated by contemporaneous ABC News reporting.",
+        "source_ids": [
+          "B02-GROOVE-ACQ",
+          "B02-GROOVE-ABC"
+        ]
+      },
+      {
+        "date": "2018-12-31",
+        "event": "GrooveBook appears in Shutterfly’s historical brand portfolio reporting.",
+        "source_ids": [
+          "B02-GROOVE-10K"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "GROOVEBOOK-STATUS",
+        "text": "Shutterfly acquired GrooveBook in November 2014 for $14.5 million including an earn-out. The acquisition is verified; the later service-shutdown date remains secondary-source history and is not the published status claim.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-GROOVE-ACQ",
+          "B02-GROOVE-10K"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "GROOVEBOOK-DEV-1",
+        "text": "The announced $14.5 million value includes upfront consideration and performance earnout; it should not be presented as verified unconditional cash received.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-GROOVE-ACQ"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-GROOVE-ACQ",
+        "title": "Shutterfly acquires GrooveBook",
+        "url": "https://shutterflyinc.com/shutterfly-inc-acquires-groovebook/",
+        "source_type": "acquirer press release",
+        "published": "2014-11-17",
+        "accessed": "2026-09-09",
+        "notes": "Announced acquisition value includes upfront amount and performance earnout. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-GROOVE-ABC",
+        "title": "GrooveBook snapped up by Shutterfly",
+        "url": "https://abcnews.com/Business/shark-tank-success-story-groovebook-snapped-shutterfly/story?id=26958718",
+        "source_type": "contemporaneous ABC News reporting",
+        "published": "2014-11-17",
+        "accessed": "2026-09-09",
+        "notes": "Acquisition and Shark Tank/investor history. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-GROOVE-10K",
+        "title": "Shutterfly annual report",
+        "url": "https://www.sec.gov/Archives/edgar/data/1125920/000112592019000008/sfly-20181231.htm",
+        "source_type": "SEC annual report",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "GrooveBook in historical brand portfolio. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-GROOVE-CLOSE",
+        "title": "GrooveBook retrospective update",
+        "url": "https://www.sharktankblog.com/business/groovebook/",
+        "source_type": "retrospective specialist reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Reports service closure in April 2022; primary closure notice not retrieved. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Archived first-party closure notice and final service date.",
+      "Legal entity chain, state file number and whether a company was dissolved versus a service discontinued.",
+      "Original broadcast terms and complete executed Shark investment record.",
+      "Imprecise timeline dates from the source bundle were not converted into exact dates."
+    ]
+  },
+  {
+    "company": {
+      "name": "Doorbot / Ring",
+      "aliases": [
+        "Doorbot",
+        "Ring",
+        "Ring LLC"
+      ],
+      "legal_entities": [
+        "Ring LLC"
+      ],
+      "successor_or_acquirer": "Amazon.com, Inc."
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2018-04-12",
+        "event": "Amazon’s release says the Ring acquisition has closed.",
+        "source_ids": [
+          "B02-RING-ACQ"
+        ]
+      },
+      {
+        "date": "2023-05-31",
+        "event": "FTC publishes its complaint and proposed privacy/security settlement.",
+        "source_ids": [
+          "B02-RING-FTC",
+          "B02-RING-FTC-PRESS"
+        ]
+      },
+      {
+        "date": "2024-04-23",
+        "event": "FTC announces more than $5.6 million in refunds sent.",
+        "source_ids": [
+          "B02-RING-REFUNDS"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Ring’s root website redirects to an active Australian catalog in this retrieval.",
+        "source_ids": [
+          "B02-RING-NOW"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "DOORBOT-RING-STATUS",
+        "text": "Doorbot was renamed Ring, and Amazon completed its acquisition of Ring in April 2018. Ring continues as an Amazon-owned home-security brand.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-RING-ACQ",
+          "B02-RING-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "DOORBOT-RING-DEV-1",
+        "text": "The employee-surveillance and security accusations must be attributed to the FTC, not restated as independent findings from this tracker.",
+        "evidence_level": "allegation",
+        "source_ids": [
+          "B02-RING-FTC-PRESS"
+        ],
+        "published": null
+      },
+      {
+        "id": "DOORBOT-RING-DEV-2",
+        "text": "Money sent, money claimed and settlement totals are different quantities; later refund figures do not automatically contradict the earlier press release.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-RING-REFUNDS",
+          "B02-RING-REFUNDS-NOW"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-RING-ACQ",
+        "title": "Amazon and Ring close acquisition",
+        "url": "https://press.aboutamazon.com/2018/4/amazon-and-ring-close-acquisition-now-working-together-to-empower-neighbors-with-affordable-ways-to-monitor-their-homes-and-reduce-crime-in-neighborhoods",
+        "source_type": "acquirer press release",
+        "published": "2018-04-12",
+        "accessed": "2026-09-09",
+        "notes": "Transaction closed; body dateline retained rather than search display date. content or indexed primary text retrieved Search result displays April 11, while body dateline is April 12. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-RING-FTC",
+        "title": "FTC Ring LLC case",
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2023113-ring-llc",
+        "source_type": "federal agency case record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ring LLC defendant and complaint/order chronology. content or indexed primary text retrieved Instrument/case event date: 2023-05-31. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-RING-FTC-PRESS",
+        "title": "FTC allegations concerning Ring privacy and security",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users",
+        "source_type": "federal agency press release",
+        "published": "2023-05-31",
+        "accessed": "2026-09-09",
+        "notes": "Attributed agency allegations and proposed settlement. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-RING-REFUNDS",
+        "title": "FTC sends Ring refunds",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-sends-refunds-ring-customers-stemming-2023-settlement-over-charges-company-failed-block",
+        "source_type": "federal agency press release",
+        "published": "2024-04-23",
+        "accessed": "2026-09-09",
+        "notes": "More than $5.6 million sent; not identical to value ultimately claimed. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-RING-REFUNDS-NOW",
+        "title": "FTC current Ring refunds page",
+        "url": "https://www.ftc.gov/enforcement/refunds/ring-refunds",
+        "source_type": "federal agency refund administration",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Later round in August 2025 and cumulative refund information. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-RING-NOW",
+        "title": "Ring storefront, regional redirect",
+        "url": "https://ring.com/au/en",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Root URL redirected to Australian catalog; current US fulfillment not tested. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Exact Doorbot-to-Ring legal change, state entity number and current standing.",
+      "US-specific current operating/fulfillment evidence; retrieved catalog was Australian.",
+      "Original episode roster and no-deal/offer details from full broadcast; not populated from memory.",
+      "Imprecise timeline dates from the source bundle were not converted into exact dates."
+    ]
+  },
+  {
+    "company": {
+      "name": "Mother Beverage / Poppi",
+      "aliases": [
+        "Mother Beverage",
+        "Poppi",
+        "VNGR Beverage"
+      ],
+      "legal_entities": [
+        "VNGR Beverage, LLC"
+      ],
+      "successor_or_acquirer": "PepsiCo, Inc."
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": null,
+        "episode": null,
+        "episode_date": null,
+        "video_title": "Mother Beverage / Poppi Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=sAto3yCMwkM",
+        "episode_guide_url": null,
+        "kind": "unresolved",
+        "pitch": "Not verified in this batch. An on-air agreement is not proof of closing.",
+        "ask": "Not verified from a complete primary pitch record in this batch.",
+        "offer": "Not verified from a complete primary pitch record in this batch.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-03-17",
+        "event": "PepsiCo announces the acquisition agreement and gross/net price distinction.",
+        "source_ids": [
+          "B02-POPPI-AGREE"
+        ]
+      },
+      {
+        "date": "2025-05-19",
+        "event": "PepsiCo announces completion.",
+        "source_ids": [
+          "B02-POPPI-CLOSE"
+        ]
+      },
+      {
+        "date": "2026-04-14",
+        "event": "Signed court order grants final settlement approval in case 4:24-cv-03229-HSG.",
+        "source_ids": [
+          "B02-POPPI-APPROVE"
+        ]
+      },
+      {
+        "date": "2026-06-15",
+        "event": "Signed judgment dismisses with prejudice and retains enforcement jurisdiction.",
+        "source_ids": [
+          "B02-POPPI-JUDGMENT"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Current catalog and PepsiCo consumer contact observed.",
+        "source_ids": [
+          "B02-POPPI-NOW"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "unresolved; Texas operating connection is not incorporation proof",
+        "entity_name": "VNGR Beverage, LLC d/b/a Poppi (court defendant); current post-acquisition operator chain pending",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-TX-REG",
+        "accessed": "2026-09-09",
+        "limitation": "No matched Texas entity record; public API requires an unavailable key. Court caption supplies exact defendant."
+      }
+    ],
+    "claims": [
+      {
+        "id": "MOTHER-BEVERAGE-POPPI-STATUS",
+        "text": "Mother Beverage rebranded as Poppi, and PepsiCo completed its acquisition of Poppi in May 2025 for $1.95 billion including anticipated tax benefits and a performance-based earn-out.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-POPPI-AGREE",
+          "B02-POPPI-CLOSE",
+          "B02-POPPI-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "MOTHER-BEVERAGE-POPPI-DEV-1",
+        "text": "The challenged gut-health marketing claims are litigation allegations. Settlement approval and dismissal are not a merits finding that every allegation is true.",
+        "evidence_level": "allegation",
+        "source_ids": [
+          "B02-POPPI-ADMIN",
+          "B02-POPPI-APPROVE"
+        ],
+        "published": null
+      },
+      {
+        "id": "MOTHER-BEVERAGE-POPPI-DEV-2",
+        "text": "The gross $8.9 million settlement fund includes fees and administration; it is not all consumer refund cash.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-POPPI-APPROVE"
+        ],
+        "published": null
+      },
+      {
+        "id": "MOTHER-BEVERAGE-POPPI-DEV-3",
+        "text": "The acquisition announcement’s gross $1.95 billion and net $1.65 billion reflect anticipated tax benefits; neither should be converted into a guaranteed founder payout.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-POPPI-AGREE"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-POPPI-AGREE",
+        "title": "PepsiCo to acquire Poppi",
+        "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-to-acquire-poppi",
+        "source_type": "acquirer press release",
+        "published": "2025-03-17",
+        "accessed": "2026-09-09",
+        "notes": "Agreement: gross price $1.95 billion includes anticipated $300 million tax benefits; net $1.65 billion. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-CLOSE",
+        "title": "PepsiCo completes Poppi acquisition",
+        "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-completes-acquisition-of-poppi-accelerating-strategic-portfolio-transformation",
+        "source_type": "acquirer press release",
+        "published": "2025-05-19",
+        "accessed": "2026-09-09",
+        "notes": "Acquisition completion. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-NOW",
+        "title": "Poppi current catalog",
+        "url": "https://www.drinkpoppi.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current catalog and PepsiCo consumer contact. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-STORY",
+        "title": "Poppi current origin story",
+        "url": "https://www.drinkpoppi.com/pages/our-story",
+        "source_type": "retrospective company narrative",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Mother Beverage, Rohan investment narrative and Poppi rebrand chronology; not archived contemporaneous proof. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-ADMIN",
+        "title": "Poppi settlement administrator",
+        "url": "https://poppisettlement.com/",
+        "source_type": "court-authorized settlement administrator",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Case number, defendant and linked court records. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-APPROVE",
+        "title": "Order granting final approval",
+        "url": "https://www.poppisettlement.com/media/6868662/vnb_order_granting_motion_for_final_approval.pdf",
+        "source_type": "signed court order",
+        "published": "2026-04-14",
+        "accessed": "2026-09-09",
+        "notes": "Docket document 80; settlement approval and $8.9 million gross fund. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-JUDGMENT",
+        "title": "Poppi stipulated judgment",
+        "url": "https://www.poppisettlement.com/media/7080368/vnb_stipulated_judgment.pdf",
+        "source_type": "signed court judgment",
+        "published": "2026-06-15",
+        "accessed": "2026-09-09",
+        "notes": "Docket document 88, judge-signed dismissal with prejudice and retained jurisdiction. content or indexed primary text retrieved PDF metadata says DRAFT; signed docket-stamped body controls. Body also contains VGNR transposition; caption identifies VNGR. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-POPPI-OLDNOTICE",
+        "title": "Poppi settlement dates and deadlines",
+        "url": "https://poppisettlement.com/important-dates-deadlines.aspx",
+        "source_type": "settlement administrator notice",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Older scheduled November 20, 2025 hearing language; later signed orders control actual disposition. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-TX-REG",
+        "title": "Texas franchise account status search",
+        "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search",
+        "source_type": "state tax account portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Search portal retrieved after redirect; no entity result. Form retrieved; no completed submitted entity query historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-TX-API",
+        "title": "Texas Comptroller public data API documentation",
+        "url": "https://api-doc.comptroller.texas.gov/public-data/",
+        "source_type": "state API documentation",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "API requires x-api-key; no key supplied and no entity endpoint request made. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "State file number, post-closing entity structure and exact Shark investment closing terms.",
+      "Original Mother Beverage pitch/transcript and archived rebrand pages.",
+      "Whether every announced settlement distribution has been completed.",
+      "Imprecise timeline dates from the source bundle were not converted into exact dates."
+    ]
+  },
+  {
+    "company": {
+      "name": "Plated",
+      "aliases": [
+        "DineInFresh"
+      ],
+      "legal_entities": [
+        "DineInFresh, Inc."
+      ],
+      "successor_or_acquirer": "Albertsons Companies"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2017-09-20",
+        "event": "SEC statement says Albertsons acquired DineInFresh Inc. on this date.",
+        "source_ids": [
+          "B02-PLATED-SEC"
+        ]
+      },
+      {
+        "date": "2017-09-20",
+        "event": "Same-day press release describes anticipated closing later in the month; wording conflict preserved.",
+        "source_ids": [
+          "B02-PLATED-PRESS"
+        ]
+      },
+      {
+        "date": "2019-11-13",
+        "event": "Reporting says subscriptions will be phased out by the end of November.",
+        "source_ids": [
+          "B02-PLATED-CANCEL"
+        ]
+      },
+      {
+        "date": "2020-02-06",
+        "event": "Trade reporting describes a retail meal-kit relaunch.",
+        "source_ids": [
+          "B02-PLATED-RETAIL"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "PLATED-STATUS",
+        "text": "Albertsons acquired DineInFresh, Inc., the company behind Plated, in September 2017. The acquisition is verified in Albertsons' SEC filing; the later subscription phase-out is not used as the primary status claim.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-PLATED-PRESS",
+          "B02-PLATED-SEC"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "PLATED-DEV-1",
+        "text": "Consideration described by the filing is $125 million initially, $50 million deferred and up to $125 million contingent; the $300 million maximum is not proof that the maximum was paid.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-PLATED-SEC"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-PLATED-PRESS",
+        "title": "Albertsons announces Plated acquisition",
+        "url": "https://www.prnewswire.com/news-releases/albertsons-companies-acquires-plated-to-transform-the-food-experience-for-consumers-300523142.html",
+        "source_type": "acquirer press release",
+        "published": "2017-09-20",
+        "accessed": "2026-09-09",
+        "notes": "Acquisition announcement; body anticipates closing later in month. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-PLATED-SEC",
+        "title": "Albertsons financial statement transaction note",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704956/000170495617000031/aclq217stmt.htm",
+        "source_type": "SEC financial statement",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "DineInFresh Inc. acquired September 20; initial/deferred/contingent consideration. content or indexed primary text retrieved Exact filing day not captured; event day is explicitly reported in filing. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-PLATED-CANCEL",
+        "title": "Plated subscriptions to be phased out",
+        "url": "https://www.businessinsider.com/meal-kit-subscription-service-plated-phase-out-by-end-november-2019-11",
+        "source_type": "dated business reporting",
+        "published": "2019-11-13",
+        "accessed": "2026-09-09",
+        "notes": "Subscription phaseout by end of November, not permanent destruction of brand. content or indexed primary text retrieved Source-derived narrative kept brief; no primary shutdown notice retrieved. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-PLATED-RETAIL",
+        "title": "Albertsons relaunches Plated meal kits",
+        "url": "https://progressivegrocer.com/albertsons-re-launches-plated-meal-kits",
+        "source_type": "trade reporting",
+        "published": "2020-02-06",
+        "accessed": "2026-09-09",
+        "notes": "Retail relaunch after subscription cancellation. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Current brand availability, licensing, state standing and successor chain.",
+      "Primary subscription shutdown notice and actual last fulfillment date.",
+      "Original pitch and later investment history from complete primary records."
+    ]
+  },
+  {
+    "company": {
+      "name": "Wild Earth",
+      "aliases": [
+        "Wild Earth, Inc."
+      ],
+      "legal_entities": [
+        "Wild Earth, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2025-02-11",
+        "event": "Docket index reports a Chapter 11 filing in Eastern North Carolina.",
+        "source_ids": [
+          "B02-WILD-DOCKET"
+        ]
+      },
+      {
+        "date": "2025-02-28",
+        "event": "Contemporaneous reporting describes the bankruptcy.",
+        "source_ids": [
+          "B02-WILD-NEWS"
+        ]
+      },
+      {
+        "date": "2025-04-03",
+        "event": "Partner index dates a link to the company bankruptcy announcement to this day; not an archived copy.",
+        "source_ids": [
+          "B02-WILD-PARTNER"
+        ]
+      },
+      {
+        "date": "2025-06-16",
+        "event": "Trade reporting already describes Wild Earth as acquired out of bankruptcy.",
+        "source_ids": [
+          "B02-WILD-ACQ-EARLY"
+        ]
+      },
+      {
+        "date": "2025-08-13",
+        "event": "Later business reporting describes Inventel acquisition and leadership change.",
+        "source_ids": [
+          "B02-WILD-ACQ-LATER"
+        ]
+      },
+      {
+        "date": "2025-08-18",
+        "event": "Current company bankruptcy announcement displays this last-updated date.",
+        "source_ids": [
+          "B02-WILD-ANNOUNCE"
+        ]
+      },
+      {
+        "date": "2025-08-22",
+        "event": "Docket index indicates termination; that field alone does not establish dismissal, discharge or dissolution.",
+        "source_ids": [
+          "B02-WILD-DOCKET"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Current storefront offers products; current legal operator is not resolved by its terms.",
+        "source_ids": [
+          "B02-WILD-NOW",
+          "B02-WILD-TERMS"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "WILD-EARTH-STATUS",
+        "text": "Wild Earth publicly announced a Chapter 11 case and its storefront remains visible, but the reviewed public evidence does not securely establish the post-bankruptcy ownership and legal status claimed in later reporting.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-WILD-ANNOUNCE",
+          "B02-WILD-NOW",
+          "B02-WILD-DOCKET"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "WILD-EARTH-DEV-1",
+        "text": "The company acknowledges voluntary Chapter 11 and describes continuing operations; this supports bankruptcy history but not the exact terms of the later acquisition.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "B02-WILD-ANNOUNCE"
+        ],
+        "published": null
+      },
+      {
+        "id": "WILD-EARTH-DEV-2",
+        "text": "Acquisition reporting predates the later August story, so the August publication day must not be used as an assumed closing date.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-WILD-ACQ-EARLY",
+          "B02-WILD-ACQ-LATER"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-WILD-NOW",
+        "title": "Wild Earth current catalog",
+        "url": "https://wildearth.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Products offered on current storefront; legal operator and fulfillment not established. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-TERMS",
+        "title": "Wild Earth current terms",
+        "url": "https://wildearth.com/policies/terms-of-service",
+        "source_type": "company legal page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Uses Wild Earth name without establishing successor entity number. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-ANNOUNCE",
+        "title": "Announcement from Wild Earth",
+        "url": "https://wildearth.com/blogs/dog-knowledge/announcement-from-wild-earth",
+        "source_type": "company bankruptcy announcement",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Company acknowledges voluntary Chapter 11 and describes continued operations; signed Ryan and team. content or indexed primary text retrieved Original /blogs/news/ URL redirects to /blogs/dog-knowledge/; original publication day not verified. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-PARTNER",
+        "title": "Unreasonable venture profile and news index",
+        "url": "https://unreasonablegroup.com/ventures/wild-earth",
+        "source_type": "partner news index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Indexes company announcement under April 3, 2025; not a captured historical copy. content or indexed primary text retrieved Some unrelated automatically aggregated articles appear on profile; not treated as company evidence. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-NEWS",
+        "title": "Wild Earth bankruptcy report",
+        "url": "https://www.greenqueen.com.hk/wild-earth-vegan-dog-food-shark-tank-bankruptcy/",
+        "source_type": "dated trade reporting",
+        "published": "2025-02-28",
+        "accessed": "2026-09-09",
+        "notes": "Contemporaneous bankruptcy reporting. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-DOCKET",
+        "title": "Wild Earth bankruptcy docket index",
+        "url": "https://www.pacermonitor.com/public/case/56837456/Wild_Earth%2C_Inc",
+        "source_type": "secondary court docket index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Eastern North Carolina case 5:25-bk-00495; filing February 11, 2025 and termination index August 22. content or indexed primary text retrieved Petition mirror returned HTTP 429; no sale, confirmation, dismissal or termination order retrieved. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-ACQ-EARLY",
+        "title": "AgFunder report referring to Wild Earth acquisition",
+        "url": "https://agfundernews.com/breaking-infomercial-specialist-yasir-abdul-emerges-as-prospective-meati-buyer-as-firm-navigates-abc-process",
+        "source_type": "trade reporting",
+        "published": "2025-06-16",
+        "accessed": "2026-09-09",
+        "notes": "Reports Wild Earth acquired out of bankruptcy; exact legal transaction date unresolved. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-ACQ-LATER",
+        "title": "Wild Earth acquired by Inventel",
+        "url": "https://www.bizjournals.com/triangle/news/2025/08/13/wild-earth-acquired-inventel-bankruptcy.html",
+        "source_type": "dated business reporting",
+        "published": "2025-08-13",
+        "accessed": "2026-09-09",
+        "notes": "Inventel acquisition and leadership change reported. paywall preview/indexed reporting; full article not retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-WILD-STORY",
+        "title": "Wild Earth current origin story",
+        "url": "https://wildearth.com/pages/our-story",
+        "source_type": "current company narrative",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current narrative inspected; absence of a founder name alone cannot prove deletion or historical editing. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-NCEB-COURT",
+        "title": "Eastern North Carolina bankruptcy ECF",
+        "url": "https://ecf.nceb.uscourts.gov/",
+        "source_type": "federal court portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Correct Wild Earth court; document retrieval requires login. Portal retrieved; login boundary at https://ecf.nceb.uscourts.gov/cgi-bin/login.pl historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Original petition, sale/confirmation/dismissal order, transaction instruments and current debtor status.",
+      "Current operator’s state number, license chain and standing.",
+      "Original Shark pitch and executed investment closing details.",
+      "Prior versions of announcement/story; founder absence on one current page is not proof of deletion.",
+      "Public publication is withheld until the current legal status is independently resolved."
+    ]
+  },
+  {
+    "company": {
+      "name": "Toygaroo",
+      "aliases": [],
+      "legal_entities": [
+        "Toygaroo"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 2,
+        "episode": null,
+        "episode_date": null,
+        "video_title": "Toygaroo Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=9TsnmtZlKL8",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Not verified in this batch. An on-air agreement is not proof of closing.",
+        "ask": "Not verified from a complete primary pitch record in this batch.",
+        "offer": "Not verified from a complete primary pitch record in this batch.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2012-04-02",
+        "event": "Contemporaneous specialist reporting says Toygaroo filed Chapter 7 on this date.",
+        "source_ids": [
+          "B02-TOY-BANKRUPT"
+        ]
+      },
+      {
+        "date": "2012-04-03",
+        "event": "The report was published and describes contact with a principal.",
+        "source_ids": [
+          "B02-TOY-BANKRUPT"
+        ]
+      },
+      {
+        "date": "2022-09-26",
+        "event": "Forbes retrospectively describes the failed business/bankruptcy and Shark investment history.",
+        "source_ids": [
+          "B02-TOY-FORBES"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "unresolved",
+        "entity_name": "Toygaroo; exact registered legal name unresolved",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-CA-REG",
+        "accessed": "2026-09-09",
+        "limitation": "California returned HTTP 403; indexed query produced no authoritative entity match. Docket number not retrieved."
+      }
+    ],
+    "claims": [
+      {
+        "id": "TOYGAROO-STATUS",
+        "text": "Contemporaneous specialist coverage reports a bankruptcy, but a primary bankruptcy docket or state entity record was not retrieved. Toygaroo is therefore withheld rather than declared defunct.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-TOY-BANKRUPT",
+          "B02-CA-REG"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "TOYGAROO-DEV-1",
+        "text": "No exact later legal dissolution date or bankruptcy court number is asserted from the reporting alone.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-TOY-BANKRUPT"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-TOY-BANKRUPT",
+        "title": "Toygaroo bankruptcy report",
+        "url": "https://www.sharktankblog.com/toygaroo-bankruptcy/",
+        "source_type": "contemporaneous specialist reporting",
+        "published": "2012-04-03",
+        "accessed": "2026-09-09",
+        "notes": "Reports Chapter 7 petition April 2, 2012 and author contact with principal. content or indexed primary text retrieved Actual petition, docket number and legal suffix not retrieved; bankruptcy remains attributed reporting. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-TOY-FORBES",
+        "title": "Cuban retrospective including Toygaroo",
+        "url": "https://www.forbes.com/sites/jemimamcevoy/2022/09/26/mark-cuban-considering-leaving-shark-tank---new-venture-focuses-on-selling-low-cost-drugs/",
+        "source_type": "business reporting",
+        "published": "2022-09-26",
+        "accessed": "2026-09-09",
+        "notes": "Retrospective bankruptcy and investment history. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-CA-REG",
+        "title": "California business search",
+        "url": "https://bizfileonline.sos.ca.gov/search/business",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Access trail, not an entity match. HTTP 403; registry query could not be submitted historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Original bankruptcy petition, case number, trustee/final report and state dissolution records.",
+      "Exact registered name and incorporation jurisdiction.",
+      "Full primary pitch review and amount actually funded versus pledged.",
+      "Any genuine successor or recreation; no relaunch claim is established.",
+      "Public publication is withheld until the current legal status is independently resolved."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bottle Bright",
+      "aliases": [
+        "Bottle Bright cleaning tablets"
+      ],
+      "legal_entities": [
+        "Bottle Bright brand"
+      ],
+      "successor_or_acquirer": "HydraPak"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 6,
+        "episode": null,
+        "episode_date": null,
+        "video_title": "Bottle Bright Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=s-YtFtFmtQo",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Not verified in this batch. An on-air agreement is not proof of closing.",
+        "ask": "Not verified from a complete primary pitch record in this batch.",
+        "offer": "Not verified from a complete primary pitch record in this batch.",
+        "deal_closed": null
+      },
+      {
+        "season": 6,
+        "episode": null,
+        "episode_date": null,
+        "video_title": "Bottle Bright Shark Tank video",
+        "video_url": "https://www.youtube.com/watch?v=KACK_lwuXbk",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Not verified in this batch. An on-air agreement is not proof of closing.",
+        "ask": "Not verified from a complete primary pitch record in this batch.",
+        "offer": "Not verified from a complete primary pitch record in this batch.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-08-17",
+        "event": "A retrospective article also gives 2016.",
+        "source_ids": [
+          "B02-BOTTLE-DM"
+        ]
+      },
+      {
+        "date": "2025-08-16",
+        "event": "A later article gives 2019 instead; the conflict remains unresolved against contemporaneous records.",
+        "source_ids": [
+          "B02-BOTTLE-MASHED"
+        ]
+      },
+      {
+        "date": "2026-07-29",
+        "event": "Another retrospective page displays this update date and repeats 2019.",
+        "source_ids": [
+          "B02-BOTTLE-FR"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "HydraPak’s current catalog offers Bottle Bright.",
+        "source_ids": [
+          "B02-BOTTLE-NOW"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "BOTTLE-BRIGHT-STATUS",
+        "text": "Bottle Bright says HydraPak acquired the brand in 2016, and HydraPak currently sells Bottle Bright products. The transaction history is company-reported, corroborated by the current parent storefront.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-BOTTLE-STORY",
+          "B02-BOTTLE-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOTTLE-BRIGHT-DEV-1",
+        "text": "Mashed and Food Republic belong to the same publisher network, so repeating the same acquisition year is not treated as independent corroboration.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-BOTTLE-MASHED",
+          "B02-BOTTLE-FR"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-BOTTLE-STORY",
+        "title": "Bottle Bright current company history",
+        "url": "https://bottlebright.com/pages/about-us",
+        "source_type": "retrospective company narrative",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Says HydraPak acquisition in 2016; unarchived current statement. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BOTTLE-NOW",
+        "title": "HydraPak Bottle Bright catalog",
+        "url": "https://www.hydrapak.com/products/bottle-bright",
+        "source_type": "parent company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Product remains offered by HydraPak. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BOTTLE-MASHED",
+        "title": "Bottle Bright after Shark Tank",
+        "url": "https://www.mashed.com/1936797/what-happened-bottle-bright-after-shark-tank/",
+        "source_type": "retrospective consumer reporting",
+        "published": "2025-08-16",
+        "accessed": "2026-09-09",
+        "notes": "Reports 2019 acquisition, conflicting with current company’s 2016 claim. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BOTTLE-FR",
+        "title": "Bottle Bright Shark Tank update",
+        "url": "https://www.foodrepublic.com/1848045/bottle-bright-shark-tank-now/",
+        "source_type": "retrospective consumer reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Also says 2019; publication date not captured; updated July 29, 2026. content or indexed primary text retrieved Same publisher network as Mashed; not independent corroboration. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-BOTTLE-DM",
+        "title": "Where Bottle Bright is now",
+        "url": "https://www.thedailymeal.com/1367548/where-is-bottle-bright-shark-tank-now/",
+        "source_type": "retrospective consumer reporting",
+        "published": "2023-08-17",
+        "accessed": "2026-09-09",
+        "notes": "Says 2016; still not a contemporaneous closing instrument. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Contemporaneous acquisition announcement or executed asset/stock agreement establishing exact date.",
+      "Original legal seller, state numbers, intellectual-property assignments and present status.",
+      "Full pitch/closing terms; inherited video label is not an ABC roster cross-check.",
+      "EPA badge/label claims were encountered in a press lead but have not been verified in an EPA database.",
+      "Imprecise timeline dates from the source bundle were not converted into exact dates."
+    ]
+  },
+  {
+    "company": {
+      "name": "Squatty Potty",
+      "aliases": [],
+      "legal_entities": [
+        "Squatty Potty, LLC"
+      ],
+      "successor_or_acquirer": "Aterian, Inc."
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2021-05-05",
+        "event": "Issuer report identifies the completed acquisition of Squatty Potty assets.",
+        "source_ids": [
+          "B02-SQUAT-8K"
+        ]
+      },
+      {
+        "date": "2021-05-06",
+        "event": "Filed press release describes consideration and separate transition-service payments.",
+        "source_ids": [
+          "B02-SQUAT-EXHIBIT"
+        ]
+      },
+      {
+        "date": "2023-11-13",
+        "event": "Owner announces a Walmart retail relaunch.",
+        "source_ids": [
+          "B02-SQUAT-WALMART"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Current brand catalog is available.",
+        "source_ids": [
+          "B02-SQUAT-NOW"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware seller, as identified in issuer report",
+        "entity_name": "Squatty Potty LLC (Delaware seller); post-transaction operating entity requires confirmation",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-DE-REG",
+        "accessed": "2026-09-09",
+        "limitation": "Issuer-hosted SEC report identifies seller and asset transaction; state file number/standing not retrieved."
+      }
+    ],
+    "claims": [
+      {
+        "id": "SQUATTY-POTTY-STATUS",
+        "text": "Aterian acquired Squatty Potty's business and assets in May 2021 for approximately $19 million plus inventory and potential additional payments. The brand remains in commerce.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-SQUAT-EXHIBIT",
+          "B02-SQUAT-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "SQUATTY-POTTY-DEV-1",
+        "text": "The release distinguishes $19 million cash, approximately $1.1 million inventory, up to $4 million earnout and an additional $8 million transition-service arrangement. A shorthand headline should not erase those categories.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-SQUAT-EXHIBIT"
+        ],
+        "published": null
+      },
+      {
+        "id": "SQUATTY-POTTY-DEV-2",
+        "text": "The current company statement disclaims continuing affiliation with Robert Edwards. This tracker makes no unresearched criminal-case assertion about an individual.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "B02-SQUAT-STATEMENT"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-SQUAT-8K",
+        "title": "Aterian acquisition report",
+        "url": "https://ir.aterian.io/static-files/7b7d4fed-71a3-48b5-bd6f-4dfe10ee0cb1",
+        "source_type": "issuer-hosted SEC report",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Asset transaction closed May 5; seller Squatty Potty LLC, Delaware. indexed primary report text retrieved; full instrument visual review pending Instrument/case event date: 2021-05-05. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-SQUAT-EXHIBIT",
+        "title": "Aterian announces Squatty Potty acquisition",
+        "url": "https://www.sec.gov/Archives/edgar/data/1757715/000119312521153272/d324173dex991.htm",
+        "source_type": "SEC-filed issuer press release",
+        "published": "2021-05-06",
+        "accessed": "2026-09-09",
+        "notes": "Asset consideration and separately described transition services. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-SQUAT-WALMART",
+        "title": "Squatty Potty relaunches in Walmart",
+        "url": "https://ir.aterian.io/news-releases/news-release-details/squatty-potty-re-launches-walmart-stores-nationwide",
+        "source_type": "owner press release",
+        "published": "2023-11-13",
+        "accessed": "2026-09-09",
+        "notes": "Retail relaunch and brand ownership statement. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-SQUAT-STATEMENT",
+        "title": "Squatty Potty current statement",
+        "url": "https://www.squattypotty.com/pages/statement",
+        "source_type": "company legal/ownership statement",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current statement disclaims continuing affiliation with Robert Edwards; no independent criminal-case conclusions drawn. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-SQUAT-NOW",
+        "title": "Squatty Potty current catalog",
+        "url": "https://www.squattypotty.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current consumer catalog, not audited financial or fulfillment evidence. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-DE-REG",
+        "title": "Delaware entity name search",
+        "url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Portal accessible; no completed exact-name result; name search is not standing certification. HTML form retrieved; interactive submission unavailable/error text; no matched entity historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Seller Delaware file number, standing and any post-sale dissolution/merger.",
+      "Executed full agreement visual review and subsequent earnout/transition payments.",
+      "Official original episode roster, pitch and investment closing terms."
+    ]
+  },
+  {
+    "company": {
+      "name": "Copa di Vino",
+      "aliases": [
+        "Copa Di Vino"
+      ],
+      "legal_entities": [
+        "Copa di Vino Corporation",
+        "Copa di Vino Wine Group, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [],
+    "timeline": [
+      {
+        "date": "2020-08-11",
+        "event": "Splash announces a letter of intent, not a completed acquisition.",
+        "source_ids": [
+          "B02-COPA-LOI"
+        ]
+      },
+      {
+        "date": "2020-12-23",
+        "event": "Asset purchase agreement identifies Oregon seller and Nevada buyer.",
+        "source_ids": [
+          "B02-COPA-APA"
+        ]
+      },
+      {
+        "date": "2020-12-30",
+        "event": "Splash announces finalization of the acquisition.",
+        "source_ids": [
+          "B02-COPA-CLOSE"
+        ]
+      },
+      {
+        "date": "2025-04-04",
+        "event": "License and settlement agreements grant rights back to Copa di Vino Corporation subject to contractual terms.",
+        "source_ids": [
+          "B02-COPA-LICENSE",
+          "B02-COPA-SETTLE"
+        ]
+      },
+      {
+        "date": "2025-09-25",
+        "event": "Splash reports it has not marketed or sold Copa since April 2025; that statement concerns Splash, not all possible licensee operations.",
+        "source_ids": [
+          "B02-COPA-8K"
+        ]
+      },
+      {
+        "date": "2026-07-07",
+        "event": "Later SEC filing discloses Copa Corporation’s Florida complaint alleging breach of settlement/extension obligations.",
+        "source_ids": [
+          "B02-COPA-S1"
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "event": "Registration statement describes discontinued-operations accounting and the unresolved complaint.",
+        "source_ids": [
+          "B02-COPA-S1"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Current brand site has catalog/shop links but stale copyright and staging references; fulfillment/legal operator not verified.",
+        "source_ids": [
+          "B02-COPA-NOW"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Oregon and Nevada, as identified in SEC-filed agreement",
+        "entity_name": "Copa di Vino Corporation (Oregon seller/licensee); Copa di Vino Wine Group Inc. (Nevada buyer)",
+        "entity_number": null,
+        "status": "unresolved; no certified/current state standing retrieved",
+        "events": [],
+        "source_id": "B02-OR-REG",
+        "accessed": "2026-09-09",
+        "limitation": "Oregon anti-bot challenge prevented state lookup. SEC contracts establish named parties but not current state standing."
+      }
+    ],
+    "claims": [
+      {
+        "id": "COPA-DI-VINO-STATUS",
+        "text": "SEC-filed agreements document an acquisition and later licensing and settlement activity, but the present ownership and operating-entity chain is complex enough that the current status remains withheld pending registry confirmation.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-COPA-APA",
+          "B02-COPA-CLOSE",
+          "B02-COPA-8K",
+          "B02-COPA-NOW"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "COPA-DI-VINO-DEV-1",
+        "text": "The SEC disclosure describes approximately $788,000 alleged due as of July 1, 2026. This is a litigant’s disclosure of allegations, not an adjudicated debt finding by this tracker.",
+        "evidence_level": "allegation",
+        "source_ids": [
+          "B02-COPA-S1"
+        ],
+        "published": null
+      },
+      {
+        "id": "COPA-DI-VINO-DEV-2",
+        "text": "License purchase/termination options exist, but the record retrieved does not establish which options were exercised.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "B02-COPA-LICENSE",
+          "B02-COPA-8K"
+        ],
+        "published": null
+      },
+      {
+        "id": "COPA-DI-VINO-DEV-3",
+        "text": "A parent’s discontinued-operations accounting does not establish that a licensed brand ceased all sales.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "B02-COPA-S1",
+          "B02-COPA-8K"
+        ],
+        "published": null
+      }
+    ],
+    "sources": [
+      {
+        "id": "B02-COPA-LOI",
+        "title": "Splash letter of intent regarding Copa di Vino",
+        "url": "https://www.newsfilecorp.com/release/61447/Splash-Beverage-Group-Inc.-Executes-a-Letter-of-Intent-to-Possibly-Acquire-Copa-Di-Vino-Notable-Shark-Tank-Alumnus-and-Leading-Producer-of-Premium-Wine-by-the-Glass-with-Joint-Venture-to-Transcend-SingleServe-Beverage-Sector",
+        "source_type": "issuer press release",
+        "published": "2020-08-11",
+        "accessed": "2026-09-09",
+        "notes": "Possible transaction only; issuer describes repeat Shark Tank appearances. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-APA",
+        "title": "Copa di Vino asset purchase agreement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112220001351/e2319_10-2.htm",
+        "source_type": "SEC-filed executed agreement",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Oregon seller, Nevada buyer, asset purchase rather than blanket entity merger. content or indexed primary text retrieved Instrument/case event date: 2020-12-23. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-CLOSE",
+        "title": "Splash finalizes Copa di Vino acquisition",
+        "url": "https://www.newsfilecorp.com/release/71163/Splash-Beverage-Group-Inc.-Finalizes-Acquisition-of-Copa-Di-Vino-Leading-Producer-of-Premium-Wine-by-the-Glass-in-over-13000-Retail-Locations",
+        "source_type": "issuer press release",
+        "published": "2020-12-30",
+        "accessed": "2026-09-09",
+        "notes": "Announced completion; not same event as August letter of intent. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-LICENSE",
+        "title": "Copa di Vino license agreement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112225001300/e6867_ex10-4.htm",
+        "source_type": "SEC-filed agreement",
+        "published": "2025-09-25",
+        "accessed": "2026-09-09",
+        "notes": "Exclusive US license back to Copa di Vino Corporation; option provisions. content or indexed primary text retrieved Agreement date differs from later SEC filing publication date. Instrument/case event date: 2025-04-04. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-SETTLE",
+        "title": "Copa di Vino settlement agreement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112225001300/e6867_ex10-5.htm",
+        "source_type": "SEC-filed settlement",
+        "published": "2025-09-25",
+        "accessed": "2026-09-09",
+        "notes": "Settlement obligations; no inference that later installments were paid. content or indexed primary text retrieved Instrument/case event date: 2025-04-04. Publication/filing date is separate; a blank means the exact publication day was not captured. historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-8K",
+        "title": "Splash report of license and settlement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112225001300/e6867_8-k.htm",
+        "source_type": "SEC current report",
+        "published": "2025-09-25",
+        "accessed": "2026-09-09",
+        "notes": "Splash says no marketing or sales of Copa since April; license and litigation settlement terms. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-S1",
+        "title": "Splash registration statement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112226001026/e7835_s-1.htm",
+        "source_type": "SEC registration statement",
+        "published": "2026-08-07",
+        "accessed": "2026-09-09",
+        "notes": "Discontinued operations accounting and disclosure of July 7, 2026 breach complaint; allegations not adjudicated here. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-COPA-NOW",
+        "title": "Copa di Vino current website",
+        "url": "https://copadivino.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Catalog and shop links; stale copyright/staging links limit inference about fulfillment and legal operator. content or indexed primary text retrieved historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-OR-REG",
+        "title": "Oregon business search",
+        "url": "https://egov.sos.state.or.us/br/pkg_web_name_srch_inq.login",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Registry access blocked, not a finding that company is absent. Anti-bot/CAPTCHA; support ID 2795153283080050332 historical snapshot not retrieved"
+      },
+      {
+        "id": "B02-ABC-ALL",
+        "title": "ABC Shark Tank all products and businesses index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official broadcaster index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Appearance-name index; entries are not a count of unique legal companies. content or indexed primary text retrieved historical snapshot not retrieved"
+      }
+    ],
+    "uncertainties": [
+      "Florida case number, complaint, responses and any subsequent judgment or settlement; later docket not retrieved.",
+      "Whether license options were exercised and the current title to assets/intellectual property.",
+      "Current seller/buyer standing, Oregon/Nevada entity numbers and actual licensee fulfillment.",
+      "Original and repeated Shark Tank appearances mapped individually to full ABC rosters.",
+      "Public publication is withheld until the current legal status is independently resolved."
+    ]
+  }
+]

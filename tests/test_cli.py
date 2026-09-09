@@ -40,6 +40,14 @@ class TestDemoCommand:
             "anytongs",
             "au-baby",
             "bam-buckwheat-milk",
+            "bottle-bright",
+            "cycloramic-car360",
+            "doorbot-ring",
+            "groovebook",
+            "larq",
+            "mother-beverage-poppi",
+            "plated",
+            "squatty-potty",
         ):
             assert os.path.exists(os.path.join(out_dir, "companies", f"{slug}.html"))
         index = open(os.path.join(out_dir, "index.html"), encoding="utf-8").read()

@@ -798,5 +798,281 @@
         "published": "2017"
       }
     ]
+  },
+  "larq": {
+    "status": "acquired",
+    "summary": "LARQ remains an operating hydration brand after BRITA SE acquired LARQ Inc. in February 2024. BRITA said LARQ would remain an independent legal entity and retain its brand.",
+    "as_of": "2026-09-09",
+    "successor": "BRITA SE",
+    "confidence": 0.92,
+    "citations": [
+      {
+        "title": "BRITA SE acquires LARQ Inc.",
+        "url": "https://www.prnewswire.com/news-releases/brita-se-germany-acquires-innovative-hydration-company-larq-inc-302056727.html",
+        "snippet": "BRITA SE Germany acquisition; LARQ brand and independent legal entity retained; California headquarters.",
+        "published": "2024-02-08"
+      },
+      {
+        "title": "LARQ current catalog",
+        "url": "https://www.livelarq.com/",
+        "snippet": "Current product catalog, not proof of order fulfillment.",
+        "published": null
+      }
+    ]
+  },
+  "cycloramic / car360": {
+    "status": "acquired",
+    "summary": "Cycloramic became Car360, and Carvana Group acquired all outstanding Car360 stock in April 2018. Carvana disclosed the completed transaction in an SEC filing.",
+    "as_of": "2026-09-09",
+    "successor": "Carvana Group, LLC",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "Carvana report of Car360 acquisition",
+        "url": "https://www.sec.gov/Archives/edgar/data/1690820/000169082018000013/a8-kcar360.htm",
+        "snippet": "Acquired all Car360 stock on April 12; Delaware identity and consideration measurement.",
+        "published": "2018-04-17"
+      },
+      {
+        "title": "Carvana acquires Car360",
+        "url": "https://investors.carvana.com/news-releases/2018/04-17-2018-110022377",
+        "snippet": "Cycloramic as early iteration; Car360 acquisition and Cuban backing.",
+        "published": "2018-04-17"
+      }
+    ]
+  },
+  "breathometer": {
+    "status": "unknown",
+    "summary": "Federal records establish the FTC enforcement action and refunds, but the reviewed sources do not establish Breathometer's current legal standing or a sufficiently sourced closure date.",
+    "as_of": "2026-09-09",
+    "successor": null,
+    "confidence": 0.55,
+    "citations": [
+      {
+        "title": "FTC Breathometer case docket",
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/162-3057-breathometer-inc",
+        "snippet": "FTC matter and linked complaint/stipulation.",
+        "published": null
+      },
+      {
+        "title": "Breathometer marketers settle FTC charges",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2017/01/breathometer-marketers-settle-ftc-charges-misrepresenting-ability-accurately-measure-users-blood",
+        "snippet": "Allegations and announced refund/accuracy restrictions.",
+        "published": "2017-01-23"
+      }
+    ]
+  },
+  "groovebook": {
+    "status": "acquired",
+    "summary": "Shutterfly acquired GrooveBook in November 2014 for $14.5 million including an earn-out. The acquisition is verified; the later service-shutdown date remains secondary-source history and is not the published status claim.",
+    "as_of": "2026-09-09",
+    "successor": "Shutterfly, Inc.",
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Shutterfly acquires GrooveBook",
+        "url": "https://shutterflyinc.com/shutterfly-inc-acquires-groovebook/",
+        "snippet": "Announced acquisition value includes upfront amount and performance earnout.",
+        "published": "2014-11-17"
+      },
+      {
+        "title": "Shutterfly annual report",
+        "url": "https://www.sec.gov/Archives/edgar/data/1125920/000112592019000008/sfly-20181231.htm",
+        "snippet": "GrooveBook in historical brand portfolio.",
+        "published": "2019"
+      }
+    ]
+  },
+  "doorbot / ring": {
+    "status": "acquired",
+    "summary": "Doorbot was renamed Ring, and Amazon completed its acquisition of Ring in April 2018. Ring continues as an Amazon-owned home-security brand.",
+    "as_of": "2026-09-09",
+    "successor": "Amazon.com, Inc.",
+    "confidence": 0.98,
+    "citations": [
+      {
+        "title": "Amazon and Ring close acquisition",
+        "url": "https://press.aboutamazon.com/2018/4/amazon-and-ring-close-acquisition-now-working-together-to-empower-neighbors-with-affordable-ways-to-monitor-their-homes-and-reduce-crime-in-neighborhoods",
+        "snippet": "Transaction closed; body dateline retained rather than search display date.",
+        "published": "2018-04-12"
+      },
+      {
+        "title": "Ring storefront, regional redirect",
+        "url": "https://ring.com/au/en",
+        "snippet": "Root URL redirected to Australian catalog; current US fulfillment not tested.",
+        "published": null
+      }
+    ]
+  },
+  "mother beverage / poppi": {
+    "status": "acquired",
+    "summary": "Mother Beverage rebranded as Poppi, and PepsiCo completed its acquisition of Poppi in May 2025 for $1.95 billion including anticipated tax benefits and a performance-based earn-out.",
+    "as_of": "2026-09-09",
+    "successor": "PepsiCo, Inc.",
+    "confidence": 0.98,
+    "citations": [
+      {
+        "title": "PepsiCo to acquire Poppi",
+        "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-to-acquire-poppi",
+        "snippet": "Agreement: gross price $1.95 billion includes anticipated $300 million tax benefits; net $1.65 billion.",
+        "published": "2025-03-17"
+      },
+      {
+        "title": "PepsiCo completes Poppi acquisition",
+        "url": "https://www.pepsico.com/en/newsroom/press-releases/2025/pepsico-completes-acquisition-of-poppi-accelerating-strategic-portfolio-transformation",
+        "snippet": "Acquisition completion.",
+        "published": "2025-05-19"
+      },
+      {
+        "title": "Poppi current catalog",
+        "url": "https://www.drinkpoppi.com/",
+        "snippet": "Current catalog and PepsiCo consumer contact.",
+        "published": null
+      }
+    ]
+  },
+  "plated": {
+    "status": "acquired",
+    "summary": "Albertsons acquired DineInFresh, Inc., the company behind Plated, in September 2017. The acquisition is verified in Albertsons' SEC filing; the later subscription phase-out is not used as the primary status claim.",
+    "as_of": "2026-09-09",
+    "successor": "Albertsons Companies",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "Albertsons announces Plated acquisition",
+        "url": "https://www.prnewswire.com/news-releases/albertsons-companies-acquires-plated-to-transform-the-food-experience-for-consumers-300523142.html",
+        "snippet": "Acquisition announcement; body anticipates closing later in month.",
+        "published": "2017-09-20"
+      },
+      {
+        "title": "Albertsons financial statement transaction note",
+        "url": "https://www.sec.gov/Archives/edgar/data/1704956/000170495617000031/aclq217stmt.htm",
+        "snippet": "DineInFresh Inc. acquired September 20; initial/deferred/contingent consideration.",
+        "published": "2017"
+      }
+    ]
+  },
+  "wild earth": {
+    "status": "unknown",
+    "summary": "Wild Earth publicly announced a Chapter 11 case and its storefront remains visible, but the reviewed public evidence does not securely establish the post-bankruptcy ownership and legal status claimed in later reporting.",
+    "as_of": "2026-09-09",
+    "successor": null,
+    "confidence": 0.55,
+    "citations": [
+      {
+        "title": "Announcement from Wild Earth",
+        "url": "https://wildearth.com/blogs/dog-knowledge/announcement-from-wild-earth",
+        "snippet": "Company acknowledges voluntary Chapter 11 and describes continued operations; signed Ryan and team.",
+        "published": null
+      },
+      {
+        "title": "Wild Earth current catalog",
+        "url": "https://wildearth.com/",
+        "snippet": "Products offered on current storefront; legal operator and fulfillment not established.",
+        "published": null
+      },
+      {
+        "title": "Wild Earth bankruptcy docket index",
+        "url": "https://www.pacermonitor.com/public/case/56837456/Wild_Earth%2C_Inc",
+        "snippet": "Eastern North Carolina case 5:25-bk-00495; filing February 11, 2025 and termination index August 22.",
+        "published": null
+      }
+    ]
+  },
+  "toygaroo": {
+    "status": "unknown",
+    "summary": "Contemporaneous specialist coverage reports a bankruptcy, but a primary bankruptcy docket or state entity record was not retrieved. Toygaroo is therefore withheld rather than declared defunct.",
+    "as_of": "2026-09-09",
+    "successor": null,
+    "confidence": 0.45,
+    "citations": [
+      {
+        "title": "Toygaroo bankruptcy report",
+        "url": "https://www.sharktankblog.com/toygaroo-bankruptcy/",
+        "snippet": "Reports Chapter 7 petition April 2, 2012 and author contact with principal.",
+        "published": "2012-04-03"
+      },
+      {
+        "title": "California business search",
+        "url": "https://bizfileonline.sos.ca.gov/search/business",
+        "snippet": "Access trail, not an entity match.",
+        "published": null
+      }
+    ]
+  },
+  "bottle bright": {
+    "status": "acquired",
+    "summary": "Bottle Bright says HydraPak acquired the brand in 2016, and HydraPak currently sells Bottle Bright products. The transaction history is company-reported, corroborated by the current parent storefront.",
+    "as_of": "2026-09-09",
+    "successor": "HydraPak",
+    "confidence": 0.88,
+    "citations": [
+      {
+        "title": "Bottle Bright current company history",
+        "url": "https://bottlebright.com/pages/about-us",
+        "snippet": "Says HydraPak acquisition in 2016; unarchived current statement.",
+        "published": null
+      },
+      {
+        "title": "HydraPak Bottle Bright catalog",
+        "url": "https://www.hydrapak.com/products/bottle-bright",
+        "snippet": "Product remains offered by HydraPak.",
+        "published": null
+      }
+    ]
+  },
+  "squatty potty": {
+    "status": "acquired",
+    "summary": "Aterian acquired Squatty Potty's business and assets in May 2021 for approximately $19 million plus inventory and potential additional payments. The brand remains in commerce.",
+    "as_of": "2026-09-09",
+    "successor": "Aterian, Inc.",
+    "confidence": 0.98,
+    "citations": [
+      {
+        "title": "Aterian announces Squatty Potty acquisition",
+        "url": "https://www.sec.gov/Archives/edgar/data/1757715/000119312521153272/d324173dex991.htm",
+        "snippet": "Asset consideration and separately described transition services.",
+        "published": "2021-05-06"
+      },
+      {
+        "title": "Squatty Potty current catalog",
+        "url": "https://www.squattypotty.com/",
+        "snippet": "Current consumer catalog, not audited financial or fulfillment evidence.",
+        "published": null
+      }
+    ]
+  },
+  "copa di vino": {
+    "status": "unknown",
+    "summary": "SEC-filed agreements document an acquisition and later licensing and settlement activity, but the present ownership and operating-entity chain is complex enough that the current status remains withheld pending registry confirmation.",
+    "as_of": "2026-09-09",
+    "successor": null,
+    "confidence": 0.6,
+    "citations": [
+      {
+        "title": "Copa di Vino asset purchase agreement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112220001351/e2319_10-2.htm",
+        "snippet": "Oregon seller, Nevada buyer, asset purchase rather than blanket entity merger.",
+        "published": null
+      },
+      {
+        "title": "Splash finalizes Copa di Vino acquisition",
+        "url": "https://www.newsfilecorp.com/release/71163/Splash-Beverage-Group-Inc.-Finalizes-Acquisition-of-Copa-Di-Vino-Leading-Producer-of-Premium-Wine-by-the-Glass-in-over-13000-Retail-Locations",
+        "snippet": "Announced completion; not same event as August letter of intent.",
+        "published": "2020-12-30"
+      },
+      {
+        "title": "Splash report of license and settlement",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112225001300/e6867_8-k.htm",
+        "snippet": "Splash says no marketing or sales of Copa since April; license and litigation settlement terms.",
+        "published": "2025-09-25"
+      },
+      {
+        "title": "Copa di Vino current website",
+        "url": "https://copadivino.com/",
+        "snippet": "Catalog and shop links; stale copyright/staging links limit inference about fulfillment and legal operator.",
+        "published": null
+      }
+    ]
   }
 }
