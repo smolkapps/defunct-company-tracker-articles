@@ -26,6 +26,8 @@ class TestStatusCoerce:
             ("acqui-hired", Status.ACQUIRED),
             ("chapter 11", Status.BANKRUPT),
             ("rebranded", Status.RENAMED),
+            ("cancelled", Status.CANCELED),
+            ("dissolved and recreated", Status.DISSOLVED_RECREATED),
             ("operating", Status.ACTIVE),
             (Status.MERGED, Status.MERGED),
         ],
@@ -46,6 +48,8 @@ class TestStatusCoerce:
             Status.ACQUIRED,
             Status.MERGED,
             Status.RENAMED,
+            Status.CANCELED,
+            Status.DISSOLVED_RECREATED,
         ):
             assert s.is_terminal
         assert not Status.ACTIVE.is_terminal

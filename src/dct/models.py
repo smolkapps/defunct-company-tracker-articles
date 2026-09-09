@@ -31,6 +31,8 @@ class Status(str, enum.Enum):
     DEFUNCT = "defunct"
     BANKRUPT = "bankrupt"
     RENAMED = "renamed"
+    CANCELED = "canceled"
+    DISSOLVED_RECREATED = "dissolved_recreated"
     UNKNOWN = "unknown"
 
     @classmethod
@@ -74,6 +76,9 @@ class Status(str, enum.Enum):
             "chapter 11": cls.BANKRUPT,
             "chapter 7": cls.BANKRUPT,
             "rebranded": cls.RENAMED,
+            "cancelled": cls.CANCELED,
+            "dissolved and recreated": cls.DISSOLVED_RECREATED,
+            "dissolved/recreated": cls.DISSOLVED_RECREATED,
         }
         return synonyms.get(key, cls.UNKNOWN)
 
@@ -90,6 +95,8 @@ class Status(str, enum.Enum):
             Status.ACQUIRED,
             Status.MERGED,
             Status.RENAMED,
+            Status.CANCELED,
+            Status.DISSOLVED_RECREATED,
         }
 
 

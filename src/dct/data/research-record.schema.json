@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://defunct-company-tracker-articles.apps.smolkin.org/schemas/research-record.json",
+  "title": "Shark Tank company research record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["company", "status", "as_of", "episode_appearances", "claims", "sources", "uncertainties"],
+  "properties": {
+    "company": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "legal_entities": {"type": "array", "items": {"type": "string"}},
+        "successor_or_acquirer": {"type": ["string", "null"]}
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["operating", "renamed", "acquired", "merged", "closed", "canceled", "bankrupt", "dissolved", "dissolved_recreated", "unresolved"]
+    },
+    "as_of": {"type": "string", "format": "date"},
+    "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
+    "episode_appearances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["video_url", "kind"],
+        "properties": {
+          "season": {"type": ["integer", "null"], "minimum": 1},
+          "episode": {"type": ["integer", "null"], "minimum": 1},
+          "episode_date": {"type": ["string", "null"], "format": "date"},
+          "video_title": {"type": "string"},
+          "video_url": {"type": "string", "format": "uri"},
+          "episode_guide_url": {"type": ["string", "null"], "format": "uri"},
+          "kind": {"type": "string", "enum": ["episode", "pitch", "clip", "compilation", "rerun", "duplicate", "unresolved"]},
+          "pitch": {"type": ["string", "null"]},
+          "ask": {"type": ["string", "null"]},
+          "offer": {"type": ["string", "null"]},
+          "deal_closed": {"type": ["boolean", "null"]}
+        }
+      }
+    },
+    "timeline": {"type": "array", "items": {"$ref": "#/$defs/timeline_event"}},
+    "registry_records": {"type": "array", "items": {"$ref": "#/$defs/registry_record"}},
+    "claims": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "uncertainties": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "timeline_event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "event", "source_ids"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "event": {"type": "string"},
+        "source_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "registry_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["jurisdiction", "source_id", "status"],
+      "properties": {
+        "jurisdiction": {"type": "string"},
+        "entity_name": {"type": ["string", "null"]},
+        "entity_number": {"type": ["string", "null"]},
+        "status": {"type": "string"},
+        "events": {"type": "array", "items": {"type": "string"}},
+        "source_id": {"type": "string"},
+        "accessed": {"type": "string", "format": "date"},
+        "limitation": {"type": ["string", "null"]}
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "evidence_level", "source_ids"],
+      "properties": {
+        "id": {"type": "string"},
+        "text": {"type": "string"},
+        "evidence_level": {"type": "string", "enum": ["verified_fact", "strong_corroboration", "credible_report", "allegation", "unresolved"]},
+        "source_ids": {"type": "array", "items": {"type": "string"}},
+        "published": {"type": ["string", "null"]}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url", "source_type", "accessed"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "source_type": {"type": "string"},
+        "published": {"type": ["string", "null"]},
+        "accessed": {"type": "string", "format": "date"},
+        "notes": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

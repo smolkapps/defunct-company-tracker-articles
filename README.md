@@ -48,9 +48,16 @@ companies are withheld from publication; that behavior is covered by the test
 fixture rather than by a fake production entry.
 
 The tracker’s origin is the Shark Tank Fish Fixe clip
-(`https://www.youtube.com/watch?v=AoZdeYKGuR4`). Fish Fixe is treated as the
-primary episode entry; Hello Prenup, DEUX, and Hidrent/Helpful Heroes are
-included as second-tier businesses from the same episode.
+(`https://www.youtube.com/watch?v=AoZdeYKGuR4`). That video is the starting
+anchor, not the whole corpus: the intended expansion covers every company in
+the defined official Shark Tank video/episode collection. Fish Fixe, Hello
+Prenup, DEUX, and Hidrent/Helpful Heroes are retained as the first verified
+records while the episode manifest and deduplicated company ledger expand.
+
+The reusable research contract is in
+[`docs/ARTICLE-TEMPLATE.md`](docs/ARTICLE-TEMPLATE.md), with the machine-readable
+record shape in
+[`src/dct/data/research-record.schema.json`](src/dct/data/research-record.schema.json).
 
 ## Real research
 
