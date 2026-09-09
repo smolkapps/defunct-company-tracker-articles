@@ -1,18 +1,26 @@
 {% extends "base.html" %}
-{% block title %}{{ report.company.name }} — status &amp; history | {{ site_name }}{% endblock %}
-{% block description %}Is {{ report.company.name }} still in business? {{ report.summary|striptags }}{% endblock %}
+{% block title %}{{ report.company.name }} — {% if research_only %}research in progress{% else %}status &amp; history{% endif %} | {{ site_name }}{% endblock %}
+{% block description %}Is {{ report.company.name }} still in business? {{ display_summary|striptags }}{% endblock %}
 {% block head_extra %}
+{% if jsonld %}
 <script type="application/ld+json">
 {{ jsonld | safe }}
 </script>
+{% endif %}
 {% endblock %}
 {% block content %}
 <article class="article">
   <p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>
   <h1>{{ report.company.name }}</h1>
+  {% if research_only %}
+  <aside class="research-warning">
+    <strong>Research incomplete.</strong> This page documents the evidence and
+    unresolved questions; it does not claim a verified current status.
+  </aside>
+  {% endif %}
   <p class="status-line">
-    Status:
-    <span class="badge badge-{{ report.status.value }}">{{ report.status.value }}</span>
+    {% if research_only %}Research status:{% else %}Status:{% endif %}
+    <span class="badge badge-{{ detail.status if research_only else report.status.value }}">{{ detail.status if research_only else report.status.value }}</span>
     {% if report.as_of %}<span class="as-of">as of {{ report.as_of }}</span>{% endif %}
     {% if report.successor %}<span class="successor">&rarr; {{ report.successor }}</span>{% endif %}
   </p>
@@ -22,11 +30,122 @@
   {% endif %}
 
   <section class="summary">
-    <p>{{ report.summary }}</p>
+    <p>{{ display_summary }}</p>
   </section>
 
+  {% if detail %}
+  <section class="research-detail">
+    <h2>Shark Tank appearance</h2>
+    {% if detail.episode_appearances %}
+      {% for appearance in detail.episode_appearances %}
+      <article class="appearance">
+        <h3>
+          {% if appearance.season %}Season {{ appearance.season }}{% else %}Season unresolved{% endif %},
+          {% if appearance.episode %}episode {{ appearance.episode }}{% else %}episode unresolved{% endif %}
+        </h3>
+        <dl class="facts">
+          {% if appearance.episode_date %}<dt>Air date</dt><dd>{{ appearance.episode_date }}</dd>{% endif %}
+          <dt>Video</dt><dd><a href="{{ appearance.video_url }}" target="_blank" rel="noopener noreferrer">{{ appearance.video_title or appearance.video_url }}</a> <span class="evidence-label">{{ appearance.kind }}</span></dd>
+          {% if appearance.episode_guide_url %}<dt>Episode guide</dt><dd><a href="{{ appearance.episode_guide_url }}">Authoritative episode guide</a></dd>{% endif %}
+          {% if appearance.pitch %}<dt>Pitch</dt><dd>{{ appearance.pitch }}</dd>{% endif %}
+          {% if appearance.ask %}<dt>Ask</dt><dd>{{ appearance.ask }}</dd>{% endif %}
+          {% if appearance.offer %}<dt>Offer</dt><dd>{{ appearance.offer }}</dd>{% endif %}
+          <dt>Deal closed?</dt><dd>{% if appearance.deal_closed == true %}Yes{% elif appearance.deal_closed == false %}No{% else %}Unresolved{% endif %}</dd>
+        </dl>
+      </article>
+      {% endfor %}
+    {% else %}
+      <p class="empty">The exact episode/video mapping remains unresolved in this research record.</p>
+    {% endif %}
+
+    {% if detail.timeline %}
+    <h2>Dated timeline</h2>
+    <div class="table-scroll">
+      <table class="timeline-table">
+        <thead><tr><th>Date</th><th>Event</th><th>Evidence</th></tr></thead>
+        <tbody>
+        {% for event in detail.timeline %}
+          <tr>
+            <td>{{ event.date }}</td>
+            <td>{{ event.event }}</td>
+            <td class="source-refs">
+              {% for source_id in event.source_ids %}
+                {% set source = detail_sources.get(source_id) %}
+                {% if source %}<a href="{{ source.url }}" title="{{ source.title }}">{{ source_id }}</a>{% else %}{{ source_id }}{% endif %}{% if not loop.last %}, {% endif %}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endif %}
+
+    <h2>Legal and entity identity</h2>
+    <dl class="facts">
+      <dt>Legal entities</dt><dd>{{ detail.company.legal_entities | join(", ") if detail.company.legal_entities else "Unresolved" }}</dd>
+      <dt>Aliases</dt><dd>{{ detail.company.aliases | join(", ") if detail.company.aliases else "None recorded" }}</dd>
+      <dt>Successor/acquirer</dt><dd>{{ detail.company.successor_or_acquirer or "None verified" }}</dd>
+    </dl>
+    {% if detail.registry_records %}
+      {% for registry in detail.registry_records %}
+      <article class="registry-record">
+        <h3>{{ registry.jurisdiction }}</h3>
+        <p><strong>{{ registry.entity_name or "Entity unresolved" }}</strong>{% if registry.entity_number %} · {{ registry.entity_number }}{% endif %} · {{ registry.status }}</p>
+        {% if registry.events %}<ul>{% for event in registry.events %}<li>{{ event }}</li>{% endfor %}</ul>{% endif %}
+        {% if registry.limitation %}<p class="limitation">Limitation: {{ registry.limitation }}</p>{% endif %}
+        {% set registry_source = detail_sources.get(registry.source_id) %}
+        {% if registry_source %}<p><a href="{{ registry_source.url }}">{{ registry_source.title }}</a> · accessed {{ registry.accessed }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    {% else %}
+      <p class="empty">No conclusive registry record was retrieved.</p>
+    {% endif %}
+
+    {% if detail.claims %}
+    <h2>Notable findings and disputes</h2>
+    <ol class="claims">
+      {% for claim in detail.claims %}
+      <li>
+        <span class="evidence-label evidence-{{ claim.evidence_level }}">{{ claim.evidence_level | replace("_", " ") }}</span>
+        {{ claim.text }}
+        {% if claim.source_ids %}
+        <span class="source-refs">[
+          {% for source_id in claim.source_ids %}
+            {% set source = detail_sources.get(source_id) %}
+            {% if source %}<a href="{{ source.url }}" title="{{ source.title }}">{{ source_id }}</a>{% else %}{{ source_id }}{% endif %}{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        ]</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+
+    {% if detail.uncertainties %}
+    <h2>What we could not verify</h2>
+    <ul class="uncertainties">
+      {% for uncertainty in detail.uncertainties %}<li>{{ uncertainty }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2>Full research sources</h2>
+    <ol class="full-sources">
+      {% for source in detail.sources %}
+      <li id="source-{{ source.id }}">
+        <strong>{{ source.id }}</strong> — <a href="{{ source.url }}" target="_blank" rel="nofollow noopener">{{ source.title }}</a>
+        <span class="src-domain">{{ source.source_type }}</span>
+        {% if source.published %}<span class="src-date">published {{ source.published }}</span>{% endif %}
+        <span class="src-date">accessed {{ source.accessed }}</span>
+        {% if source.notes %}<p class="source-notes">{{ source.notes }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
   <section class="sources">
-    <h2>Sources</h2>
+    <h2>Status-Verification Sources</h2>
     {% if report.citations %}
     <ol>
       {% for c in report.citations %}

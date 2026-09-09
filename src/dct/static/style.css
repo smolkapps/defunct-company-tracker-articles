@@ -55,12 +55,41 @@ a:hover { text-decoration: underline; }
 .badge-defunct, .badge-bankrupt { background: var(--defunct); }
 .badge-acquired, .badge-merged, .badge-renamed { background: var(--acquired); }
 .badge-unknown { background: var(--unknown); }
+.badge-unresolved { background: var(--unknown); }
 .article h1 { margin-bottom: 0.25rem; }
 .crumbs { color: var(--muted); margin-top: 0; }
 .status-line { font-size: 1.05rem; margin: 0.5rem 0 1rem; }
 .status-line .as-of, .status-line .successor { color: var(--muted); margin-left: 0.5rem; }
 .aliases { color: var(--muted); font-style: italic; }
 .summary { font-size: 1.1rem; }
+.research-warning {
+  margin: 0.75rem 0 1rem; padding: 0.75rem 1rem; border-left: 4px solid var(--unknown);
+  background: var(--card); color: var(--muted);
+}
+.research-detail { margin-top: 2rem; }
+.research-detail h2 { margin-top: 2rem; }
+.research-detail h3 { margin-bottom: 0.35rem; font-size: 1rem; }
+.facts { display: grid; grid-template-columns: minmax(7rem, auto) 1fr; gap: 0.3rem 1rem; }
+.facts dt { font-weight: 600; }
+.facts dd { margin: 0; min-width: 0; }
+.appearance, .registry-record {
+  margin: 0 0 1rem; padding: 0.85rem 1rem; background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px;
+}
+.table-scroll { overflow-x: auto; }
+.timeline-table { width: 100%; border-collapse: collapse; background: var(--card); }
+.timeline-table th, .timeline-table td {
+  padding: 0.55rem 0.65rem; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top;
+}
+.timeline-table th { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; }
+.timeline-table td:first-child { white-space: nowrap; }
+.source-refs { font-size: 0.82rem; overflow-wrap: anywhere; }
+.evidence-label {
+  display: inline-block; padding: 0.05rem 0.4rem; border: 1px solid var(--line);
+  border-radius: 999px; color: var(--muted); font-size: 0.75rem; text-transform: capitalize;
+}
+.claims li, .uncertainties li, .full-sources li { margin-bottom: 0.65rem; }
+.source-notes, .limitation { margin: 0.25rem 0 0; color: var(--muted); font-size: 0.9rem; }
 .sources ol { padding-left: 1.25rem; }
 .sources li { margin-bottom: 0.75rem; }
 .src-domain { color: var(--muted); font-size: 0.85rem; }
@@ -83,4 +112,11 @@ a:hover { text-decoration: underline; }
 .site-footer {
   border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem;
   padding: 1.25rem; max-width: 820px; margin: 0 auto;
+}
+@media (max-width: 560px) {
+  .site-header { align-items: flex-start; }
+  .site-header nav { display: flex; flex-direction: column; }
+  .facts { grid-template-columns: 1fr; gap: 0.05rem; }
+  .facts dd { margin-bottom: 0.5rem; }
+  .company-table th, .company-table td { padding: 0.45rem 0.35rem; }
 }

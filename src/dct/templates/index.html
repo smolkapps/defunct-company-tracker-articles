@@ -55,10 +55,10 @@ API key configured to populate this site.</p>
 
 {% if unpublished %}
 <details class="unverified">
-  <summary>{{ unpublished | length }} companies could not be verified (hidden from the index)</summary>
+  <summary>{{ unpublished | length }} companies could not be verified</summary>
   <ul>
     {% for r in unpublished %}
-    <li>{{ r.company.name }} — <em>{{ r.status.value }}</em>
+    <li>{% if r.company.slug in research_slugs %}<a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a>{% else %}{{ r.company.name }}{% endif %} — <em>{{ r.status.value }}</em>
       {% if r.flags %}<span class="why">({{ r.flags | join("; ") }})</span>{% endif %}
     </li>
     {% endfor %}

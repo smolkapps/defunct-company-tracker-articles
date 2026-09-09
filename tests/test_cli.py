@@ -51,12 +51,27 @@ class TestDemoCommand:
         ):
             assert os.path.exists(os.path.join(out_dir, "companies", f"{slug}.html"))
         index = open(os.path.join(out_dir, "index.html"), encoding="utf-8").read()
+        actionglow = open(
+            os.path.join(out_dir, "companies", "actionglow.html"), encoding="utf-8"
+        ).read()
+        all33_path = os.path.join(out_dir, "companies", "all33.html")
+        assert os.path.exists(all33_path)
+        all33 = open(all33_path, encoding="utf-8").read()
+        sitemap = open(os.path.join(out_dir, "sitemap.xml"), encoding="utf-8").read()
         assert "https://www.youtube.com/watch?v=AoZdeYKGuR4" in index
         assert "Same episode" in index
+        assert "Dated timeline" in actionglow
+        assert "Legal and entity identity" in actionglow
+        assert "Notable findings and disputes" in actionglow
+        assert "What we could not verify" in actionglow
         # ALL33 is intentionally retained in the input but withheld until its
-        # conflicting current-page/registry evidence is reconciled.
+        # conflicting current-page/registry evidence is reconciled. Its
+        # evidence page is noindex and excluded from the verified sitemap.
         assert "ALL33" in index
         assert "could not be verified" in index
+        assert "Research incomplete" in all33
+        assert '<meta name="robots" content="noindex, follow" />' in all33
+        assert "companies/all33.html" not in sitemap
 
 class TestBuildAndResearch:
     def test_build_with_fixture(self, monkeypatch, tmp_path, capsys):

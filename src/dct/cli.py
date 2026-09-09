@@ -2,6 +2,7 @@
 
     dct build  COMPANIES.json [--out site] [--cache .cache.json] [--no-cache]
                [--site-url URL] [--force] [--fixture FIXTURE.json]
+               [--research-record RESEARCH.json]
     dct research COMPANIES.json [--out reports.json] [...]
     dct demo   [--out site]          # build the bundled sample, no API key
     dct status                       # show whether a live provider is available
@@ -18,6 +19,7 @@ statuses come back unverified/UNKNOWN — which is the honest result with no dat
 from __future__ import annotations
 
 import argparse
+import glob
 import json
 import os
 import sys
@@ -33,6 +35,7 @@ _PKG_DIR = os.path.dirname(os.path.abspath(__file__))
 # sample data is bundled inside the package so `dct demo` works when installed
 SAMPLE_COMPANIES = os.path.join(_PKG_DIR, "data", "sample_companies.json")
 SAMPLE_FIXTURE = os.path.join(_PKG_DIR, "data", "sample_fixture.json")
+SAMPLE_RESEARCH = os.path.join(_PKG_DIR, "data", "research_batch*.json")
 
 
 def _load_fixture(path: str | None) -> dict[str, dict[str, Any]] | None:
@@ -40,6 +43,17 @@ def _load_fixture(path: str | None) -> dict[str, dict[str, Any]] | None:
         return None
     with open(path, "r", encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def _load_research_records(paths: list[str]) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for path in paths:
+        with open(path, "r", encoding="utf-8") as fh:
+            payload = json.load(fh)
+        if not isinstance(payload, list):
+            raise ValueError(f"research record file must contain a list: {path}")
+        records.extend(payload)
+    return records
 
 
 def _make_provider(args) -> Any:
@@ -61,7 +75,8 @@ def cmd_build(args) -> int:
         site_name=args.site_name,
         site_url=args.site_url or "",
     )
-    stats = gen.build(result, args.out)
+    records = _load_research_records(getattr(args, "research_records", []))
+    stats = gen.build(result, args.out, records)
     print(f"provider: {provider.name}")
     print(json.dumps({**result.summary(), **stats}, indent=2))
     print(f"site written to: {os.path.abspath(args.out)}")
@@ -97,6 +112,7 @@ def cmd_demo(args) -> int:
     args.force = True
     args.site_url = args.site_url or ""
     args.site_name = args.site_name or "Defunct Company Tracker (demo)"
+    args.research_records = sorted(glob.glob(SAMPLE_RESEARCH))
     return cmd_build(args)
 
 
@@ -140,6 +156,13 @@ def build_parser() -> argparse.ArgumentParser:
     b = sub.add_parser("build", help="research companies and generate the static site")
     b.add_argument("companies", help="path to companies JSON")
     b.add_argument("--out", default="site", help="output directory")
+    b.add_argument(
+        "--research-record",
+        dest="research_records",
+        action="append",
+        default=[],
+        help="detailed research-record JSON list to render (repeatable)",
+    )
     add_common(b)
     b.set_defaults(func=cmd_build)
 

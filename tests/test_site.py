@@ -45,6 +45,7 @@ class TestSiteBuild:
         )
         assert stats["articles"] == 1
         assert stats["withheld"] == 1
+        assert stats["research_only"] == 0
 
     def test_article_contains_sources_and_status(self, tmp_path):
         out = str(tmp_path / "site")

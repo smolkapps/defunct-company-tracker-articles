@@ -22,7 +22,7 @@ import json
 import os
 import shutil
 from datetime import datetime, timezone
-from typing import Iterable
+from typing import Any, Iterable
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -105,7 +105,12 @@ class SiteGenerator:
         base.update(extra)
         return base
 
-    def build(self, result: PipelineResult, out_dir: str) -> dict[str, int]:
+    def build(
+        self,
+        result: PipelineResult,
+        out_dir: str,
+        research_records: Iterable[dict[str, Any]] = (),
+    ) -> dict[str, int]:
         os.makedirs(out_dir, exist_ok=True)
         companies_dir = os.path.join(out_dir, "companies")
         os.makedirs(companies_dir, exist_ok=True)
@@ -121,6 +126,10 @@ class SiteGenerator:
 
         published = result.publishable
         unpublished = result.unpublishable
+        research_by_name = {
+            record["company"]["name"].casefold(): record
+            for record in research_records
+        }
         n_companies = len(result.reports)
         root_url = f"{self.site_url}/" if self.site_url else ""
         published_by_slug = {r.company.slug: r for r in published}
@@ -135,6 +144,7 @@ class SiteGenerator:
         article_tpl = self.env.get_template("article.html")
         written_pages: list[str] = []
         for r in published:
+            detail = research_by_name.get(r.company.name.casefold())
             article_url = (
                 f"{self.site_url}/companies/{r.company.slug}.html"
                 if self.site_url
@@ -143,6 +153,14 @@ class SiteGenerator:
             html = article_tpl.render(
                 **self._ctx(
                     report=r,
+                    display_summary=r.summary,
+                    detail=detail,
+                    detail_sources={
+                        source["id"]: source
+                        for source in (detail or {}).get("sources", [])
+                    },
+                    research_only=False,
+                    noindex=False,
                     rel_root="../",
                     canonical_url=article_url,
                     n_companies=n_companies,
@@ -152,6 +170,49 @@ class SiteGenerator:
             path = os.path.join(companies_dir, f"{r.company.slug}.html")
             _write(path, html)
             written_pages.append(f"companies/{r.company.slug}.html")
+
+        # Unresolved companies with a substantive research record get a public,
+        # noindex evidence page.  It documents blockers without promoting an
+        # unverified status into the verified index or sitemap.
+        research_only_pages: list[str] = []
+        for r in unpublished:
+            detail = research_by_name.get(r.company.name.casefold())
+            if not detail:
+                continue
+            article_url = (
+                f"{self.site_url}/companies/{r.company.slug}.html"
+                if self.site_url
+                else ""
+            )
+            html = article_tpl.render(
+                **self._ctx(
+                    report=r,
+                    display_summary=next(
+                        (
+                            claim["text"]
+                            for claim in detail.get("claims", [])
+                            if claim.get("evidence_level") == "unresolved"
+                        ),
+                        detail.get("claims", [{}])[0].get("text", r.summary)
+                        if detail.get("claims")
+                        else r.summary,
+                    ),
+                    detail=detail,
+                    detail_sources={
+                        source["id"]: source
+                        for source in detail.get("sources", [])
+                    },
+                    research_only=True,
+                    noindex=True,
+                    rel_root="../",
+                    canonical_url=article_url,
+                    n_companies=n_companies,
+                    jsonld="",
+                )
+            )
+            path = os.path.join(companies_dir, f"{r.company.slug}.html")
+            _write(path, html)
+            research_only_pages.append(f"companies/{r.company.slug}.html")
 
         # --- index --------------------------------------------------------- #
         index_html = self.env.get_template("index.html").render(
@@ -163,6 +224,11 @@ class SiteGenerator:
                 canonical_url=root_url,
                 episode_primary=episode_primary,
                 episode_second_tier=episode_second_tier,
+                research_slugs={
+                    r.company.slug
+                    for r in unpublished
+                    if r.company.name.casefold() in research_by_name
+                },
                 n_companies=n_companies,
             )
         )
@@ -184,8 +250,9 @@ class SiteGenerator:
         self._write_robots(out_dir)
 
         return {
-            "pages": len(written_pages) + 2,
+            "pages": len(written_pages) + len(research_only_pages) + 2,
             "articles": len(written_pages),
+            "research_only": len(research_only_pages),
             "withheld": len(unpublished),
         }
 
