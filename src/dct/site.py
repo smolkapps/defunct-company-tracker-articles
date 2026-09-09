@@ -99,6 +99,7 @@ class SiteGenerator:
             "site_name": self.site_name,
             "site_description": self.site_description,
             "site_url": self.site_url,
+            "og_image_url": f"{self.site_url}/assets/og.png" if self.site_url else "",
             "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         }
         base.update(extra)
@@ -168,9 +169,12 @@ class SiteGenerator:
         _write(os.path.join(out_dir, "index.html"), index_html)
 
         # --- methodology --------------------------------------------------- #
+        methodology_url = (
+            f"{self.site_url}/methodology.html" if self.site_url else ""
+        )
         method_html = self.env.get_template("methodology.html").render(
             **self._ctx(
-                rel_root="", canonical_url=root_url, n_companies=n_companies
+                rel_root="", canonical_url=methodology_url, n_companies=n_companies
             )
         )
         _write(os.path.join(out_dir, "methodology.html"), method_html)

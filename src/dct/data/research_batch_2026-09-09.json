@@ -1,0 +1,508 @@
+[
+  {
+    "company": {
+      "name": "ActionGlow",
+      "aliases": ["Action Glow", "45th Parallel Lighting, LLC"],
+      "legal_entities": ["45th Parallel Lighting, LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 7,
+        "episode_date": null,
+        "video_title": "Will Young Entrepreneurs Lighten Up The Sharks With ActionGlow?",
+        "video_url": "https://www.youtube.com/watch?v=z4Jc8sWgkcE",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "LED lighting systems for action-sports equipment",
+        "ask": null,
+        "offer": null,
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2016-06-14",
+        "event": "U.S. patent US9366404B1 was granted to 45th Parallel Lighting, LLC for a decorative lighting system for sporting equipment.",
+        "source_ids": ["S-ACT-PATENT"]
+      },
+      {
+        "date": "2022-09-26",
+        "event": "An archived ActionGlow contact page still named 45th Parallel Lighting, LLC and exposed an operating Shopify storefront/contact footprint.",
+        "source_ids": ["S-ACT-ARCHIVE"]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The current ActionGlow site offers products, support, warranty/returns information, and a retailer application; it says the brand is stocked by nationwide retailers.",
+        "source_ids": ["S-ACT-CURRENT", "S-ACT-RETAIL"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Michigan",
+        "entity_name": "45th Parallel Lighting, LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-ACT-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The Michigan corporate search was not indexed by the public web search used here; exact standing and entity number still require a direct registry lookup or certified record. This is not evidence of dissolution."
+      }
+    ],
+    "claims": [
+      {
+        "id": "ACT-001",
+        "text": "ActionGlow is operating as a current lighting brand and is not merely a historical Shark Tank name.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["S-ACT-CURRENT", "S-ACT-RETAIL", "S-ACT-ARCHIVE"]
+      },
+      {
+        "id": "ACT-002",
+        "text": "The current site identifies 45th Parallel Lighting, LLC as the company behind ActionGlow.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["S-ACT-CURRENT", "S-ACT-PATENT"]
+      },
+      {
+        "id": "ACT-003",
+        "text": "The exact Michigan registry standing and any post-show deal closing remain unresolved.",
+        "evidence_level": "unresolved",
+        "source_ids": ["S-ACT-REG"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-ACT-CURRENT",
+        "title": "ActionGlow — Contact Us",
+        "url": "https://actionglow.com/pages/contact-us",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current page names 45th Parallel Lighting, LLC and lists active support, warranty/returns, and storefront signals."
+      },
+      {
+        "id": "S-ACT-RETAIL",
+        "title": "ActionGlow — Become a Retailer",
+        "url": "https://actionglow.com/pages/become-an-actionglow-retailer",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current wholesale page says the brand is stocked in nationwide retail locations as of 2026."
+      },
+      {
+        "id": "S-ACT-PATENT",
+        "title": "Decorative lighting system for sporting equipment — US9366404B1",
+        "url": "https://patents.google.com/patent/US9366404B1/en",
+        "source_type": "patent record",
+        "published": "2016-06-14",
+        "accessed": "2026-09-09",
+        "notes": "Patent record identifies 45th Parallel Lighting, LLC as assignee."
+      },
+      {
+        "id": "S-ACT-VIDEO",
+        "title": "ActionGlow Shark Tank clip — Sony Pictures Television",
+        "url": "https://www.youtube.com/watch?v=z4Jc8sWgkcE",
+        "source_type": "official video",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "SPTV provenance for the Season 14 ActionGlow pitch."
+      },
+      {
+        "id": "S-ACT-ARCHIVE",
+        "title": "Archived ActionGlow contact page — 2022-09-26",
+        "url": "https://web.archive.org/web/20220926000605id_/https://actionglow.com/pages/contact-us",
+        "source_type": "web archive",
+        "published": "2022-09-26",
+        "accessed": "2026-09-09",
+        "notes": "Archived page also named 45th Parallel Lighting, LLC and showed a live Shopify store/contact footprint; no material contradiction to the current legal-name claim was observed in this bounded comparison."
+      },
+      {
+        "id": "S-ACT-REG",
+        "title": "Michigan business-entity registry lookup — pending direct access",
+        "url": "https://cofs.lara.state.mi.us/CorpWeb/CorpSearch/CorpSearch.aspx",
+        "source_type": "state registry portal",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Portal identified; exact record was not retrieved in this pass."
+      }
+    ],
+    "uncertainties": [
+      "The official video and secondary episode sources establish the pitch, but post-show deal closing was not independently verified.",
+      "Direct Michigan registry standing and entity number remain pending."
+    ]
+  },
+  {
+    "company": {
+      "name": "AfreSheet",
+      "aliases": ["AFreSHeet", "PeelAways", "Peel Away Labs"],
+      "legal_entities": ["AFRESHEET LLC", "Peel Away Labs, Inc."],
+      "successor_or_acquirer": "PeelAways / Peel Away Labs, Inc."
+    },
+    "status": "renamed",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 7,
+        "episode": 8,
+        "episode_date": null,
+        "video_title": "Lori Greiner Thinks That AfreSheet's Product Is Uncomfortable",
+        "video_url": "https://www.youtube.com/watch?v=NWfEuOhM9rA",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "Peel-away disposable bedding sheets",
+        "ask": null,
+        "offer": null,
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2016-12-22",
+        "event": "The patent assignment record shows AFRESHEET LLC assigning interest to Peel Away Labs, Inc.",
+        "source_ids": ["S-AFR-PATENT"]
+      },
+      {
+        "date": "2022-07-05",
+        "event": "An archived PeelAways story already described the Peelaways brand, its founder/CEO, its Shark Tank appearance, and the no-deal outcome.",
+        "source_ids": ["S-AFR-ARCHIVE-2022"]
+      },
+      {
+        "date": "2024-10-03",
+        "event": "An archived company story explicitly described the Shark Tank brand as AFreSHeet and said it was rebranded to Peel Away because customers found the original name confusing.",
+        "source_ids": ["S-AFR-ARCHIVE-2024"]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The current PeelAways story says AFreSheet has been rebranded to PeelAways and offers products for sale.",
+        "source_ids": ["S-AFR-CURRENT"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "New York / Delaware",
+        "entity_name": "Peel Away Labs, Inc.",
+        "entity_number": null,
+        "status": "not fully verified",
+        "events": ["Federal patent records identify Peel Away Labs, Inc. as current assignee; state corporate standing still requires direct registry retrieval."],
+        "source_id": "S-AFR-PATENT",
+        "accessed": "2026-09-09",
+        "limitation": "Patent and trademark records are not substitutes for a state certificate of status."
+      }
+    ],
+    "claims": [
+      {
+        "id": "AFR-001",
+        "text": "AfreSheet is a renamed/rebranded predecessor brand, with the current successor presented as PeelAways / Peel Away Labs.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["S-AFR-CURRENT", "S-AFR-ARCHIVE-2022", "S-AFR-ARCHIVE-2024", "S-AFR-PATENT"]
+      },
+      {
+        "id": "AFR-002",
+        "text": "The patent assignment history links AFRESHEET LLC and Peel Away Labs, Inc.; the old brand and successor should not be treated as unrelated companies without further entity filings.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["S-AFR-PATENT"]
+      },
+      {
+        "id": "AFR-003",
+        "text": "A secondary article says AfreSheet went out of business, but this conflicts with the successor's current store and dated company pages; it is retained as a conflict rather than used to declare Peel Away Labs defunct.",
+        "evidence_level": "credible_report",
+        "source_ids": ["S-AFR-CONFLICT", "S-AFR-CURRENT"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-AFR-CURRENT",
+        "title": "Our Story — PeelAways",
+        "url": "https://peelaways.com/pages/our-story",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current page explicitly says AFreSheet has been rebranded to PeelAways, identifies Peel Away Labs, and displays current products."
+      },
+      {
+        "id": "S-AFR-PATENT",
+        "title": "Waterproof peel away textile products — US10729260B2",
+        "url": "https://patents.google.com/patent/US10729260B2/en",
+        "source_type": "patent record",
+        "published": "2020-08-04",
+        "accessed": "2026-09-09",
+        "notes": "Records AFRESHEET LLC and Peel Away Labs, Inc. assignment events and current assignee information."
+      },
+      {
+        "id": "S-AFR-VIDEO",
+        "title": "AfreSheet Shark Tank clip — Sony Pictures Television",
+        "url": "https://www.youtube.com/watch?v=NWfEuOhM9rA",
+        "source_type": "official video",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "SPTV provenance for the Season 7 AfreSheet pitch."
+      },
+      {
+        "id": "S-AFR-ARCHIVE-2022",
+        "title": "Archived PeelAways story — 2022-07-05",
+        "url": "https://web.archive.org/web/20220705114630id_/https://peelaways.com/pages/our-story",
+        "source_type": "web archive",
+        "published": "2022-07-05",
+        "accessed": "2026-09-09",
+        "notes": "Dated company page already used Peelaways/Peel Away Labs and described the Shark Tank no-deal history."
+      },
+      {
+        "id": "S-AFR-ARCHIVE-2024",
+        "title": "Archived PeelAways story — 2024-10-03",
+        "url": "https://web.archive.org/web/20241003160031id_/https://peelaways.com/pages/our-story",
+        "source_type": "web archive",
+        "published": "2024-10-03",
+        "accessed": "2026-09-09",
+        "notes": "Dated page states the original Shark Tank brand was AFreSHeet and describes the rebrand rationale."
+      },
+      {
+        "id": "S-AFR-CONFLICT",
+        "title": "AfreSheet Shark Tank update — Gazette Review",
+        "url": "https://gazettereview.com/afresheet-on-shark-tank-update/",
+        "source_type": "secondary reporting",
+        "published": "2023",
+        "accessed": "2026-09-09",
+        "notes": "Contains a closure narrative for the old brand while also describing Peel Away Labs; not a state dissolution record."
+      }
+    ],
+    "uncertainties": [
+      "The legal relationship between AFRESHEET LLC and Peel Away Labs, Inc. is evidenced by patent assignments but still needs state formation/merger records.",
+      "The television no-deal finding is based on the company narrative and the video context; closing status is not a post-show registry fact."
+    ]
+  },
+  {
+    "company": {
+      "name": "1920 Convertible Jackets",
+      "aliases": ["1920", "NineteenTwenty"],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 16,
+        "episode": 4,
+        "episode_date": null,
+        "video_title": "Convertible Jacket Causes Unexpected Tears in the Tank",
+        "video_url": "https://www.youtube.com/watch?v=Rhq_8ZXSPpY",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "Convertible jackets that transform into other useful garments/accessories",
+        "ask": null,
+        "offer": null,
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2022-10-18",
+        "event": "U.S. patent US11470894B1 was granted to Ashley Sankar for a convertible jacket.",
+        "source_ids": ["S-1920-PATENT"]
+      },
+      {
+        "date": "2024-05-25",
+        "event": "An archived NineteenTwenty FAQ described the patented jacket, shipping, returns, and a live storefront.",
+        "source_ids": ["S-1920-ARCHIVE"]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The current NineteenTwenty storefront and FAQ continue to advertise products, customer support, shipping, and returns.",
+        "source_ids": ["S-1920-CURRENT"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "United States",
+        "entity_name": null,
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-1920-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The brand's operating legal entity and home-state filing were not established in this pass; no registry absence is being treated as a closure finding."
+      }
+    ],
+    "claims": [
+      {
+        "id": "1920-001",
+        "text": "1920 / NineteenTwenty shows strong current operating evidence through its active storefront, FAQ, customer-care contact, shipping/returns language, and product inventory signals.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["S-1920-CURRENT", "S-1920-ARCHIVE"]
+      },
+      {
+        "id": "1920-002",
+        "text": "Ashley Sankar is the inventor named on the U.S. convertible-jacket patent associated with the brand's product concept.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["S-1920-PATENT"]
+      },
+      {
+        "id": "1920-003",
+        "text": "The operating legal entity, founder ownership structure, and post-show deal closing remain unresolved.",
+        "evidence_level": "unresolved",
+        "source_ids": ["S-1920-REG"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-1920-CURRENT",
+        "title": "1920 / NineteenTwenty — FAQ",
+        "url": "https://www.heynineteentwenty.com/pages/faqs",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current page describes patented jackets, customer care, shipping, returns, and a woman-veteran-owned business."
+      },
+      {
+        "id": "S-1920-PATENT",
+        "title": "Convertible jacket — US11470894B1",
+        "url": "https://patents.google.com/patent/US11470894B1/en",
+        "source_type": "patent record",
+        "published": "2022-10-18",
+        "accessed": "2026-09-09",
+        "notes": "Names Ashley Sankar as inventor; the Google Patents legal-status label is not itself a substitute for a USPTO certificate."
+      },
+      {
+        "id": "S-1920-VIDEO",
+        "title": "1920 Convertible Jackets Shark Tank clip — Sony Pictures Television",
+        "url": "https://www.youtube.com/watch?v=Rhq_8ZXSPpY",
+        "source_type": "official video",
+        "published": "2025-10-13",
+        "accessed": "2026-09-09",
+        "notes": "SPTV description identifies the clip as Season 16, Episode 4."
+      },
+      {
+        "id": "S-1920-ABC",
+        "title": "Appeared on Shark Tank — ABC",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official network index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "ABC's current index includes NineteenTwenty."
+      },
+      {
+        "id": "S-1920-ARCHIVE",
+        "title": "Archived NineteenTwenty FAQ — 2024-05-25",
+        "url": "https://web.archive.org/web/20240525104405id_/https://www.heynineteentwenty.com/pages/faqs",
+        "source_type": "web archive",
+        "published": "2024-05-25",
+        "accessed": "2026-09-09",
+        "notes": "Archived FAQ already described the patented jacket, shipping, returns, and a functioning NineteenTwenty storefront."
+      },
+      {
+        "id": "S-1920-REG",
+        "title": "State/federal entity search — pending direct legal-identity match",
+        "url": "https://www.sos.ca.gov/business-programs/business-entities/information-requests",
+        "source_type": "registry search guidance",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "California registry guidance is included as a search path, not as evidence that the company is California-formed."
+      }
+    ],
+    "uncertainties": [
+      "A current storefront is evidence of current commercial activity but not by itself proof of a particular legal entity's good standing.",
+      "The episode's post-show deal outcome still needs a reliable contemporary or primary source."
+    ]
+  },
+  {
+    "company": {
+      "name": "ALL33",
+      "aliases": ["all33", "Simtec LLC", "ALL33 LLC"],
+      "legal_entities": ["Simtec LLC", "ALL33 LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "low",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 5,
+        "episode_date": null,
+        "video_title": "Barbara Corcoran Calls ALL33's Entrepreneur A 'Salesman'",
+        "video_url": "https://www.youtube.com/watch?v=hxuuywHiynI",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "Ergonomic chair product",
+        "ask": null,
+        "offer": null,
+        "deal_closed": null
+      }
+    ],
+    "timeline": [],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware / California",
+        "entity_name": "ALL33 LLC / Simtec LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-ALL33-TRADEMARK",
+        "accessed": "2026-09-09",
+        "limitation": "A trademark record and BBB profile identify entity names and historical addresses, but the underlying state standing and successor/asset chain were not verified in this pass."
+      }
+    ],
+    "claims": [
+      {
+        "id": "ALL33-001",
+        "text": "ALL33 appeared in the Shark Tank corpus and is associated in federal trademark material with Simtec LLC and later ALL33 LLC.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["S-ALL33-ABC", "S-ALL33-TRADEMARK"]
+      },
+      {
+        "id": "ALL33-002",
+        "text": "Current operating status is unresolved: a current company profile and domain signal commercial continuity, while BBB records show a D- rating and complaint-response issue; neither source establishes dissolution or continued legal good standing.",
+        "evidence_level": "unresolved",
+        "source_ids": ["S-ALL33-LINKEDIN", "S-ALL33-BBB", "S-ALL33-TRADEMARK"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-ALL33-ABC",
+        "title": "Appeared on Shark Tank — ABC",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "official network index",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "ABC's current index includes ALL33."
+      },
+      {
+        "id": "S-ALL33-TRADEMARK",
+        "title": "USPTO trademark office action showing ALL33 owner history",
+        "url": "https://tmng-al.uspto.gov/resting2/api/casedoc/cms/case/99297004/office-action/OfficeAction8031576.pdf",
+        "source_type": "USPTO record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "The record identifies Simtec LLC as registrant and ALL33 LLC as last listed owner, with Delaware entity descriptions and historical addresses."
+      },
+      {
+        "id": "S-ALL33-LINKEDIN",
+        "title": "all33 — LinkedIn company profile",
+        "url": "https://www.linkedin.com/company/simtec-all33",
+        "source_type": "company profile / secondary platform",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Profile presents all33 as a current chair company; self-authored and not a registry record."
+      },
+      {
+        "id": "S-ALL33-BBB",
+        "title": "ALL 33 — BBB Business Profile",
+        "url": "https://www.bbb.org/us/ca/beverly-hills/profile/health-and-medical-products/all-33-1216-1282770",
+        "source_type": "consumer/business profile",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BBB lists a D- rating, failure to respond to two complaints, Simtec LLC as an alternate name, and historical state-license numbers; BBB is not the state registry."
+      }
+    ],
+    "uncertainties": [
+      "Direct Delaware and California registry records, standing, dissolution history, and registered-agent changes remain pending.",
+      "The current all33.com page was not retrievable in the bounded check, and no Wayback comparison was completed for it.",
+      "Do not publish ALL33 as operating, dissolved, acquired, or defunct until the registry and current-product evidence are reconciled."
+    ]
+  }
+]

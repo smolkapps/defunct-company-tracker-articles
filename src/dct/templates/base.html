@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% block title %}{{ site_name }}{% endblock %}</title>
     <meta name="description" content="{% block description %}{{ site_description }}{% endblock %}" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#171a24" />
+    <link rel="icon" href="{{ rel_root }}assets/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="{{ rel_root }}assets/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ rel_root }}assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ rel_root }}assets/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ rel_root }}assets/apple-touch-icon.png" />
+    <link rel="manifest" href="{{ rel_root }}assets/site.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="{{ site_name }}" />
+    <meta property="og:title" content="{{ self.title() }}" />
+    <meta property="og:description" content="{{ self.description() }}" />
+    {% if og_image_url %}
+    <meta property="og:image" content="{{ og_image_url }}" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Defunct Company Tracker — is it still in business?" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ self.title() }}" />
+    <meta name="twitter:description" content="{{ self.description() }}" />
+    <meta name="twitter:image" content="{{ og_image_url }}" />
+    <meta name="twitter:image:alt" content="Defunct Company Tracker — is it still in business?" />
+    {% endif %}
     {% if canonical_url %}
     <link rel="canonical" href="{{ canonical_url }}" />
     <meta property="og:url" content="{{ canonical_url }}" />
@@ -14,7 +37,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ rel_root }}index.html">{{ site_name }}</a>
+      <a class="brand" href="{{ rel_root }}index.html">
+        <img class="brand-mark" src="{{ rel_root }}assets/favicon.svg" alt="" width="26" height="26" aria-hidden="true" />
+        <span>{{ site_name }}</span>
+      </a>
       <nav>
         <a href="{{ rel_root }}index.html">Companies</a>
         <a href="{{ rel_root }}methodology.html">Methodology</a>

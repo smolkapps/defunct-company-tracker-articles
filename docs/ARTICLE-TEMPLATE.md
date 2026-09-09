@@ -58,6 +58,24 @@ Explain why the status is the published classification. Use at least one
 primary or official source where available and corroborate terminal claims
 with an independent source. A dead website alone is not closure evidence.
 
+### Historical integrity and change detection
+
+Treat current company-written pages, press pages, product descriptions, and
+video metadata as mutable evidence. They may have been rewritten after the
+pitch, after a dispute, or after the company stopped operating. For every
+material status, deal, acquisition, closure, cancellation, or dispute claim:
+
+- Compare the current page with dated captures (Wayback or another archive),
+  contemporaneous reporting, the original broadcast/official video or
+  transcript, and primary filings where available.
+- Record the source's publication date, archive timestamp, and access date;
+  record the nature of any material wording, title, description, or metadata
+  change that can be observed.
+- Separate contemporaneous evidence from later company narrative. Preserve
+  conflicts and corrections instead of silently replacing an earlier account.
+- If the page was not archived, say so. Do not infer that an event did not
+  happen merely because current text omits it.
+
 ## 6. Notable developments and disputes
 
 Include the sourced story: changed deals, buyouts, equity disputes, lawsuits,

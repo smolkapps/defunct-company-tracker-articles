@@ -97,6 +97,11 @@ Useful flags: `--out DIR`, `--cache FILE` / `--no-cache`, `--ttl DAYS`,
 `--force` (ignore cache), `--fixture FILE` (drive the mock provider),
 `--site-url URL`, `--site-name NAME`.
 
+The hosted static build uses `npm run build`, which writes the generated site
+to `dist/` for the app-subdomain deployer. It runs the same deterministic demo
+fixture used by the offline checks, so registry-blocked records remain visible
+as withheld rather than being silently promoted to facts.
+
 ## Caching
 
 Results are cached to a local JSON file (`--cache`, default `.dct-cache.json`)

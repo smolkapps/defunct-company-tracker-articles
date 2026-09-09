@@ -82,6 +82,9 @@ class TestSiteBuild:
         article = open(
             os.path.join(out, "companies", "pets-com.html"), encoding="utf-8"
         ).read()
+        methodology = open(
+            os.path.join(out, "methodology.html"), encoding="utf-8"
+        ).read()
         robots = open(os.path.join(out, "robots.txt"), encoding="utf-8").read()
         assert "https://www.youtube.com/watch?v=AoZdeYKGuR4" in index
         assert '<link rel="canonical" href="https://example.com/" />' in index
@@ -89,6 +92,10 @@ class TestSiteBuild:
         assert (
             '<link rel="canonical" href="https://example.com/companies/pets-com.html" />'
             in article
+        )
+        assert (
+            '<link rel="canonical" href="https://example.com/methodology.html" />'
+            in methodology
         )
         assert "Sitemap: https://example.com/sitemap.xml" in robots
 

@@ -16,6 +16,10 @@
     { "name": "Fish Fixe", "domain": "fishfixe.com", "founded": 2017, "notes": "primary business in the source video" },
     { "name": "Hello Prenup", "aliases": ["HelloPrenup"], "domain": "helloprenup.com" },
     { "name": "DEUX", "aliases": ["Deux", "DEUX Foods"], "domain": "eatdeux.com" },
-    { "name": "Hidrent", "aliases": ["Helpful Heroes"], "domain": "hidrent.com", "founded": 2017 }
+    { "name": "Hidrent", "aliases": ["Helpful Heroes"], "domain": "hidrent.com", "founded": 2017 },
+    { "name": "ActionGlow", "aliases": ["Action Glow", "45th Parallel Lighting, LLC"], "domain": "actionglow.com" },
+    { "name": "AfreSheet", "aliases": ["AFreSHeet", "PeelAways", "Peel Away Labs"], "domain": "peelaways.com" },
+    { "name": "1920 Convertible Jackets", "aliases": ["1920", "NineteenTwenty"], "domain": "heynineteentwenty.com" },
+    { "name": "ALL33", "aliases": ["all33", "Simtec LLC", "ALL33 LLC"], "domain": "all33.com", "notes": "current-status and registry research intentionally unresolved pending primary-record reconciliation" }
   ]
 }

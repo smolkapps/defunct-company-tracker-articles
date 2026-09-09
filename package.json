@@ -1,0 +1,8 @@
+{
+  "name": "defunct-company-tracker-articles-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "PYTHONPATH=src \"${DCT_PYTHON:-python3}\" -m dct.cli demo --out dist --site-url \"${GT_SITE:-https://defunct-company-tracker-articles.apps.smolkin.org}\" --site-name \"Defunct Company Tracker\" && cp -R public/. dist/"
+  }
+}
