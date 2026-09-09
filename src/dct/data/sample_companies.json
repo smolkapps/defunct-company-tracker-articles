@@ -44,6 +44,10 @@
     { "name": "Black Paper Party", "aliases": ["Black Paper Party LLC"], "domain": "blackpaperparty.com" },
     { "name": "Blackdot", "aliases": ["Blackdot, Inc.", "Blackdot Tattoo"], "domain": "blackdot.tattoo" },
     { "name": "Blinger", "aliases": ["blinger®", "GEMC2, LLC dba blinger"], "domain": "blinger.com" },
-    { "name": "Boona", "aliases": ["Tandem Shower", "Deburr LLC"], "domain": "boona.com" }
+    { "name": "Boona", "aliases": ["Tandem Shower", "Deburr LLC"], "domain": "boona.com" },
+    { "name": "Boost Oxygen", "aliases": ["Boost Oxygen LLC"], "domain": "boostoxygen.com" },
+    { "name": "Boot Illusion", "aliases": ["Boot Illusions"], "notes": "research retained, but public closure status is withheld pending primary legal-status evidence" },
+    { "name": "BootayBag", "aliases": ["Bootay Bag", "BootayBag LLC", "BOOTAYBAG CORP."], "domain": "thebootaybags.com" },
+    { "name": "Booty Queen", "aliases": ["BootyQueen Apparel", "Bootyqueen Apparel", "BOOTYQUEEN"], "notes": "research retained, but public closure status is withheld pending primary Texas legal-status evidence" }
   ]
 }

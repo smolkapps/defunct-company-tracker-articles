@@ -1,0 +1,884 @@
+[
+  {
+    "company": {
+      "name": "Boost Oxygen",
+      "aliases": [
+        "Boost Oxygen LLC"
+      ],
+      "legal_entities": [
+        "BOOST OXYGEN LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 11,
+        "episode": 2,
+        "episode_date": "2019-10-06",
+        "video_title": "Boost Oxygen — ABC official episode roster",
+        "video_url": "https://abc.com/news/79999524-3d0d-4f47-a22d-703eb22bfa80/category/2887649",
+        "episode_guide_url": "https://abc.com/news/79999524-3d0d-4f47-a22d-703eb22bfa80/category/2887649",
+        "kind": "episode",
+        "pitch": "Portable supplemental canned oxygen for recreational and non-medical use.",
+        "ask": "$1,000,000 for 5% equity",
+        "offer": "Kevin O’Leary offered a $1,000,000 loan at 9% interest plus 7.5% equity; the televised final deal was reported as a $1,000,000 loan at 7.5% interest plus 6.25% equity. Rob Neuner and Mike Grice accepted Kevin O’Leary’s revised offer.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2019-10-06",
+        "event": "ABC aired Boost Oxygen in Season 11, Episode 2; the founders accepted O’Leary’s televised financing/equity offer.",
+        "source_ids": [
+          "BO1",
+          "BO4"
+        ]
+      },
+      {
+        "date": "2019-12-20",
+        "event": "Connecticut Post reported Neuner saying O’Leary had done due diligence and would receive a 5% stake, conflicting with the televised 6.25%.",
+        "source_ids": [
+          "BO5"
+        ]
+      },
+      {
+        "date": "2020-02-10",
+        "event": "Florida registered BOOST OXYGEN LLC as a Connecticut foreign LLC, document M20000001997.",
+        "source_ids": [
+          "BO3"
+        ]
+      },
+      {
+        "date": "2020-12-24",
+        "event": "O’Leary directly described Boost Oxygen as a company he invested in.",
+        "source_ids": [
+          "BO6"
+        ]
+      },
+      {
+        "date": "2026-03-26",
+        "event": "BOOST OXYGEN LLC filed its 2026 Florida annual report and remained ACTIVE in the Florida record.",
+        "source_ids": [
+          "BO3"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The official company site offered priced products and continued to describe its O’Leary relationship.",
+        "source_ids": [
+          "BO2",
+          "BO7"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Florida foreign registration / Connecticut home jurisdiction",
+        "entity_name": "BOOST OXYGEN LLC",
+        "entity_number": "M20000001997",
+        "status": "active foreign LLC; Connecticut home-state standing unresolved",
+        "events": [
+          "Florida foreign LLC registered 2020-02-10",
+          "2026 annual report filed 2026-03-26"
+        ],
+        "source_id": "BO3",
+        "accessed": "2026-09-09",
+        "limitation": "Florida confirms a Connecticut LLC, FEI/EIN 36-4617519. Connecticut’s search page rendered only Loading/CSS Error in this environment."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOOST_OXYGEN-STATUS",
+        "text": "Boost Oxygen is operating; Kevin O’Leary’s investment is directly corroborated, but contemporaneous sources conflict over the final equity terms.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BO2",
+          "BO3",
+          "BO6",
+          "BO7"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOOST_OXYGEN-DEV-1",
+        "text": "O’Leary’s own 2020 interview is direct post-show evidence that an investment occurred.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BO6"
+        ]
+      },
+      {
+        "id": "BOOST_OXYGEN-DEV-2",
+        "text": "The 6.25% televised figure versus the founder-reported 5% may reflect renegotiated closing terms, but that explanation remains inference without executed documents.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BO4",
+          "BO5"
+        ]
+      },
+      {
+        "id": "BOOST_OXYGEN-DEV-3",
+        "text": "Current company copy reduces the transaction to a 'million-dollar deal' and omits dated loan/equity detail; without an archived version of that same page, this shows narrative simplification but not a proven edit.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BO2",
+          "BO4",
+          "BO5"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BO1",
+        "title": "Boost Oxygen — ABC official episode roster",
+        "url": "https://abc.com/news/79999524-3d0d-4f47-a22d-703eb22bfa80/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2019-10-06",
+        "accessed": "2026-09-09",
+        "notes": "Episode provenance and appearance."
+      },
+      {
+        "id": "BO2",
+        "title": "Boost Oxygen — official company page",
+        "url": "https://www.boostoxygen.com/about-boost-oxygen/",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current operation and current million-dollar-deal narrative."
+      },
+      {
+        "id": "BO3",
+        "title": "Boost Oxygen — Florida Division of Corporations",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=forl-m20000001997-acc6642b-861d-4a41-9259-cc6bfe749ce0&directionType=PreviousList&inquirytype=EntityName&listNameOrder=BOOSTOLEDO+L020000045811&searchNameOrder=BOOSTOXYGEN+M200000019970&searchTerm=BOOSTRESULTS+LLC",
+        "source_type": "Florida Division of Corporations",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Legal identity, foreign status and annual reports."
+      },
+      {
+        "id": "BO4",
+        "title": "Boost Oxygen — contemporaneous recap",
+        "url": "https://www.tvinsider.com/820415/shark-tank-2019-circadian-optics-boost-oxygen-atlas-monroe-face-yoga/",
+        "source_type": "contemporaneous recap",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask and televised deal terms."
+      },
+      {
+        "id": "BO5",
+        "title": "Boost Oxygen — Connecticut Post/Hearst",
+        "url": "https://www.sfchronicle.com/news/article/Shark-Tank-winner-shares-secrets-with-Bridgeport-14922111.php",
+        "source_type": "Connecticut Post/Hearst",
+        "published": "2019-12-20",
+        "accessed": "2026-09-09",
+        "notes": "Post-show due diligence and 5% founder statement."
+      },
+      {
+        "id": "BO6",
+        "title": "Boost Oxygen — direct investor interview",
+        "url": "https://www.fool.com/investing/2020/12/24/shark-tank-star-kevin-oleary-talks-about-financial/",
+        "source_type": "direct investor interview",
+        "published": "2020-12-24",
+        "accessed": "2026-09-09",
+        "notes": "O’Leary says he invested in Boost Oxygen."
+      },
+      {
+        "id": "BO7",
+        "title": "Boost Oxygen — official ecommerce",
+        "url": "https://www.boostoxygen.com/",
+        "source_type": "official ecommerce",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current priced products."
+      },
+      {
+        "id": "BO8",
+        "title": "Boost Oxygen — Connecticut official registry attempt",
+        "url": "https://service.ct.gov/business/s/onlinebusinesssearch?language=en_US",
+        "source_type": "Connecticut official registry attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Registry blocker."
+      }
+    ],
+    "uncertainties": [
+      "Executed financing documents and exact final interest/equity terms.",
+      "Connecticut entity number and current home-state standing.",
+      "Same-page archived versions proving whether current deal wording was edited."
+    ]
+  },
+  {
+    "company": {
+      "name": "Boot Illusion",
+      "aliases": [
+        "Boot Illusions"
+      ],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 3,
+        "episode": 13,
+        "episode_date": "2012-05-04",
+        "video_title": "Boot Illusion pitch — ABC official Shark Tank YouTube",
+        "video_url": "https://www.youtube.com/watch?v=oe-fYFmw5zI",
+        "episode_guide_url": "https://abc.com/news/3a8eb273-9a5a-4a02-bb56-1062abee8dd0/category/939724",
+        "kind": "pitch",
+        "pitch": "Fashion boots with interchangeable uppers and shoe bases.",
+        "ask": "$100,000 for 30% equity",
+        "offer": "Daymond John reportedly offered $100,000 for 75%; Barbara Corcoran offered $100,000 for 55%. Queenie Davis and Andrew Goodrum accepted Barbara Corcoran’s $100,000 for 55% offer.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2012-05-04",
+        "event": "Boot Illusion aired in Season 3, Episode 13 and accepted Barbara’s $100,000 for 55% offer.",
+        "source_ids": [
+          "BI1",
+          "BI2",
+          "BI3"
+        ]
+      },
+      {
+        "date": "2013-01",
+        "event": "A founder interview reported that the Barbara deal did not proceed and described manufacturing failure, customs delays and order refunds.",
+        "source_ids": [
+          "BI3"
+        ]
+      },
+      {
+        "date": "2013-08-05",
+        "event": "BOOT ILLUSION trademark application serial 86028331 was filed to Gwennette Davis for shoe accessories.",
+        "source_ids": [
+          "BI4"
+        ]
+      },
+      {
+        "date": "2013",
+        "event": "Later follow-up reporting says the planned relaunch failed and the business shuttered; no primary filing fixed the exact date.",
+        "source_ids": [
+          "BI3",
+          "BI5"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "New York",
+        "entity_name": null,
+        "entity_number": null,
+        "status": "unresolved; registry endpoint returned 502",
+        "events": [],
+        "source_id": "BI6",
+        "accessed": "2026-09-09",
+        "limitation": "NY DOS endpoint returned 502. No entity filing tying a corporation/LLC to Boot Illusion was captured."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOOT_ILLUSION-STATUS",
+        "text": "Boot Illusion appears to have closed after its Barbara Corcoran deal did not proceed, but the tracker withholds a definitive closure status because no primary entity filing or exact shutdown record was captured.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BI3",
+          "BI5",
+          "BI6"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOOT_ILLUSION-DEV-1",
+        "text": "Barbara’s deal did not close; evidence is a post-show founder interview rather than an executed termination document.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BI3"
+        ]
+      },
+      {
+        "id": "BOOT_ILLUSION-DEV-2",
+        "text": "ABC’s current page links Boot Illusion to Queen Grace Shoes; without archived contemporaneous ABC copy or entity records, this is not treated as proof Queen Grace was the original legal entity or a successor.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BI1"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BI1",
+        "title": "Boot Illusion — ABC official episode roster",
+        "url": "https://abc.com/news/3a8eb273-9a5a-4a02-bb56-1062abee8dd0/category/939724",
+        "source_type": "ABC official episode roster",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 3 Episode 13 roster and current outbound link."
+      },
+      {
+        "id": "BI2",
+        "title": "Boot Illusion — episode database",
+        "url": "https://thetvdb.com/series/shark-tank/allseasons/official",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Original air date 2012-05-04."
+      },
+      {
+        "id": "BI3",
+        "title": "Boot Illusion — specialist contemporaneous/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/boot-illusion/",
+        "source_type": "specialist contemporaneous/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, offers, failed closing, founder manufacturing account, closure."
+      },
+      {
+        "id": "BI4",
+        "title": "Boot Illusion — USPTO-derived trademark index",
+        "url": "https://trademarks.justia.com/category/clothing/2013/august/5/",
+        "source_type": "USPTO-derived trademark index",
+        "published": "2013-08-05",
+        "accessed": "2026-09-09",
+        "notes": "Trademark serial, owner and goods."
+      },
+      {
+        "id": "BI5",
+        "title": "Boot Illusion — retrospective reporting",
+        "url": "https://www.thelist.com/1339106/what-happened-boot-illusions-after-shark-tank/",
+        "source_type": "retrospective reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Secondary closure corroboration."
+      },
+      {
+        "id": "BI6",
+        "title": "Boot Illusion — New York official registry attempt",
+        "url": "https://apps.dos.ny.gov/publicInquiry/",
+        "source_type": "New York official registry attempt",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "502 blocker."
+      },
+      {
+        "id": "BI7",
+        "title": "Boot Illusion pitch — ABC official Shark Tank YouTube",
+        "url": "https://www.youtube.com/watch?v=oe-fYFmw5zI",
+        "source_type": "ABC official Shark Tank video",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official pitch video provenance."
+      }
+    ],
+    "uncertainties": [
+      "Exact legal entity/entity number and state filing history.",
+      "Exact closure/dissolution date.",
+      "Direct USPTO status history for serial 86028331.",
+      "Archived original Boot Illusion and ABC pages."
+    ]
+  },
+  {
+    "company": {
+      "name": "BootayBag",
+      "aliases": [
+        "Bootay Bag",
+        "BootayBag LLC",
+        "BOOTAYBAG CORP."
+      ],
+      "legal_entities": [
+        "BootayBag LLC",
+        "BOOTAYBAG CORP.",
+        "BOOTAYBAG, LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "closed",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 2,
+        "episode_date": "2020-10-23",
+        "video_title": "BootayBag pitch — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=h_Zw7dHyES0",
+        "episode_guide_url": "https://abc.com/news/f7a85e8a-84d5-44d3-9137-4aedbea4f3bf/category/2887649",
+        "kind": "pitch",
+        "pitch": "A women’s underwear subscription service.",
+        "ask": "$500,000 for 5% equity",
+        "offer": "Kendra Scott offered $500,000 for 10%; Barbara Corcoran sought 20% and briefly discussed a joint offer; Kevin O’Leary offered $500,000 for 15%. Ellyette Gheno accepted Kendra Scott’s solo $500,000 for 10% offer.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2015",
+        "event": "Gheno founded BootayBag with $300, initially in Denver, according to her 2021 interview.",
+        "source_ids": [
+          "BB4"
+        ]
+      },
+      {
+        "date": "2020-10-23",
+        "event": "BootayBag aired in Season 12, Episode 2; Gheno accepted Kendra Scott’s $500,000 for 10% offer.",
+        "source_ids": [
+          "BB1",
+          "BB2"
+        ]
+      },
+      {
+        "date": "2021-03-05",
+        "event": "Bizwomen/San Francisco Business Times reported 40,000 subscribers and manufacturing changes made with Scott’s investment.",
+        "source_ids": [
+          "BB4"
+        ]
+      },
+      {
+        "date": "2024-05-15",
+        "event": "Florida formed BOOTAYBAG, LLC, document L24000231706, with Ellyette Gheno as registered agent and authorized member.",
+        "source_ids": [
+          "BB6"
+        ]
+      },
+      {
+        "date": "2024-12",
+        "event": "BootayBag stopped shipping, deactivated social accounts and shut its website; later founder statements said she chose to close/leave the company.",
+        "source_ids": [
+          "BB3",
+          "BB5"
+        ]
+      },
+      {
+        "date": "2025-01-15",
+        "event": "Inc. reported customer claims of continued charges, missing shipments and lack of closure notice. Those customer claims are allegations, not adjudicated findings.",
+        "source_ids": [
+          "BB3"
+        ]
+      },
+      {
+        "date": "2025-04-07",
+        "event": "Gheno wrote that she had exited BootayBag the prior year after building it from $300 to more than $32 million in sales.",
+        "source_ids": [
+          "BB5"
+        ]
+      },
+      {
+        "date": "2025-09-26",
+        "event": "Florida administratively dissolved BOOTAYBAG, LLC for failure to file an annual report.",
+        "source_ids": [
+          "BB6"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The current domain stated that it no longer delivered products directly and instead linked visitors to similar products on Amazon.",
+        "source_ids": [
+          "BB10"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Florida",
+        "entity_name": "BOOTAYBAG, LLC",
+        "entity_number": "L24000231706",
+        "status": "inactive; administratively dissolved 2025-09-26",
+        "events": [
+          "Florida LLC formed 2024-05-15",
+          "administratively dissolved 2025-09-26"
+        ],
+        "source_id": "BB6",
+        "accessed": "2026-09-09",
+        "limitation": "Florida record is definitive only for the 2024 LLC. Trademark history shows BOOTAYBAG CORP. as later mark owner and BootayBag LLC in Denver as original owner; conversion/assignment/merger documents were not captured."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOOTAYBAG-STATUS",
+        "text": "BootayBag closed in December 2024; Kendra Scott’s investment is strongly corroborated, while the BootayBag LLC/BOOTAYBAG CORP. succession and any post-closure asset transfer remain unresolved.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BB3",
+          "BB5",
+          "BB6",
+          "BB10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOOTAYBAG-DEV-1",
+        "text": "Closure is established independently from the later Florida administrative dissolution; the dissolution is not being used as proof the brand failed.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BB3",
+          "BB5",
+          "BB6"
+        ]
+      },
+      {
+        "id": "BOOTAYBAG-DEV-2",
+        "text": "Customer claims about continued charges and missing orders around shutdown are allegations reported by Inc., not adjudicated findings.",
+        "evidence_level": "allegation",
+        "source_ids": [
+          "BB3"
+        ]
+      },
+      {
+        "id": "BOOTAYBAG-DEV-3",
+        "text": "Trademark records indicate a transition from BootayBag LLC to BOOTAYBAG CORP., but the exact legal instrument and any post-closure asset sale remain unresolved.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BB7",
+          "BB8"
+        ]
+      },
+      {
+        "id": "BOOTAYBAG-DEV-4",
+        "text": "The founder’s public narrative evolved from an initially unclear departure to explicit later discussion of leaving/closing; this is a documented narrative change, not proof that a specific webpage was secretly edited.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BB3",
+          "BB5"
+        ]
+      },
+      {
+        "id": "BOOTAYBAG-DEV-5",
+        "text": "The current thebootaybags.com page is an affiliate-oriented domain revival, not evidence that BootayBag resumed direct fulfillment: the page itself says it no longer delivers products directly and routes users to Amazon.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BB10"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BB1",
+        "title": "BootayBag — ABC official episode roster",
+        "url": "https://abc.com/news/f7a85e8a-84d5-44d3-9137-4aedbea4f3bf/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2020-10-23",
+        "accessed": "2026-09-09",
+        "notes": "Episode provenance and appearance."
+      },
+      {
+        "id": "BB2",
+        "title": "BootayBag — contemporaneous pitch data",
+        "url": "https://www.statsforsharks.com/entry/BootayBag",
+        "source_type": "contemporaneous pitch data",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask and accepted $500,000/10% Scott offer."
+      },
+      {
+        "id": "BB3",
+        "title": "BootayBag — reputable reporting",
+        "url": "https://www.inc.com/annabel-burba/why-this-shark-tank-brand-disappeared-from-the-internet/91104332",
+        "source_type": "reputable reporting",
+        "published": "2025-01-15",
+        "accessed": "2026-09-09",
+        "notes": "December 2024 closure, founder explanation, customer allegations, due-diligence context."
+      },
+      {
+        "id": "BB4",
+        "title": "BootayBag — San Francisco Business Times/Bizwomen",
+        "url": "https://www.bizjournals.com/sanantonio/bizwomen/news/latest-news/2021/03/bootaybag-underwear-shark-tank.html?page=2",
+        "source_type": "San Francisco Business Times/Bizwomen",
+        "published": "2021-03-05",
+        "accessed": "2026-09-09",
+        "notes": "Founder interview and post-investment operations."
+      },
+      {
+        "id": "BB5",
+        "title": "BootayBag — founder first-person account",
+        "url": "https://sincerelyellyette.substack.com/p/welcome-to-my-substack",
+        "source_type": "founder first-person account",
+        "published": "2025-04-07",
+        "accessed": "2026-09-09",
+        "notes": "Founder says she exited in 2024; >$32m sales."
+      },
+      {
+        "id": "BB6",
+        "title": "BootayBag — Florida Division of Corporations",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l24000231706-944acd3e-450d-4c05-9f10-de4dd334bbfb&directionType=Initial&inquirytype=EntityName&listNameOrder=BOOSVENTURES+L140000486330&searchNameOrder=BOOTAYBAG+L240002317060&searchTerm=Boos+Ventures%2C+LLC",
+        "source_type": "Florida Division of Corporations",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Florida LLC formation and admin dissolution."
+      },
+      {
+        "id": "BB7",
+        "title": "BootayBag — USPTO-derived trademark record",
+        "url": "https://www.trademarkia.com/bootaybag-87807355",
+        "source_type": "USPTO-derived trademark record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BOOTAYBAG CORP. current mark owner and post-registration events."
+      },
+      {
+        "id": "BB8",
+        "title": "BootayBag — USPTO-derived owner history",
+        "url": "https://furm.com/trademarks/bootaybag-87807355",
+        "source_type": "USPTO-derived owner history",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Original BootayBag LLC Denver owner and later BOOTAYBAG CORP."
+      },
+      {
+        "id": "BB9",
+        "title": "BootayBag — Colorado official registry portal",
+        "url": "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do",
+        "source_type": "Colorado official registry portal",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Earlier entity search endpoint; entity-specific filing not captured."
+      },
+      {
+        "id": "BB10",
+        "title": "BootayBag current affiliate-domain revival",
+        "url": "https://thebootaybags.com/",
+        "source_type": "current domain / affiliate page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current page says it no longer delivers products directly and routes visitors to Amazon; polished membership copy is not evidence that direct operations resumed."
+      },
+      {
+        "id": "BB11",
+        "title": "BootayBag pitch — Sony Pictures Television",
+        "url": "https://www.youtube.com/watch?v=h_Zw7dHyES0",
+        "source_type": "Sony Pictures Television official video",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official pitch video provenance."
+      }
+    ],
+    "uncertainties": [
+      "Executed Kendra Scott investment documents/final cap table.",
+      "Complete entity chain from Colorado BootayBag LLC to BOOTAYBAG CORP. to the 2024 Florida LLC.",
+      "Any post-closure asset, IP, subscriber-list or inventory sale.",
+      "Same-page Wayback snapshots bracketing the shutdown."
+    ]
+  },
+  {
+    "company": {
+      "name": "Booty Queen",
+      "aliases": [
+        "BootyQueen Apparel",
+        "Bootyqueen Apparel",
+        "BOOTYQUEEN"
+      ],
+      "legal_entities": [
+        "Bootyqueen Apparel LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 8,
+        "episode": 22,
+        "episode_date": "2017-04-21",
+        "video_title": "Booty Queen — ABC official appearance index",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "episode",
+        "pitch": "Women’s fitness apparel designed around glute-focused training.",
+        "ask": "$250,000 for 20% equity",
+        "offer": "Daymond John offered $250,000 for 33.3%; the founders countered at 25% and 27.5%, but Daymond held to equal one-third ownership. Amanda Latona Kuclo and Steve Kuclo accepted Daymond John’s $250,000 for 33.3% offer.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2015-03-01",
+        "event": "Trademark-derived records list first use of BOOTYQUEEN in commerce by Bootyqueen Apparel LLC.",
+        "source_ids": [
+          "BQ5"
+        ]
+      },
+      {
+        "date": "2017-04-21",
+        "event": "Booty Queen Apparel aired on Shark Tank; Amanda and Steve accepted Daymond John’s $250,000 for 33.3% offer.",
+        "source_ids": [
+          "BQ1",
+          "BQ3",
+          "BQ4"
+        ]
+      },
+      {
+        "date": "2018-06-19",
+        "event": "BOOTYQUEEN registration 5495598 issued to Bootyqueen Apparel LLC.",
+        "source_ids": [
+          "BQ5"
+        ]
+      },
+      {
+        "date": "2019",
+        "event": "Follow-up reporting says the company opened a retail store in Plano, Texas.",
+        "source_ids": [
+          "BQ3",
+          "BQ6"
+        ]
+      },
+      {
+        "date": "2021-01-23",
+        "event": "Daymond John published a verified-channel video saying he invested in Booty Queen Apparel.",
+        "source_ids": [
+          "BQ2"
+        ]
+      },
+      {
+        "date": "2021-04",
+        "event": "Founder LinkedIn histories, as later reported by Shark Tank Blog, indicate shutdown around April 2021; this date was not independently captured from a registry filing.",
+        "source_ids": [
+          "BQ3"
+        ]
+      },
+      {
+        "date": "2021-07",
+        "event": "Later reporting says the company’s social channels ceased updates around mid-2021.",
+        "source_ids": [
+          "BQ6"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "No active primary ecommerce channel or verified successor was located; a registered trademark is treated as IP evidence, not operating evidence.",
+        "source_ids": [
+          "BQ5",
+          "BQ6",
+          "BQ7"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Texas",
+        "entity_name": "Bootyqueen Apparel LLC",
+        "entity_number": null,
+        "status": "unresolved; entity-specific status not captured",
+        "events": [],
+        "source_id": "BQ7",
+        "accessed": "2026-09-09",
+        "limitation": "Trademark-derived records identify Bootyqueen Apparel LLC as a Texas LLC with a Dallas address. Texas’s search portal loaded, but no entity-specific status record was captured in this environment."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOOTY_QUEEN-STATUS",
+        "text": "Booty Queen appears to have stopped operating around 2021, while Daymond John directly confirms that he invested; the tracker withholds a definitive closure status until the Texas entity standing or another primary shutdown record is captured.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BQ2",
+          "BQ3",
+          "BQ6",
+          "BQ7"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOOTY_QUEEN-DEV-1",
+        "text": "Daymond John’s verified-channel statement is direct post-show investor evidence that the relationship went beyond an on-air handshake.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BQ2"
+        ]
+      },
+      {
+        "id": "BOOTY_QUEEN-DEV-2",
+        "text": "Closure is supported by later-reported founder employment histories plus prolonged inactive commerce/social channels, but the exact legal cessation date is unresolved.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BQ3",
+          "BQ6"
+        ]
+      },
+      {
+        "id": "BOOTY_QUEEN-DEV-3",
+        "text": "The BOOTYQUEEN mark remains listed as registered in a current USPTO-derived source; that status is intentionally not treated as proof of business operation.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BQ5"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BQ1",
+        "title": "Booty Queen — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Booty Queen appeared."
+      },
+      {
+        "id": "BQ2",
+        "title": "Booty Queen — verified Daymond John YouTube",
+        "url": "https://www.youtube.com/watch?v=4VFDz6B4e-w",
+        "source_type": "verified Daymond John YouTube",
+        "published": "2021-01-23",
+        "accessed": "2026-09-09",
+        "notes": "Direct statement that he invested."
+      },
+      {
+        "id": "BQ3",
+        "title": "Booty Queen — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bootyqueen-apparel/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, offer, reported close, store and later closure timing."
+      },
+      {
+        "id": "BQ4",
+        "title": "Booty Queen — ABC/Disney production caption via Getty",
+        "url": "https://www.gettyimages.ie/detail/news-photo/episode-820-newlyweds-and-bodybuilders-from-dallas-texas-news-photo/672911242",
+        "source_type": "ABC/Disney production caption via Getty",
+        "published": "2017-04-21",
+        "accessed": "2026-09-09",
+        "notes": "Episode 820 description and broadcast date."
+      },
+      {
+        "id": "BQ5",
+        "title": "Booty Queen — USPTO-derived trademark record",
+        "url": "https://trademarks.justia.com/874/92/bootyqueen-87492500.html",
+        "source_type": "USPTO-derived trademark record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Registration 5495598, Texas LLC owner, first-use dates."
+      },
+      {
+        "id": "BQ6",
+        "title": "Booty Queen — retrospective reporting",
+        "url": "https://www.glam.com/1354137/bootyqueen-apparel-what-happened-after-shark-tank/",
+        "source_type": "retrospective reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "No operating website/store, mid-2021 social cessation."
+      },
+      {
+        "id": "BQ7",
+        "title": "Booty Queen — Texas official registry access point",
+        "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search",
+        "source_type": "Texas official registry access point",
+        "published": "2026-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Entity-specific status not captured."
+      }
+    ],
+    "uncertainties": [
+      "Texas entity number, current standing and formal termination date.",
+      "Executed Daymond John investment documents/final cap table.",
+      "Any later asset/IP transfer or successor operator.",
+      "Archived original site/social snapshots fixing the exact shutdown sequence."
+    ]
+  }
+]

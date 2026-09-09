@@ -1190,5 +1190,97 @@
         "published": "2024-03-08"
       }
     ]
+  },
+  "boost oxygen": {
+    "status": "active",
+    "summary": "Boost Oxygen is operating as of 2026-09-09. Kevin O’Leary directly described it as a company he invested in, but the public record conflicts over whether his final equity stake was 6.25% or 5%.",
+    "as_of": "2026-09-09",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "Boost Oxygen — Florida Division of Corporations",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=forl-m20000001997-acc6642b-861d-4a41-9259-cc6bfe749ce0&directionType=PreviousList&inquirytype=EntityName&listNameOrder=BOOSTOLEDO+L020000045811&searchNameOrder=BOOSTOXYGEN+M200000019970&searchTerm=BOOSTRESULTS+LLC",
+        "snippet": "Florida lists BOOST OXYGEN LLC as an active Connecticut foreign LLC and records its 2026 annual report.",
+        "published": null
+      },
+      {
+        "title": "Boost Oxygen — direct Kevin O’Leary interview",
+        "url": "https://www.fool.com/investing/2020/12/24/shark-tank-star-kevin-oleary-talks-about-financial/",
+        "snippet": "O’Leary directly says that he invested in Boost Oxygen.",
+        "published": "2020-12-24"
+      },
+      {
+        "title": "Boost Oxygen — current official store",
+        "url": "https://www.boostoxygen.com/",
+        "snippet": "Current priced products and direct ecommerce operation.",
+        "published": null
+      }
+    ]
+  },
+  "boot illusion": {
+    "status": "unknown",
+    "summary": "Boot Illusion appears to have closed after its Barbara Corcoran deal did not proceed, but the tracker withholds a definitive closure status because no primary entity filing or exact shutdown record was captured.",
+    "as_of": "2026-09-09",
+    "confidence": 0.6,
+    "citations": [
+      {
+        "title": "Boot Illusion — ABC official episode roster",
+        "url": "https://abc.com/news/3a8eb273-9a5a-4a02-bb56-1062abee8dd0/category/939724",
+        "snippet": "Official episode and company provenance.",
+        "published": null
+      },
+      {
+        "title": "Boot Illusion — post-show founder interview",
+        "url": "https://www.sharktankblog.com/business/boot-illusion/",
+        "snippet": "Reports that the Corcoran deal did not proceed and describes the manufacturing and refund problems; closure still lacks a primary filing.",
+        "published": null
+      }
+    ]
+  },
+  "bootaybag": {
+    "status": "defunct",
+    "summary": "BootayBag closed in December 2024. A later Florida entity was administratively dissolved in September 2025, and the current domain is an affiliate-oriented revival that explicitly says it no longer delivers products directly.",
+    "as_of": "2026-09-09",
+    "confidence": 0.96,
+    "citations": [
+      {
+        "title": "Why This Shark Tank Brand Disappeared From the Internet",
+        "url": "https://www.inc.com/annabel-burba/why-this-shark-tank-brand-disappeared-from-the-internet/91104332",
+        "snippet": "Reports the December 2024 shutdown and distinguishes customer allegations from established facts.",
+        "published": "2025-01-15"
+      },
+      {
+        "title": "BootayBag — Florida Division of Corporations",
+        "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l24000231706-944acd3e-450d-4c05-9f10-de4dd334bbfb&directionType=Initial&inquirytype=EntityName&listNameOrder=BOOSVENTURES+L140000486330&searchNameOrder=BOOTAYBAG+L240002317060&searchTerm=Boos+Ventures%2C+LLC",
+        "snippet": "BOOTAYBAG, LLC was formed in 2024 and administratively dissolved on September 26, 2025.",
+        "published": null
+      },
+      {
+        "title": "BootayBag current affiliate-domain revival",
+        "url": "https://thebootaybags.com/",
+        "snippet": "The page says it no longer delivers products directly and routes visitors to Amazon products; it is not evidence of resumed direct operations.",
+        "published": null
+      }
+    ]
+  },
+  "booty queen": {
+    "status": "unknown",
+    "summary": "Booty Queen appears to have stopped operating around 2021, while Daymond John directly confirms that he invested; the tracker withholds a definitive closure status until the Texas entity standing or another primary shutdown record is captured.",
+    "as_of": "2026-09-09",
+    "confidence": 0.62,
+    "citations": [
+      {
+        "title": "Booty Queen — Daymond John verified video",
+        "url": "https://www.youtube.com/watch?v=4VFDz6B4e-w",
+        "snippet": "Daymond John directly states that he invested in Booty Queen Apparel.",
+        "published": "2021-01-23"
+      },
+      {
+        "title": "Booty Queen — Texas registry access point",
+        "url": "https://comptroller.texas.gov/taxes/franchise/account-status/search",
+        "snippet": "The official portal was reached, but an entity-specific current record was not captured.",
+        "published": null
+      }
+    ]
   }
 }
