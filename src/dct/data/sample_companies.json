@@ -24,6 +24,10 @@
     { "name": "AnyTongs", "aliases": ["Anytongs", "Anytongs, LLC"], "domain": "anytongs.com" },
     { "name": "AU Baby", "aliases": ["Au Baby", "AU Baby Blankets"], "domain": "aubabyshop.com", "founded": 2019 },
     { "name": "BAM Buckwheat Milk", "aliases": ["BAM", "Because Agriculture Matters", "Trusted Foods LLC", "BAM the Brand Inc"], "domain": "bamisbetter.com", "founded": 2023 },
+    { "name": "Bear Minimum", "aliases": ["Bear Minimum Outdoors", "Bear Bowl", "Bear Minimum LLC"], "domain": "bearminimum.org" },
+    { "name": "Bee D'Vine Honey Wine", "aliases": ["Bee d'Vine", "The Honey Wine Company", "The Honey Wine Company LLC"], "domain": "beedvine.com", "founded": 2012 },
+    { "name": "Big Bee, Little Bee", "aliases": ["Big Bee Little Bee", "Big Bee, Little Bee LLC"], "domain": "bigbeelittlebee.com", "founded": 2016 },
+    { "name": "BitsBox", "aliases": ["Bitsbox", "Codepops, Inc.", "Codepops Inc. DBA Bitsbox"], "domain": "bitsbox.com", "founded": 2014 },
     { "name": "ALL33", "aliases": ["all33", "Simtec LLC", "ALL33 LLC"], "domain": "all33.com", "notes": "current-status and registry research intentionally unresolved pending primary-record reconciliation" }
   ]
 }

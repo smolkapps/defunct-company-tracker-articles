@@ -1,0 +1,263 @@
+[
+  {
+    "company": {
+      "name": "Bear Minimum",
+      "aliases": ["Bear Minimum Outdoors", "Bear Bowl", "Bear Minimum LLC"],
+      "legal_entities": ["Bear Minimum LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 10,
+        "episode": 1,
+        "episode_date": "2018-10-07",
+        "video_title": "Shark Tank US | Bear Minimum's Entrepreneurs Are Looking For Sharks Who Aren't Afraid Of Bears!",
+        "video_url": "https://www.youtube.com/watch?v=7KYVZAl5dJY",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "A fold-flat camping cook pot called the Bear Bowl",
+        "ask": "$100,000 for 20%",
+        "offer": "$100,000 for 25% from guest Shark Jamie Siminoff; a second offer was also reported",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {"date": "2016-08-16", "event": "A federal patent application lists Cory Santiago as inventor and Bear Minimum LLC as assignee for collapsible container systems; the application is now listed as abandoned.", "source_ids": ["S-BEAR-PATENT"]},
+      {"date": "2018-09-20", "event": "The official company blog promoted the Bear Bowl's upcoming Shark Tank appearance.", "source_ids": ["S-BEAR-BLOG"]},
+      {"date": "2018-10-08", "event": "A contemporaneous Spokane newspaper report said the Santiagos chose Jamie Siminoff's offer after receiving two offers.", "source_ids": ["S-BEAR-NEWS"]},
+      {"date": "2026-09-09", "event": "The current Bear Minimum Outdoors store lists the Baby Bear product and a two-pack for sale; the company still presents the Bear Bowl as a fold-flat cook pot.", "source_ids": ["S-BEAR-CURRENT", "S-BEAR-FAQ"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Washington",
+        "entity_name": "Bear Minimum LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-BEAR-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The Washington business-search portal was identified, but an exact state record and current standing were not retrieved in this pass. The federal patent record supports the LLC name but is not a certificate of state standing."
+      }
+    ],
+    "claims": [
+      {"id": "BEAR-001", "text": "Bear Minimum is operating as a current outdoor-cookware store under the Bear Minimum Outdoors brand.", "evidence_level": "strong_corroboration", "source_ids": ["S-BEAR-CURRENT", "S-BEAR-FAQ"]},
+      {"id": "BEAR-002", "text": "Cory Santiago is identified as the Bear Bowl inventor, and the federal patent record names Bear Minimum LLC as assignee; the application is listed as abandoned.", "evidence_level": "verified_fact", "source_ids": ["S-BEAR-STORY", "S-BEAR-PATENT"]},
+      {"id": "BEAR-003", "text": "The televised Siminoff deal is recorded as an on-air agreement only: contemporaneous coverage says it was chosen, while later coverage could not verify that it closed.", "evidence_level": "credible_report", "source_ids": ["S-BEAR-NEWS", "S-BEAR-FOOD"]},
+      {"id": "BEAR-004", "text": "The current store's continued operation does not prove that the Shark Tank investment closed.", "evidence_level": "verified_fact", "source_ids": ["S-BEAR-CURRENT", "S-BEAR-FOOD"]}
+    ],
+    "sources": [
+      {"id": "S-BEAR-CURRENT", "title": "Bear Minimum Outdoors — current store", "url": "https://www.bearminimum.org/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current product and sales evidence."},
+      {"id": "S-BEAR-STORY", "title": "Bear Minimum — company story before Shark Tank", "url": "https://www.bearminimum.org/pages/our-story", "source_type": "dated official company page", "published": "2018-10-07", "accessed": "2026-09-09", "notes": "Founder, product, production and pre-show history."},
+      {"id": "S-BEAR-FAQ", "title": "Bear Minimum Outdoors FAQ", "url": "https://www.bearminimum.org/pages/faqs", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current product sizes, materials and use limitations."},
+      {"id": "S-BEAR-BLOG", "title": "On the Trail with the Bear Bowl cook pot", "url": "https://www.bearminimum.org/blogs/news", "source_type": "dated official company blog", "published": "2018-09-20", "accessed": "2026-09-09", "notes": "Pre-air announcement and dated company history."},
+      {"id": "S-BEAR-PATENT", "title": "Collapsible container systems — US20190159625A1", "url": "https://patents.google.com/patent/US20190159625A1/en", "source_type": "federal patent record", "published": "2019-05-30", "accessed": "2026-09-09", "notes": "Inventor and assignee trail; Google notes legal-status labels are not legal conclusions."},
+      {"id": "S-BEAR-NEWS", "title": "Spokane-based Bear Bowls get funded on season premiere of Shark Tank", "url": "https://www.spokesman.com/stories/2018/oct/08/spokane-based-bear-bowls-get-funded-on-season-prem/", "source_type": "contemporaneous local reporting", "published": "2018-10-08", "accessed": "2026-09-09", "notes": "Reports the founders' stated choice of the Siminoff offer."},
+      {"id": "S-BEAR-FOOD", "title": "Bear Minimum: Here's What Happened After Shark Tank", "url": "https://www.foodrepublic.com/1362094/bear-minimum-shark-tank-now/", "source_type": "secondary follow-up", "published": "2023-08-10", "accessed": "2026-09-09", "notes": "Later follow-up says the investment closing was unclear."},
+      {"id": "S-BEAR-REG", "title": "Washington Corporations and Charities Filing System", "url": "https://ccfs.sos.wa.gov/", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Exact Bear Minimum LLC record not retrieved in this pass."},
+      {"id": "S-BEAR-VIDEO", "title": "Bear Minimum Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=7KYVZAl5dJY", "source_type": "official video", "published": "2018", "accessed": "2026-09-09", "notes": "SPTV corpus provenance for S10E1."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The Washington entity record and current state standing were not directly retrieved.",
+      "The post-show investment closing remains unresolved despite contemporaneous reporting that the offer was chosen."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bee D'Vine Honey Wine",
+      "aliases": ["Bee d'Vine", "The Honey Wine Company", "The Honey Wine Company LLC"],
+      "legal_entities": ["The Honey Wine Company, LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 5,
+        "episode_date": "2020-11-13",
+        "video_title": "Shark Tank US | The Sharks Do A Crazy Tasting For Bee D'Vine Honey Wine",
+        "video_url": "https://www.youtube.com/watch?v=RJaFc-e9AHc",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "Premium honey wine made from raw honey and spring water",
+        "ask": "$750,000 for 20%",
+        "offer": "$750,000 for 40% from Mark Cuban, Lori Greiner, Robert Herjavec and Daniel Lubetzky",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {"date": "2012-02-21", "event": "A federal trademark record identifies The Honey Wine Company LLC in connection with the BEE D'VINE mark; the company's exact formation date is not inferred from the trademark date.", "source_ids": ["S-BEE-TM"]},
+      {"date": "2020-11-13", "event": "Ayele Solomon presented Bee d'Vine on Shark Tank and accepted the four-Shark on-air offer.", "source_ids": ["S-BEE-VIDEO", "S-BEE-OFFICIAL"]},
+      {"date": "2021-07-01", "event": "Later Shark Tank follow-up coverage reported that the four-Shark deal never closed while the company remained in business.", "source_ids": ["S-BEE-BLOG"]},
+      {"date": "2026-09-09", "event": "The official site continues to offer honey wines for online purchase and provides dispatch and customer-support channels; California ABC records list The Honey Wine Company LLC.", "source_ids": ["S-BEE-CURRENT", "S-BEE-ABC"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California alcohol licensing",
+        "entity_name": "The Honey Wine Company LLC",
+        "entity_number": "591936",
+        "status": "listed",
+        "events": ["California Department of Alcoholic Beverage Control designated-licensee list includes The Honey Wine Company LLC"],
+        "source_id": "S-BEE-ABC",
+        "accessed": "2026-09-09",
+        "limitation": "This is a government alcohol-licensing record, not a direct California Secretary of State entity-status certificate; the listed license does not independently establish all corporate standing or current retail activity."
+      }
+    ],
+    "claims": [
+      {"id": "BEE-001", "text": "Bee d'Vine is operating as a current honey-wine brand with an online store and customer-support channels.", "evidence_level": "strong_corroboration", "source_ids": ["S-BEE-CURRENT", "S-BEE-OFFICIAL"]},
+      {"id": "BEE-002", "text": "The Honey Wine Company, LLC is the legal identity named in the federal BEE D'VINE trademark record and in California alcohol-licensing material.", "evidence_level": "verified_fact", "source_ids": ["S-BEE-TM", "S-BEE-ABC"]},
+      {"id": "BEE-003", "text": "Ayele Solomon accepted a $750,000-for-40% four-Shark offer on air, but later reporting says the deal never closed.", "evidence_level": "credible_report", "source_ids": ["S-BEE-OFFICIAL", "S-BEE-VIDEO", "S-BEE-BLOG"]},
+      {"id": "BEE-004", "text": "The public record supports continued operation but does not reveal why the televised investment failed to close.", "evidence_level": "unresolved", "source_ids": ["S-BEE-CURRENT", "S-BEE-BLOG"]}
+    ],
+    "sources": [
+      {"id": "S-BEE-CURRENT", "title": "Bee d'Vine — current honey wine store", "url": "https://beedvine.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current products, dispatch and support; page was accessible through search indexing but direct fetch returned 403 in this pass."},
+      {"id": "S-BEE-OFFICIAL", "title": "Bee d'Vine Honey Wine Featured on Shark Tank", "url": "https://beedvine.com/honey-wine-meets-shark-tank/", "source_type": "dated official company article", "published": "2020-11-13", "accessed": "2026-09-09", "notes": "Company account of the pitch and offer."},
+      {"id": "S-BEE-ABC", "title": "California ABC designated licensee list", "url": "https://www.abc.ca.gov/licensing/licensing-reports/designated-p-12-multiple-outlet-licensees/", "source_type": "state government licensing record", "published": null, "accessed": "2026-09-09", "notes": "Lists The Honey Wine Company LLC under license number 591936."},
+      {"id": "S-BEE-TM", "title": "BEE D'VINE — USPTO Official Gazette", "url": "https://www.uspto.gov/web/trademarks/tmog/20140930_OG.pdf", "source_type": "federal trademark publication", "published": "2014-09-30", "accessed": "2026-09-09", "notes": "Federal publication identifies The Honey Wine Company LLC DBA The Honey Wine Company."},
+      {"id": "S-BEE-BLOG", "title": "Bee D'Vine Shark Tank update — Shark Tank Blog", "url": "https://www.sharktankblog.com/business/bee-dvine/", "source_type": "secondary follow-up", "published": "2025-06-18", "accessed": "2026-09-09", "notes": "Reports that the deal never closed; retained as secondary evidence."},
+      {"id": "S-BEE-VIDEO", "title": "Bee D'Vine Honey Wine Gets a 4-Shark Offer — ABC", "url": "https://www.youtube.com/watch?v=ZQk6cQMFXeM", "source_type": "official video", "published": "2020-11-13", "accessed": "2026-09-09", "notes": "ABC clip for the four-Shark offer."},
+      {"id": "S-BEE-CORP-PORTAL", "title": "California business search portal", "url": "https://bizfileonline.sos.ca.gov/search/business", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Direct Secretary of State entity-record retrieval was not completed in this pass."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The government record confirms an alcohol license listing, but a direct Secretary of State certificate of status was not retrieved.",
+      "The reason the four-Shark deal failed to close is not established by the sources reviewed."
+    ]
+  },
+  {
+    "company": {
+      "name": "Big Bee, Little Bee",
+      "aliases": ["Big Bee Little Bee", "Big Bee, Little Bee LLC"],
+      "legal_entities": ["Big Bee, Little Bee LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 5,
+        "episode_date": null,
+        "video_title": "Shark Tank US | Mark Cuban Crushes Big Bee, Little Bee's Entrepreneur's Dream",
+        "video_url": "https://www.youtube.com/watch?v=0cfSEQgUT-8",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "A mother-daughter line of reusable family products, including the Marker Parker",
+        "ask": "$100,000 for 20%",
+        "offer": null,
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {"date": "2016-04-01", "event": "The federal trademark record for BIG BEE, LITTLE BEE gives April 1, 2016 as the claimed first-use-in-commerce date for the brand's goods.", "source_ids": ["S-BIG-TM"]},
+      {"date": "2022-10-21", "event": "Amy and Marlo Leinbach appeared on Season 14 of Shark Tank seeking $100,000 for 20%; secondary follow-up records no deal.", "source_ids": ["S-BIG-BLOG", "S-BIG-VIDEO"]},
+      {"date": "2024-04-30", "event": "A federal patent was granted to Big Bee, Little Bee LLC for a food-storage container.", "source_ids": ["S-BIG-PATENT"]},
+      {"date": "2026-09-09", "event": "The current official store is live, ships products, and presents SoftShell and children's collections; the company describes itself as woman-owned and self-funded.", "source_ids": ["S-BIG-CURRENT", "S-BIG-ABOUT"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California",
+        "entity_name": "Big Bee, Little Bee LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "S-BIG-REG",
+        "accessed": "2026-09-09",
+        "limitation": "The California business-search portal was identified, but an exact state filing and current standing were not retrieved in this pass; the federal patent record supports the LLC name."
+      }
+    ],
+    "claims": [
+      {"id": "BIG-001", "text": "Big Bee, Little Bee is operating as a current online consumer-products business.", "evidence_level": "strong_corroboration", "source_ids": ["S-BIG-CURRENT", "S-BIG-SHIPPING"]},
+      {"id": "BIG-002", "text": "Amy Leinbach and her daughter Marlo are the people identified by the official site as the Big Bee and Little Bee behind the business.", "evidence_level": "verified_fact", "source_ids": ["S-BIG-ABOUT"]},
+      {"id": "BIG-003", "text": "The Season 14 pitch did not produce a recorded Shark Tank deal, while the business continued self-funding and expanding its product and patent portfolio.", "evidence_level": "credible_report", "source_ids": ["S-BIG-BLOG", "S-BIG-PATENT"]},
+      {"id": "BIG-004", "text": "Big Bee, Little Bee LLC is named as assignee of a 2024 federal food-storage-container patent.", "evidence_level": "verified_fact", "source_ids": ["S-BIG-PATENT"]}
+    ],
+    "sources": [
+      {"id": "S-BIG-CURRENT", "title": "Big Bee, Little Bee — current store", "url": "https://bigbeelittlebee.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current products, shipping and 2026 footer."},
+      {"id": "S-BIG-ABOUT", "title": "The Big Bee & The Little Bee", "url": "https://bigbeelittlebee.com/pages/big-bee-and-little-bee", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Founder and product history; lists patent numbers."},
+      {"id": "S-BIG-SHIPPING", "title": "Big Bee, Little Bee shipping and returns", "url": "https://bigbeelittlebee.com/pages/shipping-returns", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current fulfillment and return process."},
+      {"id": "S-BIG-BLOG", "title": "Big Bee Little Bee Shark Tank Update — Shark Tank Blog", "url": "https://www.sharktankblog.com/business/big-bee-little-bee/", "source_type": "secondary follow-up", "published": "2025-07-21", "accessed": "2026-09-09", "notes": "Reports the ask, no-deal result and later sales context."},
+      {"id": "S-BIG-PATENT", "title": "Food storage container — US11970314B2", "url": "https://patents.google.com/patent/US11970314B2/en", "source_type": "federal patent record", "published": "2024-04-30", "accessed": "2026-09-09", "notes": "Federal assignee record for Big Bee, Little Bee LLC."},
+      {"id": "S-BIG-TM", "title": "BIG BEE, LITTLE BEE trademark record", "url": "https://trademarks.justia.com/875/17/big-bee-little-87517797.html", "source_type": "federal trademark record mirror", "published": "2018-07-03", "accessed": "2026-09-09", "notes": "Reproduces claimed first-use date; owner history is included as a dated federal filing mirror, not a state certificate."},
+      {"id": "S-BIG-REG", "title": "California business search portal", "url": "https://bizfileonline.sos.ca.gov/search/business", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Exact entity record not retrieved in this pass."},
+      {"id": "S-BIG-VIDEO", "title": "Big Bee, Little Bee Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=0cfSEQgUT-8", "source_type": "official video", "published": "2024-04-01", "accessed": "2026-09-09", "notes": "SPTV corpus provenance for S14E5."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The California legal entity's current state standing was not directly retrieved.",
+      "The available no-deal evidence is strong but comes from follow-up coverage rather than a Shark Tank contract or company filing."
+    ]
+  },
+  {
+    "company": {
+      "name": "BitsBox",
+      "aliases": ["Bitsbox", "Codepops, Inc.", "Codepops Inc. DBA Bitsbox"],
+      "legal_entities": ["Codepops, Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 8,
+        "episode": 17,
+        "episode_date": "2017-02-17",
+        "video_title": "Shark Tank US | 'I'm Going To Applaud Watching Cuban And Sacca Fight To Get BitsBox'",
+        "video_url": "https://www.youtube.com/watch?v=YLHgoWYFag4",
+        "episode_guide_url": null,
+        "kind": "pitch",
+        "pitch": "A subscription coding-project service for children",
+        "ask": "$250,000 for 3%",
+        "offer": "$250,000 for 20% from Chris Sacca, later withdrawn after a counteroffer",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {"date": "2014-01-01", "event": "The founders' official company history says Scott Lininger quit his job in 2014 and launched the company with Aidan Chopra; the exact founding date is not specified.", "source_ids": ["S-BITS-NAME"]},
+      {"date": "2017-02-17", "event": "The official company blog announced Bitsbox's national Shark Tank debut.", "source_ids": ["S-BITS-SHARK-BLOG"]},
+      {"date": "2017-02-24", "event": "Aidan Chopra's post-show account says Sacca withdrew his offer after a counteroffer, Bitsbox left without a deal, and the company raised from non-celebrity investors while experiencing a major publicity-driven growth surge.", "source_ids": ["S-BITS-AFTER"]},
+      {"date": "2026-09-09", "event": "The current Bitsbox site remains live with coding products, subscriptions and support; its official terms identify Codepops, Inc. as the company behind the service.", "source_ids": ["S-BITS-CURRENT", "S-BITS-TERMS"]}
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Colorado",
+        "entity_name": "Codepops, Inc.",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": ["A government trademark journal identifies Codepops, Inc. DBA Bitsbox at a Boulder, Colorado address"],
+        "source_id": "S-BITS-TM",
+        "accessed": "2026-09-09",
+        "limitation": "The Colorado Secretary of State entity record and current standing were not directly retrieved in this pass; the official terms and government trademark journal establish the legal-name trail but not current registry standing."
+      }
+    ],
+    "claims": [
+      {"id": "BITS-001", "text": "Bitsbox is operating as a current coding-education service with a live site, subscriptions and support channels.", "evidence_level": "strong_corroboration", "source_ids": ["S-BITS-CURRENT", "S-BITS-ABOUT"]},
+      {"id": "BITS-002", "text": "Codepops, Inc. is the contracting company identified in Bitsbox's official terms, and government trademark material identifies Codepops, Inc. DBA Bitsbox.", "evidence_level": "verified_fact", "source_ids": ["S-BITS-TERMS", "S-BITS-TM"]},
+      {"id": "BITS-003", "text": "Bitsbox did not close a Shark Tank investment: the founders' dated post-show account says the sole remaining offer was withdrawn after a counteroffer.", "evidence_level": "verified_fact", "source_ids": ["S-BITS-AFTER"]},
+      {"id": "BITS-004", "text": "The founders reported raising money from non-celebrity investors and gaining a substantial post-airing publicity boost; those growth claims are company-reported rather than independently audited.", "evidence_level": "credible_report", "source_ids": ["S-BITS-AFTER"]}
+    ],
+    "sources": [
+      {"id": "S-BITS-CURRENT", "title": "Bitsbox — current coding service", "url": "https://bitsbox.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current service, subscriptions, support and 2026 footer."},
+      {"id": "S-BITS-ABOUT", "title": "About Bitsbox and Job Listings", "url": "https://bitsbox.com/about.html", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current mission and co-founder information."},
+      {"id": "S-BITS-TERMS", "title": "Bitsbox Terms of Service", "url": "https://bitsbox.com/terms.html", "source_type": "official company terms", "published": "2020-11-16", "accessed": "2026-09-09", "notes": "Identifies Codepops, Inc. as Bitsbox's company."},
+      {"id": "S-BITS-NAME", "title": "Bitzbox, Bitbox, Bixbox, Bitsbox: How our company name came to be!", "url": "https://bitsbox.com/blog/bitzbox-bitbox-bixbox-bitsbox-how-our-company-name-came-to-be/", "source_type": "dated official company article", "published": null, "accessed": "2026-09-09", "notes": "Company history says the founders began in 2014 and Codepops remained the corporate name."},
+      {"id": "S-BITS-SHARK-BLOG", "title": "Bitsbox on Shark Tank", "url": "https://bitsbox.com/blog/bitsbox-on-shark-tank/", "source_type": "dated official company article", "published": "2017-02-17", "accessed": "2026-09-09", "notes": "Pre-air audition and appearance account."},
+      {"id": "S-BITS-AFTER", "title": "We didn't get a deal on Shark Tank, so why are we so happy?", "url": "https://bitsbox.com/blog/life-after-shark-tank/", "source_type": "dated official company article", "published": "2017-02-24", "accessed": "2026-09-09", "notes": "Direct post-show account of the withdrawn offer and subsequent growth."},
+      {"id": "S-BITS-TM", "title": "BITSBOX — Canadian Trademarks Journal", "url": "https://www.ic.gc.ca/opic-cipo/tmj/eng/30Oct2019_en.pdf?edition=10-30&year=2019", "source_type": "government trademark publication", "published": "2019-10-30", "accessed": "2026-09-09", "notes": "Identifies Codepops, Inc. DBA Bitsbox at Boulder, Colorado address."},
+      {"id": "S-BITS-REG", "title": "Colorado business entity search portal", "url": "https://www.sos.state.co.us/biz/BusinessEntityCriteriaExt.do", "source_type": "state registry portal", "published": null, "accessed": "2026-09-09", "notes": "Exact Codepops, Inc. record not retrieved in this pass."},
+      {"id": "S-BITS-VIDEO", "title": "Bitsbox Shark Tank clip — Sony Pictures Television", "url": "https://www.youtube.com/watch?v=YLHgoWYFag4", "source_type": "official video", "published": "2017", "accessed": "2026-09-09", "notes": "SPTV corpus provenance for S8E17."}
+    ],
+    "uncertainties": [
+      "The bounded Wayback query was rate-limited in this pass, so no complete archived-page diff is claimed.",
+      "The Colorado entity's current registry standing was not directly retrieved.",
+      "The founders' post-show revenue and growth figures are company-reported and were not treated as audited facts."
+    ]
+  }
+]
