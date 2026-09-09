@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 
@@ -23,6 +24,13 @@ QUEUE_FOUR_DATA = (
     / "dct"
     / "data"
     / "research_batch_2026-09-09_queue-4.json"
+)
+QUEUE_FIVE_DATA = (
+    Path(__file__).parents[1]
+    / "src"
+    / "dct"
+    / "data"
+    / "research_batch_2026-09-09_queue-5.json"
 )
 
 
@@ -170,3 +178,58 @@ def test_fourth_batch_publishes_only_independently_supported_transitions():
     # promoting weaker reports about GrooveBook and Plated later closing.
     assert by_name["GrooveBook"]["company"]["successor_or_acquirer"] == "Shutterfly, Inc."
     assert by_name["Plated"]["company"]["successor_or_acquirer"] == "Albertsons Companies"
+
+
+def test_fifth_batch_corrects_identity_and_preserves_deal_boundaries():
+    records = json.loads(QUEUE_FIVE_DATA.read_text(encoding="utf-8"))
+    assert {record["company"]["name"] for record in records} == {
+        "Black Paper Party",
+        "Blackdot",
+        "Blinger",
+        "Boona",
+    }
+
+    for record in records:
+        source_ids = {source["id"] for source in record["sources"]}
+        referenced = {
+            source_id
+            for claim in record["claims"]
+            for source_id in claim["source_ids"]
+        }
+        referenced.update(
+            source_id
+            for event in record.get("timeline", [])
+            for source_id in event["source_ids"]
+        )
+        referenced.update(
+            registry["source_id"]
+            for registry in record.get("registry_records", [])
+        )
+        assert referenced <= source_ids
+        assert record["status"] == "operating"
+
+    by_name = {record["company"]["name"]: record for record in records}
+    black_paper = by_name["Black Paper Party"]
+    assert black_paper["episode_appearances"][0]["episode"] == 8
+    assert "Black Paper Company" not in black_paper["company"]["aliases"]
+    assert black_paper["episode_appearances"][0]["deal_closed"] is False
+    assert by_name["Blackdot"]["episode_appearances"][0]["deal_closed"] is False
+    assert by_name["Blinger"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Boona"]["company"]["legal_entities"] == ["Deburr LLC"]
+
+
+def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
+    schema = json.loads(
+        (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")
+    )
+    pattern = schema["$defs"]["timeline_event"]["properties"]["date"]["pattern"]
+    records = []
+    for path in sorted(DATA.parent.glob("research_batch*.json")):
+        records.extend(json.loads(path.read_text(encoding="utf-8")))
+
+    for record in records:
+        for event in record.get("timeline", []):
+            assert re.fullmatch(pattern, event["date"]), (
+                record["company"]["name"],
+                event["date"],
+            )

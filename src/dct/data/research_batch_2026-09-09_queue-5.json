@@ -1,0 +1,931 @@
+[
+  {
+    "company": {
+      "name": "Black Paper Party",
+      "aliases": [
+        "Black Paper Party LLC"
+      ],
+      "legal_entities": [
+        "Black Paper Party LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 8,
+        "episode_date": "2023-12-08",
+        "video_title": "Black Paper Party Shark Tank clip — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=aLMLclZwT2Y",
+        "episode_guide_url": "https://abc.com/news/886905ca-c059-40ee-92dc-252c4fa6ebad/category/2887649",
+        "kind": "pitch",
+        "pitch": "Inclusive holiday and celebration products featuring Black characters and culture.",
+        "ask": "$250,000 for 5% equity",
+        "offer": "Barbara Corcoran proposed $250,000 for 20% with Mark Cuban; after negotiation Black Paper Party countered/accepted $250,000 for 10% from Barbara alone.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2020",
+        "event": "Madia Willis, Jasmine Hudson and J’Aaron Merchant launched Black Paper Party.",
+        "source_ids": [
+          "BPP05"
+        ]
+      },
+      {
+        "date": "2023-12-08",
+        "event": "ABC broadcast Black Paper Party in season 15 episode 8.",
+        "source_ids": [
+          "BPP01"
+        ]
+      },
+      {
+        "date": "2023-12-08",
+        "event": "Founders accepted Barbara Corcoran’s $250,000-for-10% offer on air.",
+        "source_ids": [
+          "BPP03"
+        ]
+      },
+      {
+        "date": "2023-12-11",
+        "event": "CEO Madia Willis told The Philadelphia Inquirer that BPP and Corcoran’s team were still working out details before anything was official.",
+        "source_ids": [
+          "BPP03"
+        ]
+      },
+      {
+        "date": "2024-02-13",
+        "event": "BLACK PAPER PARTY word mark registration 7306092 registered to Black Paper Party LLC, an Arkansas LLC.",
+        "source_ids": [
+          "BPP09"
+        ]
+      },
+      {
+        "date": "2024-12-31",
+        "event": "Inc later reported 2024 revenue of $1.4 million, compared with $797,000 the prior year.",
+        "source_ids": [
+          "BPP04"
+        ]
+      },
+      {
+        "date": "2025-spring",
+        "event": "Target did not reorder Black Paper Party products; founders told AfroTech the brand ceased being shelved there.",
+        "source_ids": [
+          "BPP05"
+        ]
+      },
+      {
+        "date": "2025-12-16",
+        "event": "Inc reported the founders did not close the off-camera deal with Corcoran.",
+        "source_ids": [
+          "BPP04"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Black Paper Party’s current site actively sells products.",
+        "source_ids": [
+          "BPP06"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Arkansas",
+        "entity_name": "Black Paper Party LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "BPP10",
+        "accessed": "2026-09-09",
+        "limitation": "USPTO registration 7306092 identifies Black Paper Party LLC as an Arkansas LLC. Arkansas SOS entity filing number and current good-standing/status were not returned by the web interface; exact portal logged in search trail."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BLACK_PAPER_PARTY-STATUS",
+        "text": "Black Paper Party is operating as of 2026-09-09, but reputable later reporting says the $250,000-for-10% Barbara Corcoran deal accepted on air did not close off-camera.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BPP06",
+          "BPP04"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BLACK_PAPER_PARTY-DEV-1",
+        "text": "The provisional label “Black Paper Company” is a tracker error, not a company alias. ABC’s official roster identifies the pitch as Black Paper Party in S15E8; preserve the old row only as correction provenance.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BPP01",
+          "BPP02"
+        ]
+      },
+      {
+        "id": "BLACK_PAPER_PARTY-DEV-2",
+        "text": "Current company retail page still advertises Target availability, while Inc and AfroTech report Target stopped carrying the brand in 2025. This is an observable current-page-versus-dated-report conflict; no archive proves when or whether that page was edited.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BPP08",
+          "BPP04",
+          "BPP05"
+        ]
+      },
+      {
+        "id": "BLACK_PAPER_PARTY-DEV-3",
+        "text": "Later reputable reporting supersedes early headlines calling the on-air acceptance an investment: the off-camera deal did not close.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BPP03",
+          "BPP04"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BPP01",
+        "title": "Black Paper Party — ABC official episode roster",
+        "url": "https://abc.com/news/886905ca-c059-40ee-92dc-252c4fa6ebad/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2023-12-08",
+        "accessed": "2026-09-09",
+        "notes": "Black Paper Party is in broadcast season 15 episode 8; episode air date and official company description."
+      },
+      {
+        "id": "BPP02",
+        "title": "Black Paper Party — Sony Pictures Television official video carried from project ledger",
+        "url": "https://www.youtube.com/watch?v=aLMLclZwT2Y",
+        "source_type": "Sony Pictures Television official video carried from project ledger",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official video provenance. Earlier tracker mapped this video to the wrong provisional company label/episode; ABC roster controls broadcast episode mapping."
+      },
+      {
+        "id": "BPP03",
+        "title": "Black Paper Party — contemporaneous reputable reporting",
+        "url": "https://www.inquirer.com/business/shark-tank-philadelphia-black-paper-party-20231211.html",
+        "source_type": "contemporaneous reputable reporting",
+        "published": "2023-12-11",
+        "accessed": "2026-09-09",
+        "notes": "Ask $250,000 for 5%; accepted on-air Barbara Corcoran $250,000 for 10%; founders said post-broadcast that details were still being worked out before official."
+      },
+      {
+        "id": "BPP04",
+        "title": "Black Paper Party — reputable retrospective reporting",
+        "url": "https://www.inc.com/ali-donaldson/after-target-dropped-this-black-owned-brand-its-founders-reached-customers-with-this-strategy/91278012",
+        "source_type": "reputable retrospective reporting",
+        "published": "2025-12-16",
+        "accessed": "2026-09-09",
+        "notes": "Deal with Barbara did not close off-camera; 2024 revenue $1.4M versus $797K prior year; Target later stopped carrying brand; fundraising/hiring plans."
+      },
+      {
+        "id": "BPP05",
+        "title": "Black Paper Party — reputable founder-interview reporting",
+        "url": "https://afrotech.com/black-paper-party-to-become-an-everyday-brand",
+        "source_type": "reputable founder-interview reporting",
+        "published": "2025-12-30; updated 2026-01-02",
+        "accessed": "2026-09-09",
+        "notes": "Operating through 2025; Target non-renewal in spring 2025; 9,000-store footprint claimed; Dollar General renewed for 2026."
+      },
+      {
+        "id": "BPP06",
+        "title": "Black Paper Party — current official company site",
+        "url": "https://www.blackpaperparty.com/",
+        "source_type": "current official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current direct-to-consumer operation and product catalog."
+      },
+      {
+        "id": "BPP07",
+        "title": "Black Paper Party — current official company page",
+        "url": "https://www.blackpaperparty.com/pages/about",
+        "source_type": "current official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Founders and current company narrative."
+      },
+      {
+        "id": "BPP08",
+        "title": "Black Paper Party — current official company page",
+        "url": "https://www.blackpaperparty.com/pages/retail-stores",
+        "source_type": "current official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current page still says Target products are available online/in store, conflicting with 2025 Inc/AfroTech reporting that Target stopped carrying the brand."
+      },
+      {
+        "id": "BPP09",
+        "title": "Black Paper Party — USPTO official record",
+        "url": "https://tmng-al.uspto.gov/resting2/api/casedoc/cms/case/99215264/office-action/OfficeAction7795651.pdf",
+        "source_type": "USPTO official record",
+        "published": "2025-2026 office-action record; underlying registration 2024-02-13",
+        "accessed": "2026-09-09",
+        "notes": "BLACK PAPER PARTY registration 7306092, serial 97390591; owner Black Paper Party LLC, Arkansas LLC, Bentonville address; registration live/registered."
+      },
+      {
+        "id": "BPP10",
+        "title": "Black Paper Party — Arkansas Secretary of State official registry",
+        "url": "https://sos-corp-search.ark.org/",
+        "source_type": "Arkansas Secretary of State official registry",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Registry search portal located; browser did not execute a name-result submission, so entity filing number and current standing remain unresolved."
+      }
+    ],
+    "uncertainties": [
+      "Arkansas SOS filing number and current standing for Black Paper Party LLC.",
+      "Executed Shark Tank diligence/termination documents; non-closing is supported by Inc but the private deal file is unavailable.",
+      "Assignment chain from Madia Willis Art and Design LLC to Black Paper Party LLC for older marks.",
+      "Wayback snapshots of the 2023 company/retail pages; archive search returned no indexed results in this environment."
+    ]
+  },
+  {
+    "company": {
+      "name": "Blackdot",
+      "aliases": [
+        "Blackdot, Inc.",
+        "Blackdot Tattoo"
+      ],
+      "legal_entities": [
+        "Blackdot, Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 16,
+        "episode": 14,
+        "episode_date": "2025-03-21",
+        "video_title": "Blackdot Shark Tank clip — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=L0AFgRUvNis",
+        "episode_guide_url": "https://abc.com/news/4458db47-52ee-45a7-abab-09c6f3582703/category/2887649",
+        "kind": "pitch",
+        "pitch": "An automated tattooing platform and Austin tattoo studio.",
+        "ask": "$1.5 million for 5% equity",
+        "offer": "No Shark made an accepted investment offer; all Sharks ultimately passed.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2019-01",
+        "event": "Blackdot’s current investor page says the company was incorporated as a Delaware C-Corp.",
+        "source_ids": [
+          "BD05"
+        ]
+      },
+      {
+        "date": "2023-09-14",
+        "event": "Dated terms identified Blackdot, Inc. as the contracting party.",
+        "source_ids": [
+          "BD07"
+        ]
+      },
+      {
+        "date": "2025-03-21",
+        "event": "ABC broadcast Blackdot in season 16 episode 14.",
+        "source_ids": [
+          "BD01"
+        ]
+      },
+      {
+        "date": "2025-03-21",
+        "event": "Joel Pennington asked $1.5 million for 5%; the Sharks passed and he left without a deal.",
+        "source_ids": [
+          "BD03"
+        ]
+      },
+      {
+        "date": "2026-02-03",
+        "event": "USPTO published patent US 12,539,407 B2 assigned/filed by Blackdot, Inc., Austin, Texas.",
+        "source_ids": [
+          "BD08"
+        ]
+      },
+      {
+        "date": "2026-05-08",
+        "event": "Blackdot posted replacement/current terms for its Austin studio and marketplace, but the page no longer names Blackdot, Inc. as the contracting entity.",
+        "source_ids": [
+          "BD06",
+          "BD07"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Current site offers robotic tattoo bookings/design marketplace services.",
+        "source_ids": [
+          "BD04"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware",
+        "entity_name": "Blackdot, Inc.",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "BD09",
+        "accessed": "2026-09-09",
+        "limitation": "2023 official terms and 2026 USPTO patent identify Blackdot, Inc.; current investor page says Delaware C-Corp. Delaware registry name search is interactive and status may require paid status lookup; file number/status remain unresolved."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BLACKDOT-STATUS",
+        "text": "Blackdot is operating as of 2026-09-09; Joel Pennington left Shark Tank without an investment, while current company pages and 2026 USPTO patent activity show continued operations under/around Blackdot, Inc.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BD04",
+          "BD08"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BLACKDOT-DEV-1",
+        "text": "The ABC S16E14 page body correctly lists Blackdot, but its introductory synopsis describes unrelated businesses. Treat roster/body and broadcast date as authoritative for this appearance and preserve the synopsis mismatch as a page-quality conflict.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BD01"
+        ]
+      },
+      {
+        "id": "BLACKDOT-DEV-2",
+        "text": "A later verified Shark Tank Global video labels the Blackdot material “Season 16 Episode 2,” while ABC’s broadcast roster is S16E14. This is a numbering/metadata conflict, not evidence of a second televised pitch.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BD01",
+          "BD10"
+        ]
+      },
+      {
+        "id": "BLACKDOT-DEV-3",
+        "text": "Blackdot’s dated 2023 terms expressly named Blackdot, Inc.; current May 2026 terms omit the legal suffix/entity name. The change is observable, but no evidence establishes why it changed or whether ownership changed.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BD06",
+          "BD07"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BD01",
+        "title": "Blackdot — ABC official episode roster",
+        "url": "https://abc.com/news/4458db47-52ee-45a7-abab-09c6f3582703/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2025-03-21",
+        "accessed": "2026-09-09",
+        "notes": "Blackdot is in broadcast season 16 episode 14, aired 2025-03-21. ABC page body lists the company despite an unrelated/mismatched introductory synopsis."
+      },
+      {
+        "id": "BD02",
+        "title": "Blackdot — Sony Pictures Television official video carried from project ledger",
+        "url": "https://www.youtube.com/watch?v=L0AFgRUvNis",
+        "source_type": "Sony Pictures Television official video carried from project ledger",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official video provenance from prior manifest."
+      },
+      {
+        "id": "BD03",
+        "title": "Blackdot — episode recap",
+        "url": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/season-16-shark-tank-episodes/episode-14/",
+        "source_type": "episode recap",
+        "published": "2025",
+        "accessed": "2026-09-09",
+        "notes": "Joel Pennington asked $1.5M for 5%; all Sharks passed; no deal."
+      },
+      {
+        "id": "BD04",
+        "title": "Blackdot — current official company site",
+        "url": "https://blackdot.tattoo/",
+        "source_type": "current official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Blackdot currently markets and books robotic tattoo services."
+      },
+      {
+        "id": "BD05",
+        "title": "Blackdot — current official company investor page",
+        "url": "https://blackdot.tattoo/pages/investors",
+        "source_type": "current official company investor page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Company timeline says Blackdot was incorporated as a Delaware C-Corp in Jan. 2019; current fundraising/investor-facing operation."
+      },
+      {
+        "id": "BD06",
+        "title": "Blackdot — current official legal page",
+        "url": "https://blackdot.tattoo/policies/terms-of-service",
+        "source_type": "current official legal page",
+        "published": "2026-05-08",
+        "accessed": "2026-09-09",
+        "notes": "Current service terms; Austin studio; terms refer only to “Blackdot,” not Blackdot, Inc."
+      },
+      {
+        "id": "BD07",
+        "title": "Blackdot — dated official legal PDF",
+        "url": "https://blackdot.tattoo/docs/legal/terms_of_use.pdf",
+        "source_type": "dated official legal PDF",
+        "published": "2023-09-14",
+        "accessed": "2026-09-09",
+        "notes": "Earlier terms expressly identify Blackdot, Inc. as contracting entity, establishing observable legal-text change from current terms."
+      },
+      {
+        "id": "BD08",
+        "title": "Blackdot — USPTO Official Gazette",
+        "url": "https://patentsgazette.uspto.gov/week05/OG/html/1543-1/US12539407-20260203.html",
+        "source_type": "USPTO Official Gazette",
+        "published": "2026-02-03",
+        "accessed": "2026-09-09",
+        "notes": "Patent US 12,539,407 B2 assigned/filed by Blackdot, Inc., Austin, Texas; continuity of Blackdot, Inc. legal identity and IP activity."
+      },
+      {
+        "id": "BD09",
+        "title": "Blackdot — Delaware Division of Corporations official registry",
+        "url": "https://icis.corp.delaware.gov/Ecorp/EntitySearch/NameSearch.aspx/NameSearch.aspx",
+        "source_type": "Delaware Division of Corporations official registry",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official name-search portal located; automated result submission not completed, so Blackdot, Inc. file number and current state status remain unresolved."
+      },
+      {
+        "id": "BD10",
+        "title": "Blackdot — verified Shark Tank Global video",
+        "url": "https://www.youtube.com/watch?v=kOnqIq1cRW8",
+        "source_type": "verified Shark Tank Global video",
+        "published": "2025-10-21",
+        "accessed": "2026-09-09",
+        "notes": "Later official-family video description gives ask $1.5M for 5% but labels source as Season 16 Episode 2; conflicts with ABC broadcast episode 14 and is treated as production/metadata numbering, not broadcast roster authority."
+      }
+    ],
+    "uncertainties": [
+      "Delaware file number and current corporate status for Blackdot, Inc.",
+      "Whether the May 2026 terms’ omission of “Inc.” reflects drafting simplification, a legal-operator change, or another restructuring.",
+      "Any closed 2025/2026 crowdfunding securities instrument; public company promotion exists, but no SEC Form C matching this entity was located in this pass.",
+      "Wayback snapshots of pre- and post-Shark pages; archive search returned no indexed results in this environment."
+    ]
+  },
+  {
+    "company": {
+      "name": "Blinger",
+      "aliases": [
+        "blinger®",
+        "GEMC2, LLC dba blinger"
+      ],
+      "legal_entities": [
+        "GEMC2, LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 20,
+        "episode_date": "2024-04-12",
+        "video_title": "Blinger Shark Tank clip — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=xZZ-uy34x1I",
+        "episode_guide_url": "https://abc.com/news/8f4b496a-1034-4fa1-924b-6d96752566f9/category/2887649",
+        "kind": "pitch",
+        "pitch": "A reusable hair-gem styling tool and crystal system.",
+        "ask": "$200,000 for 5% equity",
+        "offer": "Barbara Corcoran offered $200,000 for 25% contingent on Cella coming to New York for an operational restructuring; Cella added purchase-order funding and accepted.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2018-10-17",
+        "event": "GEMC2, LLC filed a BLINGER trademark application as a Pennsylvania LLC.",
+        "source_ids": [
+          "BL07"
+        ]
+      },
+      {
+        "date": "2024-04-12",
+        "event": "ABC broadcast Blinger in season 15 episode 20.",
+        "source_ids": [
+          "BL01"
+        ]
+      },
+      {
+        "date": "2024-04-12",
+        "event": "Angie Cella accepted Barbara Corcoran’s $200,000-for-25% offer with purchase-order funding.",
+        "source_ids": [
+          "BL03",
+          "BL10"
+        ]
+      },
+      {
+        "date": "2024",
+        "event": "Inc reported that Cella had flown to New York about six months earlier to work with Corcoran on restructuring the business, providing post-show evidence beyond the televised handshake.",
+        "source_ids": [
+          "BL03"
+        ]
+      },
+      {
+        "date": "2025-07-15",
+        "event": "Shark Tank Blog update continued to describe the Barbara deal and active business.",
+        "source_ids": [
+          "BL10"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Blinger’s current site is selling products and states that Barbara’s expertise helped the company grow.",
+        "source_ids": [
+          "BL04",
+          "BL05"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Pennsylvania",
+        "entity_name": "GEMC2, LLC",
+        "entity_number": null,
+        "status": "unresolved",
+        "events": [],
+        "source_id": "BL08",
+        "accessed": "2026-09-09",
+        "limitation": "USPTO application records identify GEMC2, LLC as a Pennsylvania LLC, and current company patent/refund/legal pages use GEMC2, LLC. Pennsylvania file number/current standing require direct Business Filing Services access or record request."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BLINGER-STATUS",
+        "text": "Blinger is operating as of 2026-09-09; Angie Cella accepted Barbara Corcoran’s $200,000-for-25% offer plus purchase-order funding, and post-show reporting/company statements strongly corroborate a continuing Barbara relationship, although executed equity documents were not obtained.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BL05",
+          "BL03",
+          "BL04"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BLINGER-DEV-1",
+        "text": "The current Blinger Shark Tank page says the company “secured a deal” and credits Barbara’s expertise; Inc’s founder interview independently establishes that Cella worked with Corcoran after filming. This is strong closing/relationship corroboration, but not a substitute for executed investment documents.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BL03",
+          "BL04"
+        ]
+      },
+      {
+        "id": "BLINGER-DEV-2",
+        "text": "The company page calls the 2024 company “evaluation” approximately $800,000. That figure corresponds to $200,000/25% deal valuation, not the $4 million implied by the original $200,000/5% ask; the article preserves both instead of treating the later wording as the original valuation.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BL04",
+          "BL03"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BL01",
+        "title": "Blinger — ABC official episode roster",
+        "url": "https://abc.com/news/8f4b496a-1034-4fa1-924b-6d96752566f9/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2024-04-12",
+        "accessed": "2026-09-09",
+        "notes": "Blinger appears in broadcast season 15 episode 20, aired 2024-04-12."
+      },
+      {
+        "id": "BL02",
+        "title": "Blinger — Sony Pictures Television official video carried from project ledger",
+        "url": "https://www.youtube.com/watch?v=xZZ-uy34x1I",
+        "source_type": "Sony Pictures Television official video carried from project ledger",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official pitch-video provenance."
+      },
+      {
+        "id": "BL03",
+        "title": "Blinger — contemporaneous reputable founder interview",
+        "url": "https://www.inc.com/kim-jao/this-shark-tank-founder-restructured-her-business-thanks-to-barbara-corcoran-her-3-big-takeaways.html",
+        "source_type": "contemporaneous reputable founder interview",
+        "published": "2024-04-19",
+        "accessed": "2026-09-09",
+        "notes": "Ask $200K for 5%; Barbara offer $200K for 25% conditioned on NYC restructuring and funding POs; Cella accepted; article says six months earlier she flew to New York and worked with Corcoran, strongly corroborating post-show relationship."
+      },
+      {
+        "id": "BL04",
+        "title": "Blinger — current official company page",
+        "url": "https://blinger.com/pages/shark-tank-blinger",
+        "source_type": "current official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Company says it secured $200K/25% deal with Barbara and credits her expertise; active products and post-show expansion."
+      },
+      {
+        "id": "BL05",
+        "title": "Blinger — current official company site",
+        "url": "https://blinger.com/",
+        "source_type": "current official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Active product sales and current operation."
+      },
+      {
+        "id": "BL06",
+        "title": "Blinger — current official company patent page",
+        "url": "https://blinger.com/pages/patent-information",
+        "source_type": "current official company patent page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Company identifies GEMC2, LLC as IP/product operator and lists patent portfolio."
+      },
+      {
+        "id": "BL07",
+        "title": "Blinger — USPTO filing mirror of filed application",
+        "url": "https://uspto.report/TM/88815158/APP20200303073210",
+        "source_type": "USPTO filing mirror of filed application",
+        "published": "2020-02-28",
+        "accessed": "2026-09-09",
+        "notes": "Filed application states GEMC2, LLC is a Pennsylvania LLC; historical Wilmington DE address."
+      },
+      {
+        "id": "BL08",
+        "title": "Blinger — Pennsylvania Department of State official registry",
+        "url": "https://file.dos.pa.gov/search/business",
+        "source_type": "Pennsylvania Department of State official registry",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Direct business-search endpoint returned HTTP 403 to this research environment; entity/file number and current Pennsylvania standing not retrieved."
+      },
+      {
+        "id": "BL09",
+        "title": "Blinger — Pennsylvania Department of State official guidance",
+        "url": "https://www.pa.gov/agencies/dos/programs/business/information-services/record-searches",
+        "source_type": "Pennsylvania Department of State official guidance",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Confirms Pennsylvania entity search provides exact name/file number/status when accessible."
+      },
+      {
+        "id": "BL10",
+        "title": "Blinger — episode/update recap",
+        "url": "https://www.sharktankblog.com/business/blinger/",
+        "source_type": "episode/update recap",
+        "published": "2025-07-15 update",
+        "accessed": "2026-09-09",
+        "notes": "On-air final terms $200K/25% plus purchase-order funding; accepted."
+      }
+    ],
+    "uncertainties": [
+      "Pennsylvania entity/file number and current good-standing status for GEMC2, LLC.",
+      "Executed Barbara Corcoran investment documents, cap table, and exact legal closing date.",
+      "Whether Barbara’s purchase-order funding commitment was structured as equity-linked financing, advances, guarantees, or another instrument.",
+      "Wayback snapshots of the original post-air Blinger page; archive search returned no indexed results in this environment."
+    ]
+  },
+  {
+    "company": {
+      "name": "Boona",
+      "aliases": [
+        "Tandem Shower",
+        "Deburr LLC"
+      ],
+      "legal_entities": [
+        "Deburr LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 17,
+        "episode_date": "2024-03-08",
+        "video_title": "Boona Shark Tank clip — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=_EAkhuTSYck",
+        "episode_guide_url": "https://abc.com/news/dc05d0dd-13b4-4c36-a82c-b7210ef8d530/category/2887649",
+        "kind": "pitch",
+        "pitch": "The Tandem Shower attachment, designed to create a dual-showerhead experience.",
+        "ask": "$400,000 for 10% equity",
+        "offer": "Kevin O’Leary offered $400,000 for 10% plus a $40-per-unit royalty until $1.2M was recouped, or $400,000 for 33.3%. Founders countered $600,000 for 20%; no Shark accepted.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2021-03-24",
+        "event": "Registry-derived Washington data reports Deburr LLC filed in Washington under number 604736501.",
+        "source_ids": [
+          "BO10"
+        ]
+      },
+      {
+        "date": "2022-05-04",
+        "event": "Contemporaneous reporting covered the founders’ Tandem Kickstarter/product development.",
+        "source_ids": [
+          "BO11"
+        ]
+      },
+      {
+        "date": "2023",
+        "event": "ABC says Boona released its first product, Tandem Shower, in 2023.",
+        "source_ids": [
+          "BO01"
+        ]
+      },
+      {
+        "date": "2024-03-08",
+        "event": "ABC broadcast Boona in season 15 episode 17.",
+        "source_ids": [
+          "BO01"
+        ]
+      },
+      {
+        "date": "2024-03-08",
+        "event": "Founders asked $400,000 for 10%; Kevin O’Leary made two structures; founders countered $600,000 for 20% and left without a deal.",
+        "source_ids": [
+          "BO03",
+          "BO04"
+        ]
+      },
+      {
+        "date": "2025-12-05",
+        "event": "Canadian Intellectual Property Office registered BOONA to Deburr LLC at a Seattle address, providing government-source continuity for the operator/brand relationship.",
+        "source_ids": [
+          "BO08"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Boona’s current site actively sells Tandem Shower for $199 with a five-year guarantee; current team page lists Brett and Jeff.",
+        "source_ids": [
+          "BO05",
+          "BO06",
+          "BO07"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Washington",
+        "entity_name": "Deburr LLC",
+        "entity_number": "604736501",
+        "status": "unresolved",
+        "events": [],
+        "source_id": "BO09",
+        "accessed": "2026-09-09",
+        "limitation": "CIPO official record identifies Deburr LLC as BOONA owner at the same Seattle address. A registry-derived mirror reports WA number 604736501 and 2021-03-24 filing, but official current standing needs direct CCFS query/certificate."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOONA-STATUS",
+        "text": "Boona is operating as of 2026-09-09 under the Tandem Shower brand/product line; founders Brett Skaloud and Jeff Feiereisen left Shark Tank without a deal, and current official pages plus trademark records support continued operation by Deburr LLC.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BO05",
+          "BO08",
+          "BO04"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOONA-DEV-1",
+        "text": "Boona is the brand; Deburr LLC is the legal/operator identity supported by trademark records. Tandem Shower is a product/mark, not a successor company.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BO05",
+          "BO08"
+        ]
+      },
+      {
+        "id": "BOONA-DEV-2",
+        "text": "A third-party transcript page is labeled 15x15 even though ABC identifies the Boona broadcast as S15E17. The transcript content names Brett/Jeff and the $400K/10% ask; ABC controls the broadcast episode number.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BO01",
+          "BO03"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BO01",
+        "title": "Boona — ABC official episode roster",
+        "url": "https://abc.com/news/dc05d0dd-13b4-4c36-a82c-b7210ef8d530/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2024-03-08",
+        "accessed": "2026-09-09",
+        "notes": "Boona appears in broadcast season 15 episode 17, aired 2024-03-08; founded by two former Amazon engineers; Tandem launched 2023."
+      },
+      {
+        "id": "BO02",
+        "title": "Boona — Sony Pictures Television official video carried from project ledger",
+        "url": "https://www.youtube.com/watch?v=_EAkhuTSYck",
+        "source_type": "Sony Pictures Television official video carried from project ledger",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official pitch-video provenance."
+      },
+      {
+        "id": "BO03",
+        "title": "Boona — third-party episode transcript",
+        "url": "https://www.transcripts.foreverdreaming.org/viewtopic.php?t=158637",
+        "source_type": "third-party episode transcript",
+        "published": "2024",
+        "accessed": "2026-09-09",
+        "notes": "Brett and Jeff ask $400K for 10%; pitch language."
+      },
+      {
+        "id": "BO04",
+        "title": "Boona — episode/update recap",
+        "url": "https://www.sharktankblog.com/business/boona/",
+        "source_type": "episode/update recap",
+        "published": "2024-2026 current rendering",
+        "accessed": "2026-09-09",
+        "notes": "Kevin offered $400K with royalty + 10% or $400K for 33.3%; founders countered $600K/20%; Kevin exited and company left without deal."
+      },
+      {
+        "id": "BO05",
+        "title": "Boona — current official company site",
+        "url": "https://boona.com/",
+        "source_type": "current official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current operation and active product sales."
+      },
+      {
+        "id": "BO06",
+        "title": "Boona — current official product page",
+        "url": "https://boona.com/products/tandem",
+        "source_type": "current official product page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Tandem actively sold for $199 and carries five-year guarantee; 2,061 reviews shown at access."
+      },
+      {
+        "id": "BO07",
+        "title": "Boona — current official company page",
+        "url": "https://boona.com/pages/team",
+        "source_type": "current official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Boona says it is Seattle-based and currently lists Brett and Jeff on team."
+      },
+      {
+        "id": "BO08",
+        "title": "Boona — Canadian Intellectual Property Office official registry",
+        "url": "https://ised-isde.canada.ca/cipo/trademark-search/2329890?wbdisable=true",
+        "source_type": "Canadian Intellectual Property Office official registry",
+        "published": "2025-12-05 registration / current record",
+        "accessed": "2026-09-09",
+        "notes": "BOONA trademark registered/active to Deburr LLC, Seattle address; supports current brand-operator identity."
+      },
+      {
+        "id": "BO09",
+        "title": "Boona — Washington Secretary of State official registry",
+        "url": "https://ccfs.sos.wa.gov/",
+        "source_type": "Washington Secretary of State official registry",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Official corporations search shell retrieved but query result not exposed in text interface; current standing not independently retrieved."
+      },
+      {
+        "id": "BO10",
+        "title": "Boona — registry-derived secondary mirror",
+        "url": "https://www.bizprofile.net/wa/seattle/deburr-llc",
+        "source_type": "registry-derived secondary mirror",
+        "published": "data extracted 2024-06-09",
+        "accessed": "2026-09-09",
+        "notes": "Reports Washington entity Deburr LLC, UBI/document number 604736501, filed 2021-03-24, active as of its 2024 extraction, registered agent/governor Brett Skaloud. Current standing requires official refresh."
+      },
+      {
+        "id": "BO11",
+        "title": "Boona — reputable contemporaneous reporting",
+        "url": "https://www.inc.com/ben-sherry/two-former-amazon-engineers-are-upending-the-showerhead-market-with-a-shark-tank-worthy-idea.html",
+        "source_type": "reputable contemporaneous reporting",
+        "published": "2022-05-04",
+        "accessed": "2026-09-09",
+        "notes": "Early Kickstarter/Tandem development evidence, contemporaneous with pre-Shark operating history."
+      }
+    ],
+    "uncertainties": [
+      "Current Washington Secretary of State standing for Deburr LLC and direct official confirmation of UBI 604736501.",
+      "Any post-2025 ownership changes, outside equity financing or successor parent entity.",
+      "Original Wayback snapshots of boona.com/Tandem pages; archive search returned no indexed results in this environment.",
+      "Exact legal surname spelling in some secondary recaps varies; use Jeff Feiereisen unless primary identity evidence later corrects it."
+    ]
+  }
+]

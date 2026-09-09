@@ -40,6 +40,10 @@
     { "name": "Toygaroo", "notes": "research retained, but public status is withheld pending stronger legal-status evidence" },
     { "name": "Bottle Bright", "aliases": ["Bottle Bright cleaning tablets"], "domain": "bottlebright.com" },
     { "name": "Squatty Potty", "domain": "squattypotty.com" },
-    { "name": "Copa di Vino", "aliases": ["Copa Di Vino"], "domain": "copadivino.com", "notes": "research retained, but public status is withheld pending stronger legal-status evidence" }
+    { "name": "Copa di Vino", "aliases": ["Copa Di Vino"], "domain": "copadivino.com", "notes": "research retained, but public status is withheld pending stronger legal-status evidence" },
+    { "name": "Black Paper Party", "aliases": ["Black Paper Party LLC"], "domain": "blackpaperparty.com" },
+    { "name": "Blackdot", "aliases": ["Blackdot, Inc.", "Blackdot Tattoo"], "domain": "blackdot.tattoo" },
+    { "name": "Blinger", "aliases": ["blinger®", "GEMC2, LLC dba blinger"], "domain": "blinger.com" },
+    { "name": "Boona", "aliases": ["Tandem Shower", "Deburr LLC"], "domain": "boona.com" }
   ]
 }

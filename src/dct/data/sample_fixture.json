@@ -1074,5 +1074,121 @@
         "published": null
       }
     ]
+  },
+  "black paper party": {
+    "status": "active",
+    "summary": "Black Paper Party is operating as of 2026-09-09, but reputable later reporting says the $250,000-for-10% Barbara Corcoran deal accepted on air did not close off-camera.",
+    "as_of": "2026-09-09",
+    "confidence": 0.96,
+    "citations": [
+      {
+        "title": "Black Paper Party — current official company site",
+        "url": "https://www.blackpaperparty.com/",
+        "snippet": "Current direct-to-consumer operation and product catalog.",
+        "published": null
+      },
+      {
+        "title": "Black Paper Party — reputable retrospective reporting",
+        "url": "https://www.inc.com/ali-donaldson/after-target-dropped-this-black-owned-brand-its-founders-reached-customers-with-this-strategy/91278012",
+        "snippet": "Deal with Barbara did not close off-camera; 2024 revenue $1.4M versus $797K prior year; Target later stopped carrying brand; fundraising/hiring plans.",
+        "published": "2025-12-16"
+      },
+      {
+        "title": "Black Paper Party — ABC official episode roster",
+        "url": "https://abc.com/news/886905ca-c059-40ee-92dc-252c4fa6ebad/category/2887649",
+        "snippet": "Black Paper Party is in broadcast season 15 episode 8; episode air date and official company description.",
+        "published": "2023-12-08"
+      }
+    ]
+  },
+  "blackdot": {
+    "status": "active",
+    "summary": "Blackdot is operating as of 2026-09-09; Joel Pennington left Shark Tank without an investment, while current company pages and 2026 USPTO patent activity show continued operations under/around Blackdot, Inc.",
+    "as_of": "2026-09-09",
+    "confidence": 0.93,
+    "citations": [
+      {
+        "title": "Blackdot — current official company site",
+        "url": "https://blackdot.tattoo/",
+        "snippet": "Blackdot currently markets and books robotic tattoo services.",
+        "published": null
+      },
+      {
+        "title": "Blackdot — USPTO Official Gazette",
+        "url": "https://patentsgazette.uspto.gov/week05/OG/html/1543-1/US12539407-20260203.html",
+        "snippet": "Patent US 12,539,407 B2 assigned/filed by Blackdot, Inc., Austin, Texas; continuity of Blackdot, Inc. legal identity and IP activity.",
+        "published": "2026-02-03"
+      },
+      {
+        "title": "Blackdot — ABC official episode roster",
+        "url": "https://abc.com/news/4458db47-52ee-45a7-abab-09c6f3582703/category/2887649",
+        "snippet": "Blackdot is in broadcast season 16 episode 14, aired 2025-03-21. ABC page body lists the company despite an unrelated/mismatched introductory synopsis.",
+        "published": "2025-03-21"
+      }
+    ]
+  },
+  "blinger": {
+    "status": "active",
+    "summary": "Blinger is operating as of 2026-09-09; Angie Cella accepted Barbara Corcoran’s $200,000-for-25% offer plus purchase-order funding, and post-show reporting/company statements strongly corroborate a continuing Barbara relationship, although executed equity documents were not obtained.",
+    "as_of": "2026-09-09",
+    "confidence": 0.93,
+    "citations": [
+      {
+        "title": "Blinger — current official company site",
+        "url": "https://blinger.com/",
+        "snippet": "Active product sales and current operation.",
+        "published": null
+      },
+      {
+        "title": "Blinger — contemporaneous reputable founder interview",
+        "url": "https://www.inc.com/kim-jao/this-shark-tank-founder-restructured-her-business-thanks-to-barbara-corcoran-her-3-big-takeaways.html",
+        "snippet": "Ask $200K for 5%; Barbara offer $200K for 25% conditioned on NYC restructuring and funding POs; Cella accepted; article says six months earlier she flew to New York and worked with Corcoran, strongly corroborating post-show relationship.",
+        "published": "2024-04-19"
+      },
+      {
+        "title": "Blinger — current official company page",
+        "url": "https://blinger.com/pages/shark-tank-blinger",
+        "snippet": "Company says it secured $200K/25% deal with Barbara and credits her expertise; active products and post-show expansion.",
+        "published": null
+      },
+      {
+        "title": "Blinger — ABC official episode roster",
+        "url": "https://abc.com/news/8f4b496a-1034-4fa1-924b-6d96752566f9/category/2887649",
+        "snippet": "Blinger appears in broadcast season 15 episode 20, aired 2024-04-12.",
+        "published": "2024-04-12"
+      }
+    ]
+  },
+  "boona": {
+    "status": "active",
+    "summary": "Boona is operating as of 2026-09-09 under the Tandem Shower brand/product line; founders Brett Skaloud and Jeff Feiereisen left Shark Tank without a deal, and current official pages plus trademark records support continued operation by Deburr LLC.",
+    "as_of": "2026-09-09",
+    "confidence": 0.94,
+    "citations": [
+      {
+        "title": "Boona — current official company site",
+        "url": "https://boona.com/",
+        "snippet": "Current operation and active product sales.",
+        "published": null
+      },
+      {
+        "title": "Boona — Canadian Intellectual Property Office official registry",
+        "url": "https://ised-isde.canada.ca/cipo/trademark-search/2329890?wbdisable=true",
+        "snippet": "BOONA trademark registered/active to Deburr LLC, Seattle address; supports current brand-operator identity.",
+        "published": "2025-12-05 registration / current record"
+      },
+      {
+        "title": "Boona — episode/update recap",
+        "url": "https://www.sharktankblog.com/business/boona/",
+        "snippet": "Kevin offered $400K with royalty + 10% or $400K for 33.3%; founders countered $600K/20%; Kevin exited and company left without deal.",
+        "published": "2024-2026 current rendering"
+      },
+      {
+        "title": "Boona — ABC official episode roster",
+        "url": "https://abc.com/news/dc05d0dd-13b4-4c36-a82c-b7210ef8d530/category/2887649",
+        "snippet": "Boona appears in broadcast season 15 episode 17, aired 2024-03-08; founded by two former Amazon engineers; Tandem launched 2023.",
+        "published": "2024-03-08"
+      }
+    ]
   }
 }
