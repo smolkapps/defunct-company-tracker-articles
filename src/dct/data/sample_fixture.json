@@ -1282,5 +1282,110 @@
         "published": null
       }
     ]
+  },
+  "bot-it": {
+    "status": "active",
+    "summary": "Bot-It is operating as of 2026-09-09, but its accepted $300,000 on-air deal with Mark Cuban and Michael Rubin is not verified as closed.",
+    "as_of": "2026-09-09",
+    "confidence": 0.93,
+    "citations": [
+      {
+        "title": "Bot-It current official site",
+        "url": "https://www.botit.com/",
+        "snippet": "Current subscription products, pricing and active signup flows.",
+        "published": null
+      },
+      {
+        "title": "Bot-it Inc. California SOS-derived record",
+        "url": "https://www.bizprofile.net/ca/inglewood/bot-it-inc",
+        "snippet": "Reports California foreign corporation document 6179516 as active/good; direct registry capture remains outstanding.",
+        "published": "2026-03-25"
+      },
+      {
+        "title": "Bot-It ABC official episode roster",
+        "url": "https://abc.com/news/b7276d6a-74d3-4893-90f1-d4a46132190e/category/2887649",
+        "snippet": "Official season 15 episode 3 provenance.",
+        "published": "2023-10-13"
+      }
+    ]
+  },
+  "bottle breacher": {
+    "status": "active",
+    "summary": "Bottle Breacher remains operating under post-founder ownership. Eli Crane’s federal House disclosure independently records a 2022 sale, while ABC’s later follow-up strongly corroborates the Cuban and O’Leary investment relationship.",
+    "as_of": "2026-09-09",
+    "confidence": 0.97,
+    "citations": [
+      {
+        "title": "Eli Crane 2022 U.S. House financial disclosure",
+        "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2022/10051992.pdf",
+        "snippet": "Reports Bottle Breacher capital gains and a purchase-loan receivable associated with sale to a buyer.",
+        "published": "2023-05-15"
+      },
+      {
+        "title": "Bottle Breacher current official site",
+        "url": "https://bottlebreacher.com/our-team/",
+        "snippet": "Current operating team and CEO under later ownership.",
+        "published": null
+      },
+      {
+        "title": "Bottle Breacher — ABC Beyond the Tank",
+        "url": "https://abc.com/news/b81af4ce-7fb4-4ad8-aabc-339e7542d3e4/category/988412",
+        "snippet": "ABC later featured Kevin O’Leary meeting Bottle Breacher.",
+        "published": "2015-12-18"
+      }
+    ]
+  },
+  "bottlekeeper": {
+    "status": "acquired",
+    "summary": "BottleKeeper was acquired in 2021 by Wind Point Partners and RTIC Outdoors. Founder evidence says its accepted Shark Tank deal with Mark Cuban and Lori Greiner did not close.",
+    "as_of": "2026-09-09",
+    "successor": "Wind Point Partners / RTIC Outdoors",
+    "confidence": 0.95,
+    "citations": [
+      {
+        "title": "Adam Callinan author biography",
+        "url": "https://www.inc.com/author/adam-callinan",
+        "snippet": "Inc. identifies BottleKeeper as acquired by Wind Point Partners and RTIC Outdoors in 2021.",
+        "published": null
+      },
+      {
+        "title": "BottleKeeper Canadian trademark record",
+        "url": "https://ised-isde.canada.ca/cipo/trademark-search/1894846?wbdisable=true",
+        "snippet": "Records the 2021 title change from CamCal Enterprises, LLC to BottleKeeper, LLC.",
+        "published": null
+      },
+      {
+        "title": "BottleKeeper founder account",
+        "url": "https://adam-site.vercel.app/",
+        "snippet": "Founder says the Shark deal did not close and the business was acquired in 2021.",
+        "published": null
+      }
+    ]
+  },
+  "bounce boot camp": {
+    "status": "active",
+    "summary": "The Bounce Boot Camp brand remains active through a current New York operator that credits founder Thomas Hill, while the original Arizona LLC’s standing and the operator/license chain remain unresolved.",
+    "as_of": "2026-09-09",
+    "confidence": 0.86,
+    "citations": [
+      {
+        "title": "Bounce Boot Camp NY current site",
+        "url": "https://www.bouncebootcampny.com/",
+        "snippet": "Current branded services, programs and contact information.",
+        "published": null
+      },
+      {
+        "title": "Bounce Boot Camp NY About page",
+        "url": "https://www.bouncebootcampny.com/aboutus",
+        "snippet": "Credits Thomas Hill as founder of the program and describes current services.",
+        "published": null
+      },
+      {
+        "title": "Bounce Boot Camp — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "snippet": "ABC confirms that Bounce Boot Camp appeared on Shark Tank.",
+        "published": "2026-04-22"
+      }
+    ]
   }
 }

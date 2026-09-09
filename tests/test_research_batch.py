@@ -39,6 +39,13 @@ QUEUE_SIX_DATA = (
     / "data"
     / "research_batch_2026-09-09_queue-6.json"
 )
+QUEUE_SEVEN_DATA = (
+    Path(__file__).parents[1]
+    / "src"
+    / "dct"
+    / "data"
+    / "research_batch_2026-09-09_queue-7.json"
+)
 
 
 def test_research_batch_keeps_claims_source_complete_and_uncertainty_explicit():
@@ -268,6 +275,51 @@ def test_sixth_batch_separates_verified_closures_from_unresolved_inferences():
     )
     assert affiliate_claim["source_ids"] == ["BB10"]
     assert "not evidence" in affiliate_claim["text"]
+
+
+def test_seventh_batch_preserves_deals_sales_and_episode_provenance_conflicts():
+    records = json.loads(QUEUE_SEVEN_DATA.read_text(encoding="utf-8"))
+    assert {record["company"]["name"] for record in records} == {
+        "Bot-It",
+        "Bottle Breacher",
+        "BottleKeeper",
+        "Bounce Boot Camp",
+    }
+
+    for record in records:
+        source_ids = {source["id"] for source in record["sources"]}
+        referenced = {
+            source_id
+            for claim in record["claims"]
+            for source_id in claim["source_ids"]
+        }
+        referenced.update(
+            source_id
+            for event in record.get("timeline", [])
+            for source_id in event["source_ids"]
+        )
+        referenced.update(
+            registry["source_id"]
+            for registry in record.get("registry_records", [])
+        )
+        assert referenced <= source_ids
+
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["Bot-It"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Bottle Breacher"]["episode_appearances"][0]["deal_closed"] is True
+    assert by_name["BottleKeeper"]["episode_appearances"][0]["deal_closed"] is False
+    assert by_name["Bounce Boot Camp"]["episode_appearances"][0]["deal_closed"] is False
+
+    bottlekeeper = by_name["BottleKeeper"]
+    assert bottlekeeper["status"] == "acquired"
+    assert bottlekeeper["company"]["successor_or_acquirer"] == (
+        "Wind Point Partners / RTIC Outdoors"
+    )
+    assert any("numbering conflict" in claim["text"] for claim in bottlekeeper["claims"])
+
+    bounce = by_name["Bounce Boot Camp"]
+    assert bounce["status"] == "operating"
+    assert bounce["registry_records"][0]["status"].startswith("original LLC standing")
 
 
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():

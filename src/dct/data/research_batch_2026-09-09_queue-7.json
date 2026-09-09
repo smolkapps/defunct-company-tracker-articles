@@ -1,0 +1,923 @@
+[
+  {
+    "company": {
+      "name": "Bot-It",
+      "aliases": [
+        "Bot It",
+        "Bot-it Inc."
+      ],
+      "legal_entities": [
+        "Bot-it Inc."
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 15,
+        "episode": 3,
+        "episode_date": "2023-10-13",
+        "video_title": "Bot-It pitch — Sony Pictures Television",
+        "video_url": "https://www.youtube.com/watch?v=jP-7a5Y13dI",
+        "episode_guide_url": "https://abc.com/news/b7276d6a-74d3-4893-90f1-d4a46132190e/category/2887649",
+        "kind": "pitch",
+        "pitch": "No-code web automation for consumer bookings and business workflows.",
+        "ask": "$150,000 for 10% equity",
+        "offer": "Mark Cuban offered $150,000 for 20%; Michael Rubin offered $150,000 for 15%; after the founders asked them to team up, Cuban and Rubin offered $300,000 for 30%. Maurice Bachelor and Joel Griffith accepted Cuban and Rubin’s joint $300,000 for 30% offer.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-10-13",
+        "event": "Bot-It aired in Season 15, Episode 3 and accepted Mark Cuban and Michael Rubin’s joint $300,000 for 30% offer.",
+        "source_ids": [
+          "BOT1",
+          "BOT2",
+          "BOT3"
+        ]
+      },
+      {
+        "date": "2024-02-02",
+        "event": "A Trenton Journal profile described the Shark Tank result as a $300,000 'offer' and did not report that the transaction had closed.",
+        "source_ids": [
+          "BOT4"
+        ]
+      },
+      {
+        "date": "2024-04-18",
+        "event": "Bot-it Inc. filed as a California foreign stock corporation, document 6179516, formed in Delaware; Maurice Bachelor was listed in principal roles.",
+        "source_ids": [
+          "BOT5"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Bot-It’s current site offered paid subscription tiers, business automation services and active signup flows.",
+        "source_ids": [
+          "BOT6",
+          "BOT7"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California foreign registration / Delaware home jurisdiction",
+        "entity_name": "Bot-it Inc.",
+        "entity_number": "6179516",
+        "status": "active/good reported by California SOS-derived mirror; direct filing not captured",
+        "events": [
+          "California foreign registration filed 2024-04-18"
+        ],
+        "source_id": "BOT5",
+        "accessed": "2026-09-09",
+        "limitation": "A registry mirror reports the California foreign registration as active and attributes its data to the California Secretary of State. Direct BizFile entity detail was not retrievable here. The pre-Shark-Tank legal operator and any conversion into the 2024 corporation remain unresolved."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOT_IT-STATUS",
+        "text": "Bot-It is operating as of 2026-09-09; its $300,000 on-air deal with Mark Cuban and Michael Rubin is not verified as closed.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BOT5",
+          "BOT6",
+          "BOT7"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOT_IT-DEV-1",
+        "text": "Sony’s official clip and ABC’s roster independently fix the pitch at Season 15, Episode 3.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BOT1",
+          "BOT2"
+        ]
+      },
+      {
+        "id": "BOT_IT-DEV-2",
+        "text": "The public record supports an accepted on-air offer, but not a completed investment; later founder wording and absence from Cuban’s portfolio are consistent with a deal that did not close, but no primary termination document was found.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BOT4",
+          "BOT8",
+          "BOT9"
+        ]
+      },
+      {
+        "id": "BOT_IT-DEV-3",
+        "text": "The current site is materially broader than ABC’s 2023 consumer-bot description, now marketing business, medical, accounting and workflow automation. This is a documented evolution in positioning, not evidence that any particular historical page was secretly edited.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BOT1",
+          "BOT6",
+          "BOT7"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BOT1",
+        "title": "Bot-It — ABC official episode roster",
+        "url": "https://abc.com/news/b7276d6a-74d3-4893-90f1-d4a46132190e/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2023-10-13",
+        "accessed": "2026-09-09",
+        "notes": "Season 15 Episode 3 provenance and Bot-It description."
+      },
+      {
+        "id": "BOT2",
+        "title": "Bot-It — Sony Pictures Television official video",
+        "url": "https://www.youtube.com/watch?v=jP-7a5Y13dI",
+        "source_type": "Sony Pictures Television official video",
+        "published": "2024-10-07",
+        "accessed": "2026-09-09",
+        "notes": "Official pitch clip; ask and episode provenance."
+      },
+      {
+        "id": "BOT3",
+        "title": "Bot-It — reputable retrospective reporting",
+        "url": "https://www.slashgear.com/1520693/what-happened-bot-it-online-automation-shark-tank-season-15/",
+        "source_type": "reputable retrospective reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Offer sequence and accepted $300,000/30% deal."
+      },
+      {
+        "id": "BOT4",
+        "title": "Bot-It — contemporaneous founder profile",
+        "url": "https://trentonjournal.com/trenton-entrepreneur-receives-300000-offer-from-shark-tank/",
+        "source_type": "contemporaneous founder profile",
+        "published": "2024-02-02",
+        "accessed": "2026-09-09",
+        "notes": "Post-show language describing result as an offer."
+      },
+      {
+        "id": "BOT5",
+        "title": "Bot-It — California SOS-derived registry mirror",
+        "url": "https://www.bizprofile.net/ca/inglewood/bot-it-inc",
+        "source_type": "California SOS-derived registry mirror",
+        "published": "2026-03-25",
+        "accessed": "2026-09-09",
+        "notes": "Bot-it Inc. foreign corporation, document 6179516, Delaware formation and active/good reported standing."
+      },
+      {
+        "id": "BOT6",
+        "title": "Bot-It — official company site",
+        "url": "https://www.botit.com/",
+        "source_type": "official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current subscription products, pricing and active operation."
+      },
+      {
+        "id": "BOT7",
+        "title": "Bot-It — official company site",
+        "url": "https://www.botit.com/business",
+        "source_type": "official company site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current business automation positioning and pricing."
+      },
+      {
+        "id": "BOT8",
+        "title": "Bot-It — reputable retrospective reporting",
+        "url": "https://www.bgr.com/2090940/what-happened-bot-it-online-automation-from-shark-tank-season-15/",
+        "source_type": "reputable retrospective reporting",
+        "published": "2026-02-07",
+        "accessed": "2026-09-09",
+        "notes": "No solid proof of closing; Cuban portfolio absence."
+      },
+      {
+        "id": "BOT9",
+        "title": "Bot-It — business database / follow-up analysis",
+        "url": "https://www.cbinsights.com/company/bot-it",
+        "source_type": "business database / follow-up analysis",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Deal-close skepticism and founder post-show silence."
+      }
+    ],
+    "uncertainties": [
+      "Executed Cuban/Rubin investment or termination documents.",
+      "Delaware incorporation file number and direct current Delaware standing.",
+      "Pre-2024 legal entity/operator and legal continuity into Bot-it Inc.",
+      "Wayback snapshot comparison of the 2023 versus current product positioning."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bottle Breacher",
+      "aliases": [
+        "Bottle Breacher, LLC"
+      ],
+      "legal_entities": [
+        "Bottle Breacher, LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 6,
+        "episode": 8,
+        "episode_date": "2014-11-07",
+        "video_title": "Bottle Breacher — ABC Beyond the Tank follow-up",
+        "video_url": "https://www.youtube.com/watch?v=WrBx2h3NRh0",
+        "episode_guide_url": "https://abc.com/news/08184210-932b-46e6-8098-7e0f3779203f/category/941755",
+        "kind": "clip",
+        "pitch": "Personalized bottle openers made from decommissioned ammunition casings.",
+        "ask": "$150,000 for 10% equity",
+        "offer": "Kevin O’Leary offered $150,000 for 20%; Daymond John offered $200,000 for 25% contingent on licensing; Mark Cuban then joined O’Leary at $150,000 for 20%, split equally. Eli and Jen Crane accepted Mark Cuban and Kevin O’Leary’s $150,000 for 20% joint offer.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2014-11-07",
+        "event": "Bottle Breacher aired in Season 6, Episode 8; Eli and Jen Crane accepted Cuban and O’Leary’s $150,000 for 20% joint offer.",
+        "source_ids": [
+          "BRE1",
+          "BRE2",
+          "BRE3"
+        ]
+      },
+      {
+        "date": "2015-02",
+        "event": "A Shark Tank update reported roughly 60,000 units sold after airing, website overload and rapid hiring/production expansion.",
+        "source_ids": [
+          "BRE4"
+        ]
+      },
+      {
+        "date": "2015-12-18",
+        "event": "ABC promoted a Beyond the Tank segment in which Kevin O’Leary met with Bottle Breacher, strongly corroborating an ongoing post-show investor relationship.",
+        "source_ids": [
+          "BRE5"
+        ]
+      },
+      {
+        "date": "2021-07-28",
+        "event": "Federal OSHA records show an inspection entry for Bottle Breacher LLC in Arizona.",
+        "source_ids": [
+          "BRE6"
+        ]
+      },
+      {
+        "date": "2022",
+        "event": "Eli Crane’s federal House financial disclosure reports capital gains from Bottle Breacher LLC interests and purchase-loan receivables tied to sale of the entity to a buyer.",
+        "source_ids": [
+          "BRE7"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Bottle Breacher’s current company site identifies Mike as CEO and maintains an active operating team; the site continues to market Bottle Breacher products.",
+        "source_ids": [
+          "BRE8",
+          "BRE9"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Arizona",
+        "entity_name": "Bottle Breacher, LLC",
+        "entity_number": null,
+        "status": "current standing unresolved; federal and trademark records identify the LLC",
+        "events": [
+          "OSHA establishment inspection recorded 2021-07-28"
+        ],
+        "source_id": "BRE6",
+        "accessed": "2026-09-09",
+        "limitation": "Direct Arizona entity detail was not captured in this environment. BBB reports incorporation on 2016-05-27; OSHA identifies Bottle Breacher LLC in 2021; active federal trademark records remain in Bottle Breacher, LLC’s name."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOTTLE_BREACHER-STATUS",
+        "text": "Bottle Breacher is operating under post-founder ownership; the Cranes sold their interests in 2022 after a strongly corroborated Shark investment by Mark Cuban and Kevin O’Leary.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BRE7",
+          "BRE8",
+          "BRE9",
+          "BRE10"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOTTLE_BREACHER-DEV-1",
+        "text": "The 2022 founder exit is verified independently of current company narrative by Eli Crane’s House financial disclosure, which reports capital gains and a purchase loan from sale of Bottle Breacher LLC to a buyer.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRE7"
+        ]
+      },
+      {
+        "id": "BOTTLE_BREACHER-DEV-2",
+        "text": "Current ownership by Mike and Amber Wall is strongly corroborated by current company/team material and business profiles, but the underlying purchase agreement and exact percentage transferred were not retrieved.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BRE8",
+          "BRE10"
+        ]
+      },
+      {
+        "id": "BOTTLE_BREACHER-DEV-3",
+        "text": "Consumer-review platforms contain 2023-2025 allegations of delayed or unfulfilled orders and criticism of current ownership. These are customer allegations, not adjudicated findings, and they do not by themselves establish closure.",
+        "evidence_level": "allegation",
+        "source_ids": [
+          "BRE11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BRE1",
+        "title": "Bottle Breacher — ABC official Shark Tank guide",
+        "url": "https://abc.com/news/08184210-932b-46e6-8098-7e0f3779203f/category/941755",
+        "source_type": "ABC official Shark Tank guide",
+        "published": "2015-11-20",
+        "accessed": "2026-09-09",
+        "notes": "Official ABC provenance: former Navy SEAL makes a deal in Season 6 Veterans Small Business Week."
+      },
+      {
+        "id": "BRE2",
+        "title": "Bottle Breacher — contemporaneous episode recap",
+        "url": "https://www.inc.com/brian-j-oconnor/shark-tank-recap-vets-come-in-with-guns-a-blazing.html",
+        "source_type": "contemporaneous episode recap",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, offers and accepted Cuban/O’Leary structure."
+      },
+      {
+        "id": "BRE3",
+        "title": "Bottle Breacher — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bottle-breacher/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 6 Episode 8 and pitch terms."
+      },
+      {
+        "id": "BRE4",
+        "title": "Bottle Breacher — contemporaneous update reporting",
+        "url": "https://www.sharktankblog.com/shark-tank/shark-tank-episodes/shark-tank-season-6-episodes/episode-617/",
+        "source_type": "contemporaneous update reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Post-air update and O’Leary involvement."
+      },
+      {
+        "id": "BRE5",
+        "title": "Bottle Breacher — ABC Beyond the Tank official page",
+        "url": "https://abc.com/news/b81af4ce-7fb4-4ad8-aabc-339e7542d3e4/category/988412",
+        "source_type": "ABC Beyond the Tank official page",
+        "published": "2015-12-18",
+        "accessed": "2026-09-09",
+        "notes": "ABC says Episode 4 features Kevin O’Leary meeting Bottle Breacher."
+      },
+      {
+        "id": "BRE6",
+        "title": "Bottle Breacher — OSHA federal record",
+        "url": "https://www.osha.gov/ords/imis/establishment.search?endday=03&endmonth=08&endyear=2024&establishment=&office=950411&officetype=all&p_case=all&p_desc=DESC&p_direction=Next&p_finish=6580&p_show=20&p_sort=4&p_start=&p_violations_exist=both&sitezip=100000&startday=03&startmonth=08&startyear=2014&state=all",
+        "source_type": "OSHA federal record",
+        "published": "2021-07-28",
+        "accessed": "2026-09-09",
+        "notes": "Federal establishment inspection record for Bottle Breacher LLC."
+      },
+      {
+        "id": "BRE7",
+        "title": "Bottle Breacher — U.S. House financial disclosure",
+        "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2022/10051992.pdf",
+        "source_type": "U.S. House financial disclosure",
+        "published": "2023-05-15",
+        "accessed": "2026-09-09",
+        "notes": "Founder/spouse Bottle Breacher interests, capital gains and purchase-loan asset from sale to buyer."
+      },
+      {
+        "id": "BRE8",
+        "title": "Bottle Breacher — official company page",
+        "url": "https://bottlebreacher.com/our-team/",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current operating team; Mike identified as CEO."
+      },
+      {
+        "id": "BRE9",
+        "title": "Bottle Breacher — official company page",
+        "url": "https://bottlebreacher.com/blog/american-made-corporate-gifts-bottle-breachers-military-inspired-collection/",
+        "source_type": "official company page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Current product marketing and operation."
+      },
+      {
+        "id": "BRE10",
+        "title": "Bottle Breacher — business profile",
+        "url": "https://www.alignable.com/catalina-foothills-az/bottle-breacher",
+        "source_type": "business profile",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Reports Cranes sold business to Mike and Amber Wall."
+      },
+      {
+        "id": "BRE11",
+        "title": "Bottle Breacher — consumer review platform",
+        "url": "https://www.trustpilot.com/review/bottlebreacher.com",
+        "source_type": "consumer review platform",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Customer allegations about fulfillment and current ownership; allegations only."
+      },
+      {
+        "id": "BRE12",
+        "title": "Bottle Breacher — USPTO-derived trademark record",
+        "url": "https://trademarks.justia.com/868/27/bottle-86827247.html",
+        "source_type": "USPTO-derived trademark record",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "BOTTLE BREACHER mark registered to Bottle Breacher, LLC."
+      },
+      {
+        "id": "BRE13",
+        "title": "Bottle Breacher — ABC official Beyond the Tank video",
+        "url": "https://www.youtube.com/watch?v=WrBx2h3NRh0",
+        "source_type": "ABC official video",
+        "published": "2016-01-21",
+        "accessed": "2026-09-09",
+        "notes": "Verified ABC follow-up video featuring Kevin O’Leary and Bottle Breacher."
+      }
+    ],
+    "uncertainties": [
+      "Arizona entity number and current Arizona good-standing record.",
+      "Executed Cuban/O’Leary investment documents and final cap table.",
+      "Purchase agreement identifying the 2022 buyer, price and precise interests transferred.",
+      "Whether recent fulfillment complaints reflect a resolved operational issue or continuing impairment."
+    ]
+  },
+  {
+    "company": {
+      "name": "BottleKeeper",
+      "aliases": [
+        "Bottlekeeper",
+        "CamCal Enterprises, LLC d/b/a BottleKeeper",
+        "BottleKeeper, LLC"
+      ],
+      "legal_entities": [
+        "CamCal Enterprises, LLC",
+        "BottleKeeper, LLC"
+      ],
+      "successor_or_acquirer": "Wind Point Partners / RTIC Outdoors"
+    },
+    "status": "acquired",
+    "as_of": "2026-09-09",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 10,
+        "episode": 6,
+        "episode_date": "2018-11-25",
+        "video_title": "BottleKeeper pitch — Shark Tank Global",
+        "video_url": "https://www.youtube.com/watch?v=jjaY_cWr8EQ",
+        "episode_guide_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "kind": "pitch",
+        "pitch": "An insulated stainless-steel holder that keeps glass beer bottles cold and protected.",
+        "ask": "$1,000,000 for 5% equity",
+        "offer": "Kevin O’Leary and Alex Rodriguez proposed a mixed equity/loan structure; Lori Greiner proposed $1 million for 3% plus a royalty; after negotiation, Mark Cuban and Lori Greiner jointly offered $1 million for 5% plus $1.50 per unit until $2 million was recouped. Adam Callinan and Matt Campbell accepted Mark Cuban and Lori Greiner’s $1 million for 5% plus $1.50-per-unit royalty until $2 million recoupment.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-04",
+        "event": "A federal consent judgment identified CamCal Enterprises, LLC d/b/a BottleKeeper as an Arizona LLC and owner of BottleKeeper patents in an infringement dispute.",
+        "source_ids": [
+          "KEEP1"
+        ]
+      },
+      {
+        "date": "2018-11-25",
+        "event": "BottleKeeper aired in Season 10, Episode 6 and accepted Cuban and Greiner’s $1 million/5% plus royalty offer.",
+        "source_ids": [
+          "KEEP2",
+          "KEEP3"
+        ]
+      },
+      {
+        "date": "2019-06-17",
+        "event": "Adam Callinan and Matthew Campbell assigned a BottleKeeper design patent application to CamCal Enterprises, LLC d/b/a BottleKeeper.",
+        "source_ids": [
+          "KEEP4"
+        ]
+      },
+      {
+        "date": "2021-05-18",
+        "event": "USPTO assignment history shows BottleKeeper intellectual property moving from CamCal Enterprises, LLC d/b/a BottleKeeper to BottleKeeper, LLC.",
+        "source_ids": [
+          "KEEP5"
+        ]
+      },
+      {
+        "date": "2021-06-23",
+        "event": "Canadian trademark records show a registered change in title from CamCal Enterprises, LLC to BottleKeeper, LLC, with a Houston, Texas address.",
+        "source_ids": [
+          "KEEP6"
+        ]
+      },
+      {
+        "date": "2021",
+        "event": "Founder Adam Callinan states BottleKeeper was acquired by Wind Point Partners/RTIC Outdoors in an eight-figure transaction.",
+        "source_ids": [
+          "KEEP7",
+          "KEEP8"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The founders publicly describe the company as a completed exit; current RTIC offerings no longer clearly identify a standalone BottleKeeper line.",
+        "source_ids": [
+          "KEEP7",
+          "KEEP9"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Arizona predecessor / Texas successor address",
+        "entity_name": "BottleKeeper, LLC",
+        "entity_number": null,
+        "status": "state standing unresolved; 2021 federal/Canadian IP transfer verified",
+        "events": [
+          "IP title transferred from CamCal Enterprises, LLC to BottleKeeper, LLC in 2021"
+        ],
+        "source_id": "KEEP6",
+        "accessed": "2026-09-09",
+        "limitation": "Primary federal and Canadian IP records establish CamCal as the Arizona operator and a 2021 transfer to BottleKeeper, LLC. State entity numbers/current standing for both entities were not directly captured."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOTTLEKEEPER-STATUS",
+        "text": "BottleKeeper was acquired in 2021 by Wind Point Partners/RTIC Outdoors; its Shark Tank deal with Mark Cuban and Lori Greiner did not close, and the standalone brand is no longer clearly marketed as an active product line.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "KEEP5",
+          "KEEP6",
+          "KEEP7",
+          "KEEP8",
+          "KEEP9"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOTTLEKEEPER-DEV-1",
+        "text": "Callinan directly states the Cuban/Greiner deal did not close; later secondary reporting describes roughly six months of diligence and a failed attempt at an alternate consulting arrangement.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "KEEP7",
+          "KEEP10"
+        ]
+      },
+      {
+        "id": "BOTTLEKEEPER-DEV-2",
+        "text": "The acquisition is supported by founder-authored/current professional biography material and independent business reporting; exact purchase price and acquisition agreement were not located.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "KEEP7",
+          "KEEP8"
+        ]
+      },
+      {
+        "id": "BOTTLEKEEPER-DEV-3",
+        "text": "The 2021 IP transfer from CamCal Enterprises to BottleKeeper, LLC is independently visible in public patent/trademark records and is consistent with a transaction process, but those records alone do not identify Wind Point/RTIC as the assignee.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "KEEP5",
+          "KEEP6"
+        ]
+      },
+      {
+        "id": "BOTTLEKEEPER-DEV-4",
+        "text": "Officially licensed Shark Tank Global metadata calls the clip season 10 episode 7, while contemporaneous broadcast-order sources identify the November 25, 2018 broadcast as season 10 episode 6; the tracker uses broadcast order and preserves the numbering conflict.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "KEEP2",
+          "KEEP3",
+          "KEEP11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "KEEP1",
+        "title": "BottleKeeper — federal court docket/order",
+        "url": "https://docs.justia.com/cases/federal/district-courts/california/cacdce/2%3A2017cv02547/674614/14",
+        "source_type": "federal court docket/order",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "CamCal Enterprises, LLC d/b/a BottleKeeper; Arizona LLC; patent ownership."
+      },
+      {
+        "id": "KEEP2",
+        "title": "BottleKeeper — contemporaneous episode reporting",
+        "url": "https://www.inc.com/emily-canal/shark-tank-season-10-episode-6-bottlekeeper.html",
+        "source_type": "contemporaneous episode reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Ask, negotiations and accepted Cuban/Greiner terms."
+      },
+      {
+        "id": "KEEP3",
+        "title": "BottleKeeper — specialist episode/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bottlekeeper/",
+        "source_type": "specialist episode/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 10 Episode 6 and on-air deal; later no-close report."
+      },
+      {
+        "id": "KEEP4",
+        "title": "BottleKeeper — USPTO assignment record",
+        "url": "https://assignmentcenter.uspto.gov/ipas/search/api/v2/public/download/patent/49503/641",
+        "source_type": "USPTO assignment record",
+        "published": "2019-06-18",
+        "accessed": "2026-09-09",
+        "notes": "Assignment from founders to CamCal Enterprises, LLC d/b/a BottleKeeper."
+      },
+      {
+        "id": "KEEP5",
+        "title": "BottleKeeper — patent assignment-history mirror",
+        "url": "https://patents.google.com/patent/USD955808S1/en",
+        "source_type": "patent assignment-history mirror",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "2021 assignment to BottleKeeper, LLC and security-interest history."
+      },
+      {
+        "id": "KEEP6",
+        "title": "BottleKeeper — Canadian Intellectual Property Office",
+        "url": "https://ised-isde.canada.ca/cipo/trademark-search/1894846?wbdisable=true",
+        "source_type": "Canadian Intellectual Property Office",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "2021 change in title from CamCal Enterprises, LLC to BottleKeeper, LLC; current registered owner/address."
+      },
+      {
+        "id": "KEEP7",
+        "title": "BottleKeeper — founder current first-person site",
+        "url": "https://adam-site.vercel.app/",
+        "source_type": "founder current first-person site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Founder says Shark deal did not close and BottleKeeper was acquired in 2021."
+      },
+      {
+        "id": "KEEP8",
+        "title": "BottleKeeper — reputable publisher founder biography",
+        "url": "https://www.inc.com/author/adam-callinan",
+        "source_type": "reputable publisher founder biography",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Inc. states BottleKeeper was acquired by Wind Point Partners/RTIC Outdoors in 2021."
+      },
+      {
+        "id": "KEEP9",
+        "title": "BottleKeeper — reputable retrospective reporting",
+        "url": "https://www.foodrepublic.com/1946127/bottlekeeper-shark-tank-now/",
+        "source_type": "reputable retrospective reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Acquisition and absence of separately branded BottleKeeper products on RTIC."
+      },
+      {
+        "id": "KEEP10",
+        "title": "BottleKeeper — reputable retrospective reporting",
+        "url": "https://www.foodrepublic.com/1946127/bottlekeeper-shark-tank-now/",
+        "source_type": "reputable retrospective reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Reports six-month diligence and failed close based on founder account."
+      },
+      {
+        "id": "KEEP11",
+        "title": "BottleKeeper pitch — Shark Tank Global",
+        "url": "https://www.youtube.com/watch?v=jjaY_cWr8EQ",
+        "source_type": "verified Shark Tank Global video",
+        "published": "2024-08-08",
+        "accessed": "2026-09-09",
+        "notes": "Officially licensed pitch clip; description labels the source as season 10 episode 7, while broadcast-order sources label the November 25, 2018 episode as episode 6."
+      }
+    ],
+    "uncertainties": [
+      "Executed Cuban/Greiner deal termination or diligence documents.",
+      "Wind Point/RTIC acquisition agreement and exact purchase price.",
+      "Arizona and Texas entity numbers and current standing for CamCal Enterprises, LLC and BottleKeeper, LLC.",
+      "Whether RTIC formally discontinued the BottleKeeper brand or merely stopped separately merchandising it."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bounce Boot Camp",
+      "aliases": [
+        "Bounce Boot Camp LLC",
+        "Bounce Boot Camp NY"
+      ],
+      "legal_entities": [
+        "Bounce Boot Camp LLC"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 5,
+        "episode": 13,
+        "episode_date": "2014-01-10",
+        "video_title": "Bounce Boot Camp — ABC official appearance index",
+        "video_url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "episode_guide_url": "https://www.sharktankcompanies.com/seasons/5/episodes/13",
+        "kind": "episode",
+        "pitch": "A mobile children’s fitness program built around inflatable obstacle courses.",
+        "ask": "$30,000 for 20% equity",
+        "offer": "No Shark made an investment offer; the Sharks questioned the scale, economics and Thomas Hill’s part-time commitment. All Sharks declined; Thomas Hill left without a deal.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2011-07-22",
+        "event": "A federal trademark application for BOUNCE BOOT CAMP was filed by Bounce Boot Camp LLC of Anthem, Arizona; the mark later registered as U.S. registration 4,181,010.",
+        "source_ids": [
+          "BOUN1"
+        ]
+      },
+      {
+        "date": "2014-01-10",
+        "event": "Bounce Boot Camp aired in Season 5, Episode 13; Hill asked $30,000 for 20% and received no deal.",
+        "source_ids": [
+          "BOUN2",
+          "BOUN3",
+          "BOUN4"
+        ]
+      },
+      {
+        "date": "2014",
+        "event": "Follow-up reporting described expansion through multiple operator/franchise locations after Shark Tank.",
+        "source_ids": [
+          "BOUN3"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "Bounce Boot Camp NY maintained an active service website with contact information, fitness programs, parties, scouts and team-building offerings; its About page credits Thomas Hill as founder of the concept.",
+        "source_ids": [
+          "BOUN5",
+          "BOUN6"
+        ]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Arizona original / New York current operator",
+        "entity_name": "Bounce Boot Camp LLC",
+        "entity_number": null,
+        "status": "original LLC standing and current operator identity unresolved",
+        "events": [
+          "BOUNCE BOOT CAMP federal mark registered to Arizona applicant"
+        ],
+        "source_id": "BOUN1",
+        "accessed": "2026-09-09",
+        "limitation": "USPTO’s official gazette identifies BOUNCE BOOT CAMP LLC, Anthem, Arizona. Direct current Arizona entity standing and the legal/license relationship between that LLC, Thomas Hill and Bounce Boot Camp NY were not captured."
+      }
+    ],
+    "claims": [
+      {
+        "id": "BOUNCE_BOOT_CAMP-STATUS",
+        "text": "The Bounce Boot Camp brand remains operating through at least an active New York operator, but the present legal standing of Thomas Hill’s original Arizona LLC and the license/franchise chain are unresolved.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": [
+          "BOUN5",
+          "BOUN6",
+          "BOUN8"
+        ],
+        "published": "2026-09-09"
+      },
+      {
+        "id": "BOUNCE_BOOT_CAMP-DEV-1",
+        "text": "Current operation is scoped to the brand/service network, not a claim that the original Arizona LLC remains active. The New York site is live, identifies the concept as founded by Thomas Hill, and advertises current services.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BOUN5",
+          "BOUN6"
+        ]
+      },
+      {
+        "id": "BOUNCE_BOOT_CAMP-DEV-2",
+        "text": "Later claims of multi-state/franchise growth are credible but the exact franchise agreements, operators and surviving locations were not independently reconstructed in this batch.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BOUN3"
+        ]
+      },
+      {
+        "id": "BOUNCE_BOOT_CAMP-DEV-3",
+        "text": "No evidence of bankruptcy, acquisition or a Shark transaction was located. Absence of those records in this bounded search is not proof none exist.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BOUN7"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BOUN1",
+        "title": "Bounce Boot Camp — USPTO Official Gazette",
+        "url": "https://www.uspto.gov/web/trademarks/tmog/20120724_OG.pdf",
+        "source_type": "USPTO Official Gazette",
+        "published": "2012-07-24",
+        "accessed": "2026-09-09",
+        "notes": "BOUNCE BOOT CAMP registration applicant Bounce Boot Camp LLC, Anthem AZ; first-use dates."
+      },
+      {
+        "id": "BOUN2",
+        "title": "Bounce Boot Camp — contemporaneous episode recap",
+        "url": "https://www.hollywood.com/tv/shark-tank-recap-dont-bounce-out-of-this-deal-59087097",
+        "source_type": "contemporaneous episode recap",
+        "published": "2014-01-11",
+        "accessed": "2026-09-09",
+        "notes": "Air date, ask, business model concerns and no deal."
+      },
+      {
+        "id": "BOUN3",
+        "title": "Bounce Boot Camp — specialist contemporaneous/follow-up reporting",
+        "url": "https://www.sharktankblog.com/business/bounce-boot-camp/",
+        "source_type": "specialist contemporaneous/follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Pitch details, no deal and reported later operator locations."
+      },
+      {
+        "id": "BOUN4",
+        "title": "Bounce Boot Camp — episode database",
+        "url": "https://www.sharktankcompanies.com/seasons/5/episodes/13",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Season 5 Episode 13 and January 10, 2014 air date."
+      },
+      {
+        "id": "BOUN5",
+        "title": "Bounce Boot Camp — current branded operator site",
+        "url": "https://www.bouncebootcampny.com/",
+        "source_type": "current branded operator site",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Active New York services and contact information."
+      },
+      {
+        "id": "BOUN6",
+        "title": "Bounce Boot Camp — current branded operator About page",
+        "url": "https://www.bouncebootcampny.com/aboutus",
+        "source_type": "current branded operator About page",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Credits Thomas Hill as founder and describes current programs."
+      },
+      {
+        "id": "BOUN7",
+        "title": "Bounce Boot Camp — Arizona Department of Education",
+        "url": "https://www.azreportcards.azed.gov/schools/detail/91134",
+        "source_type": "Arizona Department of Education",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "School activity listing includes Bounce Boot Camp; supplemental evidence of continuing brand use."
+      },
+      {
+        "id": "BOUN8",
+        "title": "Bounce Boot Camp — ABC official appearance index",
+        "url": "https://abc.com/news/920582c3-2083-45bc-81c9-95e33c5a76e9/category/706923",
+        "source_type": "ABC official appearance index",
+        "published": "2026-04-22",
+        "accessed": "2026-09-09",
+        "notes": "ABC confirms Bounce Boot Camp appeared on Shark Tank; this is not an episode-specific video."
+      }
+    ],
+    "uncertainties": [
+      "Arizona entity number and current standing for Bounce Boot Camp LLC.",
+      "Legal identity of the current New York operator and its license/franchise agreement with Hill/original LLC.",
+      "Which other reported franchise/operator locations remain active.",
+      "Archived captures establishing the historical franchise roster and any material changes to the brand’s current About narrative."
+    ]
+  }
+]
+
