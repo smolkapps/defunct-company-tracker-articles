@@ -459,6 +459,21 @@ def test_fourteenth_batch_normalizes_bucketgolf_and_preserves_deal_uncertainty()
             assert item["source_ids"] and set(item["source_ids"]) <= ids
 
 
+def test_fifteenth_batch_withholds_bumbling_bee_and_preserves_entity_gaps():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-15.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["Bumbling Bee"]["status"] == "unresolved"
+    assert by_name["Bug Bite Thing"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Buggy Beds"]["registry_records"] == []
+    assert by_name["Buffer Bit"]["episode_appearances"][0]["deal_closed"] is False
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")
