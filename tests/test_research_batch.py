@@ -489,3 +489,18 @@ def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
                 record["company"]["name"],
                 event["date"],
             )
+
+
+def test_seventeenth_batch_withholds_business_ghost_and_records_complete_rosters():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-17.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    assert set(by_name) == {"Burlap & Barrel", "Business Ghost", "Busy Baby Mat", "BusyBox"}
+    assert by_name["Business Ghost"]["status"] == "unresolved"
+    assert by_name["Business Ghost"]["episode_appearances"][0]["deal_closed"] is False
+    assert by_name["BusyBox"]["episode_appearances"][0]["deal_closed"] is False
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids

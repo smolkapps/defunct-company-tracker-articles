@@ -88,6 +88,10 @@
     {"name":"Bumpeez","aliases":["Bumpeez Toys"],"domain":"bumpeeztoys.com"},
     {"name":"Bunch Bikes","aliases":["Bunch Bikes Inc."],"domain":"bunchbike.com"},
     {"name":"Bundil","aliases":["Bundil, Inc."],"notes":"research retained, but current commercial and entity status are unresolved"},
-    {"name":"Bunny Eyez","aliases":["Bunny Eyez LLC"],"domain":"bunnyeyez.com"}
+    {"name":"Bunny Eyez","aliases":["Bunny Eyez LLC"],"domain":"bunnyeyez.com"},
+    {"name":"Burlap & Barrel","aliases":["Burlap and Barrel"],"domain":"burlapandbarrel.com"},
+    {"name":"Business Ghost","aliases":["BusinessGhost","Michael Levin Writing Experience"],"notes":"research retained, but the original brand's current legal and commercial status is unresolved"},
+    {"name":"Busy Baby Mat","aliases":["Busy Baby","Busy Baby Mat LLC"],"domain":"busybabymat.com"},
+    {"name":"BusyBox","aliases":["BusyBox Corp.","BusyBox Sign"],"domain":"shop.busyboxsign.com"}
   ]
 }
