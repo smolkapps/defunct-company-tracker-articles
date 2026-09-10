@@ -443,6 +443,22 @@ def test_thirteenth_batch_retains_transaction_conflicts_and_withholds_brümachen
     assert by_name["Buck Mason"]["registry_records"][0]["status"] == "active"
 
 
+def test_fourteenth_batch_normalizes_bucketgolf_and_preserves_deal_uncertainty():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-09_queue-14.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["Bucket Golf"]["company"]["aliases"] == ["BucketGolf"]
+    assert by_name["Bucket Golf"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Buckle Me Baby Coats"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Budsies"]["registry_records"][0]["status"] == "active"
+    assert by_name["Buena Papa"]["episode_appearances"][0]["deal_closed"] is None
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")

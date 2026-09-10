@@ -76,6 +76,10 @@
     {"name":"BRUW","aliases":["BRUW, LLC"],"domain":"bruwcoffee.com"},
     {"name":"Brümachen","aliases":["BRUMACHEN","BRÜMACHEN, LLC"],"notes":"research retained, but current legal and commercial status are unresolved"},
     {"name":"Bubbly Blaster","aliases":["Bubbly Blaster, LLC"],"domain":"bubblyblaster.com"},
-    {"name":"Buck Mason","aliases":["Buck Mason Inc.","Simple Man LLC"],"domain":"buckmason.com"}
+    {"name":"Buck Mason","aliases":["Buck Mason Inc.","Simple Man LLC"],"domain":"buckmason.com"},
+    {"name":"Bucket Golf","aliases":["BucketGolf"],"domain":"bucketgolfgame.com"},
+    {"name":"Buckle Me Baby Coats","aliases":["Buckle Me Baby"],"domain":"bucklemecoats.com"},
+    {"name":"Budsies","aliases":["Budsies LLC","Budsies Co, LLC"],"domain":"budsies.com"},
+    {"name":"Buena Papa","aliases":["Buena Papa Fry Bar"],"domain":"buenapapa.com"}
   ]
 }
