@@ -68,6 +68,10 @@
     {"name":"Brazyn","aliases":["Brazyn Life","Brazyn Life, LLC","The Morph"]},
     {"name":"BRCĒ","aliases":["BRCE","BRCĒ Athletic","BRCE Athletic Corp"]},
     {"name":"brellaBox","aliases":["Brellabox","Brella Box","'brellabox Inc.","brellaBox Inc."]},
-    {"name":"Brewers Cow","aliases":["Brewer's Cow","The Brewer's Cow","The Brewer's Cow, LLC","Brewers Cow Ice Cream"]}
+    {"name":"Brewers Cow","aliases":["Brewer's Cow","The Brewer's Cow","The Brewer's Cow, LLC","Brewers Cow Ice Cream"]},
+    {"name":"Bro Glo","aliases":["Bro Glo LLC","Bro Glo Inc."],"domain":"thebroglo.com"},
+    {"name":"Broccoli Wad","aliases":["Broccoli Wads","Wise Guy Productions LLC"],"notes":"research retained, but current commercial and entity status are unresolved"},
+    {"name":"Browndages","aliases":["Browndages LLC"],"domain":"browndages.com"},
+    {"name":"Brush Hero","aliases":["BrushHero","RGK Innovations"],"domain":"brushhero.com"}
   ]
 }

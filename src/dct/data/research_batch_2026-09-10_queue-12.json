@@ -1,0 +1,90 @@
+[
+  {
+    "company": {"name": "Bro Glo", "aliases": ["Bro Glo LLC", "Bro Glo Inc."], "legal_entities": ["Bro Glo Inc. (current company terms; state standing unverified)", "Bro Glo LLC (historical trademark record)"], "successor_or_acquirer": null},
+    "status": "operating", "as_of": "2026-09-10", "confidence": "medium",
+    "episode_appearances": [{"season": 16, "episode": 8, "episode_date": "2025-01-17", "video_title": "ABC — businesses from S16E8", "video_url": "https://abc.com/news/b69b3a56-3a1f-4eef-a732-888edeb019cd/category/2887649", "kind": "episode", "pitch": "Self-tanning products.", "ask": null, "offer": "The current company history says Mark Cuban closed a deal; no executed investment record or independent post-show confirmation was retrieved in this review.", "deal_closed": null}],
+    "timeline": [
+      {"date": "2025-01-17", "event": "ABC's official S16E8 roster lists Bro Glo with TripleLite, Hiccup and PhoLicious.", "source_ids": ["BG-ABC"]},
+      {"date": "2025-01-29", "event": "A Pennsylvania legal-notice publication reports conversion and foreign-registration filings for Bro Glo Inc.; it is not an entity-specific current-standing result.", "source_ids": ["BG-LEGAL"]},
+      {"date": "2026-09-10", "event": "The retrieved official site maintains a self-tanning storefront and current company history.", "source_ids": ["BG-SITE"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BG-OPERATING", "text": "The retrieved official site maintains a self-tanning storefront, supporting an operating commercial web presence. No purchase, fulfillment, financial health or state standing was independently tested.", "evidence_level": "verified_fact", "source_ids": ["BG-SITE"]},
+      {"id": "BG-DEAL", "text": "Bro Glo's current company history says Mark Cuban 'closed the deal.' This is a company claim in a current narrative, not an executed investment document or independent post-show confirmation; the closing and final terms remain unresolved.", "evidence_level": "unresolved", "source_ids": ["BG-SITE"]},
+      {"id": "BG-IDENTITY", "text": "A Pennsylvania legal-notice publication describes Bro Glo Inc. as a Delaware corporation and reports conversion/foreign-registration filings. It does not establish present Delaware or Pennsylvania standing, file numbers, or the complete ownership chain from the historical LLC.", "evidence_level": "credible_report", "source_ids": ["BG-LEGAL"]}
+    ],
+    "sources": [
+      {"id": "BG-ABC", "title": "ABC — businesses from S16E8", "url": "https://abc.com/news/b69b3a56-3a1f-4eef-a732-888edeb019cd/category/2887649", "source_type": "official episode roster", "published": "2025-01-17", "accessed": "2026-09-10"},
+      {"id": "BG-SITE", "title": "Bro Glo official company history", "url": "https://thebroglo.com/pages/about-us", "source_type": "company website", "published": null, "accessed": "2026-09-10", "notes": "Current company wording; no archived comparison establishes historical wording or edits."},
+      {"id": "BG-LEGAL", "title": "Pennsylvania legal-ad journal notice concerning Bro Glo Inc.", "url": "https://www.palegalads.org/journals/pdf/300_2_21.pdf", "source_type": "legal-notice publication", "published": "2025-02-21", "accessed": "2026-09-10", "notes": "A legal notice is not an entity-specific state standing result."}
+    ],
+    "uncertainties": ["Executed investment documents, closing date and final cap table remain unresolved.", "Current Delaware and Pennsylvania entity standing and the exact LLC-to-corporation conversion chain require entity-specific registry results.", "No archived same-page comparison establishes historical edits; no concealment is inferred."]
+  },
+  {
+    "company": {"name": "Broccoli Wad", "aliases": ["Broccoli Wads", "Wise Guy Productions LLC"], "legal_entities": [], "successor_or_acquirer": null},
+    "status": "unresolved", "as_of": "2026-09-10", "confidence": "low",
+    "episode_appearances": [{"season": 2, "episode": 4, "episode_date": null, "video_title": "ABC — businesses from S2E4", "video_url": "https://abc.com/news/63533380-ca2f-4475-88fb-23e81558ec4a/category/939724", "kind": "episode", "pitch": "A money clip branded as Broccoli Wad.", "ask": null, "offer": null, "deal_closed": null}],
+    "timeline": [
+      {"date": "2011-04-29", "event": "CIPO records a Canadian BROCCOLI WAD trademark application filed by John Gennaro for money clips.", "source_ids": ["BCW-CIPO"]},
+      {"date": "2014-05-21", "event": "CIPO records the Canadian trademark application as abandoned under section 40(3). This is a trademark event, not business dissolution.", "source_ids": ["BCW-CIPO"]},
+      {"date": "2026-09-10", "event": "Current commercial and entity status remains unresolved after review; no entity-specific New Jersey result or primary closure evidence was retrieved.", "source_ids": ["BCW-CIPO"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BCW-ROSTER", "text": "ABC's historical S2E4 roster lists Broccoli Wad with Ride On Carry On, Uncle Zip's Beef Jerky and Hill Billy Brand. The page is episode evidence, not evidence of a completed investment or current operation.", "evidence_level": "verified_fact", "source_ids": ["BCW-ABC"]},
+      {"id": "BCW-TRADEMARK", "text": "CIPO's application record identifies a BROCCOLI WAD application filed by John Gennaro and abandoned in 2014. It does not establish corporate standing, sales cessation, dissolution or motive.", "evidence_level": "verified_fact", "source_ids": ["BCW-CIPO"]},
+      {"id": "BCW-STATUS", "text": "Current commercial status, ownership and the outcome of any Shark Tank agreement remain unresolved. No absence-of-site or stale-reseller inference is presented as a closure finding.", "evidence_level": "unresolved", "source_ids": ["BCW-ABC", "BCW-CIPO"]}
+    ],
+    "sources": [
+      {"id": "BCW-ABC", "title": "ABC — businesses from S2E4", "url": "https://abc.com/news/63533380-ca2f-4475-88fb-23e81558ec4a/category/939724", "source_type": "official episode roster", "published": null, "accessed": "2026-09-10"},
+      {"id": "BCW-CIPO", "title": "CIPO trademark application 1525694", "url": "https://ised-isde.canada.ca/cipo/trademark-search/1525694?wbdisable=true", "source_type": "government trademark record", "published": null, "accessed": "2026-09-10", "notes": "Official Canadian trademark application record; it is not a corporate registry record."}
+    ],
+    "uncertainties": ["Entity-specific New Jersey records, current commercial operation, ownership, deal closing and a primary closure record remain unverified.", "No dated archive comparison establishes historical company wording or edits; no concealment is inferred."]
+  },
+  {
+    "company": {"name": "Browndages", "aliases": ["Browndages LLC"], "legal_entities": [], "successor_or_acquirer": null},
+    "status": "operating", "as_of": "2026-09-10", "confidence": "medium",
+    "episode_appearances": [{"season": 13, "episode": 20, "episode_date": "2022-04-15", "video_title": "ABC — businesses from S13E20", "video_url": "https://abc.com/news/1d3f8bf5-a4ee-4862-95e2-79609e712757/category/2887649", "kind": "episode", "pitch": "Adhesive bandages designed for a range of brown skin tones.", "ask": null, "offer": "The final investment/credit-line closing is unresolved; current family-ownership wording does not establish the post-show cap table.", "deal_closed": null}],
+    "timeline": [
+      {"date": "2022-04-15", "event": "ABC's official S13E20 roster lists Browndages with Cat Amazing, Lil Advents and HairFin.", "source_ids": ["BRD-ABC"]},
+      {"date": "2026-09-10", "event": "The retrieved official catalog lists priced Browndages products and the company about page describes it as family-owned and operated.", "source_ids": ["BRD-CATALOG", "BRD-ABOUT"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BRD-OPERATING", "text": "The retrieved official catalog lists priced Browndages products, supporting an operating commercial web presence. No purchase, fulfillment, financial health or state standing was independently tested.", "evidence_level": "verified_fact", "source_ids": ["BRD-CATALOG"]},
+      {"id": "BRD-OWNERSHIP", "text": "The current company page describes Browndages as '100% family-owned and operated.' That is a first-party current statement, not an inspected cap table and does not prove that a televised agreement failed to close.", "evidence_level": "verified_fact", "source_ids": ["BRD-ABOUT"]},
+      {"id": "BRD-DEAL", "text": "The post-show investment/credit-line outcome remains unresolved because no direct company or investor financing confirmation, executed instrument or entity-specific ownership evidence was retrieved in this review.", "evidence_level": "unresolved", "source_ids": ["BRD-ABC", "BRD-ABOUT"]}
+    ],
+    "sources": [
+      {"id": "BRD-ABC", "title": "ABC — businesses from S13E20", "url": "https://abc.com/news/1d3f8bf5-a4ee-4862-95e2-79609e712757/category/2887649", "source_type": "official episode roster", "published": "2022-04-15", "accessed": "2026-09-10"},
+      {"id": "BRD-CATALOG", "title": "Browndages official catalog", "url": "https://browndages.com/collections/all", "source_type": "company catalog", "published": null, "accessed": "2026-09-10", "notes": "Catalog retrieval supports web commerce only; no fulfillment test was performed."},
+      {"id": "BRD-ABOUT", "title": "Browndages official company page", "url": "https://browndages.com/pages/about-us", "source_type": "company website", "published": null, "accessed": "2026-09-10", "notes": "Current wording; no archived comparison establishes historical wording or edits."}
+    ],
+    "uncertainties": ["The final Shark agreement, current cap table and entity-specific state standing are unverified.", "No dated archive comparison establishes historical edits; no concealment is inferred."]
+  },
+  {
+    "company": {"name": "Brush Hero", "aliases": ["BrushHero", "RGK Innovations"], "legal_entities": [], "successor_or_acquirer": null},
+    "status": "operating", "as_of": "2026-09-10", "confidence": "medium",
+    "episode_appearances": [{"season": 9, "episode": 18, "episode_date": "2018-01-21", "video_title": "TVmaze — Shark Tank S9E18", "video_url": "https://www.tvmaze.com/episodes/1372861/shark-tank-9x18-rounderbum-brush-hero-savy-guzzle-buddy", "kind": "episode", "pitch": "A drill-powered cleaning brush.", "ask": null, "offer": "No closing is asserted in this record; primary pitch and complete official roster reconciliation remain open.", "deal_closed": null}],
+    "timeline": [
+      {"date": "2018-01-21", "event": "TVmaze identifies Brush Hero with Rounderbum, Savy and Guzzle Buddy in an episode it labels S9E18. Another secondary index labels the same roster S9E17; the numbering conflict is preserved.", "source_ids": ["BRH-EPISODE", "BRH-CONFLICT"]},
+      {"date": "2019-02-28", "event": "Inc. reported founders' account of counterfeit and lookalike products after the show. This is attributed reporting, not a court or government finding.", "source_ids": ["BRH-INC"]},
+      {"date": "2026-09-10", "event": "Thrasio's current brand portfolio lists Brush Hero and a retailer page lists a Brush Hero product sold by Thrasio. These support current commercial presence but do not establish an acquisition transaction or IP chain.", "source_ids": ["BRH-THRASIO", "BRH-WALMART"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BRH-OPERATING", "text": "Thrasio's current portfolio lists Brush Hero and a current retailer listing names Thrasio as seller. Together they support an active commercial presence, without asserting the exact acquisition date, seller, consideration or legal title to the brand IP.", "evidence_level": "strong_corroboration", "source_ids": ["BRH-THRASIO", "BRH-WALMART"]},
+      {"id": "BRH-COUNTERFEITS", "text": "Inc. reported a founder account of counterfeit and lookalike products after the broadcast. This is founder-attributed reporting, not an adjudicated finding and not proof of a later closure or its cause.", "evidence_level": "credible_report", "source_ids": ["BRH-INC"]},
+      {"id": "BRH-ACQUISITION", "text": "The exact acquisition and post-bankruptcy ownership chain remains unresolved. This record deliberately does not infer it from current portfolio placement, retailer data or an unrelated bankruptcy filing.", "evidence_level": "unresolved", "source_ids": ["BRH-THRASIO", "BRH-WALMART"]}
+    ],
+    "sources": [
+      {"id": "BRH-EPISODE", "title": "TVmaze — Shark Tank S9E18", "url": "https://www.tvmaze.com/episodes/1372861/shark-tank-9x18-rounderbum-brush-hero-savy-guzzle-buddy", "source_type": "secondary episode database", "published": null, "accessed": "2026-09-10", "notes": "Secondary roster; primary episode reconciliation remains open."},
+      {"id": "BRH-CONFLICT", "title": "In With The Sharks season-nine index", "url": "https://inwiththesharks.com/season-9/", "source_type": "secondary episode index", "published": null, "accessed": "2026-09-10", "notes": "Labels the same roster episode 17; not treated as a second appearance."},
+      {"id": "BRH-INC", "title": "Inc. — Amazon counterfeits and small businesses", "url": "https://www.inc.com/magazine/201904/jeff-bercovici/amazon-fake-copycat-knockoff-products-small-business.html", "source_type": "founder-attributed reporting", "published": "2019-02-28", "accessed": "2026-09-10", "notes": "The accessible article portion was reviewed; no court finding is inferred."},
+      {"id": "BRH-THRASIO", "title": "Thrasio brand portfolio", "url": "https://www.thrasio.com/brands", "source_type": "company brand portfolio", "published": null, "accessed": "2026-09-10"},
+      {"id": "BRH-WALMART", "title": "Walmart Brush Hero retailer listing", "url": "https://www.walmart.com/ip/470684353", "source_type": "retailer listing", "published": null, "accessed": "2026-09-10", "notes": "Listing supports a current sales channel; availability and fulfillment were not tested."}
+    ],
+    "uncertainties": ["A primary full roster, exact pitch terms and final Shark deal outcome remain unverified.", "Exact acquisition, current IP title and any post-bankruptcy ownership chain remain unresolved.", "No dated archive comparison establishes historical edits; no concealment is inferred."]
+  }
+]

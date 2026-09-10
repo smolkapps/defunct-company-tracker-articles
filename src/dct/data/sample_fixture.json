@@ -1060,6 +1060,50 @@
       }
     ]
   },
+  "bro glo": {
+    "status": "active",
+    "summary": "Bro Glo maintains a self-tanning storefront. Its current site says Mark Cuban closed a deal, but an executed post-show investment and final terms were not independently verified.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {"title": "Bro Glo official storefront and company history", "url": "https://thebroglo.com/pages/about-us", "snippet": "Bro Glo's current company history describes its Shark Tank appearance and the site maintains a self-tanning storefront. Current company wording is not an executed investment record.", "published": null},
+      {"title": "ABC — businesses from Shark Tank Season 16, episode 8", "url": "https://abc.com/news/b69b3a56-3a1f-4eef-a732-888edeb019cd/category/2887649", "snippet": "ABC's official roster identifies Bro Glo among the companies in the January 17, 2025 episode.", "published": "2025-01-17"}
+    ]
+  },
+  "broccoli wad": {
+    "status": "unknown",
+    "summary": "Broccoli Wad’s current commercial and legal status remains unresolved. The evidence page preserves the episode roster and a historical Canadian trademark abandonment without treating either as proof the business closed.",
+    "as_of": "2026-09-10",
+    "confidence": 0.4,
+    "successor": null,
+    "citations": [
+      {"title": "ABC — businesses from Shark Tank Season 2, episode 4", "url": "https://abc.com/news/63533380-ca2f-4475-88fb-23e81558ec4a/category/939724", "snippet": "ABC's historical episode roster includes Broccoli Wad.", "published": null},
+      {"title": "CIPO trademark application 1525694", "url": "https://ised-isde.canada.ca/cipo/trademark-search/1525694?wbdisable=true", "snippet": "The Canadian record reports a BROCCOLI WAD application abandoned under section 40(3) in 2014; it is not a corporate dissolution record.", "published": null}
+    ]
+  },
+  "browndages": {
+    "status": "active",
+    "summary": "Browndages maintains a wound-care product storefront. Its current family-ownership wording does not resolve whether the televised Shark agreement ever closed.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {"title": "Browndages official catalog", "url": "https://browndages.com/collections/all", "snippet": "The retrieved company catalog lists priced Browndages products; fulfillment was not tested.", "published": null},
+      {"title": "ABC — businesses from Shark Tank Season 13, episode 20", "url": "https://abc.com/news/1d3f8bf5-a4ee-4862-95e2-79609e712757/category/2887649", "snippet": "ABC's official roster identifies Browndages in the April 15, 2022 episode.", "published": "2022-04-15"}
+    ]
+  },
+  "brush hero": {
+    "status": "active",
+    "summary": "Brush Hero is listed in Thrasio’s current brand portfolio and has a current retailer listing. That supports an active commercial presence, but the acquisition and post-bankruptcy ownership chain remain unresolved.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {"title": "Thrasio brand portfolio", "url": "https://www.thrasio.com/brands", "snippet": "Thrasio's current brand portfolio lists Brush Hero.", "published": null},
+      {"title": "Walmart Brush Hero retailer listing", "url": "https://www.walmart.com/ip/470684353", "snippet": "A current retailer listing shows a Brush Hero product sold by Thrasio and fulfilled by Walmart.", "published": null}
+    ]
+  },
   "wild earth": {
     "status": "unknown",
     "summary": "Wild Earth publicly announced a Chapter 11 case and its storefront remains visible, but the reviewed public evidence does not securely establish the post-bankruptcy ownership and legal status claimed in later reporting.",

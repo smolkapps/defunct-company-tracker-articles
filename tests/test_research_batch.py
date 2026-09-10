@@ -409,6 +409,27 @@ def test_eleventh_batch_preserves_founder_attribution_and_registry_gaps():
             assert item["source_ids"] and set(item["source_ids"]) <= ids
 
 
+def test_twelfth_batch_preserves_closing_and_ownership_uncertainty():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-12.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    # A current company narrative cannot turn Bro Glo's televised agreement into
+    # a documented closing, and current family-ownership copy cannot disprove one.
+    assert by_name["Bro Glo"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Browndages"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Broccoli Wad"]["status"] == "unresolved"
+    # Current brand placement does not establish Brush Hero's acquisition chain.
+    acquisition = next(
+        claim for claim in by_name["Brush Hero"]["claims"] if claim["id"] == "BRH-ACQUISITION"
+    )
+    assert acquisition["evidence_level"] == "unresolved"
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")
