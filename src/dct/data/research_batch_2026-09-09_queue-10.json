@@ -1,0 +1,466 @@
+[
+  {
+    "company": {
+      "name": "Brazyn",
+      "aliases": [
+        "Brazyn Life",
+        "Brazyn Life, LLC",
+        "The Morph"
+      ],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 9,
+        "episode": 6,
+        "episode_date": "2017-10-29",
+        "video_title": "Brazyn — episode reference (not a video)",
+        "video_url": "https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure",
+        "kind": "episode",
+        "pitch": "Collapsible foam rollers and fitness/recovery equipment.",
+        "ask": "$225,000 for 10% equity.",
+        "offer": "Nate Lawrie and Tom Hopkins accepted Lori Greiner and Sara Blakely’s $250,000 for 20% offer.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-10-29",
+        "event": "TVmaze lists Brazyn Life with Novel Effect, Drain Wig and Father Figure in Season 9, Episode 6.",
+        "source_ids": [
+          "BRAZ2"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "event": "Forbes published its report that the on-air investment did not close; this is the reporting date, not a verified termination date.",
+        "source_ids": [
+          "BRAZ4"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "The current company catalog lists Morph foam rollers, FLiPBENCH equipment and massage products with prices. This supports a current commercial presence, not independent verification of order fulfillment.",
+        "source_ids": [
+          "BRAZ8"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "BRAZYN-1",
+        "text": "The current company catalog lists Morph foam rollers, FLiPBENCH equipment and massage products with prices. This supports a current commercial presence, not independent verification of order fulfillment.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRAZ8"
+        ]
+      },
+      {
+        "id": "BRAZYN-DEAL",
+        "text": "John Greathouse's 2021 Forbes founder profile reports that the $250,000-for-20% on-air agreement with Lori Greiner and Sara Blakely did not close. This is attributed reporting, not a direct founder quotation or an executed transaction record.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRAZ4"
+        ]
+      },
+      {
+        "id": "BRAZYN-ASK",
+        "text": "Gazette Review's pitch recap reports an initial request of $225,000 for 10%, followed by an agreed $250,000 for 20% on air.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRAZ10"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BRAZ2",
+        "title": "Brazyn — episode database",
+        "url": "https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRAZ4",
+        "title": "Brazyn — reputable founder interview",
+        "url": "https://www.forbes.com/sites/johngreathouse/2021/09/08/this-nfl-entrepreneur-crushed-it-on-shark-tankliving-a-brazyn-life/",
+        "source_type": "reputable founder interview",
+        "published": "2021-09-08",
+        "accessed": "2026-09-09",
+        "notes": "Indexed article text retrieved on 2026-09-09 explicitly reports failed closing in the author's narrative. Direct opening failed; do not misattribute that sentence as a founder quotation."
+      },
+      {
+        "id": "BRAZ8",
+        "title": "Brazyn — official ecommerce catalog",
+        "url": "https://brazynlife.com/collections/all",
+        "source_type": "official ecommerce catalog",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRAZ10",
+        "title": "Brazyn Life — Gazette Review 2018 pitch recap",
+        "url": "https://gazettereview.com/2018/07/brazyn-life-after-shark-tank-update/",
+        "source_type": "secondary pitch recap",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Indexed recap supports $225,000/10% initial ask and negotiated $250,000/20% terms; does not prove post-filming closing."
+      }
+    ],
+    "uncertainties": [
+      "The Forbes closing report was recovered through indexed article text; direct page opening redirected unsuccessfully. The underlying unedited interview and executed diligence/termination records remain unverified.",
+      "Research draft identifies Brazyn Life, LLC. This is a legal-identity research lead, not an independently verified current state-registry result. Entity number, standing and succession require primary-record review.",
+      "Direct current California BizFile standing and full filing-history documents.",
+      "Any executed diligence/termination documentation for the Greiner/Blakely deal.",
+      "Complete current cap table and any later institutional investment.",
+      "Wayback captures sufficient to compare historical Shark Tank/deal wording on Brazyn’s own pages.",
+      "No archived before/after page comparison was verified in this review. Absence from current text does not establish historical absence, concealment or motive."
+    ]
+  },
+  {
+    "company": {
+      "name": "BRCĒ",
+      "aliases": [
+        "BRCE",
+        "BRCĒ Athletic",
+        "BRCE Athletic Corp"
+      ],
+      "legal_entities": [
+        "BRCE ATHLETIC CORP. (federal patent assignee; current state standing unresolved)"
+      ],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 17,
+        "episode": 12,
+        "episode_date": "2026-03-04",
+        "video_title": "BRCĒ — episode reference (not a video)",
+        "video_url": "https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649",
+        "episode_guide_url": "https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649",
+        "kind": "episode",
+        "pitch": "Untie-resistant athletic shoelaces made with composite materials.",
+        "ask": "$300,000; initial equity ask is source-conflicted (10% versus 15%).",
+        "offer": "Accepted $300,000 for 20% from Fawn Weaver and Daniel Lubetzky on air.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2025-09-09",
+        "event": "The USPTO patent gazette lists the composite-textile patent assigned to BRCE ATHLETIC CORP.; the application filing date is separately recorded as March 4, 2025.",
+        "source_ids": [
+          "BRCE6"
+        ]
+      },
+      {
+        "date": "2026-03-04",
+        "event": "ABC lists BRCĒ with Cranel, The Chair Blanket and Paco & Pepper in Season 17, Episode 12.",
+        "source_ids": [
+          "BRCE1"
+        ]
+      },
+      {
+        "date": "2026-09-09",
+        "event": "BRCĒ's current catalog lists running, basketball, racket-sport, football and hockey laces with prices.",
+        "source_ids": [
+          "BRCE8"
+        ]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "BRCE-1",
+        "text": "BRCĒ's current catalog lists running, basketball, racket-sport, football and hockey laces with prices.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRCE8"
+        ]
+      },
+      {
+        "id": "BRCE-2",
+        "text": "MSU and MEDC report an on-air $300,000 investment agreement for 20% with Fawn Weaver and Daniel Lubetzky. Both describe the episode outcome; neither independently establishes a later closing.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BRCE2",
+          "BRCE4"
+        ]
+      },
+      {
+        "id": "BRCE-PATENT",
+        "text": "The USPTO's patent gazette identifies BRCE ATHLETIC CORP. of East Lansing as filer and assignee for composite-textile patent US 12,408,733 B1, with Tanvi Lakshmi Gadamsetti and Madhav Aggarwal as inventors. This establishes the recorded patent identity, not current state corporate standing.",
+        "evidence_level": "verified_fact",
+        "source_ids": [
+          "BRCE6"
+        ]
+      },
+      {
+        "id": "BRCE-ASK-CONFLICT",
+        "text": "Secondary recaps disagree on the initial equity ask: Sharkary lists 15%, while Shark Tank Insights lists 10%. The broadcast has not been independently reviewed to resolve the difference.",
+        "evidence_level": "unresolved",
+        "source_ids": [
+          "BRCE10",
+          "BRCE11"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BRCE1",
+        "title": "BRCĒ — ABC official episode roster",
+        "url": "https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649",
+        "source_type": "ABC official episode roster",
+        "published": "2026-03-04",
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRCE2",
+        "title": "BRCĒ — Michigan State University",
+        "url": "https://msutoday.msu.edu/news/2026/03/student-entrepreneurs-land-deal-shark-tank",
+        "source_type": "Michigan State University",
+        "published": "2026-03-05",
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRCE4",
+        "title": "BRCĒ — Michigan Economic Development Corporation",
+        "url": "https://www.michiganbusiness.org/reports-data/success-stories/brce/",
+        "source_type": "Michigan Economic Development Corporation",
+        "published": "2026-03-16",
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRCE8",
+        "title": "BRCĒ — official ecommerce catalog",
+        "url": "https://www.brce.shop/collections/all",
+        "source_type": "official ecommerce catalog",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BRCE6",
+        "title": "USPTO Official Gazette — US 12,408,733 B1",
+        "url": "https://patentsgazette.uspto.gov/week36/OG/html/1538-2/US12408733-20250909.html",
+        "source_type": "federal patent record",
+        "published": "2025-09-09",
+        "accessed": "2026-09-09",
+        "notes": "Names BRCE ATHLETIC CORP. as filer and assignee, and identifies the inventors; not a Michigan corporate-standing record."
+      },
+      {
+        "id": "BRCE10",
+        "title": "Sharkary — S17E12",
+        "url": "https://sharkary.com/episodes/17-12",
+        "source_type": "secondary pitch reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Indexed recap gives 15% initial ask."
+      },
+      {
+        "id": "BRCE11",
+        "title": "Shark Tank Insights — BRCĒ",
+        "url": "https://sharktankinsights.com/brce/",
+        "source_type": "secondary pitch reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Indexed recap gives 10% initial ask."
+      }
+    ],
+    "uncertainties": [
+      "Post-show closing is unresolved. Publication after the broadcast is not evidence of completion after filming.",
+      "The USPTO patent record independently identifies BRCE ATHLETIC CORP., but a Michigan entity-specific standing and filing-history record remains needed.",
+      "Executed Weaver/Lubetzky investment documents, closing date and current cap table.",
+      "Direct Michigan corporate entity number and current standing.",
+      "Definitive broadcast transcript resolving every interim Shark offer and the 10%-versus-15% ask conflict.",
+      "Wayback captures sufficient to compare pre- and post-broadcast company copy.",
+      "No archived before/after page comparison was verified in this review. Absence from current text does not establish historical absence, concealment or motive."
+    ]
+  },
+  {
+    "company": {
+      "name": "brellaBox",
+      "aliases": [
+        "Brellabox",
+        "Brella Box",
+        "'brellabox Inc.",
+        "brellaBox Inc."
+      ],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "low",
+    "episode_appearances": [
+      {
+        "season": 7,
+        "episode": 26,
+        "episode_date": "2016-04-29",
+        "video_title": "brellaBox — official video retained from the corpus ledger",
+        "video_url": "https://www.youtube.com/watch?v=cnKUmYZdsts",
+        "episode_guide_url": "https://www.tvmaze.com/episodes/695039/shark-tank-7x26-fashiontap-brellabox-my-fruity-faces-brightwheel",
+        "kind": "clip",
+        "pitch": "Umbrella-rental vending kiosks.",
+        "ask": "$400,000 for 20% equity.",
+        "offer": "Anusha Kambhampaty and John O’Connor left without a deal after all Sharks declined.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "BRELLABOX-1",
+        "text": "Shark Tank Tales reports cessation in April 2018. The retrieved article does not link primary closure evidence, so this remains an attributed report rather than an independently established terminal verdict.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BREL7"
+        ]
+      },
+      {
+        "id": "BRELLABOX-PITCH",
+        "text": "Shark Tank Tales reports a $400,000-for-20% ask and no investment from the Sharks.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BREL7"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BREL1",
+        "title": "brellaBox — Sony Pictures Television video preserved in project ledger",
+        "url": "https://www.youtube.com/watch?v=cnKUmYZdsts",
+        "source_type": "Sony Pictures Television video preserved in project ledger",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BREL2",
+        "title": "brellaBox — episode database",
+        "url": "https://www.tvmaze.com/episodes/695039/shark-tank-7x26-fashiontap-brellabox-my-fruity-faces-brightwheel",
+        "source_type": "episode database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BREL7",
+        "title": "brellaBox — later follow-up reporting",
+        "url": "https://sharktanktales.com/business/brellabox/update/",
+        "source_type": "later follow-up reporting",
+        "published": "2025-12-15",
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      }
+    ],
+    "uncertainties": [
+      "A direct founder shutdown notice, contemporaneous operational record or independently corroborated closure report remains needed. A state dissolution filing is not required to prove commercial cessation, but corporate dissolution is a separate unverified claim.",
+      "Research draft identifies 'brellabox Inc. / brellaBox Inc. (historical federal IP owner/assignee; exact punctuation varies by record). This is a legal-identity research lead, not an independently verified current state-registry result. Entity number, standing and succession require primary-record review.",
+      "New York entity number and current/former corporate standing for brellaBox Inc.",
+      "Primary contemporaneous shutdown notice or state dissolution/termination record fixing the closure date.",
+      "Whether any patents, kiosk assets, software or brand IP were later sold or assigned.",
+      "Direct current metadata/transcript retrieval for Sony video cnKUmYZdsts.",
+      "Wayback captures of brellabox.com sufficient to reconstruct service shutdown chronologically.",
+      "No archived before/after page comparison was verified in this review. Absence from current text does not establish historical absence, concealment or motive."
+    ]
+  },
+  {
+    "company": {
+      "name": "Brewers Cow",
+      "aliases": [
+        "Brewer's Cow",
+        "The Brewer's Cow",
+        "The Brewer's Cow, LLC",
+        "Brewers Cow Ice Cream"
+      ],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "unresolved",
+    "as_of": "2026-09-09",
+    "confidence": "low",
+    "episode_appearances": [
+      {
+        "season": 3,
+        "episode": 10,
+        "episode_date": "2012-03-23",
+        "video_title": "Brewers Cow — episode reference (not a video)",
+        "video_url": "https://sharktankarchive.com/episodes/season-3-episode-10/",
+        "episode_guide_url": "https://sharktankarchive.com/episodes/season-3-episode-10/",
+        "kind": "episode",
+        "pitch": "Beer-flavored ice cream.",
+        "ask": "$125,000 for 15% equity.",
+        "offer": "Steve Albert, Larry Blackwell and Jason Conroy received no investment.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "BREWERS-COW-1",
+        "text": "Gazette Review reports an investor search in 2014, a website return in 2015 and a company response about restructuring. Its 2016 publication date conflicts with a 2018 follow-up heading, leaving the response's precise date unverified.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BCOW4"
+        ]
+      },
+      {
+        "id": "BREWERS-COW-PITCH",
+        "text": "Gazette Review recounts a $125,000-for-15% pitch that ended without an offer.",
+        "evidence_level": "credible_report",
+        "source_ids": [
+          "BCOW4"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "BCOW2",
+        "title": "Brewers Cow — episode archive/database",
+        "url": "https://sharktankarchive.com/episodes/season-3-episode-10/",
+        "source_type": "episode archive/database",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "See the specific attributed claims and remaining limitations; source inclusion does not establish all draft claims."
+      },
+      {
+        "id": "BCOW4",
+        "title": "Brewers Cow — dated follow-up reporting",
+        "url": "https://gazettereview.com/2016/03/brewers-cow-ice-cream-update/",
+        "source_type": "dated follow-up reporting",
+        "published": null,
+        "accessed": "2026-09-09",
+        "notes": "Displayed publication date December 5, 2016 conflicts with a 2018 follow-up heading; exact revision and restructuring-message dates unresolved."
+      }
+    ],
+    "uncertainties": [
+      "Do not assign the restructuring response to 2016 without an archived copy or original message. The current page's date mismatch does not prove when or why it changed.",
+      "Research draft identifies The Brewer's Cow, LLC. This is a legal-identity research lead, not an independently verified current state-registry result. Entity number, standing and succession require primary-record review.",
+      "Connecticut entity number, current/former standing and any dissolution/termination filing for The Brewer's Cow, LLC.",
+      "Exact commercial cessation date.",
+      "Any bankruptcy, asset sale, secured-credit foreclosure or IP transfer.",
+      "Primary copies of the 2014 strategic-investor communication and 2016 restructuring response.",
+      "Wayback snapshots sufficient to bracket the final ecommerce/service shutdown.",
+      "No archived before/after page comparison was verified in this review. Absence from current text does not establish historical absence, concealment or motive."
+    ]
+  }
+]

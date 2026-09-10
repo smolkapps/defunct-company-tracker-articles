@@ -60,6 +60,10 @@
     {"name": "Brand Yourself", "aliases": ["BrandYourself", "BrandYourself.com", "Brandyourself.com, Inc.", "HelloPrivacy LLC d/b/a BrandYourself"]},
     {"name": "Brass Roots", "aliases": ["A&C Snacks LLC d/b/a Brass Roots", "Brass Roots Food"]},
     {"name": "Bravo", "aliases": ["BRAVO", "BRAVO Pay", "FAMIGO", "BRAVO, Inc."]},
-    {"name": "Brazi Bites", "aliases": ["Brazi Bites, LLC"]}
+    {"name": "Brazi Bites", "aliases": ["Brazi Bites, LLC"]},
+    {"name":"Brazyn","aliases":["Brazyn Life","Brazyn Life, LLC","The Morph"]},
+    {"name":"BRCĒ","aliases":["BRCE","BRCĒ Athletic","BRCE Athletic Corp"]},
+    {"name":"brellaBox","aliases":["Brellabox","Brella Box","'brellabox Inc.","brellaBox Inc."]},
+    {"name":"Brewers Cow","aliases":["Brewer's Cow","The Brewer's Cow","The Brewer's Cow, LLC","Brewers Cow Ice Cream"]}
   ]
 }

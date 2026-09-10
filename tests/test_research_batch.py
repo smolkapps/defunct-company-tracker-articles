@@ -369,6 +369,27 @@ def test_eighth_batch_withholds_unproved_closure_and_records_verified_pivots():
     assert by_name["Brake Free Technologies"]["episode_appearances"][0]["deal_closed"] is True
 
 
+def test_tenth_batch_does_not_promote_handshakes_or_uncorroborated_closures():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-09_queue-10.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    # Reports published after airing still describe an on-air agreement, not closing.
+    assert by_name["BRCĒ"]["episode_appearances"][0]["deal_closed"] is None
+    assert any("neither independently establishes" in claim["text"]
+               for claim in by_name["BRCĒ"]["claims"])
+    # Repeated closure dates and a dead storefront are not independent corroboration.
+    for name in ("brellaBox", "Brewers Cow"):
+        assert by_name[name]["status"] == "unresolved"
+        assert by_name[name]["uncertainties"]
+    assert any("2018 follow-up heading" in claim["text"]
+               for claim in by_name["Brewers Cow"]["claims"])
+    for record in records:
+        source_ids = {source["id"] for source in record["sources"]}
+        for claim in record["claims"] + record["timeline"]:
+            assert claim["source_ids"] and set(claim["source_ids"]) <= source_ids
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")

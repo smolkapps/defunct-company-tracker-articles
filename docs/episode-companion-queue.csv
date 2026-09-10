@@ -1,0 +1,7 @@
+company_id,company,season,episode,episode_date,roster_source_url,evidence_level,research_stage
+cranel,Cranel,17,12,2026-03-04,https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649,primary_roster,status_and_registry_research_pending
+the-chair-blanket,The Chair Blanket,17,12,2026-03-04,https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649,primary_roster,status_and_registry_research_pending
+paco-and-pepper,Paco & Pepper,17,12,2026-03-04,https://abc.com/news/a437da6c-65cb-41f1-bd6d-1b5b77a4956b/category/2887649,primary_roster,status_and_registry_research_pending
+novel-effect,Novel Effect,9,6,2017-10-29,https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure,secondary_roster,primary_roster_status_and_registry_research_pending
+drain-wig,Drain Wig,9,6,2017-10-29,https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure,secondary_roster,primary_roster_status_and_registry_research_pending
+father-figure,Father Figure,9,6,2017-10-29,https://www.tvmaze.com/episodes/1338941/shark-tank-9x06-brazyn-life-novel-effect-drain-wig-father-figure,secondary_roster,primary_roster_status_and_registry_research_pending

@@ -1556,5 +1556,95 @@
       }
     ],
     "successor": "San Francisco Equity Partners (majority stake)"
+  },
+  "brazyn": {
+    "status": "active",
+    "summary": "Brazyn operates a fitness-equipment storefront; Forbes reports that its on-air Shark Tank investment did not close.",
+    "as_of": "2026-09-09",
+    "confidence": 0.9,
+    "successor": null,
+    "citations": [
+      {
+        "title": "Brazyn — reputable founder interview",
+        "url": "https://www.forbes.com/sites/johngreathouse/2021/09/08/this-nfl-entrepreneur-crushed-it-on-shark-tankliving-a-brazyn-life/",
+        "snippet": "John Greathouse's 2021 Forbes founder profile reports that the $250,000-for-20% on-air agreement with Lori Greiner and Sara Blakely did not close. This is attributed reporting, not a direct founder quotation or an executed transaction record.",
+        "published": "2021-09-08"
+      },
+      {
+        "title": "Brazyn — official ecommerce catalog",
+        "url": "https://brazynlife.com/collections/all",
+        "snippet": "The current company catalog lists Morph foam rollers, FLiPBENCH equipment and massage products with prices. This supports a current commercial presence, not independent verification of order fulfillment.",
+        "published": null
+      },
+      {
+        "title": "Brazyn Life — Gazette Review 2018 pitch recap",
+        "url": "https://gazettereview.com/2018/07/brazyn-life-after-shark-tank-update/",
+        "snippet": "Gazette Review's pitch recap reports an initial request of $225,000 for 10%, followed by an agreed $250,000 for 20% on air.",
+        "published": null
+      }
+    ]
+  },
+  "brcē": {
+    "status": "active",
+    "summary": "BRCĒ operates an athletic-shoelace storefront; its on-air investment agreement is documented, but post-filming closing remains unresolved.",
+    "as_of": "2026-09-09",
+    "confidence": 0.9,
+    "successor": null,
+    "citations": [
+      {
+        "title": "BRCĒ — Michigan State University",
+        "url": "https://msutoday.msu.edu/news/2026/03/student-entrepreneurs-land-deal-shark-tank",
+        "snippet": "MSU and MEDC report an on-air $300,000 investment agreement for 20% with Fawn Weaver and Daniel Lubetzky. Both describe the episode outcome; neither independently establishes a later closing.",
+        "published": "2026-03-05"
+      },
+      {
+        "title": "BRCĒ — Michigan Economic Development Corporation",
+        "url": "https://www.michiganbusiness.org/reports-data/success-stories/brce/",
+        "snippet": "MSU and MEDC report an on-air $300,000 investment agreement for 20% with Fawn Weaver and Daniel Lubetzky. Both describe the episode outcome; neither independently establishes a later closing.",
+        "published": "2026-03-16"
+      },
+      {
+        "title": "BRCĒ — official ecommerce catalog",
+        "url": "https://www.brce.shop/collections/all",
+        "snippet": "BRCĒ's current catalog lists running, basketball, racket-sport, football and hockey laces with prices.",
+        "published": null
+      },
+      {
+        "title": "USPTO Official Gazette — US 12,408,733 B1",
+        "url": "https://patentsgazette.uspto.gov/week36/OG/html/1538-2/US12408733-20250909.html",
+        "snippet": "The USPTO's patent gazette identifies BRCE ATHLETIC CORP. of East Lansing as filer and assignee for composite-textile patent US 12,408,733 B1, with Tanvi Lakshmi Gadamsetti and Madhav Aggarwal as inventors. This establishes the recorded patent identity, not current state corporate standing.",
+        "published": "2025-09-09"
+      }
+    ]
+  },
+  "brellabox": {
+    "status": "unknown",
+    "summary": "brellaBox is reported to have closed in April 2018, but independent corroboration and current legal standing remain unresolved.",
+    "as_of": "2026-09-09",
+    "confidence": 0.5,
+    "successor": null,
+    "citations": [
+      {
+        "title": "brellaBox — later follow-up reporting",
+        "url": "https://sharktanktales.com/business/brellabox/update/",
+        "snippet": "Shark Tank Tales reports cessation in April 2018. The retrieved article does not link primary closure evidence, so this remains an attributed report rather than an independently established terminal verdict.",
+        "published": "2025-12-15"
+      }
+    ]
+  },
+  "brewers cow": {
+    "status": "unknown",
+    "summary": "Brewers Cow's current status and cessation date remain unresolved; historical reporting describes an investor search and restructuring.",
+    "as_of": "2026-09-09",
+    "confidence": 0.5,
+    "successor": null,
+    "citations": [
+      {
+        "title": "Brewers Cow — dated follow-up reporting",
+        "url": "https://gazettereview.com/2016/03/brewers-cow-ice-cream-update/",
+        "snippet": "Gazette Review reports an investor search in 2014, a website return in 2015 and a company response about restructuring. Its 2016 publication date conflicts with a 2018 follow-up heading, leaving the response's precise date unverified.",
+        "published": null
+      }
+    ]
   }
 }
