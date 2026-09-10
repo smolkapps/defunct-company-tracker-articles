@@ -1,5 +1,9 @@
 {
   "companies": [
+    {"name":"Brilliant Pad","aliases":["BrilliantPad","Brilliant Pet 2, LLC"]},
+    {"name":"Bridal Babes","aliases":["BRIDAL BABES","Bridal Babes Group Inc."]},
+    {"name":"Brightwheel","aliases":["brightwheel","DSSV, Inc."]},
+    {"name":"Bridal Buddy","aliases":["Bridal Buddy, LLC"]},
     { "name": "Pets.com", "founded": 1998, "notes": "dot-com era online pet supply retailer" },
     { "name": "Blockbuster", "aliases": ["Blockbuster Video", "Blockbuster LLC"] },
     { "name": "Instagram", "domain": "instagram.com" },

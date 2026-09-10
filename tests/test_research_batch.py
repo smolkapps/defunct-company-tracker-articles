@@ -390,6 +390,25 @@ def test_tenth_batch_does_not_promote_handshakes_or_uncorroborated_closures():
             assert claim["source_ids"] and set(claim["source_ids"]) <= source_ids
 
 
+def test_eleventh_batch_preserves_founder_attribution_and_registry_gaps():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-11.json").read_text(encoding="utf-8")
+    )
+    buddy = next(record for record in records if record["company"]["name"] == "Bridal Buddy")
+    # A televised agreement is not closed financing; the founder reports failure.
+    assert buddy["episode_appearances"][0]["deal_closed"] is False
+    claim = next(claim for claim in buddy["claims"] if claim["id"] == "BBUD-CLOSING")
+    assert claim["evidence_level"] == "credible_report"
+    assert claim["source_ids"] == ["BBUD-INC"]
+    # A commercial website's LLC footer cannot manufacture a state registry result.
+    assert buddy["registry_records"] == []
+    assert any("entity number" in gap for gap in buddy["uncertainties"])
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")

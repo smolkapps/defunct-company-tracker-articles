@@ -1,4 +1,112 @@
 {
+  "brilliant pad": {
+    "status": "active",
+    "summary": "BrilliantPad maintains a pet-potty supplies catalog and app listing. Its Lori Greiner investment outcome remains unresolved.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {
+        "title": "BrilliantPad supplies catalog",
+        "url": "https://www.brilliantpad.com/collections/shop-brilliantpad-supplies",
+        "snippet": "A directly retrieved supplies catalog and the BrilliantPad SMART app listing support an operating commercial presence. The current catalog lists replacement rolls, training spray and a grate. No purchase, fulfillment or device functionality was tested.",
+        "published": null
+      },
+      {
+        "title": "BrilliantPad SMART App Store listing",
+        "url": "https://apps.apple.com/us/app/brilliantpad-smart/id1520551664",
+        "snippet": "Apple names Brilliant Pet 2 LLC as app developer, while Illinois DCEO's historical QNBV reference names Brilliant Pet 2, LLC with program number 94F. This supports an entity association, not current Secretary of State standing. The program number is not a state corporation file number.",
+        "published": null
+      },
+      {
+        "title": "BrilliantPad SMART App Store listing",
+        "url": "https://apps.apple.com/us/app/brilliantpad-smart/id1520551664",
+        "snippet": "The developer markets health-alert and PoopAI features in the app description. These are product claims, not independently verified veterinary effectiveness or medical advice.",
+        "published": null
+      }
+    ]
+  },
+  "bridal babes": {
+    "status": "active",
+    "summary": "Bridal Babes maintains a bridal-apparel storefront. Its founder describes Emma Grede as an investor; final terms and current corporate standing remain unverified.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {
+        "title": "Bridal Babes ready-to-ship catalog",
+        "url": "https://www.bridalbabes.co/collections/ready-to-ship",
+        "snippet": "The retrieved official site maintains a ready-to-ship apparel catalog. This supports an operating commercial web presence, not independently verified inventory, fulfillment or financial health.",
+        "published": null
+      },
+      {
+        "title": "McBride Sisters interview with Ashley Young",
+        "url": "https://www.mcbridesisters.com/blogs/the-edit/bridal-babes",
+        "snippet": "Ashley Young's August 2023 interview calls Emma Grede an investor and describes her hands-on support. That supports post-show investment. The separate cap-table sentence describes the founders' earlier aspiration; it is not evidence that we inspected the final cap table or verified a particular equity percentage.",
+        "published": "2023-08-16"
+      },
+      {
+        "title": "USPTO attached historical BRIDAL BABES registration extract, page 23",
+        "url": "https://tmng-al.uspto.gov/resting2/api/casedoc/cms/case/99073708/office-action/OfficeAction7734969.pdf",
+        "snippet": "Page 23 of the 2025 USPTO bundle reproduces BRIDAL BABES registration 6051723, serial 88575389, with Ashley R Young as individual registrant. The enclosing KAVIAR office action is not a refusal against Bridal Babes. This dated extract does not establish current ownership.",
+        "published": "2025-08-21"
+      }
+    ]
+  },
+  "brightwheel": {
+    "status": "active",
+    "summary": "Brightwheel operates childcare software. Company announcements confirm Cuban/Sacca funding and its acquisition of Experience Early Learning; exact transaction terms remain unverified.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {
+        "title": "Brightwheel official press index",
+        "url": "https://mybrightwheel.com/press/",
+        "snippet": "The current company site offers demos and pricing inquiries, and Experience Early Learning describes curriculum integration with brightwheel. These support an operating commercial presence, not an audit of service performance or financial health.",
+        "published": null
+      },
+      {
+        "title": "Brightwheel announces Cuban and Sacca financing",
+        "url": "https://www.globenewswire.com/news-release/2016/05/02/1253520/0/en/Billionaire-Investors-Mark-Cuban-and-Chris-Sacca-Invest-600-000-in-Early-Education-Platform-Brightwheel.html",
+        "snippet": "Brightwheel's May 2, 2016 release says it raised $600,000 from Mark Cuban and Chris Sacca and includes statements from both investors. This is direct company confirmation of financing, stronger than a televised handshake; executed investment documents and final equity percentages were not examined.",
+        "published": "2016-05-02"
+      },
+      {
+        "title": "Brightwheel announces acquisition of Experience Early Learning",
+        "url": "https://www.businesswire.com/news/home/20230403005980/en/Brightwheel-Acquires-Experience-Early-Learning-Advances-Early-Education-Space-with-All-in-One-Offering",
+        "snippet": "Brightwheel's own announcement says it acquired Experience Early Learning. Its press index links to that release, and the acquired brand currently identifies itself as part of brightwheel. Brightwheel is the buyer in this transaction, not the acquired company. The inspected release does not specify purchase consideration or an exact closing date.",
+        "published": null
+      }
+    ]
+  },
+  "bridal buddy": {
+    "status": "active",
+    "summary": "Bridal Buddy maintains a wedding-accessory storefront. Founder-attributed reporting says its on-air investment did not close.",
+    "as_of": "2026-09-10",
+    "confidence": 0.8,
+    "successor": null,
+    "citations": [
+      {
+        "title": "Bridal Buddy — official product catalog",
+        "url": "https://bridalbuddy.com/collections/all",
+        "snippet": "The retrieved official catalog lists the elastic-waist Bridal Buddy and wedding accessories with prices. We classify the commercial presence as operating, without claiming a tested purchase or verified fulfillment.",
+        "published": null
+      },
+      {
+        "title": "Inc. — wedding startups and Heather Stenlake's post-show account",
+        "url": "https://www.inc.com/magazine/201806/emily-canal/paparazzi-proposals-engagement-photos.html",
+        "snippet": "Inc.'s June 5, 2018 article attributes to founder Heather Stenlake that the $75,000-for-30% agreement with Lori Greiner and Kevin O'Leary did not come to fruition. The failed-closing classification is founder-attributed reporting, not examination of an executed termination document.",
+        "published": "2018-06-05"
+      },
+      {
+        "title": "Bridal Buddy — official founder story",
+        "url": "https://bridalbuddy.com/pages/about-us",
+        "snippet": "The official site names Bridal Buddy, LLC. This is company self-identification; current Pennsylvania standing, formation jurisdiction and entity number have not been verified from an entity-specific state record.",
+        "published": null
+      }
+    ]
+  },
   "pets.com": {
     "status": "defunct",
     "summary": "Pets.com was a dot-com era online pet-supply retailer that launched in 1998, went public in February 2000, and liquidated just nine months later in November 2000 after failing to reach profitability.",

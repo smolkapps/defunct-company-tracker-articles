@@ -45,7 +45,7 @@
         </h3>
         <dl class="facts">
           {% if appearance.episode_date %}<dt>Air date</dt><dd>{{ appearance.episode_date }}</dd>{% endif %}
-          <dt>Video</dt><dd><a href="{{ appearance.video_url }}" target="_blank" rel="noopener noreferrer">{{ appearance.video_title or appearance.video_url }}</a> <span class="evidence-label">{{ appearance.kind }}</span></dd>
+          <dt>Appearance source</dt><dd><a href="{{ appearance.video_url }}" target="_blank" rel="noopener noreferrer">{{ appearance.video_title or appearance.video_url }}</a> <span class="evidence-label">{{ appearance.kind }}</span></dd>
           {% if appearance.episode_guide_url %}<dt>Episode guide</dt><dd><a href="{{ appearance.episode_guide_url }}">Authoritative episode guide</a></dd>{% endif %}
           {% if appearance.pitch %}<dt>Pitch</dt><dd>{{ appearance.pitch }}</dd>{% endif %}
           {% if appearance.ask %}<dt>Ask</dt><dd>{{ appearance.ask }}</dd>{% endif %}

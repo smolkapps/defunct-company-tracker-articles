@@ -1,0 +1,158 @@
+[
+  {
+    "company": {"name": "Brilliant Pad", "aliases": ["BrilliantPad", "Brilliant Pet 2, LLC"], "legal_entities": [], "successor_or_acquirer": null},
+    "status": "operating", "as_of": "2026-09-10", "confidence": "medium",
+    "episode_appearances": [{"season": 9, "episode": 9, "episode_date": null, "video_title": "BrilliantPad — collaborator's episode account (not a video)", "video_url": "https://www.devlin-design.com/news/2018/12/20/devlin-design-product-appears-on-shark-tank-s9e9", "kind": "episode", "pitch": "An automatic indoor dog potty using replaceable rolls of absorbent pads.", "ask": null, "offer": "Devlin Design reports a $500,000 Lori Greiner investment; final on-air mechanics and closing remain unresolved.", "deal_closed": null}],
+    "timeline": [
+      {"date": "2016-10-07", "event": "Illinois DCEO's reference lists this as the start of Brilliant Pet 2, LLC's QNBV certification eligibility, ending December 31, 2016. These are not formation or dissolution dates.", "source_ids": ["BPAD-DCEO"]},
+      {"date": "2018-12-20", "event": "Devlin Design describes its work creating the machine with Alan Cook and says Lori Greiner invested $500,000. This is a collaborator's published account, not an executed investment instrument.", "source_ids": ["BPAD-DEVLIN"]},
+      {"date": "2026-09-10", "event": "The retrieved supplies catalog lists replacement rolls, training spray and a grate; Apple's app listing identifies Brilliant Pet 2 LLC as developer. Neither independently verifies current state standing or fulfillment.", "source_ids": ["BPAD-STORE", "BPAD-APPLE"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BPAD-OPERATION", "text": "A directly retrieved supplies catalog and the BrilliantPad SMART app listing support an operating commercial presence. The current catalog lists replacement rolls, training spray and a grate. No purchase, fulfillment or device functionality was tested.", "evidence_level": "strong_corroboration", "source_ids": ["BPAD-STORE", "BPAD-APPLE"]},
+      {"id": "BPAD-CLOSING", "text": "Product-development collaborator Devlin Design says Greiner invested $500,000. The research draft cites a contrary Shark Tank Blog account, but that page could not be independently retrieved during review. Closing remains unresolved rather than treating either an affiliated account or an inaccessible contrary report as decisive.", "evidence_level": "unresolved", "source_ids": ["BPAD-DEVLIN", "BPAD-BLOG"]},
+      {"id": "BPAD-IDENTITY", "text": "Apple names Brilliant Pet 2 LLC as app developer, while Illinois DCEO's historical QNBV reference names Brilliant Pet 2, LLC with program number 94F. This supports an entity association, not current Secretary of State standing. The program number is not a state corporation file number.", "evidence_level": "verified_fact", "source_ids": ["BPAD-APPLE", "BPAD-DCEO"]},
+      {"id": "BPAD-HEALTH", "text": "The developer markets health-alert and PoopAI features in the app description. These are product claims, not independently verified veterinary effectiveness or medical advice.", "evidence_level": "verified_fact", "source_ids": ["BPAD-APPLE"]}
+    ],
+    "sources": [
+      {"id": "BPAD-DEVLIN", "title": "Devlin Design's BrilliantPad client-news account", "url": "https://www.devlin-design.com/news/2018/12/20/devlin-design-product-appears-on-shark-tank-s9e9", "source_type": "business collaborator account", "published": "2018-12-20", "accessed": "2026-09-10"},
+      {"id": "BPAD-BLOG", "title": "Shark Tank Blog — unverified contrary-account lead", "url": "https://www.sharktankblog.com/business/brilliant-pad/", "source_type": "unretrieved research lead", "accessed": "2026-09-10", "notes": "Web retrieval failed and direct HTTP returned 403. Included to preserve the unresolved conflict, not to claim independent verification. Raw BPAD2 and BPAD4 duplicated this same URL."},
+      {"id": "BPAD-DCEO", "title": "Illinois DCEO QNBV certification reference, PDF page 2", "url": "https://dceo.illinois.gov/content/dam/soi/en/web/dceo/expandrelocate/incentives/taxassistance/documents/qnbv-s-2016-2019-reference-for-attestations.pdf", "source_type": "state program record", "accessed": "2026-09-10", "notes": "Relevant text and rendered table visually inspected; certification columns verified. Certification eligibility is not corporate existence or standing."},
+      {"id": "BPAD-STORE", "title": "BrilliantPad supplies catalog", "url": "https://www.brilliantpad.com/collections/shop-brilliantpad-supplies", "source_type": "company catalog", "accessed": "2026-09-10", "notes": "Fresh direct curl retrieval returned HTTP 200 after Python requests encountered TLS EOF. Product links show replacement rolls from $59.99, superseding the older search snapshot's $49.99. No transaction tested."},
+      {"id": "BPAD-APPLE", "title": "BrilliantPad SMART App Store listing", "url": "https://apps.apple.com/us/app/brilliantpad-smart/id1520551664", "source_type": "app marketplace listing", "accessed": "2026-09-10"}
+    ],
+    "uncertainties": [
+      "Investment closing, exact on-air royalty/credit mechanics and final cap table remain unresolved.",
+      "Formation jurisdiction, state file number and current standing require an entity-specific registry result.",
+      "The company's FAQ reference to episode 914 has not been reconciled with S9E9; do not assume a production code or a second appearance.",
+      "Patent and trademark leads in the raw draft still require independent review; they are not silently treated as verified current rights.",
+      "No dated same-page archive comparison establishes historical edits; litigation, acquisitions and partner-dispute research remain incomplete."
+    ]
+  },
+  {
+    "company": {"name": "Bridal Babes", "aliases": ["BRIDAL BABES", "Bridal Babes Group Inc."], "legal_entities": [], "successor_or_acquirer": null},
+    "status": "operating", "as_of": "2026-09-10", "confidence": "medium",
+    "episode_appearances": [{"season": 14, "episode": 5, "episode_date": "2022-10-21", "video_title": "Bridal Babes — ABC episode roster (not a video)", "video_url": "https://abc.com/news/bc50125d-fd09-4e25-af88-09cc951330c7/category/2887649", "kind": "episode", "pitch": "Size-inclusive bridal and bridesmaid apparel.", "ask": null, "offer": "Founder Ashley Young subsequently described Emma Grede as an investor; exact final investment terms were not independently verified here.", "deal_closed": true}],
+    "timeline": [
+      {"date": "2020-05-12", "event": "A registration extract attached to a 2025 USPTO office action records this registration date for BRIDAL BABES, naming Ashley R Young individually. This is historical trademark evidence, not current corporate standing.", "source_ids": ["BBAB-USPTO"]},
+      {"date": "2022-10-21", "event": "ABC's S14E5 roster includes Bridal Babes, Plufl, Pretty Rugged and the business linked as Big Bee, Little Bee despite a heading typo.", "source_ids": ["BBAB-ABC"]},
+      {"date": "2023-08-16", "event": "In a published interview, Ashley Young described Grede as an investor providing hands-on support. This is founder confirmation, not inspection of a cap table.", "source_ids": ["BBAB-INTERVIEW"]},
+      {"date": "2024", "event": "Philanthropic Ventures Foundation's 2024 Form 990 reports a $25,000 grant to Bridal Babes Group Inc.; the filing does not establish the corporation's ownership of the trademark.", "source_ids": ["BBAB-GRANT"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BBAB-OPERATING", "text": "The retrieved official site maintains a ready-to-ship apparel catalog. This supports an operating commercial web presence, not independently verified inventory, fulfillment or financial health.", "evidence_level": "verified_fact", "source_ids": ["BBAB-STORE"]},
+      {"id": "BBAB-INVESTMENT", "text": "Ashley Young's August 2023 interview calls Emma Grede an investor and describes her hands-on support. That supports post-show investment. The separate cap-table sentence describes the founders' earlier aspiration; it is not evidence that we inspected the final cap table or verified a particular equity percentage.", "evidence_level": "strong_corroboration", "source_ids": ["BBAB-INTERVIEW"]},
+      {"id": "BBAB-TRADEMARK", "text": "Page 23 of the 2025 USPTO bundle reproduces BRIDAL BABES registration 6051723, serial 88575389, with Ashley R Young as individual registrant. The enclosing KAVIAR office action is not a refusal against Bridal Babes. This dated extract does not establish current ownership.", "evidence_level": "verified_fact", "source_ids": ["BBAB-USPTO"]},
+      {"id": "BBAB-GRANTEE", "text": "The foundation's 2024 Form 990, Schedule I, identifies Bridal Babes Group Inc. in Laurel, Maryland, EIN 88-4195838, as a $25,000 Nancy Twine Dream Makers Founder Grant recipient. Recipient identity does not prove state standing, ecommerce contracting identity or a trademark transfer.", "evidence_level": "credible_report", "source_ids": ["BBAB-GRANT"]}
+    ],
+    "sources": [
+      {"id": "BBAB-ABC", "title": "ABC — businesses from S14E5", "url": "https://abc.com/news/bc50125d-fd09-4e25-af88-09cc951330c7/category/2887649", "source_type": "official episode roster", "accessed": "2026-09-10"},
+      {"id": "BBAB-INTERVIEW", "title": "McBride Sisters interview with Ashley Young", "url": "https://www.mcbridesisters.com/blogs/the-edit/bridal-babes", "source_type": "founder interview", "published": "2023-08-16", "accessed": "2026-09-10"},
+      {"id": "BBAB-STORE", "title": "Bridal Babes ready-to-ship catalog", "url": "https://www.bridalbabes.co/collections/ready-to-ship", "source_type": "company catalog", "accessed": "2026-09-10", "notes": "Fresh direct HTTP 200 retrieval lists Ivy and Gardenia dresses at $175 and other priced products. Fulfillment not tested."},
+      {"id": "BBAB-USPTO", "title": "USPTO attached historical BRIDAL BABES registration extract, page 23", "url": "https://tmng-al.uspto.gov/resting2/api/casedoc/cms/case/99073708/office-action/OfficeAction7734969.pdf", "source_type": "government trademark document", "published": "2025-08-21", "accessed": "2026-09-10", "notes": "Relevant page text and complete rendered page independently inspected."},
+      {"id": "BBAB-GRANT", "title": "Philanthropic Ventures Foundation 2024 Form 990, Schedule I, PDF page 48", "url": "https://www.venturesfoundation.org/wp-content/uploads/2025/11/2024-pvf-form-990-public-disclosure-copy.pdf", "source_type": "foundation tax disclosure", "accessed": "2026-09-10", "notes": "Foundation-hosted public copy; relevant page text and rendered grant row/columns inspected. Not a corporate registry record."}
+    ],
+    "uncertainties": [
+      "Current corporate standing, formation jurisdiction and state entity number remain unverified; a Maryland address is not proof of formation there.",
+      "The trademark transfer/licensing relationship between Ashley R Young and Bridal Babes Group Inc. and the current ecommerce contracting entity remain unresolved.",
+      "Exact final investment terms, closing date and cap table were not examined. Primary pitch review remains pending.",
+      "No dated archive comparison establishes whether historical website wording changed. No whitewashing or concealment is inferred.",
+      "Acquisition, litigation, dissolution and partner-dispute research is incomplete; no clean-history conclusion is drawn."
+    ]
+  },
+  {
+    "company": {"name": "Brightwheel", "aliases": ["brightwheel", "DSSV, Inc."], "legal_entities": ["DSSV, Inc. (identified in current company terms; state standing unverified)"], "successor_or_acquirer": null},
+    "status": "operating",
+    "as_of": "2026-09-10",
+    "confidence": "medium",
+    "episode_appearances": [{
+      "season": 7, "episode": 26, "episode_date": "2016-04-29",
+      "video_title": "Brightwheel — company announcement and episode reference (not a video)",
+      "video_url": "https://www.globenewswire.com/news-release/2016/05/02/1253520/0/en/Billionaire-Investors-Mark-Cuban-and-Chris-Sacca-Invest-600-000-in-Early-Education-Platform-Brightwheel.html",
+      "kind": "episode",
+      "pitch": "Software for childcare providers and families, including attendance, communication and billing.",
+      "ask": null,
+      "offer": "Brightwheel announced $600,000 raised from Mark Cuban and Chris Sacca via Shark Tank; exact final equity terms remain independently unverified here.",
+      "deal_closed": true
+    }],
+    "timeline": [
+      {"date": "2016-04-29", "event": "Brightwheel's subsequent company release identifies its Shark Tank appearance date and links to the Season 7, Episode 26 guide.", "source_ids": ["BRW-FUNDING"]},
+      {"date": "2016-05-02", "event": "Brightwheel announced that it had raised $600,000 from Cuban and Sacca. The release includes statements from its founder and both investors; its publication date is not necessarily the financing closing date.", "source_ids": ["BRW-FUNDING"]},
+      {"date": "2026-09-10", "event": "The retrieved company press index links to its Experience Early Learning acquisition announcement, and the acquired brand's site describes its integration with brightwheel. Exact historical closing date remains unverified in this record.", "source_ids": ["BRW-PRESS", "BRW-ACQUISITION", "BRW-EXPERIENCE"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BRW-OPERATING", "text": "The current company site offers demos and pricing inquiries, and Experience Early Learning describes curriculum integration with brightwheel. These support an operating commercial presence, not an audit of service performance or financial health.", "evidence_level": "verified_fact", "source_ids": ["BRW-PRESS", "BRW-EXPERIENCE"]},
+      {"id": "BRW-FUNDED", "text": "Brightwheel's May 2, 2016 release says it raised $600,000 from Mark Cuban and Chris Sacca and includes statements from both investors. This is direct company confirmation of financing, stronger than a televised handshake; executed investment documents and final equity percentages were not examined.", "evidence_level": "strong_corroboration", "source_ids": ["BRW-FUNDING"]},
+      {"id": "BRW-ACQUIRER", "text": "Brightwheel's own announcement says it acquired Experience Early Learning. Its press index links to that release, and the acquired brand currently identifies itself as part of brightwheel. Brightwheel is the buyer in this transaction, not the acquired company. The inspected release does not specify purchase consideration or an exact closing date.", "evidence_level": "strong_corroboration", "source_ids": ["BRW-ACQUISITION", "BRW-PRESS", "BRW-EXPERIENCE"]},
+      {"id": "BRW-IDENTITY", "text": "The retrieved terms identify DSSV, Inc. as the contracting party and display a May 12, 2026 update date. This establishes current company self-identification, not current Delaware standing or proof that every sentence existed on the displayed date.", "evidence_level": "verified_fact", "source_ids": ["BRW-TERMS"]}
+    ],
+    "sources": [
+      {"id": "BRW-FUNDING", "title": "Brightwheel announces Cuban and Sacca financing", "url": "https://www.globenewswire.com/news-release/2016/05/02/1253520/0/en/Billionaire-Investors-Mark-Cuban-and-Chris-Sacca-Invest-600-000-in-Early-Education-Platform-Brightwheel.html", "source_type": "company press release", "published": "2016-05-02", "accessed": "2026-09-10"},
+      {"id": "BRW-PRESS", "title": "Brightwheel official press index", "url": "https://mybrightwheel.com/press/", "source_type": "company website", "published": null, "accessed": "2026-09-10"},
+      {"id": "BRW-ACQUISITION", "title": "Brightwheel announces acquisition of Experience Early Learning", "url": "https://www.businesswire.com/news/home/20230403005980/en/Brightwheel-Acquires-Experience-Early-Learning-Advances-Early-Education-Space-with-All-in-One-Offering", "source_type": "company press release", "published": null, "accessed": "2026-09-10", "notes": "Followed from the company's own press index. Retrieved body confirms acquisition but exposes no publication timestamp; do not derive closing date from the URL."},
+      {"id": "BRW-EXPERIENCE", "title": "Experience Early Learning is part of brightwheel", "url": "https://blog.experienceearlylearning.com/brightwheel-and-experience-curriculum/", "source_type": "acquired company website", "published": null, "accessed": "2026-09-10"},
+      {"id": "BRW-TERMS", "title": "Brightwheel terms identifying DSSV, Inc.", "url": "https://mybrightwheel.com/terms/", "source_type": "company terms", "published": "2026-05-12", "accessed": "2026-09-10", "notes": "Displayed update date, not an archived snapshot or formation date."}
+    ],
+    "uncertainties": [
+      "Exact acquisition closing date and consideration require additional historical transaction evidence; the raw draft's April 5, 2023 date is not imported as verified.",
+      "Delaware file number, formation record and current standing were not established by an entity-specific state result. Federal trademark leads remain to be checked independently.",
+      "The official video URL supplied by the research draft remains a lead for primary pitch review; exact ask and final equity mechanics are not independently verified here.",
+      "S7E26 companion roster reconciliation remains in the coverage review; this record does not prove completion of the episode or larger corpus.",
+      "No dated same-page archive comparison establishes historical edits. Current company statements are attributed, not assumed to be an exhaustive history.",
+      "Partner disputes, litigation and successor-entity research remain incomplete; no clean-history conclusion is drawn."
+    ]
+  },
+  {
+    "company": {
+      "name": "Bridal Buddy",
+      "aliases": ["Bridal Buddy, LLC"],
+      "legal_entities": [],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-09-10",
+    "confidence": "medium",
+    "episode_appearances": [{
+      "season": 8,
+      "episode": 24,
+      "episode_date": "2017-05-12",
+      "video_title": "Bridal Buddy — episode reference (not a video)",
+      "video_url": "https://www.tvmaze.com/episodes/1150189/shark-tank-8x24-bridal-buddy-laid-brand-rocketbook-wine-and-design-shark-profiles",
+      "kind": "episode",
+      "pitch": "A slip that gathers a wedding gown so its wearer can use the bathroom independently.",
+      "ask": null,
+      "offer": "Inc. reports an agreement with Lori Greiner and Kevin O'Leary for $75,000 in exchange for 30% equity.",
+      "deal_closed": false
+    }],
+    "timeline": [
+      {"date": "2015", "event": "The company's current founder story dates the product launch to mid-2015; this is retrospective company history.", "source_ids": ["BBUD-ABOUT"]},
+      {"date": "2017-05-12", "event": "TVmaze lists Bridal Buddy alongside Laid Brand, Rocketbook and Wine and Design in S8E24. Shark Profiles is a recap segment, not a fifth pitched company.", "source_ids": ["BBUD-EPISODE"]},
+      {"date": "2018-06-05", "event": "Inc. published Heather Stenlake's account that the on-air investment did not come to fruition. This is the reporting date, not a verified termination date.", "source_ids": ["BBUD-INC"]},
+      {"date": "2026-09-10", "event": "The retrieved official catalog lists an elastic-waist Bridal Buddy and wedding accessories with prices. This supports a commercial web presence, not independently verified fulfillment.", "source_ids": ["BBUD-STORE"]}
+    ],
+    "registry_records": [],
+    "claims": [
+      {"id": "BBUD-OPERATION", "text": "The retrieved official catalog lists the elastic-waist Bridal Buddy and wedding accessories with prices. We classify the commercial presence as operating, without claiming a tested purchase or verified fulfillment.", "evidence_level": "verified_fact", "source_ids": ["BBUD-STORE"]},
+      {"id": "BBUD-CLOSING", "text": "Inc.'s June 5, 2018 article attributes to founder Heather Stenlake that the $75,000-for-30% agreement with Lori Greiner and Kevin O'Leary did not come to fruition. The failed-closing classification is founder-attributed reporting, not examination of an executed termination document.", "evidence_level": "credible_report", "source_ids": ["BBUD-INC"]},
+      {"id": "BBUD-IDENTITY", "text": "The official site names Bridal Buddy, LLC. This is company self-identification; current Pennsylvania standing, formation jurisdiction and entity number have not been verified from an entity-specific state record.", "evidence_level": "verified_fact", "source_ids": ["BBUD-ABOUT"]},
+      {"id": "BBUD-PRODUCT", "text": "Inc. reported that customers' requests after the broadcast prompted a version for mermaid-cut gowns. The founder was also developing versions for younger wearers; this 2018 account does not establish current availability of those variants.", "evidence_level": "credible_report", "source_ids": ["BBUD-INC"]}
+    ],
+    "sources": [
+      {"id": "BBUD-INC", "title": "Inc. — wedding startups and Heather Stenlake's post-show account", "url": "https://www.inc.com/magazine/201806/emily-canal/paparazzi-proposals-engagement-photos.html", "source_type": "founder-attributed reporting", "published": "2018-06-05", "accessed": "2026-09-10", "notes": "The failed-closing sentence explicitly attributes the account to Stenlake. It is not a direct quotation or a transaction instrument."},
+      {"id": "BBUD-ABOUT", "title": "Bridal Buddy — official founder story", "url": "https://bridalbuddy.com/pages/about-us", "source_type": "company website", "published": null, "accessed": "2026-09-10", "notes": "Current retrieved copy; undated narrative and patent-pending footer are not verified historical snapshots or current patent status."},
+      {"id": "BBUD-STORE", "title": "Bridal Buddy — official product catalog", "url": "https://bridalbuddy.com/collections/all", "source_type": "company catalog", "published": null, "accessed": "2026-09-10", "notes": "Fresh direct HTTP 200 retrieval lists elastic-waist Bridal Buddy and wedding accessories; catalog now reports seven results rather than the older search snapshot's six. Fulfillment not tested."},
+      {"id": "BBUD-EPISODE", "title": "TVmaze — Shark Tank S8E24", "url": "https://www.tvmaze.com/episodes/1150189/shark-tank-8x24-bridal-buddy-laid-brand-rocketbook-wine-and-design-shark-profiles", "source_type": "secondary episode database", "published": null, "accessed": "2026-09-10"}
+    ],
+    "uncertainties": [
+      "An older Gazette Review recap describes Kevin O'Leary involvement inconsistent with the founder-attributed Inc. account. That recap does not establish ownership; the discrepancy remains in the source-review notes.",
+      "Current state standing, entity number and formation jurisdiction remain unresolved. Company footer language is not a Secretary of State result.",
+      "No executed investment termination document or final cap table was examined.",
+      "Primary broadcast/video reconciliation and the exact initial ask remain pending; the episode roster currently relies on TVmaze.",
+      "No dated same-page archive comparison establishes whether or when company history was edited. No concealment is inferred.",
+      "Acquisition, dissolution, partner-dispute and successor-entity research is not complete; the absence of such events from this record is not a verified clean history."
+    ]
+  }
+]

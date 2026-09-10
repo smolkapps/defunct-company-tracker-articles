@@ -30,6 +30,22 @@ def _result(tmp_path=None):
 
 
 class TestSiteBuild:
+    def test_episode_reference_is_not_mislabeled_as_video(self, tmp_path):
+        detail = {
+            "company": {"name": "Pets.com"},
+            "episode_appearances": [{
+                "kind": "episode",
+                "video_url": "https://example.com/episode-guide",
+                "video_title": "Episode guide, not a video",
+            }],
+        }
+        SiteGenerator().build(_result(), str(tmp_path), [detail])
+        html = (tmp_path / "companies" / "pets-com.html").read_text()
+        # References include guides and press reports, not only playable clips.
+        assert "<dt>Appearance source</dt>" in html
+        assert "<dt>Video</dt>" not in html
+        assert "https://example.com/episode-guide" in html
+
     def test_builds_expected_files(self, tmp_path):
         out = str(tmp_path / "site")
         stats = SiteGenerator(site_url="https://example.com").build(_result(), out)
