@@ -84,6 +84,10 @@
     {"name":"Buffer Bit","aliases":["The Buffer Bit"],"domain":"bufferbit.com"},
     {"name":"Bug Bite Thing","aliases":["Bug Bite Thing Inc."],"domain":"bugbitething.com"},
     {"name":"Buggy Beds","aliases":["BuggyBeds","VCM Products, LLC"],"domain":"buggybeds.com"},
-    {"name":"Bumbling Bee","aliases":["The Bumbling Bee"],"notes":"research retained, but current commercial and entity status are unresolved"}
+    {"name":"Bumbling Bee","aliases":["The Bumbling Bee"],"notes":"research retained, but current commercial and entity status are unresolved"},
+    {"name":"Bumpeez","aliases":["Bumpeez Toys"],"domain":"bumpeeztoys.com"},
+    {"name":"Bunch Bikes","aliases":["Bunch Bikes Inc."],"domain":"bunchbike.com"},
+    {"name":"Bundil","aliases":["Bundil, Inc."],"notes":"research retained, but current commercial and entity status are unresolved"},
+    {"name":"Bunny Eyez","aliases":["Bunny Eyez LLC"],"domain":"bunnyeyez.com"}
   ]
 }
