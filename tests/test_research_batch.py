@@ -504,3 +504,19 @@ def test_seventeenth_batch_withholds_business_ghost_and_records_complete_rosters
         ids = {source["id"] for source in record["sources"]}
         for item in record["claims"] + record["timeline"]:
             assert item["source_ids"] and set(item["source_ids"]) <= ids
+
+
+def test_eighteenth_batch_separates_confirmed_funding_from_domain_reuse():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-18.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["Buttercloth"]["episode_appearances"][0]["deal_closed"] is True
+    assert by_name["Buzzy"]["episode_appearances"][0]["deal_closed"] is False
+    assert {name for name, record in by_name.items() if record["status"] == "unresolved"} == {
+        "Byoot", "BZBox"
+    }
+    for record in records:
+        ids = {source["id"] for source in record["sources"]}
+        for item in record["claims"] + record["timeline"]:
+            assert item["source_ids"] and set(item["source_ids"]) <= ids
