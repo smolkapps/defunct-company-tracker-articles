@@ -72,6 +72,10 @@
     {"name":"Bro Glo","aliases":["Bro Glo LLC","Bro Glo Inc."],"domain":"thebroglo.com"},
     {"name":"Broccoli Wad","aliases":["Broccoli Wads","Wise Guy Productions LLC"],"notes":"research retained, but current commercial and entity status are unresolved"},
     {"name":"Browndages","aliases":["Browndages LLC"],"domain":"browndages.com"},
-    {"name":"Brush Hero","aliases":["BrushHero","RGK Innovations"],"domain":"brushhero.com"}
+    {"name":"Brush Hero","aliases":["BrushHero","RGK Innovations"],"domain":"brushhero.com"},
+    {"name":"BRUW","aliases":["BRUW, LLC"],"domain":"bruwcoffee.com"},
+    {"name":"Brümachen","aliases":["BRUMACHEN","BRÜMACHEN, LLC"],"notes":"research retained, but current legal and commercial status are unresolved"},
+    {"name":"Bubbly Blaster","aliases":["Bubbly Blaster, LLC"],"domain":"bubblyblaster.com"},
+    {"name":"Buck Mason","aliases":["Buck Mason Inc.","Simple Man LLC"],"domain":"buckmason.com"}
   ]
 }

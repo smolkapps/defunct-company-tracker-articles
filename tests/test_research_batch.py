@@ -430,6 +430,19 @@ def test_twelfth_batch_preserves_closing_and_ownership_uncertainty():
             assert item["source_ids"] and set(item["source_ids"]) <= ids
 
 
+def test_thirteenth_batch_retains_transaction_conflicts_and_withholds_brümachen():
+    records = json.loads(
+        (DATA.parent / "research_batch_2026-09-10_queue-13.json").read_text(encoding="utf-8")
+    )
+    by_name = {record["company"]["name"]: record for record in records}
+    assert by_name["BRUW"]["status"] == "acquired"
+    assert by_name["BRUW"]["episode_appearances"][0]["deal_closed"] is True
+    assert "30%" in by_name["BRUW"]["claims"][1]["text"]
+    assert by_name["Brümachen"]["status"] == "unresolved"
+    assert by_name["Bubbly Blaster"]["episode_appearances"][0]["deal_closed"] is None
+    assert by_name["Buck Mason"]["registry_records"][0]["status"] == "active"
+
+
 def test_timeline_schema_accepts_honest_partial_dates_used_by_research():
     schema = json.loads(
         (DATA.parent / "research-record.schema.json").read_text(encoding="utf-8")
