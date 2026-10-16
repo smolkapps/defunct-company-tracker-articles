@@ -120,3 +120,18 @@ until a country is selected. The owner has been asked to confirm it.
 No account exists yet; do not describe the brand-field draft as enrollment.
 New-password entry is owner handoff under the browser's credential rules. Tax
 IDs/W-9/banking must be entered directly into the provider, never chat or git.
+
+## Current Awin handoff: final verification
+
+US residency confirmed. Owner completed the password step. Promotional type
+and site profile are completed, and step4 is open. No account submission or
+merchant approval is claimed. Address, state, postal code and telephone are
+blank; owner should enter these directly in Awin. Newsletter remains off.
+Age/privacy/user-agreement/publisher-terms checkbox remains unchecked; final
+Join Our Network action requires agreement confirmation. No tax form or signup
+deposit has been reached.
+
+Requested sign-in email was delivered to Michael's recipient mail provider
+(queue 845756A830, accepted 250 on October16). Password is deliberately not
+retained here. After submission, verify email activation and actual Awin/Cincha
+approval before configuring earning URLs or describing the site as monetized.

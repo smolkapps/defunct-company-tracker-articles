@@ -147,3 +147,10 @@ Priority order:
 - Filled authorized name and awin@michaelcli.com plus email confirmation. Publisher brand remains Defunct Company Tracker.
 - Password fields left empty, no account submission performed. Shown and retained in-app browser tab for owner to enter new password and confirmation directly. Browser rules require owner handoff for new credential entry.
 - Tax ID/W-9/bank entry has not been reached. Resume promotional profile preparation after owner completes password step; inspect before any agreement/deposit action.
+
+### October 16 — Credentials email delivered; Awin final verification reached
+- User completed the new-password step directly, supplied existing sign-in details and explicitly requested a credentials email to himself. No password copied into repository/docs/artifacts.
+- Email sent only to michael@smolkin.org via verified Postfix/OpenDKIM on ctdsu; deduplicated To/BCC envelope. Message-ID <179218853924.50290.2274493853410184992@smolkin.org>, queue 845756A830; DKIM added for smolkin.org and recipient mail provider accepted with 250 2.0.0 Ok at 2026-10-16T22:09:03Z. Email correctly says application not yet submitted/approved.
+- Completed promotional setup: primary region United States, Editorial Content primary type, https://defunctcompanies.com, factual source-cited editorial description, relevant Clothing Accessories/Home & Garden/Gadgets sectors. No audience/revenue claims.
+- Reached step4 final verification. Missing required private address/telephone; terms/age consent checkbox remains unchecked and Join Our Network not pressed. Optional newsletter remains unchecked. No deposit displayed on this step.
+- Preserve signup tab for owner to enter address/telephone directly; do not collect those or tax IDs in chat. Terms acceptance requires action-time owner confirmation under browser policy, despite general signup authority. Tax form not reached.
