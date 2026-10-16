@@ -1,0 +1,315 @@
+[
+  {
+    "company": {
+      "name": "Pashion",
+      "aliases": ["Pashion Footwear", "Pashion Footwear Inc."],
+      "legal_entities": ["Pashion Footwear Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 14,
+        "episode_date": "2021-02-19",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "video_url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "kind": "episode",
+        "pitch": "Convertible high heels that transform into flats with a removable stello heel support mechanism.",
+        "ask": "$500,000 for 5% equity",
+        "offer": "Kevin O'Leary offered $500,000 for 5% equity plus a $1.50 per pair royalty until $1 million is recouped; offer was declined.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-08-30",
+        "event": "Incorporated in Delaware as Pashion Footwear Inc.",
+        "source_ids": ["PASHION-SEC"]
+      },
+      {
+        "date": "2021-02-19",
+        "event": "Pitched on Shark Tank Season 12 Episode 14; declined Kevin O'Leary's royalty offer.",
+        "source_ids": ["PASHION-ABC"]
+      },
+      {
+        "date": "2024-05-01",
+        "event": "Filed Form C-AR annual report under CIK 0001970090 with SEC EDGAR.",
+        "source_ids": ["PASHION-SEC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates active online storefront at pashionfootwear.com selling convertible shoes and accessories.",
+        "source_ids": ["PASHION-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "Delaware / SEC EDGAR",
+        "entity_name": "Pashion Footwear Inc.",
+        "entity_number": "CIK 0001970090",
+        "status": "active",
+        "events": ["Incorporation: 2017-08-30", "Form C-AR: 2024-05-01"],
+        "source_id": "PASHION-SEC",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "PASHION-STATUS",
+        "text": "Pashion Footwear Inc. is an active, operating business selling convertible footwear online with SEC EDGAR C-AR filings through 2024 and an active commercial storefront.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["PASHION-SEC", "PASHION-SITE"]
+      },
+      {
+        "id": "PASHION-DEAL",
+        "text": "Founder Haley Pavone declined Kevin O'Leary's $500,000 investment offer involving a $1.50 per pair royalty on Shark Tank, so no Shark investment closed.",
+        "evidence_level": "credible_report",
+        "source_ids": ["PASHION-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "PASHION-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2021-02-19",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "PASHION-SEC",
+        "title": "SEC EDGAR — Pashion Footwear Inc. CIK 0001970090 Form C-AR",
+        "url": "https://data.sec.gov/submissions/CIK0001970090.json",
+        "source_type": "federal regulatory filing",
+        "published": "2024-05-01",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "PASHION-SITE",
+        "title": "Pashion Footwear Official Website",
+        "url": "https://pashionfootwear.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Ongoing direct-to-consumer unit volumes and private capitalization."]
+  },
+  {
+    "company": {
+      "name": "Souper Cubes",
+      "aliases": ["Souper Products LLC", "Souper Products, LLC"],
+      "legal_entities": ["Souper Products, LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 14,
+        "episode_date": "2021-02-19",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "video_url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "kind": "episode",
+        "pitch": "Food-grade silicone freezing trays designed for portioning and storing soups and meals.",
+        "ask": "$400,000 for 5% equity",
+        "offer": "Lori Greiner offered $400,000 for 5% equity with her Golden Ticket; deal accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2018-01-22",
+        "event": "Trademark application filed for SOUPER CUBES by Souper Products, LLC.",
+        "source_ids": ["SOUPER-USPTO"]
+      },
+      {
+        "date": "2018-08-21",
+        "event": "USPTO registered trademark 5545717 for SOUPER CUBES.",
+        "source_ids": ["SOUPER-USPTO"]
+      },
+      {
+        "date": "2021-02-19",
+        "event": "Pitched on Shark Tank S12E14; accepted Lori Greiner's Golden Ticket offer.",
+        "source_ids": ["SOUPER-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates active direct-to-consumer store at soupercubes.com and national retail distribution.",
+        "source_ids": ["SOUPER-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "United States Patent and Trademark Office",
+        "entity_name": "Souper Products, LLC",
+        "entity_number": "Reg. 5545717 / Serial 87763920",
+        "status": "registered",
+        "events": ["Filing: 2018-01-22", "Registration: 2018-08-21"],
+        "source_id": "SOUPER-USPTO",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "SOUPER-STATUS",
+        "text": "Souper Cubes operates actively as a leading food freezing tray brand owned by Souper Products, LLC, with nationwide retail distribution and an active e-commerce store.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["SOUPER-SITE", "SOUPER-USPTO"]
+      },
+      {
+        "id": "SOUPER-DEAL",
+        "text": "Founders Jake and Michelle Sendowski accepted Lori Greiner's Golden Ticket offer of $400,000 for 5% equity on Season 12 Episode 14.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["SOUPER-ABC", "SOUPER-SITE"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "SOUPER-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2021-02-19",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SOUPER-USPTO",
+        "title": "USPTO Trademark Registration 5545717 — SOUPER CUBES",
+        "url": "https://trademarks.justia.com/877/63/souper-cubes-87763920.html",
+        "source_type": "federal trademark registration",
+        "published": "2018-08-21",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SOUPER-SITE",
+        "title": "Souper Cubes Official Website",
+        "url": "https://www.soupercubes.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Private equity distributions and ongoing licensing terms with Lori Greiner."]
+  },
+  {
+    "company": {
+      "name": "Sienna Sauce",
+      "aliases": ["Sienna Sauce LLC", "Sienna Wings"],
+      "legal_entities": ["Sienna Sauce LLC", "Tortoise Investments, L.L.C."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 14,
+        "episode_date": "2021-02-19",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "video_url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "kind": "episode",
+        "pitch": "Honey-based gourmet sauces created by a teenage entrepreneur.",
+        "ask": "$100,000 for 10% equity",
+        "offer": "Kendra Scott offered $100,000 for 20% equity; accepted on air but deal did not close in due diligence.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-04-01",
+        "event": "Tyla-Simone Crayton and her mother founded Sienna Sauce in Texas.",
+        "source_ids": ["SIENNA-ABC"]
+      },
+      {
+        "date": "2020-06-30",
+        "event": "Trademark application 90028169 filed for SIENNA SAUCE.",
+        "source_ids": ["SIENNA-USPTO"]
+      },
+      {
+        "date": "2021-02-19",
+        "event": "Pitched on Shark Tank S12E14; accepted Kendra Scott's on-air offer of $100,000 for 20%.",
+        "source_ids": ["SIENNA-ABC"]
+      },
+      {
+        "date": "2021-06-15",
+        "event": "Post-show due diligence concluded without closing Kendra Scott's investment.",
+        "source_ids": ["SIENNA-REPORT"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates online storefront at siennasauceco.com selling bottled sauces direct to consumer.",
+        "source_ids": ["SIENNA-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "United States Patent and Trademark Office",
+        "entity_name": "Tortoise Investments, L.L.C. / Sienna Sauce LLC",
+        "entity_number": "Serial 90028169",
+        "status": "registered",
+        "events": ["Trademark Filing: 2020-06-30"],
+        "source_id": "SIENNA-USPTO",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "SIENNA-STATUS",
+        "text": "Sienna Sauce operates as an active condiment company selling its bottled sauce products through its official storefront at siennasauceco.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["SIENNA-SITE", "SIENNA-USPTO"]
+      },
+      {
+        "id": "SIENNA-DEAL",
+        "text": "Although Kendra Scott's $100,000-for-20% offer was accepted on television, the investment did not close during post-broadcast due diligence.",
+        "evidence_level": "credible_report",
+        "source_ids": ["SIENNA-REPORT", "SIENNA-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "SIENNA-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 14 of Shark Tank",
+        "url": "https://abc.com/news/8b4032b4-fff6-4edb-b3c8-0a9a4bbc3516/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2021-02-19",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SIENNA-USPTO",
+        "title": "USPTO Trademark Serial 90028169 — SIENNA SAUCE",
+        "url": "https://trademarks.justia.com/900/28/sienna-sauce-90028169.html",
+        "source_type": "federal trademark filing",
+        "published": "2020-06-30",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SIENNA-SITE",
+        "title": "Sienna Sauce Official Storefront",
+        "url": "https://siennasauceco.com/",
+        "source_type": "company storefront",
+        "published": null,
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SIENNA-REPORT",
+        "title": "Fox 26 Houston — Sienna Sauce founder Tyla-Simone Crayton update",
+        "url": "https://www.fox26houston.com/news/sienna-sauce-shark-tank-deal-update",
+        "source_type": "broadcast news report",
+        "published": "2021-06-15",
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Wholesale grocery distributor accounts and brick-and-mortar shelf rotations."]
+  }
+]

@@ -387,3 +387,66 @@ class TestOldSubdomainRedirectConfig:
         assert "return 301 https://defunctcompanies.com$request_uri;" in conf
         assert "/etc/letsencrypt/live/apps-smolkin/fullchain.pem" in conf
 
+
+class TestNewQueues:
+    def test_all_batches_validate_against_schema(self):
+        import glob
+        import jsonschema
+
+        schema_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            "src",
+            "dct",
+            "data",
+            "research-record.schema.json",
+        )
+        with open(schema_path, encoding="utf-8") as fh:
+            schema = json.load(fh)
+
+        data_dir = os.path.dirname(schema_path)
+        batches = sorted(glob.glob(os.path.join(data_dir, "research_batch_*.json")))
+        assert len(batches) >= 23  # base batch + 22 queue batches (queues 2-23)
+        total = 0
+        for batch_file in batches:
+            with open(batch_file, encoding="utf-8") as fh:
+                records = json.load(fh)
+            assert isinstance(records, list) and len(records) > 0
+            for r in records:
+                jsonschema.validate(r, schema)
+                total += 1
+        assert total >= 96
+
+    def test_queues_20_to_23_companies_published(self, monkeypatch, tmp_path):
+        monkeypatch.delenv("DCT_LLM_API_KEY", raising=False)
+        out = str(tmp_path / "new_queues_dist")
+        assert main(["publish", "--out", out, "--site-url", "https://defunctcompanies.com"]) == 0
+
+        # Verify all 12 companion companies from Queues 20-23 generated published articles
+        expected_slugs = [
+            # Queue 20 (S12E14)
+            "pashion",
+            "souper-cubes",
+            "sienna-sauce",
+            # Queue 21 (S11E4)
+            "knife-aid",
+            "plop-star",
+            "snacklins",
+            # Queue 22 (S12E7)
+            "holiball",
+            "toilet-timer",
+            "odr-skis",
+            # Queue 23 (S14E19)
+            "parting-stone",
+            "cincha-travel",
+            "milkify",
+        ]
+        for slug in expected_slugs:
+            path = os.path.join(out, "companies", f"{slug}.html")
+            assert os.path.exists(path), f"Missing article for {slug}"
+            html = _read(path)
+            # Must be an indexable published article, not withheld noindex
+            assert 'content="noindex' not in html
+            assert "Is It Still in Business?" in html
+            assert '<span class="badge badge-active">active</span>' in html
+
+

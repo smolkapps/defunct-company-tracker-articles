@@ -1,0 +1,228 @@
+[
+  {
+    "company": {
+      "name": "Holiball",
+      "aliases": ["Holiball, LLC", "The Inflatable Ornament"],
+      "legal_entities": ["Holiball, LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 7,
+        "episode_date": "2020-12-04",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "video_url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "kind": "episode",
+        "pitch": "Oversized inflatable and reusable outdoor holiday ornaments.",
+        "ask": "$150,000 for 10% equity",
+        "offer": "Mark Cuban and Barbara Corcoran offered $150,000 for 25% equity; accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2020-12-04",
+        "event": "Pitched on Shark Tank S12E7; accepted joint $150,000 for 25% deal from Mark Cuban and Barbara Corcoran.",
+        "source_ids": ["HOLIBALL-ABC"]
+      },
+      {
+        "date": "2021-03-01",
+        "event": "Featured on Mark Cuban Companies official portfolio.",
+        "source_ids": ["HOLIBALL-CUBAN"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates online store at theholiball.com with seasonal and custom inflatable ornament collections.",
+        "source_ids": ["HOLIBALL-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "HOLIBALL-STATUS",
+        "text": "Holiball operates actively as an inflatable ornament brand with an active e-commerce storefront at theholiball.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["HOLIBALL-SITE", "HOLIBALL-CUBAN"]
+      },
+      {
+        "id": "HOLIBALL-DEAL",
+        "text": "Founders accepted a joint $150,000 investment for 25% equity from Mark Cuban and Barbara Corcoran, and Holiball is listed in the Mark Cuban Companies portfolio.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["HOLIBALL-CUBAN", "HOLIBALL-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "HOLIBALL-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2020-12-04",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "HOLIBALL-CUBAN",
+        "title": "Mark Cuban Companies Portfolio — Holiball",
+        "url": "https://markcubancompanies.com/companies/holiball/",
+        "source_type": "investor portfolio page",
+        "published": "2021-03-01",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "HOLIBALL-SITE",
+        "title": "The Holiball Official Website",
+        "url": "https://theholiball.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Entity-specific state filing details and seasonal distribution contracts."]
+  },
+  {
+    "company": {
+      "name": "Toilet Timer",
+      "aliases": ["Katamco", "Katamco LLC"],
+      "legal_entities": ["Katamco LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 7,
+        "episode_date": "2020-12-04",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "video_url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "kind": "episode",
+        "pitch": "A 5-minute sand timer designed as a bathroom novelty product.",
+        "ask": "$200,000 for 10% equity",
+        "offer": "Mark Cuban offered $200,000 for 25% equity; accepted on air.",
+        "deal_closed": null
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2020-12-04",
+        "event": "Pitched on Shark Tank S12E7; received on-air offer from Mark Cuban for $200,000 for 25% equity.",
+        "source_ids": ["TIMER-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates active e-commerce store at katamco.com selling Toilet Timer and 1UPcard products.",
+        "source_ids": ["TIMER-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "TIMER-STATUS",
+        "text": "Toilet Timer operates actively under Katamco LLC, offering novelty sand timers and video game accessories on katamco.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["TIMER-SITE", "TIMER-ABC"]
+      },
+      {
+        "id": "TIMER-DEAL",
+        "text": "The founders accepted Mark Cuban's on-air offer of $200,000 for 25% equity; definitive closing records were not retrieved.",
+        "evidence_level": "credible_report",
+        "source_ids": ["TIMER-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "TIMER-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2020-12-04",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "TIMER-SITE",
+        "title": "Katamco Official Website",
+        "url": "https://katamco.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Execution of formal post-broadcast investment agreement."]
+  },
+  {
+    "company": {
+      "name": "ODR Skis",
+      "aliases": ["ODR & DYNAMIC WAX", "Sled Dogs"],
+      "legal_entities": ["ODR Skis Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 12,
+        "episode": 7,
+        "episode_date": "2020-12-04",
+        "video_title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "video_url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "kind": "episode",
+        "pitch": "Hybrid snow skates combining ski boots with short ski bases.",
+        "ask": "$350,000 for 10% equity",
+        "offer": "No Shark offers made; all Sharks passed.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2020-12-04",
+        "event": "Pitched on Shark Tank S12E7; left without an offer.",
+        "source_ids": ["ODR-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates online store at odrskis.com selling ski-skates and accessories.",
+        "source_ids": ["ODR-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "ODR-STATUS",
+        "text": "ODR Skis operates actively, selling winter ski-skates and waxes directly to consumers on odrskis.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["ODR-SITE", "ODR-ABC"]
+      },
+      {
+        "id": "ODR-DEAL",
+        "text": "Founder Kevin Greco left Shark Tank without a deal after all Sharks declined to invest.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["ODR-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "ODR-ABC",
+        "title": "ABC — The Businesses and Products from Season 12, Episode 7 of Shark Tank",
+        "url": "https://abc.com/news/52bf9a72-2712-4806-b7c3-9c2f2529e61d/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2020-12-04",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "ODR-SITE",
+        "title": "ODR Skis Official Website",
+        "url": "https://odrskis.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Corporate standing and international supply chain dependencies."]
+  }
+]

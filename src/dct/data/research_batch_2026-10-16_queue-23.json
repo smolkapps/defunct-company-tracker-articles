@@ -1,0 +1,220 @@
+[
+  {
+    "company": {
+      "name": "Parting Stone",
+      "aliases": ["Parting Stone, Inc.", "Parting Stone PBC"],
+      "legal_entities": ["Parting Stone PBC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 19,
+        "episode_date": "2023-04-07",
+        "video_title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "video_url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "kind": "episode",
+        "pitch": "Solidified remains service turning 100% of cremated human or pet ashes into clean, touchable stones.",
+        "ask": "$400,000 for 5% equity",
+        "offer": "Lori Greiner and Kevin O'Leary offered $400,000 for 10% equity plus a royalty until repaid; accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2019-10-01",
+        "event": "Founded in Santa Fe, New Mexico by Justin Crowe.",
+        "source_ids": ["PARTING-SITE"]
+      },
+      {
+        "date": "2023-04-07",
+        "event": "Pitched on Shark Tank S14E19; accepted joint Lori Greiner / Kevin O'Leary offer of $400,000 for 10% plus royalty.",
+        "source_ids": ["PARTING-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates active death-care service at partingstone.com partnering with hundreds of funeral homes.",
+        "source_ids": ["PARTING-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "PARTING-STATUS",
+        "text": "Parting Stone is an active death-care business operating out of Santa Fe, New Mexico, providing solidified cremated remains directly and through funeral home partners via partingstone.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["PARTING-SITE", "PARTING-ABC"]
+      },
+      {
+        "id": "PARTING-DEAL",
+        "text": "Founder Justin Crowe accepted a joint offer from Lori Greiner and Kevin O'Leary for $400,000 for 10% equity plus a per-order royalty until repaid.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["PARTING-ABC", "PARTING-SITE"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "PARTING-ABC",
+        "title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2023-04-07",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "PARTING-SITE",
+        "title": "Parting Stone Official Website",
+        "url": "https://partingstone.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Exact funeral home partner contract terms and royalty recoupment status."]
+  },
+  {
+    "company": {
+      "name": "Cincha Travel",
+      "aliases": ["Cincha"],
+      "legal_entities": ["Cincha LLC"],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 19,
+        "episode_date": "2023-04-07",
+        "video_title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "video_url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "kind": "episode",
+        "pitch": "Travel belts securing tote bags, purses, and coats to rolling luggage handles.",
+        "ask": "$200,000 for 15% equity",
+        "offer": "Barbara Corcoran offered $200,000 for 25% equity; accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-04-07",
+        "event": "Pitched on Shark Tank S14E19; accepted Barbara Corcoran's $200,000 for 25% equity offer.",
+        "source_ids": ["CINCHA-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates online travel accessories business at cinchatravel.com.",
+        "source_ids": ["CINCHA-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "CINCHA-STATUS",
+        "text": "Cincha Travel operates actively as an e-commerce travel accessories company selling luggage belts and bags via cinchatravel.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["CINCHA-SITE", "CINCHA-ABC"]
+      },
+      {
+        "id": "CINCHA-DEAL",
+        "text": "Founders Ash Sharma and James Baker accepted Barbara Corcoran's offer of $200,000 for 25% equity on Shark Tank S14E19.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["CINCHA-ABC", "CINCHA-SITE"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "CINCHA-ABC",
+        "title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2023-04-07",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "CINCHA-SITE",
+        "title": "Cincha Travel Official Website",
+        "url": "https://cinchatravel.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Corporate standing and nonprofit donation accounting with partner organizations."]
+  },
+  {
+    "company": {
+      "name": "Milkify",
+      "aliases": ["Milkify Inc."],
+      "legal_entities": ["Milkify Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 14,
+        "episode": 19,
+        "episode_date": "2023-04-07",
+        "video_title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "video_url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "kind": "episode",
+        "pitch": "Concierge freeze-drying service converting breast milk into shelf-stable powder.",
+        "ask": "$400,000 for 10% equity",
+        "offer": "Lori Greiner and Gwyneth Paltrow offered $400,000 for 20% equity as a 3-year convertible note; accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-04-07",
+        "event": "Pitched on Shark Tank S14E19; accepted joint Lori Greiner / Gwyneth Paltrow offer of $400,000 for 20% equity.",
+        "source_ids": ["MILKIFY-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates breast milk freeze-drying service actively at milkify.me.",
+        "source_ids": ["MILKIFY-SITE"]
+      }
+    ],
+    "registry_records": [],
+    "claims": [
+      {
+        "id": "MILKIFY-STATUS",
+        "text": "Milkify operates actively as a breast milk freeze-drying and powder preservation service at milkify.me.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["MILKIFY-SITE", "MILKIFY-ABC"]
+      },
+      {
+        "id": "MILKIFY-DEAL",
+        "text": "Founders Berkley Luck and Pedro Silva accepted Lori Greiner and Gwyneth Paltrow's offer of $400,000 for 20% equity structured as a convertible note on Shark Tank S14E19.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["MILKIFY-ABC", "MILKIFY-SITE"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "MILKIFY-ABC",
+        "title": "ABC — The Businesses and Products from Season 14, Episode 19 of Shark Tank",
+        "url": "https://abc.com/news/2048faca-7a46-448e-ad64-a7ac011d8bc2/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2023-04-07",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "MILKIFY-SITE",
+        "title": "Milkify Official Website",
+        "url": "https://milkify.me/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Conversion terms and regulatory compliance oversight across states."]
+  }
+]

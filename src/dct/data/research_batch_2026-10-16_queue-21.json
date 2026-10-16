@@ -1,0 +1,313 @@
+[
+  {
+    "company": {
+      "name": "Knife Aid",
+      "aliases": ["Knife Aid, Inc."],
+      "legal_entities": ["Knife Aid, Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 11,
+        "episode": 4,
+        "episode_date": "2019-10-20",
+        "video_title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "video_url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "kind": "episode",
+        "pitch": "Mail-in knife sharpening service with prepaid secure packaging.",
+        "ask": "$400,000 for 15% equity",
+        "offer": "Lori Greiner and Rohan Oza offered $500,000 for 20% equity; accepted on air but deal did not close.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2018-06-12",
+        "event": "Incorporated in California as Knife Aid, Inc. (entity C413196).",
+        "source_ids": ["KNIFE-REG"]
+      },
+      {
+        "date": "2019-10-20",
+        "event": "Pitched on Shark Tank S11E4; accepted joint Lori Greiner / Rohan Oza offer on air.",
+        "source_ids": ["KNIFE-ABC"]
+      },
+      {
+        "date": "2024-03-01",
+        "event": "Reporting confirmed that the televised deal with Lori and Rohan did not close post-show.",
+        "source_ids": ["KNIFE-REPORT"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates active mail-in knife sharpening service at knifeaid.com.",
+        "source_ids": ["KNIFE-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "California Secretary of State",
+        "entity_name": "Knife Aid, Inc.",
+        "entity_number": "C413196",
+        "status": "active",
+        "events": ["Incorporation: 2018-06-12"],
+        "source_id": "KNIFE-REG",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "KNIFE-STATUS",
+        "text": "Knife Aid, Inc. is an operating mail-in knife sharpening service incorporated in California and actively providing sharpening via knifeaid.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["KNIFE-SITE", "KNIFE-REG"]
+      },
+      {
+        "id": "KNIFE-DEAL",
+        "text": "The televised handshake agreement for $500,000 for 20% equity from Lori Greiner and Rohan Oza did not close post-show.",
+        "evidence_level": "credible_report",
+        "source_ids": ["KNIFE-REPORT", "KNIFE-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "KNIFE-ABC",
+        "title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2019-10-20",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "KNIFE-SITE",
+        "title": "Knife Aid Official Website",
+        "url": "https://knifeaid.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "KNIFE-REG",
+        "title": "California Secretary of State Business Search — Knife Aid, Inc.",
+        "url": "https://bizfileonline.sos.ca.gov/",
+        "source_type": "state corporate registry",
+        "published": "2018-06-12",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "KNIFE-REPORT",
+        "title": "Food Republic — What Happened To Knife Aid After Shark Tank?",
+        "url": "https://www.foodrepublic.com/1529141/what-happened-to-knife-aid-after-shark-tank/",
+        "source_type": "industry news report",
+        "published": "2024-03-01",
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Current ownership breakdown following management restructuring."]
+  },
+  {
+    "company": {
+      "name": "Plop Star",
+      "aliases": ["Tandem, Inc."],
+      "legal_entities": ["Tandem, Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "medium",
+    "episode_appearances": [
+      {
+        "season": 11,
+        "episode": 4,
+        "episode_date": "2019-10-20",
+        "video_title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "video_url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "kind": "episode",
+        "pitch": "Portable, dissolvable toilet deodorizing tablets releasing essential oils before use.",
+        "ask": "$150,000 for 10% equity",
+        "offer": "No Shark offers made; all Sharks passed.",
+        "deal_closed": false
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2017-10-20",
+        "event": "Trademark application 87654291 filed for PLOP STAR by Tandem, Inc.",
+        "source_ids": ["PLOP-USPTO"]
+      },
+      {
+        "date": "2019-10-20",
+        "event": "Pitched on Shark Tank S11E4; left without a deal.",
+        "source_ids": ["PLOP-ABC"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Maintains active direct-to-consumer sales on plopstar.com.",
+        "source_ids": ["PLOP-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "United States Patent and Trademark Office",
+        "entity_name": "Tandem, Inc.",
+        "entity_number": "Serial 87654291",
+        "status": "live",
+        "events": ["Filing: 2017-10-20"],
+        "source_id": "PLOP-USPTO",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "PLOP-STATUS",
+        "text": "Plop Star operates as an active consumer product owned by Tandem, Inc., selling deodorizing tablets via plopstar.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["PLOP-SITE", "PLOP-USPTO"]
+      },
+      {
+        "id": "PLOP-DEAL",
+        "text": "Founder Tyler Jay left Shark Tank without a deal after all Sharks declined to invest.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["PLOP-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "PLOP-ABC",
+        "title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2019-10-20",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "PLOP-SITE",
+        "title": "Plop Star Official Store",
+        "url": "https://plopstar.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "PLOP-USPTO",
+        "title": "USPTO Trademark Serial 87654291 — PLOP STAR",
+        "url": "https://trademarks.justia.com/876/54/plop-star-87654291.html",
+        "source_type": "federal trademark registration",
+        "published": "2017-10-20",
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Standalone entity financials apart from Tandem, Inc."]
+  },
+  {
+    "company": {
+      "name": "Snacklins",
+      "aliases": ["Snacklins LLC", "Snacklins, Inc."],
+      "legal_entities": ["Snacklins LLC", "Snacklins, Inc."],
+      "successor_or_acquirer": null
+    },
+    "status": "operating",
+    "as_of": "2026-10-16",
+    "confidence": "high",
+    "episode_appearances": [
+      {
+        "season": 11,
+        "episode": 4,
+        "episode_date": "2019-10-20",
+        "video_title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "video_url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "kind": "episode",
+        "pitch": "Plant-based, 80-calorie vegan crisps made from yuca, mushrooms, and onions.",
+        "ask": "$250,000 for 2.5% equity",
+        "offer": "Mark Cuban offered $250,000 for 5% equity plus 5% advisory shares; accepted.",
+        "deal_closed": true
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2015-12-14",
+        "event": "Snacklins LLC formed in Washington, DC.",
+        "source_ids": ["SNACKLINS-DC"]
+      },
+      {
+        "date": "2019-10-20",
+        "event": "Pitched on Shark Tank S11E4; partnered with Mark Cuban for $250,000 for 5% equity plus 5% advisory shares.",
+        "source_ids": ["SNACKLINS-ABC"]
+      },
+      {
+        "date": "2020-03-01",
+        "event": "Mark Cuban Companies listed Snacklins in its active investment portfolio.",
+        "source_ids": ["SNACKLINS-CUBAN"]
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Operates actively at snacklins.com and in nationwide grocery chains.",
+        "source_ids": ["SNACKLINS-SITE"]
+      }
+    ],
+    "registry_records": [
+      {
+        "jurisdiction": "District of Columbia Department of Consumer and Regulatory Affairs",
+        "entity_name": "Snacklins LLC",
+        "entity_number": "File Date 2015-12-14",
+        "status": "active",
+        "events": ["Formation: 2015-12-14"],
+        "source_id": "SNACKLINS-DC",
+        "accessed": "2026-10-16",
+        "limitation": null
+      }
+    ],
+    "claims": [
+      {
+        "id": "SNACKLINS-STATUS",
+        "text": "Snacklins is an active, operating brand producing plant-based crisps distributed through national grocery stores and online at snacklins.com.",
+        "evidence_level": "verified_fact",
+        "source_ids": ["SNACKLINS-SITE", "SNACKLINS-CUBAN"]
+      },
+      {
+        "id": "SNACKLINS-DEAL",
+        "text": "Founder Samy Kobrosly accepted Mark Cuban's investment of $250,000 for 5% equity and 5% advisory shares, and Snacklins remains an active Mark Cuban Companies portfolio entity.",
+        "evidence_level": "strong_corroboration",
+        "source_ids": ["SNACKLINS-CUBAN", "SNACKLINS-ABC"]
+      }
+    ],
+    "sources": [
+      {
+        "id": "SNACKLINS-ABC",
+        "title": "ABC — The Businesses and Products from Season 11, Episode 4 of Shark Tank",
+        "url": "https://abc.com/news/fd12ffdc-af60-416c-906a-8b1847aca56c/category/2887649",
+        "source_type": "official episode roster",
+        "published": "2019-10-20",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SNACKLINS-CUBAN",
+        "title": "Mark Cuban Companies Portfolio — Snacklins",
+        "url": "https://markcubancompanies.com/companies/snacklins/",
+        "source_type": "investor portfolio page",
+        "published": "2020-03-01",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SNACKLINS-SITE",
+        "title": "Snacklins Official Website",
+        "url": "https://snacklins.com/",
+        "source_type": "company website",
+        "published": null,
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "SNACKLINS-DC",
+        "title": "District of Columbia Department of Consumer and Regulatory Affairs — Snacklins LLC",
+        "url": "https://corponline.dcra.dc.gov/",
+        "source_type": "corporate registry",
+        "published": "2015-12-14",
+        "accessed": "2026-10-16"
+      }
+    ],
+    "uncertainties": ["Ongoing production facility capacity and institutional venture co-investors."]
+  }
+]

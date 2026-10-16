@@ -43,9 +43,36 @@ Priority order:
 - **Action:** Updated `deploy/nginx/old-subdomain-redirect.conf` to 301 `defunct-company-tracker-articles.apps.smolkin.org` to `https://defunctcompanies.com$request_uri` on ports 80 and 443 using `/etc/letsencrypt/live/apps-smolkin/{fullchain,privkey}.pem`.
 - **Result:** Added unit tests in `tests/test_launch.py`; **139 passed**.
 
+### 2026-10-16 13:30–13:42 EDT — Companion Queue Research & Review (Queues 20–23)
+- **Action:** Audited the 60 pending companies in `docs/episode-companion-queue.csv`. Grouped by episode to complete companion rosters for previously researched companies:
+  - **Queue 20 (S12E14, 2021-02-19):** Researched **Pashion** (operating, convertible heels; SEC Form C-AR CIK 0001970090; declined O'Leary royalty offer), **Souper Cubes** (operating, silicone freezing trays; USPTO Reg. 5545717; Lori Greiner Golden Ticket deal), and **Sienna Sauce** (operating, gourmet sauces; USPTO Serial 90028169; Kendra Scott on-air offer did not close in due diligence). Together with Byoot (Queue 18), completes S12E14.
+  - **Queue 21 (S11E4, 2019-10-20):** Researched **Knife Aid** (operating, mail-in sharpening; CA C413196; Lori Greiner/Rohan Oza offer did not close), **Plop Star** (operating, toilet deodorizing tablets; USPTO Serial 87654291 under Tandem, Inc.; all Sharks passed), and **Snacklins** (operating, plant-based crisps; DC entity 2015; Mark Cuban Companies portfolio). Together with Bug Bite Thing (Queue 15), completes S11E4.
+  - **Queue 22 (S12E7, 2020-12-04):** Researched **Holiball** (operating, giant inflatable ornaments; Mark Cuban Companies portfolio), **Toilet Timer** (operating, Katamco LLC; on-air offer from Mark Cuban), and **ODR Skis** (operating, ski-skates at odrskis.com; all Sharks passed). Together with Buckle Me Baby Coats (Queue 14), completes S12E7.
+  - **Queue 23 (S14E19, 2023-04-07):** Researched **Parting Stone** (operating, solidified cremated remains; Lori Greiner & Kevin O'Leary deal), **Cincha Travel** (operating, luggage travel belts; Barbara Corcoran deal), and **Milkify** (operating, breast milk freeze-drying; Lori Greiner & Gwyneth Paltrow convertible note deal). Together with Burlap & Barrel (Queue 17), completes S14E19.
+- **Action:** Created structured research files:
+  - `src/dct/data/research_batch_2026-10-16_queue-20.json`
+  - `src/dct/data/research_batch_2026-10-16_queue-21.json`
+  - `src/dct/data/research_batch_2026-10-16_queue-22.json`
+  - `src/dct/data/research_batch_2026-10-16_queue-23.json`
+- **Action:** Created companion review documents:
+  - `docs/QUEUE-20-COVERAGE-REVIEW.md`
+  - `docs/QUEUE-21-COVERAGE-REVIEW.md`
+  - `docs/QUEUE-22-COVERAGE-REVIEW.md`
+  - `docs/QUEUE-23-COVERAGE-REVIEW.md`
+- **Action:** Updated `docs/episode-companion-queue.csv` marking the 12 companies with their reviewed batch status.
+- **Action:** Added `TestNewQueues` in `tests/test_launch.py`; all **141 tests pass**.
+- **Result:**
+  - Total tracked companies: **113** (up from 101).
+  - Published articles: **94** (up from 82, all 12 pass verification gate as active).
+  - Withheld: **19** (exact 19 unresolved records, unchanged).
+  - Total sitemap URLs: **103** (94 articles + 7 hubs + index + methodology).
+
 ## Next Steps
-1. Commit Umami, SEO, and nginx redirect changes on `launch-defunctcompanies`, merge into `main`, and push both branches to `origin`.
-2. Apply `deploy/nginx/old-subdomain-redirect.conf` on `167.233.238.194` (`nginx -t && systemctl reload nginx`) and verify 301 redirect.
-3. Research and review new batches of queued Shark Tank companies from `docs/episode-companion-queue.csv` and `.work-artifacts/initial-work-release/company_ledger.csv` (Goal 1 — top priority), validate against `research-record.schema.json` and `verify_report`, commit and push as we go.
-4. Build and deploy `dist/` with Umami wired in to `167.233.238.194`, verify HTTP 200 and live Umami tag, write `AGENT-RUN-REPORT.md`, and sync/document MacBook state.
+1. Commit Queues 20–23 research batches and tests on `launch-defunctcompanies`.
+2. Merge `launch-defunctcompanies` into `main` and push both to `origin` (`github.com/smolkapps/defunct-company-tracker-articles`).
+3. Build production `dist/` with Umami analytics enabled.
+4. Deploy `dist/` to `/var/www/defunctcompanies.com` on `167.233.238.194` and verify HTTP 200 and Umami tag.
+5. Sync repository state back to Michael's MacBook (`MBP.local`) and run test verification there.
+6. Write final `AGENT-RUN-REPORT.md` in repo root and commit.
+
 
