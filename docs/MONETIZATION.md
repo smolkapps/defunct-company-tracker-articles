@@ -107,3 +107,16 @@ Before submitting, confirm legal account details, review current program terms
 and any fee, and obtain action-time agreement confirmation if required by the
 browser. Approval is an external provider decision; an application is not an
 approved earning link.
+
+## Sole trader setup authorized
+
+Michael confirmed there is no existing Awin account and authorized individual
+sole trader enrollment under the Defunct Company Tracker publisher brand. Use
+Michael Smolkin for legal identity and awin@michaelcli.com for account email.
+The initial Company Name field explicitly allows a website name for publishers
+without a registered business, so it contains Defunct Company Tracker.
+Tax residency remains unconfirmed; the form disables personal/login fields
+until a country is selected. The owner has been asked to confirm it.
+No account exists yet; do not describe the brand-field draft as enrollment.
+New-password entry is owner handoff under the browser's credential rules. Tax
+IDs/W-9/banking must be entered directly into the provider, never chat or git.

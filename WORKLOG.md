@@ -134,3 +134,10 @@ Priority order:
 - Dedicated Grok app is signed out; no bot message sent. Many local coding-agent processes were active, so no additional local worker was spawned.
 - SSH confirmed actual nginx root /var/www/defunctcompanies.com and absent current symlink: repo deployment assumptions differ from live setup. Active origin log verified with aggregate-only output: 2,203 requests, not human demand.
 - Next: resolve account access, obtain approved earning link, complete appropriate release verification, deploy against actual root with backup, and verify attribution.
+
+### October 16 — Sole trader enrollment authorized
+- Michael confirmed no existing Awin account and authorized sole trader setup using Defunct Company Tracker as the publisher brand and his real name for legal details.
+- Opened Cincha-linked Awin signup in the agent-owned in-app browser and entered the publisher brand. Awin explicitly permits a website name here for an unregistered business.
+- Tax-residency choice is required before personal/login fields are enabled. Asked Michael to confirm the country; do not infer residency from location.
+- Account email will be awin@michaelcli.com per standing registration guidance. No account has been created, no password entered, no agreement accepted, no deposit paid and no tax/bank data requested in chat.
+- Browser tab retained for handoff. Once residency is confirmed, continue permitted setup; owner must handle new-password entry under browser rules and directly enter sensitive tax information when required.
