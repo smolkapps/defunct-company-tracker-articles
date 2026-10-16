@@ -89,7 +89,9 @@ class TestSiteBuild:
         out = str(tmp_path / "site")
         SiteGenerator(site_url="https://example.com").build(_result(), out)
         sm = open(os.path.join(out, "sitemap.xml"), encoding="utf-8").read()
-        assert "https://example.com/index.html" in sm
+        # the root URL matches the index canonical (".../"), not /index.html
+        assert "<loc>https://example.com/</loc>" in sm
+        assert "https://example.com/index.html" not in sm
         assert "https://example.com/companies/pets-com.html" in sm
 
     def test_canonical_and_robots_use_configured_site_url(self, tmp_path):

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://defunct-company-tracker-articles.apps.smolkin.org/schemas/research-record.json",
+  "$id": "https://defunctcompanies.com/schemas/research-record.json",
   "title": "Shark Tank company research record",
   "type": "object",
   "additionalProperties": false,

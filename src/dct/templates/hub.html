@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}{{ hub_title }} | {{ site_name }}{% endblock %}
+{% block description %}{{ hub_intro }} {{ members | length }} companies, each with cited sources.{% endblock %}
+{% block head_extra %}
+{% if jsonld %}
+<script type="application/ld+json">
+{{ jsonld | safe }}
+</script>
+{% endif %}
+{% endblock %}
+{% block content %}
+<p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>
+<h1>{{ hub_title }}</h1>
+<p class="lede">{{ hub_intro }}</p>
+
+<nav class="hub-nav" aria-label="Browse companies">
+  {% for h in hubs %}
+  {% if h.path == current_path %}<strong>{{ h.title }} ({{ h.count }})</strong>{% else %}<a href="{{ rel_root }}{{ h.path }}">{{ h.title }} ({{ h.count }})</a>{% endif %}{% if not loop.last %} &middot; {% endif %}
+  {% endfor %}
+</nav>
+
+<table class="company-table">
+  <thead>
+    <tr><th>Company</th><th>Status</th><th>As of</th><th>Sources</th></tr>
+  </thead>
+  <tbody>
+    {% for r in members %}
+    <tr>
+      <td><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></td>
+      <td><span class="badge badge-{{ r.status.value }}">{{ r.status.value }}</span></td>
+      <td>{{ r.as_of or "—" }}</td>
+      <td>{{ r.citations | length }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if pending %}
+<details class="unverified">
+  <summary>{{ pending | length }} more companies are still being researched</summary>
+  <p>These pages document evidence gathered so far; no current status is claimed until it can be verified.</p>
+  <ul>
+    {% for r in pending %}
+    <li><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}
+{% endblock %}

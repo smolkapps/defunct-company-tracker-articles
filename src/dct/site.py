@@ -6,6 +6,8 @@ Renders the verified status reports into a self-contained static website:
       index.html            (table of verified companies + collapsed unverified)
       methodology.html       (how statuses are determined / verified)
       companies/<slug>.html  (one article per VERIFIED company)
+      status/<status>.html   (hub: verified companies with that status)
+      collections/<name>.html (hub: Shark Tank companies vs other companies)
       assets/style.css
 
 Only :pyattr:`StatusReport.publishable` reports get their own article page and
@@ -20,6 +22,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 from datetime import datetime, timezone
 from typing import Any, Iterable
@@ -28,6 +31,32 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .models import Status, StatusReport
 from .pipeline import PipelineResult
+
+SHARK_TANK_TAG = "shark-tank"
+
+#: human labels for status hub pages (only statuses with >=1 published company
+#: get a page)
+STATUS_HUB_LABELS: dict[str, tuple[str, str]] = {
+    "active": ("Still in business", "Companies verified as still operating."),
+    "acquired": ("Acquired companies", "Companies verified as acquired by another business."),
+    "merged": ("Merged companies", "Companies verified as merged into another entity."),
+    "defunct": ("Defunct companies", "Companies verified as closed, dissolved or no longer operating."),
+    "bankrupt": ("Bankrupt companies", "Companies verified as having gone through bankruptcy."),
+    "renamed": ("Renamed companies", "Companies verified as now trading under a different name."),
+    "canceled": ("Canceled companies", "Companies verified as canceled."),
+    "dissolved_recreated": ("Dissolved and recreated", "Companies dissolved and later recreated."),
+}
+
+COLLECTIONS: dict[str, tuple[str, str]] = {
+    "shark-tank": (
+        "Shark Tank companies: where are they now?",
+        "Businesses that pitched on ABC's Shark Tank, with their verified current status and sources.",
+    ),
+    "other-companies": (
+        "Other notable companies",
+        "Well-known companies outside Shark Tank, tracked with the same source-cited method.",
+    ),
+}
 
 _PKG_DIR = os.path.dirname(os.path.abspath(__file__))
 # templates/static are shipped INSIDE the package so the generator works both
@@ -46,7 +75,7 @@ def _jsonld_for(report: StatusReport, site_url: str) -> str:
         "dissolutionDate": report.as_of
         if report.status in {Status.DEFUNCT, Status.BANKRUPT} and report.as_of
         else None,
-        "url": report.company.domain,
+        "url": _absolute_url(report.company.domain),
         "alternateName": list(report.company.aliases) or None,
         "subjectOf": [
             {"@type": "WebPage", "url": c.url, "name": c.title}
@@ -56,6 +85,14 @@ def _jsonld_for(report: StatusReport, site_url: str) -> str:
     }
     node = {k: v for k, v in node.items() if v is not None}
     return _json_for_script(node)
+
+
+def _absolute_url(domain: str | None) -> str | None:
+    """schema.org ``url`` must be absolute; bare domains get ``https://``."""
+    if not domain:
+        return None
+    d = domain.strip()
+    return d if re.match(r"^https?://", d, re.I) else f"https://{d}"
 
 
 def _json_for_script(obj) -> str:
@@ -100,6 +137,7 @@ class SiteGenerator:
             "site_description": self.site_description,
             "site_url": self.site_url,
             "og_image_url": f"{self.site_url}/assets/og.png" if self.site_url else "",
+            "has_shark_hub": getattr(self, "_has_shark_hub", False),
             "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         }
         base.update(extra)
@@ -120,6 +158,8 @@ class SiteGenerator:
         # copy static assets
         if os.path.isdir(self.static_dir):
             for fn in os.listdir(self.static_dir):
+                if fn.startswith("._") or fn == ".DS_Store":
+                    continue  # macOS metadata, never publish
                 shutil.copy2(
                     os.path.join(self.static_dir, fn), os.path.join(assets_dir, fn)
                 )
@@ -130,6 +170,15 @@ class SiteGenerator:
             record["company"]["name"].casefold(): record
             for record in research_records
         }
+
+        def is_shark_tank(r: StatusReport) -> bool:
+            return (
+                SHARK_TANK_TAG in r.company.tags
+                or r.company.name.casefold() in research_by_name
+            )
+
+        self._has_shark_hub = any(is_shark_tank(r) for r in published)
+
         n_companies = len(result.reports)
         root_url = f"{self.site_url}/" if self.site_url else ""
         published_by_slug = {r.company.slug: r for r in published}
@@ -142,7 +191,7 @@ class SiteGenerator:
 
         # --- article pages (verified only) -------------------------------- #
         article_tpl = self.env.get_template("article.html")
-        written_pages: list[str] = []
+        written_pages: list[tuple[str, str]] = []
         for r in published:
             detail = research_by_name.get(r.company.name.casefold())
             article_url = (
@@ -169,7 +218,7 @@ class SiteGenerator:
             )
             path = os.path.join(companies_dir, f"{r.company.slug}.html")
             _write(path, html)
-            written_pages.append(f"companies/{r.company.slug}.html")
+            written_pages.append((f"companies/{r.company.slug}.html", r.as_of))
 
         # Unresolved companies with a substantive research record get a public,
         # noindex evidence page.  It documents blockers without promoting an
@@ -214,6 +263,72 @@ class SiteGenerator:
             _write(path, html)
             research_only_pages.append(f"companies/{r.company.slug}.html")
 
+        # --- hub pages ------------------------------------------------------ #
+        hub_tpl = self.env.get_template("hub.html")
+        hub_pages: list[tuple[str, str]] = []
+        status_hubs: list[dict[str, Any]] = []
+        for value, (title, intro) in STATUS_HUB_LABELS.items():
+            members = [r for r in published if r.status.value == value]
+            if not members:
+                continue
+            status_hubs.append(
+                {"path": f"status/{value}.html", "title": title, "count": len(members)}
+            )
+        collection_hubs: list[dict[str, Any]] = []
+        collection_members = {
+            "shark-tank": [r for r in published if is_shark_tank(r)],
+            "other-companies": [r for r in published if not is_shark_tank(r)],
+        }
+        for key, (title, intro) in COLLECTIONS.items():
+            if collection_members[key]:
+                collection_hubs.append(
+                    {
+                        "path": f"collections/{key}.html",
+                        "title": title,
+                        "count": len(collection_members[key]),
+                    }
+                )
+        all_hubs = collection_hubs + status_hubs
+
+        def _render_hub(path: str, title: str, intro: str, members, pending=()):
+            url = f"{self.site_url}/{path}" if self.site_url else ""
+            html = hub_tpl.render(
+                **self._ctx(
+                    hub_title=title,
+                    hub_intro=intro,
+                    members=members,
+                    pending=list(pending),
+                    hubs=all_hubs,
+                    current_path=path,
+                    rel_root="../",
+                    canonical_url=url,
+                    n_companies=n_companies,
+                    jsonld=_itemlist_jsonld(title, url, members, self.site_url),
+                )
+            )
+            _write(os.path.join(out_dir, path), html)
+            hub_pages.append((path, _latest_as_of(members)))
+
+        for value, (title, intro) in STATUS_HUB_LABELS.items():
+            members = [r for r in published if r.status.value == value]
+            if members:
+                _render_hub(f"status/{value}.html", title, intro, members)
+        for key, (title, intro) in COLLECTIONS.items():
+            members = collection_members[key]
+            if not members:
+                continue
+            pending = (
+                [
+                    r
+                    for r in unpublished
+                    if is_shark_tank(r)
+                    and r.company.name.casefold() in research_by_name
+                ]
+                if key == "shark-tank"
+                else []
+            )
+            _render_hub(f"collections/{key}.html", title, intro, members, pending)
+
         # --- index --------------------------------------------------------- #
         index_html = self.env.get_template("index.html").render(
             **self._ctx(
@@ -230,6 +345,8 @@ class SiteGenerator:
                     if r.company.name.casefold() in research_by_name
                 },
                 n_companies=n_companies,
+                status_hubs=status_hubs,
+                collection_hubs=collection_hubs,
             )
         )
         _write(os.path.join(out_dir, "index.html"), index_html)
@@ -246,23 +363,43 @@ class SiteGenerator:
         _write(os.path.join(out_dir, "methodology.html"), method_html)
 
         # --- sitemap ------------------------------------------------------- #
-        self._write_sitemap(out_dir, ["index.html", "methodology.html", *written_pages])
+        latest = _latest_as_of(published)
+        self._write_sitemap(
+            out_dir,
+            [
+                ("", latest),
+                ("methodology.html", ""),
+                *hub_pages,
+                *written_pages,
+            ],
+        )
         self._write_robots(out_dir)
 
         return {
-            "pages": len(written_pages) + len(research_only_pages) + 2,
+            "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 2,
             "articles": len(written_pages),
             "research_only": len(research_only_pages),
             "withheld": len(unpublished),
+            "hubs": len(hub_pages),
         }
 
-    def _write_sitemap(self, out_dir: str, paths: Iterable[str]) -> None:
+    def _write_sitemap(
+        self, out_dir: str, entries: Iterable[str | tuple[str, str]]
+    ) -> None:
+        """Write sitemap.xml. Entries are paths or ``(path, lastmod)`` pairs;
+        an empty path means the site root. ``lastmod`` comes from the research
+        ``as_of`` date and is omitted when it is not a valid W3C date."""
+        from xml.sax.saxutils import escape
+
         base = self.site_url or ""
         lines = ['<?xml version="1.0" encoding="UTF-8"?>']
         lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
-        for p in paths:
-            loc = f"{base}/{p}" if base else p
-            lines.append(f"  <url><loc>{loc}</loc></url>")
+        for entry in entries:
+            p, lastmod = (entry, "") if isinstance(entry, str) else entry
+            loc = f"{base}/{p}" if base else (p or "index.html")
+            lm = _w3c_date(lastmod)
+            lm_xml = f"<lastmod>{lm}</lastmod>" if lm else ""
+            lines.append(f"  <url><loc>{escape(loc)}</loc>{lm_xml}</url>")
         lines.append("</urlset>")
         _write(os.path.join(out_dir, "sitemap.xml"), "\n".join(lines) + "\n")
 
@@ -271,6 +408,42 @@ class SiteGenerator:
         if self.site_url:
             lines.append(f"Sitemap: {self.site_url}/sitemap.xml")
         _write(os.path.join(out_dir, "robots.txt"), "\n".join(lines) + "\n")
+
+
+_W3C_DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+
+
+def _w3c_date(value: str | None) -> str:
+    """Return ``value`` if it is a W3C date (YYYY, YYYY-MM or YYYY-MM-DD)."""
+    value = (value or "").strip()
+    return value if _W3C_DATE_RE.match(value) else ""
+
+
+def _latest_as_of(reports: Iterable[StatusReport]) -> str:
+    """Latest full ``YYYY-MM-DD`` as_of date among ``reports`` (or "")."""
+    dates = [r.as_of for r in reports if re.match(r"^\d{4}-\d{2}-\d{2}$", r.as_of or "")]
+    return max(dates) if dates else ""
+
+
+def _itemlist_jsonld(
+    title: str, url: str, members: Iterable[StatusReport], site_url: str
+) -> str:
+    items = []
+    for i, r in enumerate(members, start=1):
+        item: dict[str, Any] = {"@type": "ListItem", "position": i, "name": r.company.name}
+        if site_url:
+            item["url"] = f"{site_url}/companies/{r.company.slug}.html"
+        items.append(item)
+    node: dict[str, Any] = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": title,
+        "numberOfItems": len(items),
+        "itemListElement": items,
+    }
+    if url:
+        node["url"] = url
+    return _json_for_script(node)
 
 
 def _write(path: str, content: str) -> None:

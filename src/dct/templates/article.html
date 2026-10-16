@@ -166,7 +166,7 @@
     <dl>
       <dt>Confidence</dt><dd>{{ "%.0f"|format(report.confidence * 100) }}%</dd>
       <dt>Verification score</dt><dd>{{ "%.2f"|format(report.verification_score) }}</dd>
-      <dt>Researched</dt><dd>{{ report.retrieved_at }}</dd>
+      {% if report.as_of %}<dt>{% if report.as_of | length == 10 %}Researched{% else %}Status as of{% endif %}</dt><dd><time datetime="{{ report.as_of }}">{{ report.as_of }}</time></dd>{% endif %}
     </dl>
   </aside>
 </article>

@@ -21,3 +21,6 @@ coverage.xml
 .idea/
 .vscode/
 .DS_Store
+
+# macOS AppleDouble metadata
+._*

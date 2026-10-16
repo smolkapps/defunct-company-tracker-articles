@@ -90,6 +90,7 @@ when there's no data, by design.
 | --- | --- |
 | `dct build COMPANIES.json` | research + generate the static site |
 | `dct research COMPANIES.json` | research + dump verified reports as JSON |
+| `dct publish` | **production build**: statuses come straight from the reviewed research records (`src/dct/data/research_batch*.json`), no API key |
 | `dct demo` | build the bundled sample site with **no API key** |
 | `dct status` | show whether a live LLM provider is configured |
 
@@ -97,10 +98,35 @@ Useful flags: `--out DIR`, `--cache FILE` / `--no-cache`, `--ttl DAYS`,
 `--force` (ignore cache), `--fixture FILE` (drive the mock provider),
 `--site-url URL`, `--site-name NAME`.
 
-The hosted static build uses `npm run build`, which writes the generated site
-to `dist/` for the app-subdomain deployer. It runs the same deterministic demo
-fixture used by the offline checks, so registry-blocked records remain visible
-as withheld rather than being silently promoted to facts.
+The production site is **https://defunctcompanies.com**. `npm run build` runs
+`dct publish` and writes the site to `dist/` (override the origin with
+`GT_SITE=https://...`). Deployment instructions and nginx/Cloudflare configs
+are in [`deploy/README.md`](deploy/README.md).
+
+### Where published statuses come from
+
+`dct publish` converts every reviewed research record into a status report
+(`src/dct/records.py`) and runs it through the same verification gate as any
+provider result, so nothing bypasses `verify_report`:
+
+* record `status` maps to the site vocabulary (`operating`->active,
+  `closed`/`dissolved`->defunct, `unresolved`->unknown, which is always withheld);
+* a non-unresolved status is only kept if a claim at `verified_fact`,
+  `strong_corroboration` or `credible_report` level backs it with a source that
+  exists in the record; otherwise it is downgraded to unknown (withheld);
+* the status citations are exactly the sources those backing claims cite;
+* the record's `as_of` is the page's "Researched" date and the sitemap `<lastmod>`.
+
+Companies without a research record (the legacy `sample_companies.json` /
+`sample_fixture.json` entries such as Pets.com or Fish Fixe) are still
+included; `--records-only` drops them. When a company has a record, the record
+always wins over its fixture entry, so adding a new reviewed batch only means
+dropping its JSON file into `src/dct/data/`. `npm run build:demo` keeps the old
+fixture-driven build for comparison.
+
+The build also emits hub pages: `status/<status>.html` (active, acquired,
+defunct, bankrupt, renamed, ...) and `collections/shark-tank.html` /
+`collections/other-companies.html`, all included in the sitemap.
 
 ## Caching
 

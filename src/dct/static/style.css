@@ -120,3 +120,8 @@ a:hover { text-decoration: underline; }
   .facts dd { margin-bottom: 0.5rem; }
   .company-table th, .company-table td { padding: 0.45rem 0.35rem; }
 }
+
+/* hub navigation (status / collection pages) */
+.hub-nav { margin: 1rem 0 1.25rem; line-height: 1.9; font-size: 0.95rem; }
+.hub-nav a { white-space: nowrap; }
+.hub-nav strong { white-space: nowrap; }

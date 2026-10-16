@@ -4,6 +4,9 @@
                [--site-url URL] [--force] [--fixture FIXTURE.json]
                [--research-record RESEARCH.json]
     dct research COMPANIES.json [--out reports.json] [...]
+    dct publish [--records GLOB ...] [--companies C.json --fixture F.json]
+               [--records-only] [--out dist] [--site-url URL]
+                                     # production build from reviewed records
     dct demo   [--out site]          # build the bundled sample, no API key
     dct status                       # show whether a live provider is available
 
@@ -29,6 +32,7 @@ from . import __version__
 from .cache import ReportCache
 from .pipeline import load_companies, run_pipeline
 from .providers import AnthropicProvider, MockProvider, default_provider
+from .records import load_record_files, merge_records
 from .site import SiteGenerator
 
 _PKG_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -116,6 +120,33 @@ def cmd_demo(args) -> int:
     return cmd_build(args)
 
 
+def cmd_publish(args) -> int:
+    """Production build: statuses/citations come from reviewed research records.
+
+    Records are converted to provider payloads (see :mod:`dct.records`) and run
+    through the normal verification gate with the offline mock provider, so no
+    network/LLM is ever touched and nothing bypasses ``verify_report``. Legacy
+    companies without a research record (``--companies``/``--fixture``) are
+    still included unless ``--records-only`` is given; when a company has a
+    record, the record always wins over its legacy fixture entry.
+    """
+    records = load_record_files(args.records or [SAMPLE_RESEARCH])
+    legacy_companies = []
+    legacy_fixture: dict[str, Any] = {}
+    if not args.records_only:
+        legacy_companies = load_companies(args.companies or SAMPLE_COMPANIES)
+        legacy_fixture = _load_fixture(args.fixture or SAMPLE_FIXTURE) or {}
+    companies, fixture = merge_records(records, legacy_companies, legacy_fixture)
+    provider = MockProvider(fixture)
+    result = run_pipeline(companies, provider, cache=None, force_refresh=True)
+    gen = SiteGenerator(site_name=args.site_name, site_url=args.site_url or "")
+    stats = gen.build(result, args.out, records)
+    print(f"provider: records ({len(records)} reviewed records)")
+    print(json.dumps({**result.summary(), **stats}, indent=2))
+    print(f"site written to: {os.path.abspath(args.out)}")
+    return 0
+
+
 def cmd_status(args) -> int:
     available = AnthropicProvider.available()
     print(
@@ -179,6 +210,30 @@ def build_parser() -> argparse.ArgumentParser:
     d.add_argument("--site-url", default="")
     d.add_argument("--site-name", default="")
     d.set_defaults(func=cmd_demo)
+
+    pb = sub.add_parser(
+        "publish",
+        help="production build from reviewed research records (no API key)",
+    )
+    pb.add_argument("--out", default="dist", help="output directory")
+    pb.add_argument(
+        "--records",
+        action="append",
+        default=[],
+        help="research-record JSON file or glob (repeatable; default: bundled)",
+    )
+    pb.add_argument(
+        "--companies", help="legacy companies JSON (default: bundled sample)"
+    )
+    pb.add_argument("--fixture", help="legacy fixture JSON (default: bundled sample)")
+    pb.add_argument(
+        "--records-only",
+        action="store_true",
+        help="publish only companies that have a reviewed research record",
+    )
+    pb.add_argument("--site-url", default="", help="absolute site URL")
+    pb.add_argument("--site-name", default="Defunct Company Tracker")
+    pb.set_defaults(func=cmd_publish)
 
     s = sub.add_parser("status", help="show whether a live LLM provider is configured")
     s.set_defaults(func=cmd_status)

@@ -110,6 +110,8 @@ class Company:
     domain: str | None = None
     founded: int | None = None
     notes: str | None = None
+    # free-form classification labels, e.g. ("shark-tank",); used for hub pages
+    tags: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if not self.name or not self.name.strip():
@@ -132,6 +134,7 @@ class Company:
             domain=d.get("domain"),
             founded=d.get("founded"),
             notes=d.get("notes"),
+            tags=tuple(d.get("tags") or ()),
         )
 
 
@@ -211,6 +214,7 @@ class StatusReport:
             "domain": self.company.domain,
             "founded": self.company.founded,
             "notes": self.company.notes,
+            "tags": list(self.company.tags),
         }
         d["citations"] = [c.to_dict() for c in self.citations]
         return d

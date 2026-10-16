@@ -32,6 +32,15 @@
   <span class="stat"><strong>{{ stats.unpublishable }}</strong> unverified</span>
 </section>
 
+{% if status_hubs or collection_hubs %}
+<nav class="hub-nav" aria-label="Browse companies">
+  <strong>Browse:</strong>
+  {% for h in collection_hubs + status_hubs %}
+  <a href="{{ rel_root }}{{ h.path }}">{{ h.title }} ({{ h.count }})</a>{% if not loop.last %} &middot; {% endif %}
+  {% endfor %}
+</nav>
+{% endif %}
+
 {% if published %}
 <table class="company-table">
   <thead>
