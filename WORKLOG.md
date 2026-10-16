@@ -67,12 +67,45 @@ Priority order:
   - Withheld: **19** (exact 19 unresolved records, unchanged).
   - Total sitemap URLs: **103** (94 articles + 7 hubs + index + methodology).
 
-## Next Steps
-1. Commit Queues 20–23 research batches and tests on `launch-defunctcompanies`.
-2. Merge `launch-defunctcompanies` into `main` and push both to `origin` (`github.com/smolkapps/defunct-company-tracker-articles`).
-3. Build production `dist/` with Umami analytics enabled.
-4. Deploy `dist/` to `/var/www/defunctcompanies.com` on `167.233.238.194` and verify HTTP 200 and Umami tag.
-5. Sync repository state back to Michael's MacBook (`MBP.local`) and run test verification there.
-6. Write final `AGENT-RUN-REPORT.md` in repo root and commit.
+
+### 2026-10-16 13:43–13:47 EDT — Production Build, Deployment, and Live Verification
+- **Action:** Committed Queues 20–23 research batches, coverage reviews, queue updates, and tests in commit `1411823` (`Add reviewed twentieth through twenty-third Shark Tank batches`). Merged `launch-defunctcompanies` into `main` and pushed both branches to GitHub `origin`.
+- **Action:** Executed production static site build with live Umami tracking enabled:
+  ```bash
+  DCT_UMAMI_WEBSITE_ID=d4f8c012-7e3b-49a5-9c1d-5b8e2f6a9014 DCT_PYTHON=.venv/bin/python3 npm run build
+  ```
+  Generated 122 pages (94 published articles, 19 withheld research-only records, 7 collection/status hubs, index, methodology, and 103-entry sitemap.xml).
+- **Action:** Deployed `dist/` to the live Hetzner host (`167.233.238.194`):
+  ```bash
+  rsync -avz --delete dist/ root@167.233.238.194:/var/www/defunctcompanies.com/
+  ssh -i ~/.ssh/bookmap-hetzner root@167.233.238.194 "chown -R www-data:www-data /var/www/defunctcompanies.com"
+  ```
+- **Action:** Installed and enabled `/etc/nginx/sites-available/defunct-company-tracker-articles.apps.smolkin.org` on `167.233.238.194`, symlinked to `sites-enabled/`, verified `nginx -t`, and reloaded nginx.
+- **Action:** Verified live endpoints over public network:
+  - `curl -sI https://defunctcompanies.com/` -> `HTTP/2 200`
+  - `curl -sI https://defunctcompanies.com/companies/souper-cubes.html` -> `HTTP/2 200`
+  - Verified Umami tracking tag present in live HTML: `<script defer src="https://umami.smolkin.org/script.js" data-website-id="d4f8c012-7e3b-49a5-9c1d-5b8e2f6a9014"></script>`
+  - `curl -sI https://defunct-company-tracker-articles.apps.smolkin.org/companies/souper-cubes.html` -> `HTTP/2 301`, `location: https://defunctcompanies.com/companies/souper-cubes.html`
+- **Action:** Tested inbound SSH connectivity to Michael's MacBook (`MBP.local` / `100.64.0.3`). Direct inbound SSH requires public key installation in MacBook's `~/.ssh/authorized_keys`. Prepared clipboard-piped command (`pbcopy`) for fast pull and test execution on MBP.
+- **Action:** Wrote detailed `AGENT-RUN-REPORT.md` covering executive summary, research breakdown, metrics before vs. after, live verification, and decision items.
+
+---
+
+## Current State & Next Steps
+
+### Current State
+- **Live Site:** https://defunctcompanies.com is fully operational with 94 published verified company articles and active Umami analytics.
+- **Old Subdomain Redirect:** `defunct-company-tracker-articles.apps.smolkin.org` cleanly 301s to `https://defunctcompanies.com` with path preservation.
+- **Git State:** `launch-defunctcompanies` and `main` branches are aligned with `origin` on GitHub (`git@github.com:smolkapps/defunct-company-tracker-articles.git`).
+- **Tests:** 141 tests passing in `.venv/bin/pytest`.
+
+### Next Steps (for Michael)
+1. Pull and test on MacBook via clipboard command:
+   ```bash
+   cd ~/Documents/projects/2026/defunct-company-tracker-articles && git fetch origin && git checkout launch-defunctcompanies && git pull origin launch-defunctcompanies && .venv/bin/pytest
+   ```
+2. Consider submitting `https://defunctcompanies.com/sitemap.xml` to Google Search Console and Bing Webmaster Tools.
+3. Review decisions in `AGENT-RUN-REPORT.md` regarding legacy non-Shark Tank companies and future companion queue processing.
+
 
 
