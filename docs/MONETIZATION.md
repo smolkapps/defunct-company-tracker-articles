@@ -135,3 +135,20 @@ Requested sign-in email was delivered to Michael's recipient mail provider
 (queue 845756A830, accepted 250 on October16). Password is deliberately not
 retained here. After submission, verify email activation and actual Awin/Cincha
 approval before configuring earning URLs or describing the site as monetized.
+
+## Application received — latest state
+
+The existing Awin signup tab now shows /publisher-signup/us/awin/success and
+Application Received. Awin says review is ongoing and updates will arrive by
+email. This state was observed before this agent performed a final acceptance
+or submit action; no duplicate submission was attempted. Account acceptance,
+email activation, advertiser approval and payout readiness remain unverified.
+
+Terms reviewed: US AWIN LTD Publisher Standard Terms (August2025), user
+agreement, privacy policy, GDPR/US privacy annexes, publisher code. Do not treat
+Awin as indefinite credit storage: clauses7.12 and14.4/15.2 include forfeiture
+conditions. Before affiliate activation add the applicable privacy disclosures
+and consent handling; existing generic merchant links alone do not establish
+Awin tracking/privacy compliance. Sole trader takes the contractual obligations
+personally, including warranties/indemnity; formation of a later LLC does not
+automatically transfer the agreement (clause17.6 requires written consent).
