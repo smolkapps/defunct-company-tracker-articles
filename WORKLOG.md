@@ -109,3 +109,12 @@ Priority order:
 
 
 
+
+## 2026-10-16 — Monetization continuation (current scope)
+
+- Current user goal: monetize the website; do not duplicate completed launch work.
+- Current authority: local changes/commits only; no push, deploy, SSH, server/DNS or paid-service changes. This supersedes the operational scope in the historical Goal section for this run.
+- Reverified 141 passing tests and successful production build: 94 published, 19 withheld, 7 hubs. Public checks confirmed live analytics tag, correct canonical, 103 sitemap URLs and path/query-preserving old-domain 301. Actual log ingestion and earnings remain unverified.
+- No revenue integration exists. Researched primary merchant/network program pages; Cincha Awin is a concrete publisher candidate, Pashion requires creator eligibility review. Details and completion requirements saved in docs/MONETIZATION.md.
+- Asked Michael for revenue-model preference. Next: implement the chosen bounded integration using real approved destination(s), verify locally, then seek only the final authority needed for live activation.
+- Portfolio catalog still contains the former domain/counts; update locally to verified public state, preserving unrelated entries.
