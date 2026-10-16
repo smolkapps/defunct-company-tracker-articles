@@ -127,3 +127,10 @@ Priority order:
 ### Responsive verification and activation boundary
 - Rechecked clean branch at 07e81ca. Opened the task-owned local preview at 390×844; DOM confirmed innerWidth 390, no document horizontal overflow, and affiliate block within x=20..370. Inspected mobile screenshot; disclosure and shop link visible. Desktop screenshot was clipped by the browser display surface, so retain earlier desktop inspection rather than claim a new full-width visual pass. Console reported no warnings/errors. Closed preview and restored viewport.
 - No merchant tracking URL, affiliate approval, revenue-model answer or deployment authorization has arrived. These remain required for live revenue activation. Do not turn placeholder links into production offers or repeat implementation work.
+
+### October 16 — Owner authorized monetization deployment
+- Michael delegated revenue-model selection and explicitly authorized deployment. This supersedes the earlier deployment restriction for necessary monetization work. No new spending/outreach or git push inferred.
+- Chose relevant direct merchant affiliates; current configured links remain empty. Awin Cincha application opened read-only in agent-owned browser; requires confirmed account/payee/tax residency. Asked Michael for existing account or accurate details. No submission or agreement acceptance.
+- Dedicated Grok app is signed out; no bot message sent. Many local coding-agent processes were active, so no additional local worker was spawned.
+- SSH confirmed actual nginx root /var/www/defunctcompanies.com and absent current symlink: repo deployment assumptions differ from live setup. Active origin log verified with aggregate-only output: 2,203 requests, not human demand.
+- Next: resolve account access, obtain approved earning link, complete appropriate release verification, deploy against actual root with backup, and verify attribution.

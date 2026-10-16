@@ -36,17 +36,14 @@ measure outbound clicks separately from purchases. An outbound click is intent,
 not earned revenue. Withheld and closed-company pages should not receive
 shopping recommendations merely because a similarly named product exists.
 
-A disabled direct-merchant implementation is prepared pending the owner's revenue-model preference (asked in chat). Before activation, obtain approved tracking links and verify provider
+Michael delegated the revenue-model choice; use relevant merchant affiliate links as the first experiment. Before activation, obtain approved tracking links and verify provider
 attribution and payout eligibility. Review actual traffic before expanding to
 more programs. Sponsorships require honest audience evidence; no fabricated
 reach claims. Tips require an owner-approved destination.
 
 ## Authority and completion
 
-The active goal is to monetize the website. Earlier explicit restrictions still
-prohibit git push, deployment, SSH, server/DNS changes and paid services. Local
-preparation and commits are allowed. No account applications, outgoing messages,
-payment changes or live monetization activation were performed in this audit.
+The active goal is to monetize the website. Michael subsequently authorized choosing the revenue model and deploying it (2026-10-16). Necessary deployment/server inspection is now authorized. Git push, unrelated server/DNS work, spending and outreach are not inferred from that authorization. Provider agreements and sensitive account details still require the appropriate owner action. No application has been submitted and no live monetization has been activated.
 Historical WORKLOG deployment permissions describe a different agent's run and
 do not override the current restrictions.
 
@@ -75,3 +72,38 @@ Verification: 150 tests passed; production build passed with no commercial confi
 A separate temporary preview used an example.com destination and the disclosure
 was inspected in the in-app browser. No commission link was clicked, no analytics
 ingestion or attribution was proven. At 390×844, the disclosure block fits within the viewport (350px wide, no document horizontal overflow). Browser console returned no warnings/errors. These are responsive browser checks, not physical-device or attribution verification.
+
+## Reopened activation — October 16
+
+Deployment is now authorized. Read-only SSH confirmed nginx serves
+`/var/www/defunctcompanies.com` directly, not its `current` subdirectory;
+`current` is not a symlink. The current deploy script assumes the latter.
+Before deploying, either prepare a reviewed migration to release directories
+with rollback or deploy to the actual root with a full backup. Do not report a
+symlink switch as a live deployment without checking nginx's effective root.
+
+Origin access logging is active: the file contained 2,203 requests on October 16
+at inspection (710 with clearly automated user agents, 1,493 other/unknown).
+These are request counts, not human users or affiliate-ready traffic. No client
+IPs or raw log lines were retained.
+
+Awin signup for Cincha was opened in the agent-owned browser. It requires a
+company/payee name and tax residency in addition to identity/login fields. No
+fields submitted; existing-account status and tax residency requested from
+Michael. Use `awin@michaelcli.com` only if a new account is actually needed.
+Never guess residency or create a duplicate publisher account. The dedicated
+Grok Bot app currently shows signed-out state, so its prior work is inaccessible.
+
+Application description prepared from verified site facts:
+
+> Defunct Company Tracker (defunctcompanies.com) is an independent reference
+> site publishing source-cited company status articles, including Shark Tank
+> companies. It currently has 94 published articles and 19 explicitly withheld
+> research records. We propose disclosed editorial affiliate links on relevant
+> verified operating-company articles. We do not claim an established audience,
+> paid search program, coupon operation or existing affiliate revenue.
+
+Before submitting, confirm legal account details, review current program terms
+and any fee, and obtain action-time agreement confirmation if required by the
+browser. Approval is an external provider decision; an application is not an
+approved earning link.
