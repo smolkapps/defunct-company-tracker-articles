@@ -141,3 +141,9 @@ Priority order:
 - Tax-residency choice is required before personal/login fields are enabled. Asked Michael to confirm the country; do not infer residency from location.
 - Account email will be awin@michaelcli.com per standing registration guidance. No account has been created, no password entered, no agreement accepted, no deposit paid and no tax/bank data requested in chat.
 - Browser tab retained for handoff. Once residency is confirmed, continue permitted setup; owner must handle new-password entry under browser rules and directly enter sensitive tax information when required.
+
+### US residency confirmed — password handoff
+- Michael confirmed United States tax residency. Selected United States of America in Awin; verified selected state.
+- Filled authorized name and awin@michaelcli.com plus email confirmation. Publisher brand remains Defunct Company Tracker.
+- Password fields left empty, no account submission performed. Shown and retained in-app browser tab for owner to enter new password and confirmation directly. Browser rules require owner handoff for new credential entry.
+- Tax ID/W-9/bank entry has not been reached. Resume promotional profile preparation after owner completes password step; inspect before any agreement/deposit action.
