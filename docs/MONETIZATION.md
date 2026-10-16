@@ -74,4 +74,4 @@ disclosures and approved site/account setup must be implemented first.
 Verification: 150 tests passed; production build passed with no commercial config.
 A separate temporary preview used an example.com destination and the disclosure
 was inspected in the in-app browser. No commission link was clicked, no analytics
-ingestion or attribution was proven. Responsive mobile QA remains outstanding.
+ingestion or attribution was proven. At 390×844, the disclosure block fits within the viewport (350px wide, no document horizontal overflow). Browser console returned no warnings/errors. These are responsive browser checks, not physical-device or attribution verification.

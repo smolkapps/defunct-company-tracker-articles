@@ -123,3 +123,7 @@ Priority order:
 - Added disabled-by-default DCT_AFFILIATE_LINKS JSON config and Python override. Validates HTTPS links and displays only on verified active articles. Adds preceding disclosure, sponsored link attributes and company-specific Umami click event attributes.
 - Added 9 tests covering default omission, config precedence, unsafe destinations, active/closed/unverified separation and escaped tracking query strings. 150 tests pass; production build succeeds.
 - Inspected Cincha preview disclosure in the in-app browser with example.com URL; no real tracking links configured or clicked. Closed preview tab/server. Mobile QA, merchant approval/link issuance and live activation remain outstanding. No push/deploy/SSH.
+
+### Responsive verification and activation boundary
+- Rechecked clean branch at 07e81ca. Opened the task-owned local preview at 390×844; DOM confirmed innerWidth 390, no document horizontal overflow, and affiliate block within x=20..370. Inspected mobile screenshot; disclosure and shop link visible. Desktop screenshot was clipped by the browser display surface, so retain earlier desktop inspection rather than claim a new full-width visual pass. Console reported no warnings/errors. Closed preview and restored viewport.
+- No merchant tracking URL, affiliate approval, revenue-model answer or deployment authorization has arrived. These remain required for live revenue activation. Do not turn placeholder links into production offers or repeat implementation work.
