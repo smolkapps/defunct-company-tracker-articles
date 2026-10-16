@@ -1,4 +1,13 @@
 {% extends "base.html" %}
+{% block title %}{{ site_name }} — Is It Still in Business? Verified Company Statuses{% endblock %}
+{% block description %}{{ site_description }} Browse {{ stats.publishable }} verified company status reports with primary sources and timelines.{% endblock %}
+{% block head_extra %}
+{% if jsonld %}
+<script type="application/ld+json">
+{{ jsonld | safe }}
+</script>
+{% endif %}
+{% endblock %}
 {% block content %}
 <h1>{{ site_name }}</h1>
 <p class="lede">{{ site_description }}</p>

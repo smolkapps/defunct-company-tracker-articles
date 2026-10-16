@@ -78,6 +78,8 @@ def cmd_build(args) -> int:
     gen = SiteGenerator(
         site_name=args.site_name,
         site_url=args.site_url or "",
+        umami_website_id=getattr(args, "umami_website_id", None),
+        umami_script_url=getattr(args, "umami_script_url", None),
     )
     records = _load_research_records(getattr(args, "research_records", []))
     stats = gen.build(result, args.out, records)
@@ -139,7 +141,12 @@ def cmd_publish(args) -> int:
     companies, fixture = merge_records(records, legacy_companies, legacy_fixture)
     provider = MockProvider(fixture)
     result = run_pipeline(companies, provider, cache=None, force_refresh=True)
-    gen = SiteGenerator(site_name=args.site_name, site_url=args.site_url or "")
+    gen = SiteGenerator(
+        site_name=args.site_name,
+        site_url=args.site_url or "",
+        umami_website_id=getattr(args, "umami_website_id", None),
+        umami_script_url=getattr(args, "umami_script_url", None),
+    )
     stats = gen.build(result, args.out, records)
     print(f"provider: records ({len(records)} reviewed records)")
     print(json.dumps({**result.summary(), **stats}, indent=2))
@@ -168,6 +175,18 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--version", action="version", version=f"dct {__version__}")
     sub = p.add_subparsers(dest="command", required=True)
 
+    def add_umami(sp):
+        sp.add_argument(
+            "--umami-website-id",
+            default=None,
+            help="Umami analytics website ID (default: DCT_UMAMI_WEBSITE_ID / UMAMI_WEBSITE_ID env)",
+        )
+        sp.add_argument(
+            "--umami-script-url",
+            default=None,
+            help="Umami analytics script URL (default: https://umami.smolkin.org/script.js)",
+        )
+
     def add_common(sp):
         sp.add_argument("--cache", default=".dct-cache.json", help="cache file path")
         sp.add_argument("--no-cache", action="store_true", help="disable caching")
@@ -183,6 +202,7 @@ def build_parser() -> argparse.ArgumentParser:
             "--site-url", default="", help="absolute site URL for sitemap/JSON-LD"
         )
         sp.add_argument("--site-name", default="Defunct Company Tracker")
+        add_umami(sp)
 
     b = sub.add_parser("build", help="research companies and generate the static site")
     b.add_argument("companies", help="path to companies JSON")
@@ -209,6 +229,7 @@ def build_parser() -> argparse.ArgumentParser:
     d.add_argument("--out", default="site", help="output directory")
     d.add_argument("--site-url", default="")
     d.add_argument("--site-name", default="")
+    add_umami(d)
     d.set_defaults(func=cmd_demo)
 
     pb = sub.add_parser(
@@ -233,6 +254,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     pb.add_argument("--site-url", default="", help="absolute site URL")
     pb.add_argument("--site-name", default="Defunct Company Tracker")
+    add_umami(pb)
     pb.set_defaults(func=cmd_publish)
 
     s = sub.add_parser("status", help="show whether a live LLM provider is configured")

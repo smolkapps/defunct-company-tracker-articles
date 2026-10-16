@@ -125,3 +125,9 @@ a:hover { text-decoration: underline; }
 .hub-nav { margin: 1rem 0 1.25rem; line-height: 1.9; font-size: 0.95rem; }
 .hub-nav a { white-space: nowrap; }
 .hub-nav strong { white-space: nowrap; }
+.related-links { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.related-links h2 { font-size: 1.05rem; margin: 1rem 0 0.5rem; }
+.related-links ul { padding-left: 1.25rem; margin: 0.25rem 0 1rem; }
+.related-links li { margin-bottom: 0.35rem; }
+.related-links .hub-links { color: var(--muted); font-size: 0.9rem; margin-top: 0.75rem; }
+

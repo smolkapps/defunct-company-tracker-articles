@@ -1,5 +1,13 @@
 {% extends "base.html" %}
-{% block title %}Methodology | {{ site_name }}{% endblock %}
+{% block title %}Methodology — How Company Statuses Are Verified | {{ site_name }}{% endblock %}
+{% block description %}How {{ site_name }} verifies whether a company is still in business, acquired, or defunct using primary filings, registries, and cited sources.{% endblock %}
+{% block head_extra %}
+{% if jsonld %}
+<script type="application/ld+json">
+{{ jsonld | safe }}
+</script>
+{% endif %}
+{% endblock %}
 {% block content %}
 <article class="article">
   <p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>

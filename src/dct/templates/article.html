@@ -1,16 +1,25 @@
 {% extends "base.html" %}
-{% block title %}{{ report.company.name }} — {% if research_only %}research in progress{% else %}status &amp; history{% endif %} | {{ site_name }}{% endblock %}
-{% block description %}Is {{ report.company.name }} still in business? {{ display_summary|striptags }}{% endblock %}
+{% block title %}{{ report.company.name }} — {% if research_only %}Shark Tank Status Research{% else %}Is It Still in Business? ({{ report.status.value | replace("_", " ") | title }}){% endif %} | {{ site_name }}{% endblock %}
+{% block description %}Is {{ report.company.name }} still in business? {% if not research_only %}Verified status: {{ report.status.value | replace("_", " ") }}{% if report.as_of %} (as of {{ report.as_of }}){% endif %}. {% endif %}{{ (display_summary|striptags)|truncate(155, False, '…') }}{% endblock %}
 {% block head_extra %}
 {% if jsonld %}
 <script type="application/ld+json">
 {{ jsonld | safe }}
 </script>
 {% endif %}
+{% if breadcrumb_jsonld %}
+<script type="application/ld+json">
+{{ breadcrumb_jsonld | safe }}
+</script>
+{% endif %}
 {% endblock %}
 {% block content %}
 <article class="article">
-  <p class="crumbs"><a href="{{ rel_root }}index.html">&larr; All companies</a></p>
+  <p class="crumbs">
+    <a href="{{ rel_root }}index.html">&larr; All companies</a>
+    {% if collection_hub %} · <a href="{{ rel_root }}{{ collection_hub.path }}">{{ collection_hub.label }}</a>{% endif %}
+    {% if not research_only and status_hub %} · <a href="{{ rel_root }}{{ status_hub.path }}">{{ status_hub.title }}</a>{% endif %}
+  </p>
   <h1>{{ report.company.name }}</h1>
   {% if research_only %}
   <aside class="research-warning">
@@ -169,5 +178,38 @@
       {% if report.as_of %}<dt>{% if report.as_of | length == 10 %}Researched{% else %}Status as of{% endif %}</dt><dd><time datetime="{{ report.as_of }}">{{ report.as_of }}</time></dd>{% endif %}
     </dl>
   </aside>
+
+  {% if episode_companions or related_companies or collection_hub or status_hub %}
+  <nav class="related-links" aria-label="Related companies">
+    {% if episode_companions %}
+    <h2>Other companies from this Shark Tank episode</h2>
+    <ul>
+      {% for comp in episode_companions %}
+      <li>
+        <a href="{{ comp.company.slug }}.html">{{ comp.company.name }}</a>
+        <span class="badge badge-{{ comp.status.value }}">{{ comp.status.value }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if related_companies %}
+    <h2>More verified companies ({{ status_hub.title if status_hub else report.status.value }})</h2>
+    <ul>
+      {% for comp in related_companies %}
+      <li>
+        <a href="{{ comp.company.slug }}.html">{{ comp.company.name }}</a>
+        <span class="badge badge-{{ comp.status.value }}">{{ comp.status.value }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <p class="hub-links">
+      Browse all:
+      <a href="{{ rel_root }}index.html">Verified index</a>
+      {% if collection_hub %} · <a href="{{ rel_root }}{{ collection_hub.path }}">{{ collection_hub.title }}</a>{% endif %}
+      {% if not research_only and status_hub %} · <a href="{{ rel_root }}{{ status_hub.path }}">{{ status_hub.title }}</a>{% endif %}
+    </p>
+  </nav>
+  {% endif %}
 </article>
 {% endblock %}

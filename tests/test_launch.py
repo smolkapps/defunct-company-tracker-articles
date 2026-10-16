@@ -227,3 +227,163 @@ class TestPublishCommand:
         assert not os.path.exists(os.path.join(out, "companies", "pets-com.html"))
         assert not os.path.exists(os.path.join(out, "collections", "other-companies.html"))
         assert os.path.exists(os.path.join(out, "companies", "squatty-potty.html"))
+
+
+class TestUmamiAnalytics:
+    def test_umami_omitted_when_unset(self, monkeypatch, tmp_path):
+        monkeypatch.delenv("DCT_UMAMI_WEBSITE_ID", raising=False)
+        monkeypatch.delenv("UMAMI_WEBSITE_ID", raising=False)
+        out, _ = _build(tmp_path)
+        for rel in (
+            "index.html",
+            "methodology.html",
+            "404.html",
+            os.path.join("companies", "pets-com.html"),
+            os.path.join("status", "defunct.html"),
+        ):
+            html = _read(out, rel)
+            assert "umami.smolkin.org" not in html
+            assert "data-website-id" not in html
+
+    def test_umami_injected_via_env_and_cli(self, monkeypatch, tmp_path):
+        monkeypatch.delenv("DCT_LLM_API_KEY", raising=False)
+        monkeypatch.setenv(
+            "DCT_UMAMI_WEBSITE_ID", "d4f8c012-7e3b-49a5-9c1d-5b8e2f6a9014"
+        )
+        out, _ = _build(tmp_path)
+        expected_tag = (
+            '<script defer src="https://umami.smolkin.org/script.js" '
+            'data-website-id="d4f8c012-7e3b-49a5-9c1d-5b8e2f6a9014"></script>'
+        )
+        for rel in (
+            "index.html",
+            "methodology.html",
+            "404.html",
+            os.path.join("companies", "pets-com.html"),
+            os.path.join("status", "defunct.html"),
+        ):
+            assert expected_tag in _read(out, rel)
+
+        # CLI flag overrides env
+        cli_out = str(tmp_path / "cli_dist")
+        rc = main(
+            [
+                "publish",
+                "--out",
+                cli_out,
+                "--site-url",
+                "https://defunctcompanies.com",
+                "--umami-website-id",
+                "custom-id-123",
+                "--umami-script-url",
+                "https://umami.smolkin.org/script.js",
+            ]
+        )
+        assert rc == 0
+        assert (
+            '<script defer src="https://umami.smolkin.org/script.js" '
+            'data-website-id="custom-id-123"></script>'
+        ) in _read(cli_out, "index.html")
+
+
+class TestSeoEnhancements:
+    def test_titles_descriptions_jsonld_and_internal_links(self, tmp_path):
+        rec_a = _record(
+            "Alpha Shark",
+            "operating",
+            [
+                {
+                    "id": "A-1",
+                    "text": "Alpha Shark operates an active online storefront.",
+                    "evidence_level": "verified_fact",
+                    "source_ids": ["S1", "S2"],
+                }
+            ],
+            SRC,
+        )
+        rec_a["episode_appearances"] = [
+            {
+                "season": 12,
+                "episode": 14,
+                "episode_date": "2021-02-19",
+                "kind": "episode",
+                "video_url": "https://abc.com/show/e890218f-03d0-4c9a-900e-a169fb906f8c",
+                "video_title": "ABC S12E14",
+                "deal_closed": True,
+            }
+        ]
+        rec_b = _record(
+            "Beta Shark",
+            "operating",
+            [
+                {
+                    "id": "B-1",
+                    "text": "Beta Shark continues selling direct-to-consumer.",
+                    "evidence_level": "verified_fact",
+                    "source_ids": ["S1", "S2"],
+                }
+            ],
+            SRC,
+        )
+        rec_b["episode_appearances"] = [
+            {
+                "season": 12,
+                "episode": 14,
+                "episode_date": "2021-02-19",
+                "kind": "episode",
+                "video_url": "https://abc.com/show/e890218f-03d0-4c9a-900e-a169fb906f8c",
+                "video_title": "ABC S12E14",
+                "deal_closed": False,
+            }
+        ]
+        from dct.records import merge_records
+
+        companies, fx = merge_records(
+            [rec_a, rec_b], parse_companies(["Pets.com"]), dict(FIXTURE)
+        )
+        result = run_pipeline(companies, MockProvider(fx), cache=None)
+        out = str(tmp_path / "seo_site")
+        SiteGenerator(site_url="https://defunctcompanies.com").build(
+            result, out, [rec_a, rec_b]
+        )
+
+        alpha_html = _read(out, "companies", "alpha-shark.html")
+        assert (
+            "<title>Alpha Shark — Is It Still in Business? (Active) | Defunct Company Tracker</title>"
+            in alpha_html
+        )
+        assert 'meta name="description" content="Is Alpha Shark still in business? Verified status: active (as of 2026-09-10).' in alpha_html
+        assert '"@type": "BreadcrumbList"' in alpha_html
+        assert '"mainEntityOfPage": "https://defunctcompanies.com/companies/alpha-shark.html"' in alpha_html
+        # Episode companion link to Beta Shark
+        assert "Other companies from this Shark Tank episode" in alpha_html
+        assert 'href="beta-shark.html"' in alpha_html
+        # Breadcrumb links to collection & status hubs
+        assert 'href="../collections/shark-tank.html"' in alpha_html
+        assert 'href="../status/active.html"' in alpha_html
+
+        index_html = _read(out, "index.html")
+        assert '"@type": "WebSite"' in index_html
+        method_html = _read(out, "methodology.html")
+        assert '"@type": "WebPage"' in method_html
+        sm = _read(out, "sitemap.xml")
+        assert (
+            "<loc>https://defunctcompanies.com/methodology.html</loc>"
+            "<lastmod>2026-09-10</lastmod>"
+        ) in sm
+        assert "404.html" not in sm
+
+
+class TestOldSubdomainRedirectConfig:
+    def test_nginx_redirect_preserves_path_with_301(self):
+        conf_path = os.path.join(
+            os.path.dirname(os.path.dirname(__file__)),
+            "deploy",
+            "nginx",
+            "old-subdomain-redirect.conf",
+        )
+        conf = _read(conf_path)
+        assert "server_name defunct-company-tracker-articles.apps.smolkin.org;" in conf
+        assert "return 301 https://defunctcompanies.com$request_uri;" in conf
+        assert "/etc/letsencrypt/live/apps-smolkin/fullchain.pem" in conf
+

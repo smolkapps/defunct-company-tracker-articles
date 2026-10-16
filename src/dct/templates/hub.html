@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ hub_title }} | {{ site_name }}{% endblock %}
+{% block title %}{{ hub_title }} ({{ members | length }} Verified) | {{ site_name }}{% endblock %}
 {% block description %}{{ hub_intro }} {{ members | length }} companies, each with cited sources.{% endblock %}
 {% block head_extra %}
 {% if jsonld %}

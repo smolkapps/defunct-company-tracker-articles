@@ -24,3 +24,7 @@ coverage.xml
 
 # macOS AppleDouble metadata
 ._*
+
+# local scratch artifacts
+.work-artifacts/
+

@@ -35,6 +35,9 @@
     {% endif %}
     {% block head_extra %}{% endblock %}
     <link rel="stylesheet" href="{{ rel_root }}assets/style.css" />
+    {% if umami_website_id %}
+    <script defer src="{{ umami_script_url }}" data-website-id="{{ umami_website_id }}"></script>
+    {% endif %}
   </head>
   <body>
     <header class="site-header">
@@ -53,7 +56,7 @@
       <p>
         Generated {{ generated_at }} &middot; {{ n_companies }} companies tracked.
         Statuses are machine-researched and only published when supported by
-        cited sources. See the
+        cited sources. Browse <a href="{{ rel_root }}index.html">all companies</a>{% if has_shark_hub %}, <a href="{{ rel_root }}collections/shark-tank.html">Shark Tank companies</a>,{% endif %} or see the
         <a href="{{ rel_root }}methodology.html">methodology</a>.
       </p>
     </footer>

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Page not found | {{ site_name }}{% endblock %}
+{% block description %}The requested page could not be found on {{ site_name }}.{% endblock %}
+{% block content %}
+<article class="article">
+  <p class="status-line"><span class="badge badge-defunct">404</span></p>
+  <h1>This page is defunct.</h1>
+  <p>The page you requested does not exist here.</p>
+  <p><a href="{{ rel_root }}index.html">&larr; Back to all tracked companies</a></p>
+</article>
+{% endblock %}

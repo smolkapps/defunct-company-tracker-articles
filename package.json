@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "PYTHONPATH=src \"${DCT_PYTHON:-python3}\" -m dct.cli publish --out dist --site-url \"${GT_SITE:-https://defunctcompanies.com}\" --site-name \"Defunct Company Tracker\" && cp -R public/. dist/ && find dist -name '._*' -delete",
-    "build:demo": "PYTHONPATH=src \"${DCT_PYTHON:-python3}\" -m dct.cli demo --out dist --site-url \"${GT_SITE:-https://defunctcompanies.com}\" --site-name \"Defunct Company Tracker\" && cp -R public/. dist/ && find dist -name '._*' -delete"
+    "build": "mkdir -p dist && cp -R public/. dist/ && PYTHONPATH=src \"${DCT_PYTHON:-python3}\" -m dct.cli publish --out dist --site-url \"${GT_SITE:-https://defunctcompanies.com}\" --site-name \"Defunct Company Tracker\" && find dist -name '._*' -delete",
+    "build:demo": "mkdir -p dist && cp -R public/. dist/ && PYTHONPATH=src \"${DCT_PYTHON:-python3}\" -m dct.cli demo --out dist --site-url \"${GT_SITE:-https://defunctcompanies.com}\" --site-name \"Defunct Company Tracker\" && find dist -name '._*' -delete"
   }
 }
