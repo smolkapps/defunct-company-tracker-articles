@@ -26,6 +26,7 @@ import re
 import shutil
 from datetime import datetime, timezone
 from typing import Any, Iterable
+from urllib.parse import urlsplit
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -249,12 +250,27 @@ class SiteGenerator:
         static_dir: str = DEFAULT_STATIC_DIR,
         umami_website_id: str | None = None,
         umami_script_url: str | None = None,
+        affiliate_links: dict[str, str] | None = None,
     ) -> None:
         self.site_name = site_name
         self.site_description = site_description
         self.site_url = site_url.rstrip("/")
         self.template_dir = template_dir
         self.static_dir = static_dir
+        if affiliate_links is None:
+            affiliate_links = json.loads(os.environ.get("DCT_AFFILIATE_LINKS", "{}"))
+        if not isinstance(affiliate_links, dict):
+            raise ValueError("DCT_AFFILIATE_LINKS must be an object mapping company slugs to approved HTTPS links")
+        self.affiliate_links = {}
+        for slug, url in affiliate_links.items():
+            if not isinstance(url, str):
+                raise ValueError(f"Affiliate link for {slug} must be an HTTPS URL")
+            parsed = urlsplit(url)
+            if (parsed.scheme != "https" or not parsed.hostname
+                    or parsed.username or parsed.password
+                    or any(c.isspace() or ord(c) < 32 for c in url)):
+                raise ValueError(f"Affiliate link for {slug} must be an HTTPS URL without credentials or whitespace")
+            self.affiliate_links[slug] = url
         if umami_website_id is None:
             umami_website_id = (
                 os.environ.get("DCT_UMAMI_WEBSITE_ID")
@@ -447,6 +463,8 @@ class SiteGenerator:
                         for source in (detail or {}).get("sources", [])
                     },
                     research_only=False,
+                    affiliate_url=(self.affiliate_links.get(r.company.slug)
+                                   if r.status is Status.ACTIVE else None),
                     noindex=False,
                     rel_root="../",
                     canonical_url=article_url,

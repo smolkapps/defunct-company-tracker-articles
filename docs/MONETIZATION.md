@@ -8,7 +8,7 @@ The site is already live at https://defunctcompanies.com. Local tests pass
 200, include the dedicated Umami website ID, and use the correct canonical.
 The old subdomain returns 301 preserving path and query. Do not redo deployment.
 
-No affiliate, sponsor, payment or tip integration exists in the current templates.
+Optional direct-merchant affiliate support is now prepared locally; no approved links are configured. No sponsor, payment or tip integration exists.
 Revenue, engaged audience size, dashboard ingestion and origin log writes have
 not been verified. A script tag is not evidence of recorded human visits or sales.
 
@@ -36,8 +36,7 @@ measure outbound clicks separately from purchases. An outbound click is intent,
 not earned revenue. Withheld and closed-company pages should not receive
 shopping recommendations merely because a similarly named product exists.
 
-Before implementation, resolve the owner's revenue-model preference (asked in
-chat). Before activation, obtain approved tracking links and verify provider
+A disabled direct-merchant implementation is prepared pending the owner's revenue-model preference (asked in chat). Before activation, obtain approved tracking links and verify provider
 attribution and payout eligibility. Review actual traffic before expanding to
 more programs. Sponsorships require honest audience evidence; no fabricated
 reach claims. Tips require an owner-approved destination.
@@ -54,3 +53,25 @@ do not override the current restrictions.
 Completion requires a real approved revenue path enabled on the public site,
 verified attribution/fulfillment as appropriate, and an honest measurement plan.
 Research or a local disabled implementation alone does not complete the goal.
+
+## Local configuration
+
+Set `DCT_AFFILIATE_LINKS` to a JSON object mapping company slugs to approved
+HTTPS merchant/network tracking URLs. It defaults to `{}` and adds nothing.
+Example shape only (not a real earning link):
+
+```sh
+DCT_AFFILIATE_LINKS='{"cincha-travel":"https://example.com/approved-tracking-link"}' DCT_PYTHON=.venv/bin/python npm run build
+```
+
+The Python `SiteGenerator(affiliate_links={...})` argument overrides the environment;
+an explicit empty dict disables it. Only published ACTIVE reports display links.
+The disclosure precedes the link, with sponsored/nofollow attributes and Umami
+`affiliate-click` / company-slug event attributes. Umami must be configured for
+events to be collected. Do not use this generic block for Amazon: Amazon-specific
+disclosures and approved site/account setup must be implemented first.
+
+Verification: 150 tests passed; production build passed with no commercial config.
+A separate temporary preview used an example.com destination and the disclosure
+was inspected in the in-app browser. No commission link was clicked, no analytics
+ingestion or attribution was proven. Responsive mobile QA remains outstanding.

@@ -42,6 +42,15 @@
     <p>{{ display_summary }}</p>
   </section>
 
+  {% if affiliate_url %}
+  <aside aria-label="Affiliate link">
+    <p>We may earn a commission if you buy through this link.</p>
+    <p><a href="{{ affiliate_url }}" rel="sponsored nofollow noopener"
+          data-umami-event="affiliate-click"
+          data-umami-event-company="{{ report.company.slug }}">Visit {{ report.company.name }}’s shop</a></p>
+  </aside>
+  {% endif %}
+
   {% if detail %}
   <section class="research-detail">
     <h2>Shark Tank appearance</h2>

@@ -118,3 +118,8 @@ Priority order:
 - No revenue integration exists. Researched primary merchant/network program pages; Cincha Awin is a concrete publisher candidate, Pashion requires creator eligibility review. Details and completion requirements saved in docs/MONETIZATION.md.
 - Asked Michael for revenue-model preference. Next: implement the chosen bounded integration using real approved destination(s), verify locally, then seek only the final authority needed for live activation.
 - Portfolio catalog still contains the former domain/counts; update locally to verified public state, preserving unrelated entries.
+
+### Optional direct-merchant affiliate preparation
+- Added disabled-by-default DCT_AFFILIATE_LINKS JSON config and Python override. Validates HTTPS links and displays only on verified active articles. Adds preceding disclosure, sponsored link attributes and company-specific Umami click event attributes.
+- Added 9 tests covering default omission, config precedence, unsafe destinations, active/closed/unverified separation and escaped tracking query strings. 150 tests pass; production build succeeds.
+- Inspected Cincha preview disclosure in the in-app browser with example.com URL; no real tracking links configured or clicked. Closed preview tab/server. Mobile QA, merchant approval/link issuance and live activation remain outstanding. No push/deploy/SSH.
