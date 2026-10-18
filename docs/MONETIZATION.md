@@ -152,3 +152,13 @@ and consent handling; existing generic merchant links alone do not establish
 Awin tracking/privacy compliance. Sole trader takes the contractual obligations
 personally, including warranties/indemnity; formation of a later LLC does not
 automatically transfer the agreement (clause17.6 requires written consent).
+
+## October17: Awin approved
+
+Approval email confirms Defunct Company Tracker publisher3126329. Separate
+email validation is now completed (Account Activated). Existing credential
+sign-in succeeded; browser is at optional two-step verification introduction.
+Owner should set up authenticator directly; no MFA secret or recovery code is
+stored in this repo. Dashboard/Cincha membership has not yet been inspected.
+Tax and banking entry has not been reached. No commission URL or revenue exists
+in verified evidence yet.

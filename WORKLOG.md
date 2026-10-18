@@ -161,3 +161,9 @@ Priority order:
 - Receipt screenshot saved outside repo at /tmp/dct-enrollment-evidence/awin-application-received.jpg; no address/phone/password captured. No signup deposit paid by this agent.
 - Important terms: paid commissions depend on advertiser payment and complete tax/bank details; missing payment details for 12 months after a failed self-billed payout can forfeit funds; six months inactivity/no commissions can lead to termination and related forfeiture. Sole-trader warranties/indemnity, publisher privacy/consent requirements and restrictions on off-network advertiser payments require attention.
 - Next: actual Awin acceptance/email activation and Cincha advertiser approval, then approved tracking link, privacy/consent implementation and live deployment. Application received is not acceptance, monetization or revenue. Owner enters W-9/tax and banking directly when requested.
+
+### October 17 — Approval verified and email activated
+- Verified connected Gmail account belongs to Michael. Focused Awin search found approval email for Defunct Company Tracker, publisher ID3126329, received October16, and separate user-email validation. Authentication headers pass DKIM/DMARC for awin.com.
+- Opened official activation link in agent-owned browser; visible Account Activated confirmed success. No activation token retained in repo.
+- Signed in with owner-supplied existing password. Reached /idp/us/awin/2fa/intro, offering authenticator setup or skip. No new MFA credential generated or retained. Shown/retained page for owner to set up authenticator directly under browser credential handoff rules. No skip or security change performed.
+- Cincha status/link still unverified because dashboard has not yet been reached. Tax/bank form not reached. Continue after owner completes two-step verification; do not repeat signup or email activation.
