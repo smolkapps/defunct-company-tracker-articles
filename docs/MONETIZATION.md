@@ -174,3 +174,47 @@ Payment Details explicitly requires two-step verification. Dashboard can be
 used without it, but tax and bank entry cannot. Defer owner credential setup
 until needed; never extract/email MFA seeds to bypass that handoff. No tax
 information was requested in chat or entered by this agent.
+
+## Traffic-led candidate comparison (October17 review)
+
+The initial Umami window contains only27events/26sessions; article events are
+WeWork3, Browndages2, BusyBox/Cabinet Health/FTX/Cabana Boys/Brush Hero1each.
+None of these is proven human traffic; no conversion forecast is supportable.
+Read-only origin aggregation across2available log files found1,686article
+HTTP200 GETs. Server date labels span October16–18 UTC and differ from the
+Umami window, so counts cannot be compared as an ingestion ratio. User-agent
+filtering alone leaves automation/QA mixed into the unclassified bucket.
+
+Unclassified origin article requests: Hidrent32, HelloPrenup31, DEUX30,
+Fish Fixe29, BusyBox19, Brush Hero14, WeWork13, Browndages12. Unclassified
+referrers include747none,197same-site,103smolkapps alias,11old apps alias,
+8Bing and5Google. Those hosts do not prove genuine search users. No raw IPs,
+visitor IDs or query values retained.
+
+| Candidate | Commercial fit / approval fit (judgment) | Verified terms / reliability evidence | Decision |
+| --- | --- | --- | --- |
+| BusyBox | Product-shopping relevance plausible; creator eligibility uncertain | Official collabs page offers affiliate referrals. Commission, cookie and payout terms not published there. Apply Now leads to Shopify account signup/free-trial promotion; US Awin search returns0results. No paid signup or account creation performed. | Best next investigation among visited physical-product pages; establish correct free publisher application and terms before applying. |
+| Browndages | Direct product relevance; small basket could limit earnings | First-party store/contact verified; no publisher program established in bounded search. No reliable commission or approval odds. | Keep candidate; no earning-link invention and no outreach sent. |
+| HelloPrenup | Higher unclassified origin activity; completed prenup purchase is much narrower intent than company-status reading | Official landing/signup advertise10%; published terms say20%, with conflicting60-day cookie/30-day purchase language, PayPal-only Net30 and broad non-disparagement. No realized payout evidence. | Do not enroll under unresolved rates/editorial restrictions. High stated commission alone does not justify it. |
+| Fish Fixe | Physical-product fit; existing status readership | Official FAQ describes a customer referral reward, not established publisher terms. | Do not use customer referral as an affiliate program without authorization/eligibility. |
+| Cabinet Health | Consumer affiliate fit uncertain because official site now emphasizes B2B supply chain | Current first-party site is not evidence of an active consumer affiliate offer. | Reverify commercial destination before recommendation. |
+| Brush Hero | Product fit plausible | FlexOffers explicitly says this program is not currently offered; page also has conflicting15% and10% descriptions. | Exclude this route until an active provider confirms terms. |
+| Cincha | Physical-product fit but0observed Umami article visits; already pending approval | Awin dashboard shows15% headline,30-day attribution,71-day average payment time and50-day auto-validation. Network-wide metrics are not this site's expected conversion or guaranteed payout. | Keep pending as one candidate; no special traffic priority or duplicate application. |
+| Hidrent / DEUX / Cabana Boys | Some unclassified origin requests; purchase intent unproven | No relevant publisher terms established yet. Hydrant hydration search result is a different company from Hidrent. | Investigate only exact brand/entity matches; no unrelated hydration affiliate link. |
+| WeWork / FTX | Status/restructuring or historical interest differs from product-shopping intent | No relevant offer validated. | Do not force unrelated shopping links onto these visits. |
+
+Primary sources checked:
+- https://www.busyboxsign.com/collabs
+- https://browndages.com/collections/all
+- https://helloprenup.com/affiliate/
+- https://helloprenup.com/helloprenup-affiliate-program-terms-of-use/
+- https://helloprenup.getrewardful.com/signup
+- https://fishfixe.com/faq-seafood/
+- https://cabinethealth.com/
+- https://www.flexoffers.com/affiliate-programs/brush-hero-affiliate-program/
+- Authenticated Awin Cincha98075 profile; public https://ui.awin.com/merchant-profile/98075
+
+Approval odds, conversion rates and payout reliability are unknown unless
+explicitly evidenced above; do not invent numeric scores or expected earnings.
+Next action: verify BusyBox's actual publisher route without buying Shopify,
+and gather meaningful outbound intent before expanding account enrollment.
