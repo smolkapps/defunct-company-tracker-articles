@@ -186,3 +186,9 @@ Priority order:
 - Compared exact-brand programs in docs/MONETIZATION.md. BusyBox direct affiliate program merits investigation, but current Apply Now leads to Shopify signup/free-trial page and Awin US directory has0matches. No paid account created.
 - HelloPrenup's first-party commission/cookie contradictions and broad non-disparagement make it unsuitable for automatic enrollment. Brush Hero FlexOffers says unavailable. Fish Fixe customer referral not assumed publisher-eligible. Browndages active store but no established publisher terms. Cabinet current site emphasizes B2B, so consumer offer needs revalidation.
 - Cincha retained only as pending candidate; no revenue claim or unrelated links. Next: verify actual free BusyBox publisher route and continue demand/intent evidence.
+
+### BusyBox application route and bounded next action
+- Confirmed first-party Apply Now resolves to generic Shopify signup, while official Shopify docs say new creator self-signups are closed but merchant invitations/applications remain possible. No paid-store signup or new credential created.
+- Focused Awin/Cincha Gmail query returned no new matching response; advertiser acceptance still unproven.
+- Prepared one truthful BusyBox inquiry in docs/MONETIZATION.md asking correct publisher route, commission, attribution and payout terms. NOT SENT. User authorization is required for third-party email under standing outgoing-email rule; ask once for this specific concrete message.
+- No writing-style connector was available in tool inventory; draft uses the user's direct conversational style without claiming retrieved style evidence.

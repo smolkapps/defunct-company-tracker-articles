@@ -218,3 +218,41 @@ Approval odds, conversion rates and payout reliability are unknown unless
 explicitly evidenced above; do not invent numeric scores or expected earnings.
 Next action: verify BusyBox's actual publisher route without buying Shopify,
 and gather meaningful outbound intent before expanding account enrollment.
+
+## BusyBox publisher route verified
+
+Official collabs page Apply Now points to accounts.shopify.com/signup with a
+referral parameter, and resolves to a generic Shopify trial page rather than a
+brand application. Current Shopify docs explicitly close general new creator
+signups but allow merchant invitations and merchant-specific applications:
+https://help.shopify.com/en/manual/promoting-marketing/collabs/creators/setup
+A Shopify store subscription is unnecessary and has not been purchased.
+Focused Gmail search found no Cincha/98075 update from Awin. This is an email
+check, not a new dashboard approval verification.
+
+Prepared inquiry (NOT SENT; owner approval required):
+
+To: Support@BusyBoxSign.com
+Subject: BusyBox affiliate program for Defunct Company Tracker
+
+Hi BusyBox team,
+
+I run Defunct Company Tracker (https://defunctcompanies.com), an independent
+site with source-cited company status articles. We cover BusyBox here:
+https://defunctcompanies.com/companies/busybox.html
+
+Your collabs page lists an affiliate program, but Apply Now takes me to a
+generic Shopify signup page. Do you accept editorial websites? If so, could
+you send the current application or invitation route, commission rate,
+attribution period, and payout schedule/minimum?
+
+The site is new and traffic is still small, so I’m not promising sales volume.
+Any paid relationship would be disclosed, and our status research would remain
+independent.
+
+Thanks,
+Michael
+
+If authorized, send only this individual inquiry from michael@smolkin.org,
+BCC michael@smolkin.org, and retain only a delivery receipt. No mass outreach,
+follow-up automation, payment commitment or account creation is included.
