@@ -162,3 +162,15 @@ Owner should set up authenticator directly; no MFA secret or recovery code is
 stored in this repo. Dashboard/Cincha membership has not yet been inspected.
 Tax and banking entry has not been reached. No commission URL or revenue exists
 in verified evidence yet.
+
+## Latest October17: Cincha pending, profile completed
+
+Skipped optional MFA setup on explicit owner instruction and reached dashboard.
+Cincha98075 already has a pending application; no resubmission needed. Publisher
+profile image now uses the existing site brand icon, and incomplete banner is
+cleared. All observed commission balances remain USD0.00.
+
+Payment Details explicitly requires two-step verification. Dashboard can be
+used without it, but tax and bank entry cannot. Defer owner credential setup
+until needed; never extract/email MFA seeds to bypass that handoff. No tax
+information was requested in chat or entered by this agent.

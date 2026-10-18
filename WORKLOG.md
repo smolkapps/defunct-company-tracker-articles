@@ -167,3 +167,10 @@ Priority order:
 - Opened official activation link in agent-owned browser; visible Account Activated confirmed success. No activation token retained in repo.
 - Signed in with owner-supplied existing password. Reached /idp/us/awin/2fa/intro, offering authenticator setup or skip. No new MFA credential generated or retained. Shown/retained page for owner to set up authenticator directly under browser credential handoff rules. No skip or security change performed.
 - Cincha status/link still unverified because dashboard has not yet been reached. Tax/bank form not reached. Continue after owner completes two-step verification; do not repeat signup or email activation.
+
+### October17 — Optional MFA skipped; Cincha confirmed pending
+- Michael explicitly instructed skipping optional two-step verification now. Clicked the displayed skip action and reached the approved publisher3126329 dashboard. No authenticator credential created/extracted/emailed.
+- Cincha98075 already shows Pending advertiser approval in directory and profile. No duplicate application or outbound message sent; no earning link enabled. Dashboard payable/approved/pending commission balances all USD0.00.
+- Profile was 75% complete, missing only image. Uploaded existing public site favicon-192.png through profile chooser and saved. Verified loaded profile image at publisher3126329 image path; incomplete-profile banner disappeared on subsequent account page. No personal image or private source uploaded.
+- Checked Payment Details read-only: explicit two-step verification requirement blocks access. Optional skip works for dashboard but not tax/banking settings. Do not imply tax setup can proceed without MFA. No tax/bank fields touched; owner handoff for credential creation remains required when payout setup is needed.
+- Saved non-sensitive pending-program and payout-gate screenshots outside repo. Await Cincha's actual approval; complete privacy/consent obligations before tracking activation and deploy.
