@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Privacy and Affiliate Disclosures | {{ site_name }}{% endblock %}
+{% block description %}How this site handles requests, analytics, external links and affiliate relationships.{% endblock %}
+{% block content %}
+<article class="article">
+  <h1>Privacy and affiliate disclosures</h1>
+  <h2>Visiting this site</h2>
+  <p>This is a public reference site. Its hosting and delivery providers receive
+    information needed to serve requests, including your IP address, requested
+    URL and browser information. Server access logs are used to operate the site
+    and investigate errors and abuse. Avoid putting personal information in URLs.</p>
+  <h2>Analytics</h2>
+  {% if umami_website_id %}
+  <p>This build uses Umami analytics hosted at umami.smolkin.org. Page visits
+    and interactions marked for measurement may be sent to that service.
+    Analytics can be blocked by your browser and does not establish whether
+    a visitor bought a product.</p>
+  {% else %}
+  <p>No Umami analytics script is configured in this build.</p>
+  {% endif %}
+  <h2>Affiliate relationships and editorial independence</h2>
+  {% if affiliate_links_configured %}
+  <p>Links identified as affiliate links may earn us a commission when you
+    purchase through them. A disclosure appears before each commercial link.
+    Merchants and affiliate networks determine eligibility and attribution.</p>
+  {% else %}
+  <p>No affiliate shopping links are configured in this build. Ordinary source
+    citations are provided to let you check the research.</p>
+  {% endif %}
+  <p>Company status decisions follow our
+    <a href="methodology.html">verification methodology</a>. An affiliate
+    relationship does not establish a company's status or change its evidence.</p>
+  <h2>External sites and tracking</h2>
+  <p>Following an external link sends you to another provider, which handles
+    your visit under its own privacy and cookie policies. Affiliate links may
+    involve tracking by the merchant or its network. Awin's practices are
+    described in its <a href="https://www.awin.com/us/privacy">privacy policy</a>.
+    Reading this page is not consent to affiliate tracking.</p>
+  <h2>Contact</h2>
+  <p>For privacy questions or requests about information processed by this site,
+    email <a href="mailto:michael@smolkin.org">michael@smolkin.org</a>.
+    Do not send passwords, tax identifiers or banking details.</p>
+</article>
+{% endblock %}

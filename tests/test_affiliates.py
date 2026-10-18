@@ -45,3 +45,22 @@ def test_environment_configuration_and_explicit_disable(monkeypatch):
 def test_invalid_commercial_destinations_fail_loudly(url):
     with pytest.raises(ValueError):
         SiteGenerator(affiliate_links={"acme-gadgets": url})
+
+
+def test_privacy_disclosures_match_config_and_are_discoverable(tmp_path):
+    result = run_pipeline(parse_companies(["Acme Gadgets"]), MockProvider(FIXTURE), cache=None)
+    for enabled in (False, True):
+        out = tmp_path / str(enabled)
+        SiteGenerator(
+            site_url="https://defunctcompanies.com",
+            affiliate_links={"acme-gadgets": "https://merchant.example/"} if enabled else {},
+            umami_website_id="test-id" if enabled else "",
+        ).build(result, str(out))
+        privacy = (out / "privacy.html").read_text()
+        article = (out / "companies/acme-gadgets.html").read_text()
+        assert 'href="../privacy.html"' in article
+        assert 'href="https://www.awin.com/us/privacy"' in privacy
+        assert 'Reading this page is not consent to affiliate tracking.' in privacy
+        assert 'name="robots" content="noindex, follow"' in privacy
+        assert ('This build uses Umami' in privacy) is enabled
+        assert ('No affiliate shopping links are configured' in privacy) is (not enabled)

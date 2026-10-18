@@ -634,6 +634,17 @@ class SiteGenerator:
         )
         _write(os.path.join(out_dir, "methodology.html"), method_html)
 
+        privacy_html = self.env.get_template("privacy.html").render(
+            **self._ctx(
+                rel_root="",
+                canonical_url=f"{self.site_url}/privacy.html" if self.site_url else "",
+                n_companies=n_companies,
+                noindex=True,
+                affiliate_links_configured=bool(self.affiliate_links),
+            )
+        )
+        _write(os.path.join(out_dir, "privacy.html"), privacy_html)
+
         # --- 404 page ------------------------------------------------------ #
         if os.path.exists(os.path.join(self.template_dir, "404.html")):
             not_found_html = self.env.get_template("404.html").render(
@@ -660,7 +671,7 @@ class SiteGenerator:
         self._write_robots(out_dir)
 
         return {
-            "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 2,
+            "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 3,
             "articles": len(written_pages),
             "research_only": len(research_only_pages),
             "withheld": len(unpublished),
