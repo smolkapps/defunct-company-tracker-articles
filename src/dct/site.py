@@ -211,6 +211,27 @@ def _absolute_url(domain: str | None) -> str | None:
     return d if re.match(r"^https?://", d, re.I) else f"https://{d}"
 
 
+def _official_website(report: StatusReport, detail: dict | None) -> dict | None:
+    """Only an explicitly reviewed source can become a visitor action."""
+    if not detail or report.status not in {Status.ACTIVE, Status.ACQUIRED, Status.RENAMED}:
+        return None
+    source_id = detail.get("company", {}).get("website_source_id")
+    if not source_id:
+        return None
+    source = next((s for s in detail.get("sources", []) if s.get("id") == source_id), None)
+    if not source:
+        return None
+    url = source.get("url", "")
+    if not isinstance(url, str):
+        return None
+    parsed = urlsplit(url)
+    if (parsed.scheme != "https" or not parsed.hostname
+            or parsed.username or parsed.password
+            or any(c.isspace() or ord(c) < 32 for c in url)):
+        return None
+    return {"url": url, "host": parsed.hostname, "checked": source.get("accessed", "")}
+
+
 def _json_for_script(obj) -> str:
     """Serialize ``obj`` as JSON safe to embed inside an HTML ``<script>`` tag.
 
@@ -463,6 +484,7 @@ class SiteGenerator:
                         for source in (detail or {}).get("sources", [])
                     },
                     research_only=False,
+                    official_website=_official_website(r, detail),
                     affiliate_url=(self.affiliate_links.get(r.company.slug)
                                    if r.status is Status.ACTIVE else None),
                     noindex=False,

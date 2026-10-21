@@ -2,7 +2,7 @@ import os
 
 from dct.pipeline import parse_companies, run_pipeline
 from dct.providers import MockProvider
-from dct.site import SiteGenerator, _jsonld_for
+from dct.site import SiteGenerator, _jsonld_for, _official_website
 from dct.models import Citation, Company, Status, StatusReport
 from dct.verify import verify_report
 
@@ -22,6 +22,30 @@ FIXTURE = {
         ],
     },
 }
+
+
+def test_official_actions_require_reviewed_identity_and_keep_acquired_brands_useful():
+    report = StatusReport(company=Company(name="Brand"), status=Status.ACQUIRED, summary="The acquired brand still trades.")
+    detail = {
+        "company": {"website_source_id": "current"},
+        "sources": [{"id": "current", "url": "https://brand.example/", "accessed": "2026-10-21"}],
+    }
+    assert _official_website(report, detail) == {
+        "url": "https://brand.example/", "host": "brand.example", "checked": "2026-10-21",
+    }
+    # A citation alone isn't permission to send readers to an unreviewed store.
+    assert _official_website(report, {**detail, "company": {}}) is None
+    assert _official_website(report, {**detail, "company": {"website_source_id": "missing"}}) is None
+    for status in (Status.DEFUNCT, Status.UNKNOWN, Status.BANKRUPT):
+        report.status = status
+        assert _official_website(report, detail) is None
+
+
+def test_official_actions_never_turn_unsafe_sources_into_navigation():
+    report = StatusReport(company=Company(name="Brand"), status=Status.ACTIVE, summary="The brand still trades.")
+    for url in ("javascript:alert(1)", "http://brand.example", "https://user:secret@brand.example/", "https://brand.example/\n"):
+        detail = {"company": {"website_source_id": "current"}, "sources": [{"id": "current", "url": url}]}
+        assert _official_website(report, detail) is None
 
 
 def _result(tmp_path=None):

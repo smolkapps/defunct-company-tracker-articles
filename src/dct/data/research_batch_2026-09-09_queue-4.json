@@ -2,6 +2,7 @@
   {
     "company": {
       "name": "LARQ",
+      "website_source_id": "B02-LARQ-NOW",
       "aliases": [],
       "legal_entities": [
         "LARQ Inc."
@@ -125,7 +126,7 @@
         "url": "https://www.livelarq.com/",
         "source_type": "company storefront",
         "published": null,
-        "accessed": "2026-09-09",
+        "accessed": "2026-10-21",
         "notes": "Current product catalog, not proof of order fulfillment. content or indexed primary text retrieved historical snapshot not retrieved"
       },
       {
@@ -741,6 +742,7 @@
   {
     "company": {
       "name": "Mother Beverage / Poppi",
+      "website_source_id": "B02-POPPI-NOW",
       "aliases": [
         "Mother Beverage",
         "Poppi",
@@ -884,7 +886,7 @@
         "url": "https://www.drinkpoppi.com/",
         "source_type": "company storefront",
         "published": null,
-        "accessed": "2026-09-09",
+        "accessed": "2026-10-21",
         "notes": "Current catalog and PepsiCo consumer contact. content or indexed primary text retrieved historical snapshot not retrieved"
       },
       {

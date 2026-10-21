@@ -263,7 +263,7 @@ def url_domain(url: str) -> str:
         return ""
     m = re.match(r"^https?://([^/]+)", url.strip(), re.IGNORECASE)
     host = m.group(1) if m else url
-    return host.lower().lstrip("www.") if host.startswith("www.") else host.lower()
+    return host.lower().removeprefix("www.")
 
 
 def content_hash(*parts: str) -> str:

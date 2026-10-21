@@ -12,8 +12,68 @@
 <h1>{{ site_name }}</h1>
 <p class="lede">{{ site_description }}</p>
 
-<section class="origin-note">
-  <h2>Where the idea came from</h2>
+<section class="company-search" aria-label="Find a company" hidden>
+  <label for="company-query">Find a company</label>
+  <input id="company-query" type="search" placeholder="Company name or former name"
+         autocomplete="off" aria-controls="company-list" aria-describedby="company-results" />
+  <p id="company-results" role="status"></p>
+  <p id="company-no-match" hidden>No matching company is published yet. Try another name or browse the full list.</p>
+</section>
+
+
+
+<section class="stats">
+  <span class="stat"><strong>{{ stats.total }}</strong> tracked</span>
+  <span class="stat"><strong>{{ stats.publishable }}</strong> verified</span>
+  <span class="stat"><strong>{{ stats.unpublishable }}</strong> unverified</span>
+</section>
+
+{% if status_hubs or collection_hubs %}
+<nav class="hub-nav" aria-label="Browse companies">
+  <strong>Browse:</strong>
+  {% for h in collection_hubs + status_hubs %}
+  <a href="{{ rel_root }}{{ h.path }}">{{ h.title }} ({{ h.count }})</a>{% if not loop.last %} &middot; {% endif %}
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% if published %}
+<div class="table-scroll" role="region" aria-label="Company status table" tabindex="0">
+<table class="company-table" id="company-list">
+  <thead>
+    <tr><th>Company</th><th>Status</th><th>As of</th><th>Sources</th></tr>
+  </thead>
+  <tbody>
+    {% for r in published %}
+    <tr data-company-names="{{ r.company.name }} {{ r.company.aliases | join(' ') }}">
+      <td><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></td>
+      <td><span class="badge badge-{{ r.status.value }}">{{ r.status.value }}</span></td>
+      <td>{{ r.as_of or "—" }}</td>
+      <td>{{ r.citations | length }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+<p class="empty">No verified company statuses yet. Run the researcher with an LLM
+API key configured to populate this site.</p>
+{% endif %}
+
+{% if unpublished %}
+<details class="unverified">
+  <summary>{{ unpublished | length }} companies could not be verified</summary>
+  <ul>
+    {% for r in unpublished %}
+    <li>{% if r.company.slug in research_slugs %}<a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a>{% else %}{{ r.company.name }}{% endif %} — <em>{{ r.status.value }}</em>
+      {% if r.flags %}<span class="why">({{ r.flags | join("; ") }})</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</details>
+{% endif %}
+<details class="origin-note">
+  <summary>How this tracker started</summary>
   <p>
     This tracker grew out of the question behind
     <a href="https://www.youtube.com/watch?v=AoZdeYKGuR4" target="_blank" rel="noopener noreferrer">this Shark Tank video</a>:
@@ -33,54 +93,5 @@
     {% endfor %}
   </ul>
   {% endif %}
-</section>
-
-<section class="stats">
-  <span class="stat"><strong>{{ stats.total }}</strong> tracked</span>
-  <span class="stat"><strong>{{ stats.publishable }}</strong> verified</span>
-  <span class="stat"><strong>{{ stats.unpublishable }}</strong> unverified</span>
-</section>
-
-{% if status_hubs or collection_hubs %}
-<nav class="hub-nav" aria-label="Browse companies">
-  <strong>Browse:</strong>
-  {% for h in collection_hubs + status_hubs %}
-  <a href="{{ rel_root }}{{ h.path }}">{{ h.title }} ({{ h.count }})</a>{% if not loop.last %} &middot; {% endif %}
-  {% endfor %}
-</nav>
-{% endif %}
-
-{% if published %}
-<table class="company-table">
-  <thead>
-    <tr><th>Company</th><th>Status</th><th>As of</th><th>Sources</th></tr>
-  </thead>
-  <tbody>
-    {% for r in published %}
-    <tr>
-      <td><a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a></td>
-      <td><span class="badge badge-{{ r.status.value }}">{{ r.status.value }}</span></td>
-      <td>{{ r.as_of or "—" }}</td>
-      <td>{{ r.citations | length }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-{% else %}
-<p class="empty">No verified company statuses yet. Run the researcher with an LLM
-API key configured to populate this site.</p>
-{% endif %}
-
-{% if unpublished %}
-<details class="unverified">
-  <summary>{{ unpublished | length }} companies could not be verified</summary>
-  <ul>
-    {% for r in unpublished %}
-    <li>{% if r.company.slug in research_slugs %}<a href="{{ rel_root }}companies/{{ r.company.slug }}.html">{{ r.company.name }}</a>{% else %}{{ r.company.name }}{% endif %} — <em>{{ r.status.value }}</em>
-      {% if r.flags %}<span class="why">({{ r.flags | join("; ") }})</span>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
 </details>
-{% endif %}
 {% endblock %}

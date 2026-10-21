@@ -2,7 +2,7 @@
 # Regenerate cloudflare-realip.conf from Cloudflare's published IP ranges.
 # Run on the web server (or locally, then copy):  sudo ./update-cloudflare-ips.sh
 set -euo pipefail
-OUT="${1:-/etc/nginx/conf.d/cloudflare-realip.conf}"
+OUT="${1:-/etc/nginx/snippets/defunctcompanies-cloudflare-realip.conf}"
 tmp="$(mktemp)"
 {
   echo "# Generated $(date -u +%Y-%m-%dT%H:%M:%SZ) from https://www.cloudflare.com/ips-v4 and /ips-v6"

@@ -132,6 +132,7 @@
   {
     "company": {
       "name": "Big Bee, Little Bee",
+      "website_source_id": "S-BIG-CURRENT",
       "aliases": ["Big Bee Little Bee", "Big Bee, Little Bee LLC"],
       "legal_entities": ["Big Bee, Little Bee LLC"],
       "successor_or_acquirer": null
@@ -179,7 +180,7 @@
       {"id": "BIG-004", "text": "Big Bee, Little Bee LLC is named as assignee of a 2024 federal food-storage-container patent.", "evidence_level": "verified_fact", "source_ids": ["S-BIG-PATENT"]}
     ],
     "sources": [
-      {"id": "S-BIG-CURRENT", "title": "Big Bee, Little Bee — current store", "url": "https://bigbeelittlebee.com/", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current products, shipping and 2026 footer."},
+      {"id": "S-BIG-CURRENT", "title": "Big Bee, Little Bee — current store", "url": "https://bigbeelittlebee.com/", "source_type": "official company page", "published": null, "accessed": "2026-10-21", "notes": "Current products, shipping and 2026 footer."},
       {"id": "S-BIG-ABOUT", "title": "The Big Bee & The Little Bee", "url": "https://bigbeelittlebee.com/pages/big-bee-and-little-bee", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Founder and product history; lists patent numbers."},
       {"id": "S-BIG-SHIPPING", "title": "Big Bee, Little Bee shipping and returns", "url": "https://bigbeelittlebee.com/pages/shipping-returns", "source_type": "official company page", "published": null, "accessed": "2026-09-09", "notes": "Current fulfillment and return process."},
       {"id": "S-BIG-BLOG", "title": "Big Bee Little Bee Shark Tank Update — Shark Tank Blog", "url": "https://www.sharktankblog.com/business/big-bee-little-bee/", "source_type": "secondary follow-up", "published": "2025-07-21", "accessed": "2026-09-09", "notes": "Reports the ask, no-deal result and later sales context."},

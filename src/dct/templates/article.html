@@ -42,6 +42,21 @@
     <p>{{ display_summary }}</p>
   </section>
 
+  {% if official_website %}
+  <aside class="official-website" aria-label="Official company website">
+    <a href="{{ official_website.url }}" rel="noopener"
+       data-umami-event="official-site-click"
+       data-umami-event-company="{{ report.company.slug }}"
+       data-umami-event-host="{{ official_website.host }}">Visit the official company website</a>
+    <p>{{ official_website.host }}{% if official_website.checked %} · checked {{ official_website.checked }}{% endif %}.
+      This is a direct link; we don't earn a commission from it.</p>
+  </aside>
+  {% endif %}
+  <div class="share-tools" hidden>
+    <button type="button" data-share-page>Share this company report</button>
+    <span role="status" data-share-status></span>
+  </div>
+
   {% if affiliate_url %}
   <aside aria-label="Affiliate link">
     <p>We may earn a commission if you buy through this link.</p>

@@ -15,8 +15,17 @@
     and interactions marked for measurement may be sent to that service.
     Analytics can be blocked by your browser and does not establish whether
     a visitor bought a product.</p>
+  <p>Official-site clicks measure visits to the linked company, separately from
+    affiliate clicks. Neither proves a sale or that a visitor is human.
+    Company search runs in your browser; we don't send its text to analytics.
+    The sharing control shares or copies this report's public URL.</p>
   {% else %}
   <p>No Umami analytics script is configured in this build.</p>
+  {% endif %}
+  {% if site_url == 'https://defunctcompanies.com' %}
+  <p>Cloudflare provides delivery and Web Analytics for this public site. Its
+    browser beacon may send page-usage and performance information to Cloudflare.
+    See <a href="https://developers.cloudflare.com/web-analytics/data-metrics/dimensions/">Cloudflare's description of analytics dimensions</a>.</p>
   {% endif %}
   <h2>Affiliate relationships and editorial independence</h2>
   {% if affiliate_links_configured %}

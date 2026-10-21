@@ -102,6 +102,18 @@ class TestHelpers:
         assert url_domain("https://www.example.com/p") == "example.com"
         assert url_domain("https://sub.example.com") == "sub.example.com"
 
+    @pytest.mark.parametrize(
+        "url,expected",
+        [
+            ("https://www.wework.com/", "wework.com"),
+            ("https://WWW.WeWork.com/", "wework.com"),
+            ("https://WeWork.com/", "wework.com"),
+            ("https://www.www.example.com/", "www.example.com"),
+        ],
+    )
+    def test_url_domain_preserves_source_identity(self, url, expected):
+        assert url_domain(url) == expected
+
     def test_content_hash_stable_and_short(self):
         h1 = content_hash("a", "b")
         h2 = content_hash("a", "b")

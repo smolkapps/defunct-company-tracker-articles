@@ -453,3 +453,157 @@ deferred because neither partnership qualifies for activation, not marked
 passed. Current account-wide earnings remain unverified pending sign-in;
 the last dashboard evidence was USD0 on October 17. No actual commission is
 verified as earned from either invitation.
+
+## October 21: preserve invitations; establish useful visitor intent
+
+Neither invitation was accepted or declined in the account by this agent.
+The October 19 recommendation rejected placement on this tracker, not the
+possibility of using either program on another suitable site. Awin publisher
+terms clause 4.1 and its publisher code require advertiser approval and
+disclosure/approval of promotional activities. Declare another promotional
+space and confirm its approval before using the invitation there; neither
+attachment establishes blanket permission for arbitrary sites.
+
+### What the last 24 hours establish
+
+The frozen window is October 20 05:15 UTC through October 21 05:15 UTC,
+exclusive (01:15 EDT to 01:15 EDT). It ends before this run's research and QA.
+Read-only site-scoped database queries found **15 pageviews, 15 recorded
+sessions, 15 visits and zero custom events**. Eleven pageviews had no referrer;
+four had `google.com`, one each for GrooveBook, LARQ, BottleBreacher and
+Mother Beverage/Poppi. There were no Bing, DuckDuckGo or AI-service referral
+rows in this window. That does not establish absence from search results or
+AI answers. Sessions and referrers can be generated or spoofed by automation.
+All sessions contained one measured pageview; a zero measured span cannot
+establish how long somebody read the page or whether they immediately left.
+
+Origin logs for the same window contained 525 successful HTML requests after
+eight marked QA requests were excluded: 166 declared bot/automation requests
+and 359 unclassified browser requests. These are request counts, not people,
+and must not be added to or divided into the Umami session count. Every one
+of the 525 logged addresses belonged to Cloudflare because the site's nginx
+configuration had not restored the client address. Historical IP-based
+unique counts and attribution to Michael's machines are therefore invalid.
+Unclassified browsers are not verified humans; the four Google referrers are
+a plausible organic signal, not proof of four customers.
+
+The site-specific real-IP configuration is now installed. A marked request
+through Cloudflare logged a non-Cloudflare client address; a direct-origin
+request with a forged `CF-Connecting-IP` stayed loopback rather than accepting
+the supplied address. Only Cloudflare's 22 published networks are trusted.
+This improves future investigation without retroactively recovering the
+missing historical client addresses. No raw visitor IPs, full user agents,
+session IDs or query values were exported in the diagnostic artifacts.
+
+### Useful changes deployed
+
+- Company-name/former-name search filters the existing verified list locally.
+  Search text is not sent to analytics. The list still works without JavaScript.
+- LARQ, Poppi and BigBee now have prominent official-company links selected
+  explicitly from reviewed sources. The links show their host and check date,
+  say they earn no commission, and use a separate `official-site-click` event.
+  Closed, unverified and unselected companies do not get inferred shopping links.
+  Official storefront checks are dated October 21; historical company-status
+  dates remain unchanged. BottleBreacher's merchant site failed this review's
+  public fetches, so it did not receive a new prominent recommendation.
+- Company reports can share/copy their canonical URL, excluding QA parameters.
+  Mobile table overflow, dark colors and the `www.` domain-parsing bug were fixed.
+- The privacy/disclosure page now serves 200 and is linked from the footer.
+  It describes Umami, Cloudflare and the distinction between direct and
+  affiliate clicks. No affiliate shopping links are configured.
+- Deployment now targets nginx's actual document root, checks internal links
+  and image alt attributes before remote access, refuses an empty article
+  corpus, stages uniquely, locks the site and retains a full rollback copy.
+  The manifest now serves as `application/manifest+json`.
+
+All 138 origin files matched the final local build byte-for-byte with no extra
+files. Public icon/OG/manifest assets matched their local bytes; robots and
+sitemap returned 200 and an unknown URL returned the branded 404. Build output
+is 94 published articles, 19 withheld records, 123 HTML pages and 103 sitemap
+URLs. An ownership file was deployed and one 103-URL IndexNow submission
+returned HTTP 202 at 05:40:57 UTC: key validation pending. This is not evidence
+of indexing, ranking or new visitors. See [IndexNow's response definitions](https://www.indexnow.org/documentation).
+
+Activation measurement was verified in the live Umami database: one marked
+Camoufox pageview/click at 05:43:27/28 UTC and one independent in-app-browser
+pageview/click at 05:45:22/29 UTC. The latter carried `company=larq` and
+`host=www.livelarq.com`. Only visible official-link controls were clicked;
+there were no affiliate-link clicks, artificial transactions or purchases.
+The first browser's merchant navigation was aborted; the second reached the
+real official homepage. These two QA clicks are not customer interest,
+attributed purchases or commission. Exclude `qa=20261021-launch` and
+`qa=20261021-iab` from future audience analysis. The default Camoufox ad blocker
+blocked the SDK on earlier checks; a fresh task-owned context without that
+default add-on allowed the genuine event. Its request observer still missed
+the send, so database persistence, rather than the observer, is the proof.
+
+Verification: 159 tests passed with no skips; final targeted checks passed 50
+tests after the last template-only correction. The production build and
+internal-link/image guard passed. Live layouts were checked at 1365×900 and
+390×844 in light and dark themes, including alias search, clear/no-match,
+horizontal table scrolling and actual desktop canonical clipboard sharing.
+Body/muted/link colors and status badges measured at least 4.98:1 contrast.
+Native share behavior used a test stub; no physical phone/OS share sheet,
+Lighthouse score, Search Console account indexing report or actual social
+unfurl was verified. Existing icon artwork was preserved: apple-touch is opaque,
+while the 192/512 PNGs still have transparent corners (including the existing
+maskable manifest entry). No complete redesign/branding certification is claimed.
+
+### AEO findings and limits
+
+The explicitly requested AEO workflow ran two seeds (GrooveBook and LARQ) and
+their two follow-ups in the dedicated authenticated research project. All four
+saved prompts and completed responses were checked. The observed model was
+Instant/gpt-6, not Pro. The site's GrooveBook report appeared as a citation in
+one synthetic response. This establishes that test's citation, not an organic
+ChatGPT referral or general ranking.
+
+Actual background search-query payloads were unavailable/blank: **zero real
+query strings were extracted**. Model-written lists were excluded. Research
+ran 05:16:23–05:20:44 UTC, after the frozen audience window, and no tracker
+result was clicked. The two task-created chats were retained as evidence;
+unrelated chats were untouched. Private sanitized evidence is in
+`~/.local/share/codex/dct-aeo-20261021/results.json`.
+
+The useful research direction is practical follow-through: old orders/photos
+and support for GrooveBook; current official shopping, support and replacement
+filters for LARQ. GrooveBook remains classified as acquired on verified
+evidence. The reported April 2022 shutdown still lacks the original primary
+notice in this record; do not invent recovery routes, migration promises or
+an active shop merely to create a monetization opportunity.
+
+### Contextual monetization decision
+
+**LARQ is the strongest next candidate, not an activated partnership.** Its
+[official affiliate page](https://www.livelarq.com/affiliate-program) advertises
+8%, a 30-day cookie and $130+ average order value through Impact. At an eligible
+$130 net basket, 8% would be $10.40 gross before exclusions, reversals and
+funding. The advertiser's average order value is unverified and this arithmetic
+is not a revenue forecast. One Google-referred pageview supplies no defensible
+click-through or purchase-rate estimate.
+
+The official Impact signup route resolved to a blank promotional landing in
+the owned browser. Actual publisher eligibility, country coverage, eligible
+SKUs, attribution hierarchy, reversals, validation, payout conditions and
+binding contract were not accessible. A bounded search found no established
+Impact account pointer; this does not prove there is no account. No signup,
+contract acceptance, sample request or outbound inquiry was performed.
+Obtain the actual contract and account access, review those points and approve
+binding terms before accepting. Then replace only the matching direct link
+with an issued earning link, disclose before it, and verify tracking without
+a purchase. Do not fabricate an affiliate identifier.
+
+BottleBreacher's [FlexOffers listing](https://www.flexoffers.com/affiliate-programs/bottle-breacher-affiliate-program/)
+explicitly says the program is not currently offered. Its historical 4%/30-day
+terms are not an active revenue option. Poppi's creator contact and closed
+fall-campus program do not establish a publisher contract. No unrelated
+SimpleProject or World Businesses for Sale promotion was added.
+
+Measure non-QA official-site intent by company first, then prioritize programs
+whose products answer the visitor's question. A useful economic model is
+eligible human visits × official-link click rate × approved order rate × net
+eligible basket × commission, reduced by reversals and nonpayment. None of
+those rates is established here. No actual commission from either invitation
+or any new partnership is verified. Current Awin balances/payout setup remain
+dependent on owner sign-in; the last observed dashboard balance was USD0 on
+October 17, not a refreshed October 21 balance.
