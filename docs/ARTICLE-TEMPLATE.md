@@ -16,6 +16,13 @@ One sentence answering the question. Say what is verified, and identify the
 successor or acquirer when the original entity no longer operates under its
 original identity.
 
+Optionally set `company.website_source_id` to a reviewed source for the brand's
+current official website. Recheck that exact destination and record its access
+date before adding it. This enables a direct, non-affiliate visitor action on
+verified active, acquired or renamed brands; it doesn't change the status date
+or authorize a commercial link. Omit it for closed or unresolved businesses and
+when continuity with the original brand hasn't been established.
+
 ## 2. Shark Tank appearance
 
 - **Episode/season:** `[season and episode, or unresolved]`

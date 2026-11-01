@@ -12,9 +12,9 @@ Files in this folder:
 | `nginx/defunctcompanies.com.conf` | `/etc/nginx/sites-available/defunctcompanies.com` (+ symlink in `sites-enabled/`) | apex site, www->apex 301, http->https 301, gzip, cache headers, 404 page |
 | `nginx/defunctcompanies-tls.conf` | `/etc/nginx/snippets/defunctcompanies-tls.conf` | certificate paths (Cloudflare Origin CA **or** Let's Encrypt) |
 | `nginx/defunctcompanies-headers.conf` | `/etc/nginx/snippets/defunctcompanies-headers.conf` | security headers + HSTS |
-| `nginx/cloudflare-realip.conf` | `/etc/nginx/conf.d/cloudflare-realip.conf` (optional) | log real visitor IPs instead of Cloudflare's |
+| `nginx/cloudflare-realip.conf` | `/etc/nginx/snippets/defunctcompanies-cloudflare-realip.conf` (included only by this site) | trust Cloudflare's visitor-IP header only from its published networks |
 | `nginx/old-subdomain-redirect.conf` | edit the existing apps.smolkin.org server block | 301 old URLs -> new domain, path-preserving |
-| `deploy.sh` | run locally (Michael's Mac) | build, sanity-check, rsync `dist/` to a new release dir, atomically switch `current` |
+| `deploy.sh` | run locally (Michael's Mac) | build, check links, stage, back up and update the actual document root |
 | `update-cloudflare-ips.sh` | run on the server occasionally | refresh `cloudflare-realip.conf` |
 
 Placeholders used below: `SERVER_IP` (the Hetzner server's public IPv4, and
@@ -61,8 +61,8 @@ to `/var/www/defunctcompanies.com`).
   extension; HTML is not cached at the edge by default, and nginx sends
   `max-age=300` for HTML so updates appear within minutes. After a deploy you
   can force-refresh with *Caching -> Configuration -> Purge Everything*.
-* Speed: leave Rocket Loader **off** (the site has no JS to optimise; it can
-  only break things).
+* Speed: leave Rocket Loader **off** so it doesn't change the search, sharing
+  or analytics script loading behavior.
 
 ## 3. Origin certificate on the server (pick ONE)
 
@@ -117,12 +117,12 @@ scp deploy/nginx/defunctcompanies.com.conf deploy/nginx/defunctcompanies-tls.con
     deploy/nginx/defunctcompanies-headers.conf deploy/nginx/cloudflare-realip.conf deploy@SERVER_IP:/tmp/
 
 # on the server
-sudo mkdir -p /var/www/defunctcompanies.com/releases /var/www/letsencrypt
+sudo mkdir -p /var/www/defunctcompanies.com /var/www/letsencrypt
 sudo chown -R deploy:deploy /var/www/defunctcompanies.com      # the user deploy.sh logs in as
 sudo install -m 644 /tmp/defunctcompanies.com.conf      /etc/nginx/sites-available/defunctcompanies.com
 sudo install -m 644 /tmp/defunctcompanies-tls.conf      /etc/nginx/snippets/defunctcompanies-tls.conf
 sudo install -m 644 /tmp/defunctcompanies-headers.conf  /etc/nginx/snippets/defunctcompanies-headers.conf
-sudo install -m 644 /tmp/cloudflare-realip.conf         /etc/nginx/conf.d/cloudflare-realip.conf   # optional
+sudo install -m 644 /tmp/cloudflare-realip.conf         /etc/nginx/snippets/defunctcompanies-cloudflare-realip.conf
 sudo ln -s /etc/nginx/sites-available/defunctcompanies.com /etc/nginx/sites-enabled/
 sudo nginx -t && sudo systemctl reload nginx
 ```
@@ -152,11 +152,25 @@ DEPLOY_HOST=deploy@SERVER_IP DCT_PYTHON=.venv/bin/python DRY_RUN=1 ./deploy/depl
 DEPLOY_HOST=deploy@SERVER_IP DCT_PYTHON=.venv/bin/python ./deploy/deploy.sh             # real deploy
 ```
 
-`deploy.sh` builds with `GT_SITE=https://defunctcompanies.com`, refuses to
-deploy if the canonical/sitemap point at another domain, rsyncs into
-`/var/www/defunctcompanies.com/releases/<timestamp>/`, flips the `current`
-symlink atomically and keeps the last 5 releases. Rollback = point `current`
-at an older release (the script prints the command).
+October 21 live verification supersedes the previous release-directory assumption:
+nginx serves `/var/www/defunctcompanies.com` directly; no `current` symlink exists.
+The canonical host is `root@167.233.238.194`. Preserve this layout.
+
+`deploy.sh` builds with `GT_SITE=https://defunctcompanies.com` and refuses a wrong
+canonical, wrong sitemap origin, missing privacy page, missing internal target,
+or image without an alt attribute. It stages the build beside the document
+root, takes a site-specific lock, copies the entire existing site to
+`/var/www/defunctcompanies.com.backups/<timestamp>/`, then updates the actual
+root with delayed per-file updates. This isn't an atomic whole-site switch.
+An update failure restores the backup; a manual rollback command is printed.
+Backups are retained. `DRY_RUN=1` compares against the real document root and
+doesn't create a stage, backup or release directory. No nginx/DNS changes occur.
+Staging and backup names are unique across concurrent runs. An empty company
+directory is rejected before any SSH call.
+
+Use `DCT_UMAMI_WEBSITE_ID=d4f8c012-7e3b-49a5-9c1d-5b8e2f6a9014` for the production
+build. Leave `DCT_AFFILIATE_LINKS` unset unless exact-brand earning links and
+their terms, disclosures and tracking requirements have been approved.
 
 Verify:
 ```bash

@@ -26,6 +26,7 @@ import re
 import shutil
 from datetime import datetime, timezone
 from typing import Any, Iterable
+from urllib.parse import urlsplit
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -210,6 +211,27 @@ def _absolute_url(domain: str | None) -> str | None:
     return d if re.match(r"^https?://", d, re.I) else f"https://{d}"
 
 
+def _official_website(report: StatusReport, detail: dict | None) -> dict | None:
+    """Only an explicitly reviewed source can become a visitor action."""
+    if not detail or report.status not in {Status.ACTIVE, Status.ACQUIRED, Status.RENAMED}:
+        return None
+    source_id = detail.get("company", {}).get("website_source_id")
+    if not source_id:
+        return None
+    source = next((s for s in detail.get("sources", []) if s.get("id") == source_id), None)
+    if not source:
+        return None
+    url = source.get("url", "")
+    if not isinstance(url, str):
+        return None
+    parsed = urlsplit(url)
+    if (parsed.scheme != "https" or not parsed.hostname
+            or parsed.username or parsed.password
+            or any(c.isspace() or ord(c) < 32 for c in url)):
+        return None
+    return {"url": url, "host": parsed.hostname, "checked": source.get("accessed", "")}
+
+
 def _json_for_script(obj) -> str:
     """Serialize ``obj`` as JSON safe to embed inside an HTML ``<script>`` tag.
 
@@ -249,12 +271,27 @@ class SiteGenerator:
         static_dir: str = DEFAULT_STATIC_DIR,
         umami_website_id: str | None = None,
         umami_script_url: str | None = None,
+        affiliate_links: dict[str, str] | None = None,
     ) -> None:
         self.site_name = site_name
         self.site_description = site_description
         self.site_url = site_url.rstrip("/")
         self.template_dir = template_dir
         self.static_dir = static_dir
+        if affiliate_links is None:
+            affiliate_links = json.loads(os.environ.get("DCT_AFFILIATE_LINKS", "{}"))
+        if not isinstance(affiliate_links, dict):
+            raise ValueError("DCT_AFFILIATE_LINKS must be an object mapping company slugs to approved HTTPS links")
+        self.affiliate_links = {}
+        for slug, url in affiliate_links.items():
+            if not isinstance(url, str):
+                raise ValueError(f"Affiliate link for {slug} must be an HTTPS URL")
+            parsed = urlsplit(url)
+            if (parsed.scheme != "https" or not parsed.hostname
+                    or parsed.username or parsed.password
+                    or any(c.isspace() or ord(c) < 32 for c in url)):
+                raise ValueError(f"Affiliate link for {slug} must be an HTTPS URL without credentials or whitespace")
+            self.affiliate_links[slug] = url
         if umami_website_id is None:
             umami_website_id = (
                 os.environ.get("DCT_UMAMI_WEBSITE_ID")
@@ -447,6 +484,9 @@ class SiteGenerator:
                         for source in (detail or {}).get("sources", [])
                     },
                     research_only=False,
+                    official_website=_official_website(r, detail),
+                    affiliate_url=(self.affiliate_links.get(r.company.slug)
+                                   if r.status is Status.ACTIVE else None),
                     noindex=False,
                     rel_root="../",
                     canonical_url=article_url,
@@ -616,6 +656,17 @@ class SiteGenerator:
         )
         _write(os.path.join(out_dir, "methodology.html"), method_html)
 
+        privacy_html = self.env.get_template("privacy.html").render(
+            **self._ctx(
+                rel_root="",
+                canonical_url=f"{self.site_url}/privacy.html" if self.site_url else "",
+                n_companies=n_companies,
+                noindex=True,
+                affiliate_links_configured=bool(self.affiliate_links),
+            )
+        )
+        _write(os.path.join(out_dir, "privacy.html"), privacy_html)
+
         # --- 404 page ------------------------------------------------------ #
         if os.path.exists(os.path.join(self.template_dir, "404.html")):
             not_found_html = self.env.get_template("404.html").render(
@@ -642,7 +693,7 @@ class SiteGenerator:
         self._write_robots(out_dir)
 
         return {
-            "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 2,
+            "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 3,
             "articles": len(written_pages),
             "research_only": len(research_only_pages),
             "withheld": len(unpublished),

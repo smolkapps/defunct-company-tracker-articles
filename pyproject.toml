@@ -44,6 +44,7 @@ dct = [
   "py.typed",
   "templates/*.html",
   "static/*.css",
+  "static/*.js",
   "data/*.json",
 ]
 
