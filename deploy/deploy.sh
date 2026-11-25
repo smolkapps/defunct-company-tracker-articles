@@ -23,7 +23,7 @@ if [[ "$BUILD" == 1 ]]; then
   GT_SITE="$SITE_URL" DCT_PYTHON="$DCT_PYTHON" npm run build
 fi
 "$DCT_PYTHON" scripts/check_site.py dist
-[[ -f dist/index.html && -f dist/sitemap.xml && -f dist/privacy.html ]] || { echo 'Required site files missing' >&2; exit 1; }
+[[ -f dist/index.html && -f dist/sitemap.xml && -f dist/privacy.html && -f dist/llms.txt ]] || { echo 'Required site files missing' >&2; exit 1; }
 [[ -d dist/companies && -n "$(find dist/companies -maxdepth 1 -name '*.html' -print -quit)" ]] || { echo 'No company pages; refusing to replace production' >&2; exit 1; }
 grep -Fq "<link rel=\"canonical\" href=\"${SITE_URL}/\"" dist/index.html || { echo 'Wrong canonical origin' >&2; exit 1; }
 grep -Fq "<loc>${SITE_URL}/" dist/sitemap.xml || { echo 'Wrong sitemap origin' >&2; exit 1; }

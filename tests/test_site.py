@@ -78,6 +78,8 @@ class TestSiteBuild:
         assert os.path.exists(os.path.join(out, "methodology.html"))
         assert os.path.exists(os.path.join(out, "assets", "style.css"))
         assert os.path.exists(os.path.join(out, "sitemap.xml"))
+        assert os.path.exists(os.path.join(out, "llms.txt"))
+        assert "Pets.com" in open(os.path.join(out, "llms.txt"), encoding="utf-8").read()
         # the verified company gets an article; the unverifiable one does NOT
         assert os.path.exists(os.path.join(out, "companies", "pets-com.html"))
         assert not os.path.exists(

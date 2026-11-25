@@ -17,6 +17,7 @@ def test_deploy_refuses_empty_corpus_before_remote_access(tmp_path):
     (tmp_path / "dist/index.html").write_text('<link rel="canonical" href="https://defunctcompanies.com/" />')
     (tmp_path / "dist/privacy.html").write_text("Privacy")
     (tmp_path / "dist/sitemap.xml").write_text('<loc>https://defunctcompanies.com/</loc>')
+    (tmp_path / "dist/llms.txt").write_text("# Defunct Company Tracker")
     binaries = tmp_path / "bin"
     binaries.mkdir()
     marker = tmp_path / "remote-command-attempted"

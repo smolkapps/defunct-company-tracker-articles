@@ -685,12 +685,14 @@ class SiteGenerator:
             out_dir,
             [
                 ("", latest),
+                ("llms.txt", latest),
                 ("methodology.html", latest),
                 *hub_pages,
                 *written_pages,
             ],
         )
         self._write_robots(out_dir)
+        self._write_llms(out_dir, published)
 
         return {
             "pages": len(written_pages) + len(research_only_pages) + len(hub_pages) + 3,
@@ -721,10 +723,75 @@ class SiteGenerator:
         _write(os.path.join(out_dir, "sitemap.xml"), "\n".join(lines) + "\n")
 
     def _write_robots(self, out_dir: str) -> None:
-        lines = ["User-agent: *", "Allow: /"]
+        lines = [
+            "User-agent: *",
+            "Allow: /",
+            "",
+            "User-agent: OAI-SearchBot",
+            "Allow: /",
+            "",
+            "User-agent: ChatGPT-User",
+            "Allow: /",
+            "",
+            "User-agent: GPTBot",
+            "Allow: /",
+            "",
+            "User-agent: Claude-SearchBot",
+            "Allow: /",
+            "",
+            "User-agent: Claude-User",
+            "Allow: /",
+            "",
+            "User-agent: ClaudeBot",
+            "Allow: /",
+            "",
+            "User-agent: PerplexityBot",
+            "Allow: /",
+            "",
+            "User-agent: Perplexity-User",
+            "Allow: /",
+            "",
+            "User-agent: Google-Extended",
+            "Allow: /",
+            "",
+            "User-agent: Applebot-Extended",
+            "Allow: /",
+        ]
         if self.site_url:
-            lines.append(f"Sitemap: {self.site_url}/sitemap.xml")
+            lines.extend(["", f"Sitemap: {self.site_url}/sitemap.xml", f"# LLMs: {self.site_url}/llms.txt"])
         _write(os.path.join(out_dir, "robots.txt"), "\n".join(lines) + "\n")
+
+    def _write_llms(self, out_dir: str, published: Iterable[StatusReport]) -> None:
+        base = (self.site_url or "https://defunctcompanies.com").rstrip("/")
+        reports = list(published)
+        lines = [
+            f"# {self.site_name} ({base}/)",
+            "",
+            "> Source-verified operational status reports, corporate histories, acquisitions, rebrands, and closure post-mortems for Shark Tank and consumer companies.",
+            "",
+            f"{self.site_name} tracks whether pitched and venture-backed companies are active, acquired, renamed, bankrupt, or defunct, citing primary filings, court records, press releases, and episode appearance records.",
+            "",
+            "## Core Reference Pages",
+            f"- [Home & Company Status Directory]({base}/): Search and filter all {len(reports)} verified company status reports.",
+            f"- [Research & Verification Methodology]({base}/methodology.html): Evidence standards, confidence thresholds, status definitions, and primary-source verification rules.",
+            f"- [Privacy Policy]({base}/privacy.html) · [XML Sitemap]({base}/sitemap.xml)",
+            "",
+            "## Browse by Operational Status",
+            f"- [Defunct Companies]({base}/status/defunct.html)",
+            f"- [Active Companies]({base}/status/active.html)",
+            f"- [Acquired Companies]({base}/status/acquired.html)",
+            f"- [Renamed / Rebranded Companies]({base}/status/renamed.html)",
+            f"- [Bankrupt Companies]({base}/status/bankrupt.html)",
+            "",
+            f"## Verified Company Reports ({len(reports)})",
+        ]
+        for r in reports:
+            slug = r.company.slug
+            status_val = r.status.value if hasattr(r.status, "value") else str(r.status)
+            as_of = f" (as of {r.as_of})" if r.as_of else ""
+            summary = " ".join((r.summary or "").split())
+            lines.append(f"- [{r.company.name}]({base}/companies/{slug}.html) — **{status_val.upper()}**{as_of}: {summary}")
+        _write(os.path.join(out_dir, "llms.txt"), "\n".join(lines) + "\n")
 
 
 _W3C_DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
